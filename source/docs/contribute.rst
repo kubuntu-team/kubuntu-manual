@@ -59,7 +59,7 @@ Bug Reporting
 
 Filing good bugs is very important to improving the quality of *Kubuntu*. For information about filing bugs and writing useful bug reports, see `Bug Reporting <https://wiki.kubuntu.org/Kubuntu/Bugs/Reporting>`_.
 
-For typical responses that you will likely get from upstream KDE developers, see `Bug Responses <https://community.kde.org/Kubuntu/BugTriage>`_. 
+For typical responses that you will likely get from upstream *KDE* developers, see `Bug Responses <https://community.kde.org/Kubuntu/BugTriage>`_. 
 
 Local Teams
 ------------
