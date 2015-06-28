@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Advanced</title>
+    
+    <link rel="stylesheet" href="../_static/epub.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" /> 
+  </head>
+  <body role="document">
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="repositories.html" title="Repositories"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="basic.html" title="Basic"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Kubuntu Manual 0.0.1 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="advanced">
+<span id="advanced-link"></span><h1>Advanced</h1>
+<p>You can further customize your <em>Kubuntu</em> installation by adding new software packages. Below you will find several methods to install new packages (software).</p>
+<div class="section" id="software-management">
+<h2>Software Management</h2>
+<p>There are several ways to manage applications in <em>Kubuntu</em>. A convenient way to add or remove applications is with a package manager.</p>
+<div class="section" id="graphical-clients">
+<h3>Graphical Clients</h3>
+<p>By default <em>Kubuntu</em> comes with a great package manager called Muon Discover. Muon Discover is an advanced program with a graphical user interface (GUI) for installing and removing applications. It will automatically notify you for updates (in the lower right hand corner), but you can use it at anytime to install new packages by going to KickOff and type Muon. Select Muon Discover from the results. If you prefer the Ubuntu-style &#8220;Software Center&#8221; you will need to install it from within Muon.</p>
+<img alt="../_images/Muon_Discover.png" src="../_images/Muon_Discover.png" />
+<p>Muon Discover might provide information about required dependencies, these are other packages (programs) that the piece of software that you want to install needs to run. Once this information is acknowledged, the required packages will begin downloading. When the installation process is complete, the software will be ready to use. It is rarely necessary to restart the system after software installation or updates. If it is, the system will warn you and give you a restart icon to do the restart at your convenience.</p>
+<p>Muon Discover also provides an easy method to remove software that is no longer needed.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><blockquote class="first">
+<div>Tip:</div></blockquote>
+<ul class="last simple">
+<li>Click on Installed and find the application you want to remove.</li>
+<li>Click Remove and Muon Discover will remove the application.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="repositories">
+<h3>Repositories</h3>
+<p>Thousands of programs are freely available to install in <em>Kubuntu</em>. These programs are stored in software archives (&#8220;repositories&#8221;) and are made available for installation over the Internet. Installing new programs in <em>Kubuntu</em> is quick, reliable, and secure because each program is built specifically for <em>Kubuntu</em> and is checked thoroughly before it is made available. <em>Kubuntu</em> repositories are categorized into four groups:</p>
+<ul class="simple">
+<li>Main</li>
+<li>Restricted</li>
+<li>Universe</li>
+<li>Multiverse</li>
+</ul>
+<p>Two factors are used to determine categories</p>
+<ul class="simple">
+<li>The level of support provided for a program by its software development teams.</li>
+<li>The level of compliance the program has to the <a class="reference external" href="http://www.ubuntu.com/about/about-ubuntu/our-philosophy">Ubuntu Free Software Philosophy</a><span class="link-target"> [http://www.ubuntu.com/about/about-ubuntu/our-philosophy]</span>.</li>
+</ul>
+<p>The standard <em>Kubuntu</em> LiveDVD contains some software from the &#8220;Main&#8221; and &#8220;Restricted&#8221; categories. Once a system has information about the Internet-based locations for these repositories, more programs are available for installation. Using the software package management tools installed by default, it is possible to discover, install, and update any piece of software directly over the internet without the need for the LiveDVD.</p>
+<p>For more information about managing repositories, click on <a class="reference external" href="https://help.ubuntu.com/community/Repositories">Managing Repositories</a><span class="link-target"> [https://help.ubuntu.com/community/Repositories]</span>.</p>
+</div>
+<div class="section" id="ppas-personal-package-archive">
+<h3>PPAs (Personal Package Archive)</h3>
+<p>Personal Package Archives allow any person in the Ubuntu community who has committed to observe the <a class="reference external" href="https://launchpad.net/codeofconduct">Ubuntu Code of Conduct</a><span class="link-target"> [https://launchpad.net/codeofconduct]</span> to upload Ubuntu source packages to be built and published as an apt repository by Launchpad. Software from Launchpad&#8217;s <a class="reference external" href="https://launchpad.net/ubuntu/+ppas">Personal Package Archive</a><span class="link-target"> [https://launchpad.net/ubuntu/+ppas]</span> (PPA) requires a <a class="reference external" href="https://www.gnupg.org/">GnuPG</a><span class="link-target"> [https://www.gnupg.org/]</span> (GPG) key so your system can verify that it&#8217;s getting the packages from the correct source and that the packages have not been interfered with since they were built. GnuPG is GNU&#8217;s tool for secure communication and data storage.</p>
+<p>For more information about PPAs, see <a class="reference external" href="https://userbase.kde.org/Kubuntu/Advanced/Repositories#Managing_Personal_Package_Archives">Managing Personal Package Archives</a><span class="link-target"> [https://userbase.kde.org/Kubuntu/Advanced/Repositories#Managing_Personal_Package_Archives]</span>.</p>
+</div>
+<div class="section" id="install-uninstall-deb-files">
+<h3>Install/Uninstall &#8216;.deb&#8217; files</h3>
+<p>The package files associated with <em>Kubuntu</em> have the &#8221;.deb&#8221; suffix because of <em>Kubuntu</em>&#8216;s close relationship with the Debian GNU/Linux distribution. Individual &#8221;.deb&#8221; files can be downloaded and installed. Humble Bundles, for instance, distribute debs. Administrative privileges are required.</p>
+<div class="section" id="install-from-source">
+<h4>Install from Source</h4>
+<p>Files with the .tar.gz or .tar.bz2 suffix are package files known as &#8220;tarballs&#8221; or &#8220;source&#8221; packages. These are widely used in Linux. If there is no native <em>Kubuntu</em> package available in any of the repositories, it may be possible to compile and install the package from source. For tips on compiling software, look at the <a class="reference external" href="https://help.ubuntu.com/community/CompilingSoftware">Compiling Software</a><span class="link-target"> [https://help.ubuntu.com/community/CompilingSoftware]</span> page on the Ubuntu Wiki.</p>
+</div>
+</div>
+</div>
+<div class="section" id="drivers">
+<h2>Drivers</h2>
+<p>On every Operating System (Windows, Mac OS X, and Linux) there are programs called Drivers which you install on your computer. These Drivers let your computer use new hardware or existing hardware, like <a class="reference external" href="https://userbase.kde.org/Kubuntu/Basic#Wireless">Wifi</a><span class="link-target"> [https://userbase.kde.org/Kubuntu/Basic#Wireless]</span>. There Drivers also cover your graphics card e.g NVIDIA, AMD, sometimes the nonfree or restricted drivers let the cards perform better than the free ones. The Driver Manager handles installing and uninstalling these for you. These improvements may cover gaming, video editing and processing to image editing.</p>
+</div>
+</div>
+
+
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+
+    <div class="footer" role="contentinfo">
+        &copy; Copyright 2015, Kubuntu Manual Team.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3.1.
+    </div>
+  </body>
+</html>

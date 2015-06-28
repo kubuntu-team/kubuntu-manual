@@ -1,0 +1,150 @@
+ 
+<sect1 id="welcome-to-kubuntu">
+  <title>Welcome to <emphasis>Kubuntu</emphasis></title>
+  <para>
+    <emphasis>Kubuntu</emphasis> is a user-friendly Linux-based
+    operating system that use the <emphasis>KDE</emphasis>
+    <emphasis>Plasma Desktop</emphasis>. With a predictable six-month
+    release cycle as part of the <emphasis>Ubuntu</emphasis> project,
+    <emphasis>Kubuntu</emphasis> is the Linux distribution for everyone.
+  </para>
+  <para>
+    <emphasis>Kubuntu</emphasis> includes more than 1,000 default
+    packages (applications or utilities) and has access to more than
+    64,000 other packages to suit your needs.
+    <emphasis>Kubuntu</emphasis> is based on the Linux kernel and
+    includes the core <emphasis>Ubuntu</emphasis> applications as well
+    as <emphasis>KDE</emphasis> software. <emphasis>Kubuntu</emphasis>'s
+    core applications include software for the most common needs, like:
+  </para>
+  <itemizedlist spacing="compact">
+    <listitem>
+      <para>
+        Browsing the web.
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+        Personal Information Manager which includes email.
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+        Office applications
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+        Playing multimedia files.
+      </para>
+    </listitem>
+    <listitem>
+      <para>
+        Plus much more!
+      </para>
+    </listitem>
+  </itemizedlist>
+  <sect2 id="the-kubuntu-philosophy">
+    <title>The <emphasis>Kubuntu</emphasis> Philosophy</title>
+    <itemizedlist spacing="compact">
+      <listitem>
+        <para>
+          <emphasis>Kubuntu</emphasis> will always use the solid base of
+          the <emphasis>Ubuntu</emphasis> project, plus the latest from
+          the <emphasis>KDE</emphasis> project. As part of the Ubuntu
+          project and community, <emphasis>Kubuntu</emphasis> will
+          continue to use the infrastructure and support that the
+          <emphasis>Ubuntu</emphasis> project offers. We will strive to
+          be the best <emphasis>KDE</emphasis> based Linux distribution
+          available.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          <emphasis>Kubuntu</emphasis> will always be free of charge.
+          There is no extra fee for an enterprise edition; we make our
+          best work available to everyone on the same free terms.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          <emphasis>Kubuntu</emphasis> will always include the best
+          translations and accessibility infrastructure that the free
+          software community has to offer, to make
+          <emphasis>Kubuntu</emphasis> usable by as many people as
+          possible.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          <emphasis>Kubuntu</emphasis> will always be committed to the
+          principles of free software and open source development; we
+          shall encourage people to use free and open source software,
+          improve it, and pass it on.
+        </para>
+      </listitem>
+    </itemizedlist>
+  </sect2>
+  <sect2 id="what-is-linux">
+    <title>What is Linux?</title>
+    <para>
+      Linux is an operating system kernel that resembles the Unix
+      operating system. The kernel is the main software required for any
+      operating system, providing a communication bridge between
+      hardware and software. Linux has become a leading element of the
+      worldwide movement to embrace free and open source software. The
+      term &quot;GNU/Linux&quot; is a way of referring to operating
+      systems based on the Linux kernel combined with parts from the ..
+      _GNU Project:
+      <ulink url="http://www.gnu.org">http://www.gnu.org</ulink>.
+    </para>
+  </sect2>
+  <sect2 id="what-is-kde">
+    <title>What is <emphasis>KDE</emphasis>?</title>
+    <para>
+      <emphasis>KDE</emphasis> is an international technology community
+      that creates and supports free software for desktop and portable
+      computing. Among <emphasis>KDE</emphasis>'s products are a modern
+      desktop system for Linux and Unix platforms, comprehensive office
+      productivity and groupware suites, as well as hundreds of software
+      applications in various categories including internet and web
+      applications, multimedia, entertainment, education, graphics, and
+      software development. <emphasis>KDE</emphasis> software is
+      translated into more than 65 languages and is built for ease of
+      use with modern accessibility principles in mind.
+      <emphasis>KDE</emphasis>'s full-featured applications run natively
+      on Linux, BSD, Solaris, Windows, and Mac OS X. The
+      <emphasis>KDE</emphasis> Workspace is the default desktop for
+      <emphasis>Kubuntu</emphasis>.
+    </para>
+  </sect2>
+  <sect2 id="thank-you">
+    <title>Thank You!</title>
+    <para>
+      The entire <emphasis>Kubuntu</emphasis> team thanks you for
+      choosing <emphasis>Kubuntu!</emphasis>
+    </para>
+    <variablelist>
+      <varlistentry>
+        <term>
+          Authors
+        </term>
+        <listitem>
+          <para>
+            Kubuntu Docs Team
+          </para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>
+          Version
+        </term>
+        <listitem>
+          <para>
+            0.1 of 5/1/2015
+          </para>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+  </sect2>
+</sect1>

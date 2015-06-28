@@ -1,0 +1,632 @@
+<?xml version="1.0"?>
+<ncx version="2005-1" xmlns="http://www.daisy.org/z3986/2005/ncx/">
+  <head>
+    <meta name="dtb:uid" content="unknown"/>
+    <meta name="dtb:depth" content="3"/>
+    <meta name="dtb:totalPageCount" content="0"/>
+    <meta name="dtb:maxPageNumber" content="0"/>
+  </head>
+  <docTitle>
+    <text>Kubuntu</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="navPoint1" playOrder="1">
+      <navLabel>
+        <text>Welcome to Kubuntu&#39;s Documentation!</text>
+      </navLabel>
+      <content src="index.html" />
+    </navPoint>
+    <navPoint id="navPoint2" playOrder="2">
+      <navLabel>
+        <text>Welcome to Kubuntu</text>
+      </navLabel>
+      <content src="welcome.html" />
+      <navPoint id="navPoint3" playOrder="2">
+        <navLabel>
+          <text>Welcome to Kubuntu</text>
+        </navLabel>
+        <content src="welcome.html" />
+      </navPoint>
+      <navPoint id="navPoint4" playOrder="3">
+        <navLabel>
+          <text>The Kubuntu Philosophy</text>
+        </navLabel>
+        <content src="welcome.html#the-kubuntu-philosophy" />
+      </navPoint>
+      <navPoint id="navPoint5" playOrder="4">
+        <navLabel>
+          <text>What is Linux?</text>
+        </navLabel>
+        <content src="welcome.html#what-is-linux" />
+      </navPoint>
+      <navPoint id="navPoint6" playOrder="5">
+        <navLabel>
+          <text>What is KDE?</text>
+        </navLabel>
+        <content src="welcome.html#what-is-kde" />
+      </navPoint>
+      <navPoint id="navPoint7" playOrder="6">
+        <navLabel>
+          <text>Thank You!</text>
+        </navLabel>
+        <content src="welcome.html#thank-you" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint8" playOrder="7">
+      <navLabel>
+        <text>Installation</text>
+      </navLabel>
+      <content src="docs/installation.html" />
+      <navPoint id="navPoint9" playOrder="7">
+        <navLabel>
+          <text>Installation</text>
+        </navLabel>
+        <content src="docs/installation.html" />
+      </navPoint>
+      <navPoint id="navPoint10" playOrder="8">
+        <navLabel>
+          <text>Why try Kubuntu?</text>
+        </navLabel>
+        <content src="docs/installation.html#why-try-kubuntu" />
+      </navPoint>
+      <navPoint id="navPoint11" playOrder="9">
+        <navLabel>
+          <text>Preparing the Installation media</text>
+        </navLabel>
+        <content src="docs/installation.html#preparing-the-installation-media" />
+        <navPoint id="navPoint12" playOrder="9">
+          <navLabel>
+            <text>Preparing the Installation media</text>
+          </navLabel>
+          <content src="docs/installation.html#preparing-the-installation-media" />
+        </navPoint>
+        <navPoint id="navPoint13" playOrder="10">
+          <navLabel>
+            <text>Windows 7/8</text>
+          </navLabel>
+          <content src="docs/installation.html#windows-7-8" />
+        </navPoint>
+        <navPoint id="navPoint14" playOrder="11">
+          <navLabel>
+            <text>Existing Kubuntu Install</text>
+          </navLabel>
+          <content src="docs/installation.html#existing-kubuntu-install" />
+        </navPoint>
+        <navPoint id="navPoint15" playOrder="12">
+          <navLabel>
+            <text>Other Linux Distributions</text>
+          </navLabel>
+          <content src="docs/installation.html#other-linux-distributions" />
+        </navPoint>
+        <navPoint id="navPoint16" playOrder="13">
+          <navLabel>
+            <text>GNOME Environment</text>
+          </navLabel>
+          <content src="docs/installation.html#gnome-environment" />
+        </navPoint>
+        <navPoint id="navPoint17" playOrder="14">
+          <navLabel>
+            <text>KDE Environment</text>
+          </navLabel>
+          <content src="docs/installation.html#kde-environment" />
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint18" playOrder="15">
+        <navLabel>
+          <text>Install Process</text>
+        </navLabel>
+        <content src="docs/installation.html#install-process" />
+        <navPoint id="navPoint19" playOrder="15">
+          <navLabel>
+            <text>Install Process</text>
+          </navLabel>
+          <content src="docs/installation.html#install-process" />
+        </navPoint>
+        <navPoint id="navPoint20" playOrder="16">
+          <navLabel>
+            <text>Prepare</text>
+          </navLabel>
+          <content src="docs/installation.html#prepare" />
+        </navPoint>
+        <navPoint id="navPoint21" playOrder="17">
+          <navLabel>
+            <text>Disk Setup</text>
+          </navLabel>
+          <content src="docs/installation.html#disk-setup" />
+        </navPoint>
+        <navPoint id="navPoint22" playOrder="18">
+          <navLabel>
+            <text>Timezone</text>
+          </navLabel>
+          <content src="docs/installation.html#timezone" />
+        </navPoint>
+        <navPoint id="navPoint23" playOrder="19">
+          <navLabel>
+            <text>Keyboard</text>
+          </navLabel>
+          <content src="docs/installation.html#keyboard" />
+        </navPoint>
+        <navPoint id="navPoint24" playOrder="20">
+          <navLabel>
+            <text>User Info</text>
+          </navLabel>
+          <content src="docs/installation.html#user-info" />
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint25" playOrder="21">
+      <navLabel>
+        <text>Basic</text>
+      </navLabel>
+      <content src="docs/basic.html" />
+      <navPoint id="navPoint26" playOrder="21">
+        <navLabel>
+          <text>Basic</text>
+        </navLabel>
+        <content src="docs/basic.html" />
+      </navPoint>
+      <navPoint id="navPoint27" playOrder="22">
+        <navLabel>
+          <text>Launchers</text>
+        </navLabel>
+        <content src="docs/basic.html#launchers" />
+        <navPoint id="navPoint28" playOrder="22">
+          <navLabel>
+            <text>Launchers</text>
+          </navLabel>
+          <content src="docs/basic.html#launchers" />
+        </navPoint>
+        <navPoint id="navPoint29" playOrder="23">
+          <navLabel>
+            <text>KickOff</text>
+          </navLabel>
+          <content src="docs/basic.html#kickoff" />
+        </navPoint>
+        <navPoint id="navPoint30" playOrder="24">
+          <navLabel>
+            <text>KRunner</text>
+          </navLabel>
+          <content src="docs/basic.html#krunner" />
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint31" playOrder="25">
+        <navLabel>
+          <text>Networking</text>
+        </navLabel>
+        <content src="docs/basic.html#networking" />
+        <navPoint id="navPoint32" playOrder="25">
+          <navLabel>
+            <text>Networking</text>
+          </navLabel>
+          <content src="docs/basic.html#networking" />
+        </navPoint>
+        <navPoint id="navPoint33" playOrder="26">
+          <navLabel>
+            <text>Wired</text>
+          </navLabel>
+          <content src="docs/basic.html#wired" />
+        </navPoint>
+        <navPoint id="navPoint34" playOrder="27">
+          <navLabel>
+            <text>Wireless</text>
+          </navLabel>
+          <content src="docs/basic.html#wireless" />
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint35" playOrder="28">
+        <navLabel>
+          <text>Deskop Customization</text>
+        </navLabel>
+        <content src="docs/basic.html#deskop-customization" />
+        <navPoint id="navPoint36" playOrder="28">
+          <navLabel>
+            <text>Deskop Customization</text>
+          </navLabel>
+          <content src="docs/basic.html#deskop-customization" />
+        </navPoint>
+        <navPoint id="navPoint37" playOrder="29">
+          <navLabel>
+            <text>Themes</text>
+          </navLabel>
+          <content src="docs/basic.html#themes" />
+        </navPoint>
+        <navPoint id="navPoint38" playOrder="30">
+          <navLabel>
+            <text>Plasmoids</text>
+          </navLabel>
+          <content src="docs/basic.html#plasmoids" />
+        </navPoint>
+        <navPoint id="navPoint39" playOrder="31">
+          <navLabel>
+            <text>Panel</text>
+          </navLabel>
+          <content src="docs/basic.html#panel" />
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint40" playOrder="32">
+        <navLabel>
+          <text>Updating</text>
+        </navLabel>
+        <content src="docs/basic.html#updating" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint41" playOrder="33">
+      <navLabel>
+        <text>Advanced</text>
+      </navLabel>
+      <content src="docs/advanced.html" />
+      <navPoint id="navPoint42" playOrder="33">
+        <navLabel>
+          <text>Advanced</text>
+        </navLabel>
+        <content src="docs/advanced.html" />
+      </navPoint>
+      <navPoint id="navPoint43" playOrder="34">
+        <navLabel>
+          <text>Software Management</text>
+        </navLabel>
+        <content src="docs/advanced.html#software-management" />
+        <navPoint id="navPoint44" playOrder="34">
+          <navLabel>
+            <text>Software Management</text>
+          </navLabel>
+          <content src="docs/advanced.html#software-management" />
+        </navPoint>
+        <navPoint id="navPoint45" playOrder="35">
+          <navLabel>
+            <text>Graphical Clients</text>
+          </navLabel>
+          <content src="docs/advanced.html#graphical-clients" />
+        </navPoint>
+        <navPoint id="navPoint46" playOrder="36">
+          <navLabel>
+            <text>Repositories</text>
+          </navLabel>
+          <content src="docs/advanced.html#repositories" />
+        </navPoint>
+        <navPoint id="navPoint47" playOrder="37">
+          <navLabel>
+            <text>PPAs (Personal Package Archive)</text>
+          </navLabel>
+          <content src="docs/advanced.html#ppas-personal-package-archive" />
+        </navPoint>
+        <navPoint id="navPoint48" playOrder="38">
+          <navLabel>
+            <text>Install/Uninstall &#39;.deb&#39; files</text>
+          </navLabel>
+          <content src="docs/advanced.html#install-uninstall-deb-files" />
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint49" playOrder="39">
+        <navLabel>
+          <text>Drivers</text>
+        </navLabel>
+        <content src="docs/advanced.html#drivers" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint50" playOrder="40">
+      <navLabel>
+        <text>Repositories</text>
+      </navLabel>
+      <content src="docs/repositories.html" />
+      <navPoint id="navPoint51" playOrder="40">
+        <navLabel>
+          <text>Repositories</text>
+        </navLabel>
+        <content src="docs/repositories.html" />
+      </navPoint>
+      <navPoint id="navPoint52" playOrder="41">
+        <navLabel>
+          <text>Managing Repositories</text>
+        </navLabel>
+        <content src="docs/repositories.html#managing-repositories" />
+        <navPoint id="navPoint53" playOrder="41">
+          <navLabel>
+            <text>Managing Repositories</text>
+          </navLabel>
+          <content src="docs/repositories.html#managing-repositories" />
+        </navPoint>
+        <navPoint id="navPoint54" playOrder="42">
+          <navLabel>
+            <text>Add a Repository</text>
+          </navLabel>
+          <content src="docs/repositories.html#add-a-repository" />
+        </navPoint>
+        <navPoint id="navPoint55" playOrder="43">
+          <navLabel>
+            <text>Enable a Repository</text>
+          </navLabel>
+          <content src="docs/repositories.html#enable-a-repository" />
+        </navPoint>
+        <navPoint id="navPoint56" playOrder="44">
+          <navLabel>
+            <text>Disable a Repository</text>
+          </navLabel>
+          <content src="docs/repositories.html#disable-a-repository" />
+        </navPoint>
+        <navPoint id="navPoint57" playOrder="45">
+          <navLabel>
+            <text>Remove a Repository</text>
+          </navLabel>
+          <content src="docs/repositories.html#remove-a-repository" />
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint58" playOrder="46">
+        <navLabel>
+          <text>Managing Personal Package Archives</text>
+        </navLabel>
+        <content src="docs/repositories.html#managing-personal-package-archives" />
+        <navPoint id="navPoint59" playOrder="46">
+          <navLabel>
+            <text>Managing Personal Package Archives</text>
+          </navLabel>
+          <content src="docs/repositories.html#managing-personal-package-archives" />
+        </navPoint>
+        <navPoint id="navPoint60" playOrder="47">
+          <navLabel>
+            <text>Add a PPA</text>
+          </navLabel>
+          <content src="docs/repositories.html#add-a-ppa" />
+        </navPoint>
+        <navPoint id="navPoint61" playOrder="48">
+          <navLabel>
+            <text>Remove a PPA</text>
+          </navLabel>
+          <content src="docs/repositories.html#remove-a-ppa" />
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint62" playOrder="49">
+      <navLabel>
+        <text>Software</text>
+      </navLabel>
+      <content src="docs/software.html" />
+      <navPoint id="navPoint63" playOrder="49">
+        <navLabel>
+          <text>Software</text>
+        </navLabel>
+        <content src="docs/software.html" />
+      </navPoint>
+      <navPoint id="navPoint64" playOrder="50">
+        <navLabel>
+          <text>Graphics</text>
+        </navLabel>
+        <content src="docs/software.html#graphics" />
+      </navPoint>
+      <navPoint id="navPoint65" playOrder="51">
+        <navLabel>
+          <text>Internet</text>
+        </navLabel>
+        <content src="docs/software.html#internet" />
+        <navPoint id="navPoint66" playOrder="51">
+          <navLabel>
+            <text>Internet</text>
+          </navLabel>
+          <content src="docs/software.html#internet" />
+        </navPoint>
+        <navPoint id="navPoint67" playOrder="52">
+          <navLabel>
+            <text>Browsers</text>
+          </navLabel>
+          <content src="docs/software.html#browsers" />
+        </navPoint>
+        <navPoint id="navPoint68" playOrder="53">
+          <navLabel>
+            <text>Email Clients</text>
+          </navLabel>
+          <content src="docs/software.html#email-clients" />
+        </navPoint>
+        <navPoint id="navPoint69" playOrder="54">
+          <navLabel>
+            <text>Chat Clients</text>
+          </navLabel>
+          <content src="docs/software.html#chat-clients" />
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint70" playOrder="55">
+        <navLabel>
+          <text>Multimedia</text>
+        </navLabel>
+        <content src="docs/software.html#multimedia" />
+      </navPoint>
+      <navPoint id="navPoint71" playOrder="56">
+        <navLabel>
+          <text>Office</text>
+        </navLabel>
+        <content src="docs/software.html#office" />
+        <navPoint id="navPoint72" playOrder="56">
+          <navLabel>
+            <text>Office</text>
+          </navLabel>
+          <content src="docs/software.html#office" />
+        </navPoint>
+        <navPoint id="navPoint73" playOrder="57">
+          <navLabel>
+            <text>Personal Information Manager (PIM)</text>
+          </navLabel>
+          <content src="docs/software.html#personal-information-manager-pim" />
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint74" playOrder="58">
+        <navLabel>
+          <text>System Settings</text>
+        </navLabel>
+        <content src="docs/software.html#system-settings" />
+      </navPoint>
+      <navPoint id="navPoint75" playOrder="59">
+        <navLabel>
+          <text>Utilities</text>
+        </navLabel>
+        <content src="docs/software.html#utilities" />
+        <navPoint id="navPoint76" playOrder="59">
+          <navLabel>
+            <text>Utilities</text>
+          </navLabel>
+          <content src="docs/software.html#utilities" />
+        </navPoint>
+        <navPoint id="navPoint77" playOrder="60">
+          <navLabel>
+            <text>Bash</text>
+          </navLabel>
+          <content src="docs/software.html#bash" />
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint78" playOrder="61">
+        <navLabel>
+          <text>Firewall configuration</text>
+        </navLabel>
+        <content src="docs/software.html#firewall-configuration" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint79" playOrder="62">
+      <navLabel>
+        <text>Contribute</text>
+      </navLabel>
+      <content src="docs/contribute.html" />
+      <navPoint id="navPoint80" playOrder="62">
+        <navLabel>
+          <text>Contribute</text>
+        </navLabel>
+        <content src="docs/contribute.html" />
+      </navPoint>
+      <navPoint id="navPoint81" playOrder="63">
+        <navLabel>
+          <text>Spreading the word</text>
+        </navLabel>
+        <content src="docs/contribute.html#spreading-the-word" />
+      </navPoint>
+      <navPoint id="navPoint82" playOrder="64">
+        <navLabel>
+          <text>Giving support and getting it</text>
+        </navLabel>
+        <content src="docs/contribute.html#giving-support-and-getting-it" />
+      </navPoint>
+      <navPoint id="navPoint83" playOrder="65">
+        <navLabel>
+          <text>Subscribe</text>
+        </navLabel>
+        <content src="docs/contribute.html#subscribe" />
+        <navPoint id="navPoint84" playOrder="65">
+          <navLabel>
+            <text>Subscribe</text>
+          </navLabel>
+          <content src="docs/contribute.html#subscribe" />
+        </navPoint>
+        <navPoint id="navPoint85" playOrder="66">
+          <navLabel>
+            <text>Kubuntu Users</text>
+          </navLabel>
+          <content src="docs/contribute.html#kubuntu-users" />
+        </navPoint>
+        <navPoint id="navPoint86" playOrder="67">
+          <navLabel>
+            <text>Kubuntu Development</text>
+          </navLabel>
+          <content src="docs/contribute.html#kubuntu-development" />
+        </navPoint>
+        <navPoint id="navPoint87" playOrder="68">
+          <navLabel>
+            <text>Kubuntu Documentation</text>
+          </navLabel>
+          <content src="docs/contribute.html#kubuntu-documentation" />
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint88" playOrder="69">
+        <navLabel>
+          <text>Kubuntu IRC Channels</text>
+        </navLabel>
+        <content src="docs/contribute.html#kubuntu-irc-channels" />
+      </navPoint>
+      <navPoint id="navPoint89" playOrder="70">
+        <navLabel>
+          <text>Bug Reporting</text>
+        </navLabel>
+        <content src="docs/contribute.html#bug-reporting" />
+      </navPoint>
+      <navPoint id="navPoint90" playOrder="71">
+        <navLabel>
+          <text>Local Teams</text>
+        </navLabel>
+        <content src="docs/contribute.html#local-teams" />
+      </navPoint>
+      <navPoint id="navPoint91" playOrder="72">
+        <navLabel>
+          <text>Packaging and Development</text>
+        </navLabel>
+        <content src="docs/contribute.html#packaging-and-development" />
+      </navPoint>
+      <navPoint id="navPoint92" playOrder="73">
+        <navLabel>
+          <text>Translations</text>
+        </navLabel>
+        <content src="docs/contribute.html#translations" />
+      </navPoint>
+      <navPoint id="navPoint93" playOrder="74">
+        <navLabel>
+          <text>Testing</text>
+        </navLabel>
+        <content src="docs/contribute.html#testing" />
+      </navPoint>
+      <navPoint id="navPoint94" playOrder="75">
+        <navLabel>
+          <text>Membership</text>
+        </navLabel>
+        <content src="docs/contribute.html#membership" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint95" playOrder="76">
+      <navLabel>
+        <text>Support</text>
+      </navLabel>
+      <content src="docs/support.html" />
+      <navPoint id="navPoint96" playOrder="76">
+        <navLabel>
+          <text>Support</text>
+        </navLabel>
+        <content src="docs/support.html" />
+      </navPoint>
+      <navPoint id="navPoint97" playOrder="77">
+        <navLabel>
+          <text>Contact and Support</text>
+        </navLabel>
+        <content src="docs/support.html#contact-and-support" />
+        <navPoint id="navPoint98" playOrder="77">
+          <navLabel>
+            <text>Contact and Support</text>
+          </navLabel>
+          <content src="docs/support.html#contact-and-support" />
+        </navPoint>
+        <navPoint id="navPoint99" playOrder="78">
+          <navLabel>
+            <text>Mailing Lists</text>
+          </navLabel>
+          <content src="docs/support.html#mailing-lists" />
+        </navPoint>
+        <navPoint id="navPoint100" playOrder="79">
+          <navLabel>
+            <text>Internet Relay Chat</text>
+          </navLabel>
+          <content src="docs/support.html#internet-relay-chat" />
+        </navPoint>
+        <navPoint id="navPoint101" playOrder="80">
+          <navLabel>
+            <text>Forums</text>
+          </navLabel>
+          <content src="docs/support.html#forums" />
+        </navPoint>
+        <navPoint id="navPoint102" playOrder="81">
+          <navLabel>
+            <text>Application Help</text>
+          </navLabel>
+          <content src="docs/support.html#application-help" />
+        </navPoint>
+      </navPoint>
+      <navPoint id="navPoint103" playOrder="82">
+        <navLabel>
+          <text>Kubuntu Phone Support</text>
+        </navLabel>
+        <content src="docs/support.html#kubuntu-phone-support" />
+      </navPoint>
+    </navPoint>
+  </navMap>
+</ncx>
