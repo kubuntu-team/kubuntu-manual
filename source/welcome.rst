@@ -29,7 +29,7 @@ The *Kubuntu* Philosophy
 What is Linux?
 ===============
 
-Linux is an operating system kernel that resembles the Unix operating system. The kernel is the main software required for any operating system, providing a communication bridge between hardware and software. Linux has become a leading element of the worldwide movement to embrace free and open source software. The term "GNU/Linux" is a way of referring to operating systems based on the Linux kernel combined with parts from the .. _GNU Project: http://www.gnu.org.
+Linux is an operating system kernel that resembles the Unix operating system. The kernel is the main software required for any operating system, providing a communication bridge between hardware and software. Linux has become a leading element of the worldwide movement to embrace free and open source software. The term "GNU/Linux" is a way of referring to operating systems based on the Linux kernel combined with parts from the `GNU Project <http://www.gnu.org>`_.
 
 
 What is *KDE*?
@@ -43,6 +43,6 @@ Thank You!
 The entire *Kubuntu* team thanks you for choosing *Kubuntu!*
 
 :Authors: 
-    Kubuntu Docs Team
+    Kubuntu Manual Team
 
-:Version: 0.1 of 5/1/2015
+:Version: 0.0.1 of 6/18/2015

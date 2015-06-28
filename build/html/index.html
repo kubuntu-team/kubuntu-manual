@@ -6,15 +6,15 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>Welcome to Kubuntu’s Documentation! &mdash; Kubuntu Docs 0.1 documentation</title>
+    <title>Welcome to Kubuntu’s Documentation! &mdash; Kubuntu Manual 0.0.1 documentation</title>
     
-    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
         URL_ROOT:    './',
-        VERSION:     '0.1',
+        VERSION:     '0.0.1',
         COLLAPSE_INDEX: false,
         FILE_SUFFIX: '.html',
         HAS_SOURCE:  true
@@ -23,12 +23,11 @@
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
-    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    <link rel="top" title="Kubuntu Docs 0.1 documentation" href="#" />
+    <link rel="top" title="Kubuntu Manual 0.0.1 documentation" href="#" />
     <link rel="next" title="Welcome to Kubuntu" href="welcome.html" /> 
   </head>
-  <body>
-    <div class="related">
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
       <h3>Navigation</h3>
       <ul>
         <li class="right" style="margin-right: 10px">
@@ -37,14 +36,14 @@
         <li class="right" >
           <a href="welcome.html" title="Welcome to Kubuntu"
              accesskey="N">next</a> |</li>
-        <li><a href="#">Kubuntu Docs 0.1 documentation</a> &raquo;</li> 
+        <li class="nav-item nav-item-0"><a href="#">Kubuntu Manual 0.0.1 documentation</a> &raquo;</li> 
       </ul>
     </div>  
 
     <div class="document">
       <div class="documentwrapper">
         <div class="bodywrapper">
-          <div class="body">
+          <div class="body" role="main">
             
   <div class="section" id="welcome-to-kubuntu-s-documentation">
 <h1>Welcome to Kubuntu&#8217;s Documentation!<a class="headerlink" href="#welcome-to-kubuntu-s-documentation" title="Permalink to this headline">¶</a></h1>
@@ -58,6 +57,12 @@
 <li class="toctree-l2"><a class="reference internal" href="welcome.html#thank-you">Thank You!</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="docs/installation.html">Installation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="docs/installation.html#why-try-kubuntu">Why try Kubuntu?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="docs/installation.html#preparing-the-installation-media">Preparing the Installation media</a></li>
+<li class="toctree-l2"><a class="reference internal" href="docs/installation.html#install-process">Install Process</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="docs/basic.html">Basic</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="docs/basic.html#launchers">Launchers</a></li>
 <li class="toctree-l2"><a class="reference internal" href="docs/basic.html#networking">Networking</a></li>
@@ -68,6 +73,11 @@
 <li class="toctree-l1"><a class="reference internal" href="docs/advanced.html">Advanced</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="docs/advanced.html#software-management">Software Management</a></li>
 <li class="toctree-l2"><a class="reference internal" href="docs/advanced.html#drivers">Drivers</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="docs/repositories.html">Repositories</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="docs/repositories.html#managing-repositories">Managing Repositories</a></li>
+<li class="toctree-l2"><a class="reference internal" href="docs/repositories.html#managing-personal-package-archives">Managing Personal Package Archives</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="docs/software.html">Software</a><ul>
@@ -104,9 +114,9 @@
 <div class="section" id="indices-and-tables">
 <h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
 <ul class="simple">
-<li><a class="reference internal" href="genindex.html"><em>Index</em></a></li>
-<li><a class="reference internal" href="py-modindex.html"><em>Module Index</em></a></li>
-<li><a class="reference internal" href="search.html"><em>Search Page</em></a></li>
+<li><a class="reference internal" href="genindex.html"><span>Index</span></a></li>
+<li><a class="reference internal" href="py-modindex.html"><span>Module Index</span></a></li>
+<li><a class="reference internal" href="search.html"><span>Search Page</span></a></li>
 </ul>
 </div>
 
@@ -114,7 +124,7 @@
           </div>
         </div>
       </div>
-      <div class="sphinxsidebar">
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
         <div class="sphinxsidebarwrapper">
   <h3><a href="#">Table Of Contents</a></h3>
   <ul>
@@ -125,12 +135,14 @@
   <h4>Next topic</h4>
   <p class="topless"><a href="welcome.html"
                         title="next chapter">Welcome to <em>Kubuntu</em></a></p>
-  <h3>This Page</h3>
-  <ul class="this-page-menu">
-    <li><a href="_sources/index.txt"
-           rel="nofollow">Show Source</a></li>
-  </ul>
-<div id="searchbox" style="display: none">
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/index.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
   <h3>Quick search</h3>
     <form class="search" action="search.html" method="get">
       <input type="text" name="q" />
@@ -147,7 +159,7 @@
       </div>
       <div class="clearer"></div>
     </div>
-    <div class="related">
+    <div class="related" role="navigation" aria-label="related navigation">
       <h3>Navigation</h3>
       <ul>
         <li class="right" style="margin-right: 10px">
@@ -156,12 +168,12 @@
         <li class="right" >
           <a href="welcome.html" title="Welcome to Kubuntu"
              >next</a> |</li>
-        <li><a href="#">Kubuntu Docs 0.1 documentation</a> &raquo;</li> 
+        <li class="nav-item nav-item-0"><a href="#">Kubuntu Manual 0.0.1 documentation</a> &raquo;</li> 
       </ul>
     </div>
-    <div class="footer">
-        &copy; Copyright 2015, Kubuntu Doc Team.
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.3.
+    <div class="footer" role="contentinfo">
+        &copy; Copyright 2015, Kubuntu Manual Team.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3.1.
     </div>
   </body>
 </html>
