@@ -1,7 +1,8 @@
 Kubuntu Manual
 ===============
 
-STATUS: Done
+15.10 STATUS: Updating text, screenshots, and general cleanup
+15.04 STATUS: Done
 
 KDE MediaWiki: http://userbase.kde.org/Kubuntu
 
