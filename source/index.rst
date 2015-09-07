@@ -10,6 +10,7 @@ Contents:
 
 .. toctree::
    :maxdepth: 2
+   :titlesonly:
    
    welcome
    docs/installation

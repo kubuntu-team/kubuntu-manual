@@ -72,7 +72,7 @@ Updating
 
 Kubuntu developers release feature and security updates for applications and packages within the Kubuntu system. When updates become available, Kubuntu will display a message in the System Tray. To update the system, open Muon Update Manager from either KickOff or Krunner and click the Install updates button. After installing some updates, it may be necessary to restart the computer. If so, Kubuntu will display a pop-up and an icon in the System Tray. 
 
-.. image:: ../images/Muon_updater.png
-    :scale: 50 %
+.. image:: ../images/muonupdater-15_10.png
+    :scale: 75 %
 
 `Basic`_
