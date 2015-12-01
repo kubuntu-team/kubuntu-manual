@@ -36,18 +36,26 @@ Doing this will make sure your download completed fully and has given you a full
 From Windows XP -> 7 -> 8 -> 10
 ````````````````````````````````
 
-Microsoft Windows does not have any built in tools for MD5SUM but they do provide some `decent documentaion <https://support.microsoft.com/en-us/kb/841290>`_ and a tool for checking the MD5SUM. How-To-Geek also provides some `reading material <http://www.howtogeek.com/67241/htg-explains-what-are-md5-sha-1-hashes-and-how-do-i-check-them/>`_ if you want to understand the technology behind MD5SUM if you like.
+Microsoft Windows does not have any built-in tools for MD5SUM but they do
+provide some `decent documentation <https://support.microsoft.com/en-us/kb/841290>`_ and a tool for checking the MD5SUM. How-To-Geek also provides some `reading material <http://www.howtogeek.com/67241/htg-explains-what-are-md5-sha-1-hashes-and-how-do-i-check-them/>`_ if you want to understand the technology behind MD5SUM if you like.
 
 From Mac OS X 
 ``````````````
 
-.. todo: TODO for 15.10 cycle: https://trello.com/c/rGFyOEFP/24-add-instructions-for-checking-the-iso-checksum-in-the-new-docs
+Open the Terminal app, then navigate to the directory where the ISO is saved.
+Run:
+
+.. code-block:: bash
+
+    md5 -r kubuntu-15.10-desktop-amd64.iso
+
+And compare the output to the hashes page for the ISO file.
 
 
 From Ubuntu Linux
 ``````````````````
 
-The first thing to do is to make sure your in the directory with the .iso file (most likely in the Downloads directory). For more complex use of MD5SUM check this `out https://help.ubuntu.com/community/HowToMD5SUM>`_. Then running the command 'md5sum':
+The first thing to do is to make sure you're in the directory with the .iso file (most likely in the Downloads directory). For more complex use of MD5SUM check this `out https://help.ubuntu.com/community/HowToMD5SUM>`_. Then running the command 'md5sum':
 
 .. code-block:: bash
 
@@ -81,7 +89,8 @@ The recommended tool to use is `ImgBurn <http://www.imgburn.com/>`_. There is a 
 Mac OS X
 ~~~~~~~~~
 
-.. todo: TODO for 15.10 cycle:
+Burn an installer DVD using `Disk Utility
+<https://help.ubuntu.com/community/BurningIsoHowto#Burning_from_Mac_OS_X>`_.
 
 Existing Kubuntu Install
 ~~~~~~~~~~~~~~~~~~~~~~~~~
