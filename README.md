@@ -1,7 +1,9 @@
 Kubuntu Manual
 ===============
 
-16.10 STATUS: Updating text and screenshots, adding sections like Activities and a Packaging Guide 
+How LTS's are handled in the kubuntu-manual:
+---------------
+Just typos, grammar errors and maybe a feature or two are adding during an LTS 
 
 KDE MediaWiki: http://userbase.kde.org/Kubuntu
 
