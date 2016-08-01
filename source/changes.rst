@@ -2,6 +2,9 @@
 Welcome to the changelog
 #########################
 
+Kubuntu 16.04.1 LTS
+===================
+
 First off
 ---------
 
