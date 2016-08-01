@@ -54,14 +54,14 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Kubuntu Manual'
-copyright = u'2016, Kubuntu Team'
+copyright = u'2015, Kubuntu Team'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
 # built documents.
 #
 # The short X.Y version.
-version = '0.2.0'
+version = '0.1.0'
 # The full version, including alpha/beta/rc tags.
 release = 'beta'
 
@@ -297,7 +297,7 @@ texinfo_documents = [
 epub_title = u'Kubuntu Manual'
 epub_author = u'Kubuntu Team'
 epub_publisher = u'Kubuntu Team'
-epub_copyright = u'2016, Kubuntu Team'
+epub_copyright = u'2015, Kubuntu Team'
 
 # The basename for the epub file. It defaults to the project name.
 #epub_basename = u'Kubuntu Manual'
