@@ -1,5 +1,5 @@
 #####################
-Welcome to *Kubuntu*
+Kubuntu User Guide
 #####################
 
 *Kubuntu* is a user-friendly Linux-based operating system that use the *KDE* *Plasma Desktop*. With a predictable 
