@@ -20,6 +20,8 @@ Contents:
    docs/software
    docs/contribute
    docs/support
+   docs/packaging_guide/packaging
+   docs/appendix/appendix
 
 
 Indices and tables
