@@ -76,7 +76,7 @@ KDE Activites in Kubuntu provide a slick way to setup and configure environments
 Activities first look
 ~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: ../images/activity_desktop_side_bar.png
+.. image:: ../images/basic/activity_desktop_side_bar.png
    :align: center
    :scale: 30 %
    
@@ -102,7 +102,7 @@ OK, lets configure a few useful tools
 
 You can now resize these widgets and lay them out on the desktop however you wish. and configure them to suit your needs, as in the example below.
 
-.. image:: ../images/activity_desktop_news.png
+.. image:: ../images/basic/activity_desktop_news.png
    :align: center
    :scale: 30 %
 
