@@ -106,7 +106,6 @@ You can now resize these widgets and lay them out on the desktop however you wis
    :align: center
    :scale: 30 %
 
-
 Dolphin
 ````````
 

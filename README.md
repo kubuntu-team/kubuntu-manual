@@ -1,7 +1,7 @@
 Kubuntu Manual
 ===============
 
-15.10 STATUS: Updating text, screenshots, and general cleanup
+16.10 STATUS: Updating text and screenshots, adding sections like Activities and a Packaging Guide 
 
 KDE MediaWiki: http://userbase.kde.org/Kubuntu
 
