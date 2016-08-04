@@ -1,7 +1,11 @@
 Kubuntu Manual
 ===============
 
+Licensed under FDL v1.1
+
 16.10 STATUS: Updating text and screenshots, adding sections like Activities and a Packaging Guide 
+
+Helpful Links::
 
 KDE MediaWiki: http://userbase.kde.org/Kubuntu
 
@@ -12,5 +16,5 @@ http://sphinx-doc.org/
 
 Send suggestions to aaronhoneycutt@kubuntu.org
 
---
+---
 Written by the Kubuntu Team
