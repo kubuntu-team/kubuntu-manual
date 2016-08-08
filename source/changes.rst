@@ -10,6 +10,11 @@ Thanks for reading this! Second I'll try to keep this as up to date as humanly p
 Changes
 -------
 
+07/8/16 - ahoneybun <aaronhoneycutt@kubuntu.org>
+
+* added sections from Lubuntu Manual [https://github.com/tsimonq2/lubuntu-manual] 
+ - tsimonq2
+
 01/8/16 - ahoneybun <aaronhoneycutt@kubuntu.org>
 
 * merged Activities section for source/docs/basic.rst from ricktimmis's fork
