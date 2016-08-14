@@ -16,6 +16,14 @@ sudo apt install python3-sphinx texlive-full && pip install sphinx_bootstrap_the
 ```                                                                                                        
                                                                                                            
 You can see the options for building the documentation by running `make help`.                             
+
+## How translations work
+
+Documentation is here: http://www.sphinx-doc.org/en/stable/intl.html
+
+```
+pip install sphinx-intl
+```
                                                                                                            
 ## Contributing                                                                                            
                                                                                                            
@@ -23,6 +31,9 @@ To contribute to the Kubuntu Manual, you can either create a pull request on Git
 [kubuntu-devel@lists.ubuntu.com](mailto:kubuntu-devel@lists.ubuntu.com) and prefix the subject with `[Kubun
 tu Manual Pull Request]`.                
 
+We take simple fixes like grammar, spelling all the way to translations!
+
+---
 Helpful Links::
 
 KDE MediaWiki: http://userbase.kde.org/Kubuntu
