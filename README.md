@@ -46,8 +46,7 @@ We are aware that the images in the epub are pixely and looking for a fix
 ## Contributing                                                                                            
                                                                                                            
 To contribute to the Kubuntu Manual, you can either create a pull request on GitHub, or send patch mail to 
-[kubuntu-devel@lists.ubuntu.com](mailto:kubuntu-devel@lists.ubuntu.com) and prefix the subject with `[Kubun
-tu Manual Pull Request]`.                
+[kubuntu-devel@lists.ubuntu.com](mailto:kubuntu-devel@lists.ubuntu.com) and prefix the subject with `[Kubuntu Manual Pull Request]`.                
 
 We take simple fixes like grammar, spelling all the way to translations!
 
