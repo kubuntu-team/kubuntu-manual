@@ -24,6 +24,24 @@ Documentation is here: http://www.sphinx-doc.org/en/stable/intl.html
 ```
 pip install sphinx-intl
 ```
+
+## What you can do
+
+Once you use 'git clone' to copy this repo to your machine you can:
+
+```
+make html - to produce HTML files in build/html
+```
+
+```
+make latexpdf - to produce a PDF file in build/latex
+```
+
+```
+make epub -- to produce a epub file in build/epub
+```
+
+We are aware that the images in the epub are pixely and looking for a fix
                                                                                                            
 ## Contributing                                                                                            
                                                                                                            

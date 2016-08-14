@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2015, Kubuntu Manual Team
+# Copyright (C) 2017, Kubuntu Team
 # This file is distributed under the same license as the Kubuntu Manual package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Kubuntu Manual 0.0.1\n"
+"Project-Id-Version: Kubuntu Manual 16.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-25 14:46-0400\n"
+"POT-Creation-Date: 2016-08-14 12:02-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -93,10 +93,10 @@ msgid "The entire *Kubuntu* team thanks you for choosing *Kubuntu!*"
 msgstr ""
 
 #: ../../source/welcome.rst:46
-msgid "Kubuntu Manual Team"
+msgid "Kubuntu Team"
 msgstr ""
 
 #: ../../source/welcome.rst:48
-msgid "0.0.1 of 6/18/2015"
+msgid "0.1.0 Beta ; Released: 8/4/15"
 msgstr ""
 

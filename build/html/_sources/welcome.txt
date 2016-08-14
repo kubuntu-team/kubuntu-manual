@@ -43,6 +43,6 @@ Thank You!
 The entire *Kubuntu* team thanks you for choosing *Kubuntu!*
 
 :Authors: 
-    Kubuntu Manual Team
+    Kubuntu Team
 
-:Version: 0.0.1 of 6/18/2015
+:Version: 0.1.0 Beta ; Released: 8/4/15
