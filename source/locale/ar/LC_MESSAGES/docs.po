@@ -1,0 +1,2335 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Kubuntu Team
+# This file is distributed under the same license as the Kubuntu Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Kubuntu Manual 16.10\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-08-15 11:49-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../source/docs/advanced.rst:4
+msgid "Advanced"
+msgstr ""
+
+#: ../../source/docs/advanced.rst:6
+msgid ""
+"You can further customize your Kubuntu installation by adding new "
+"software packages. Below you will find several methods to install new "
+"packages (software)."
+msgstr ""
+
+#: ../../source/docs/advanced.rst:9
+msgid "Software Management"
+msgstr ""
+
+#: ../../source/docs/advanced.rst:11
+msgid ""
+"There are several ways to manage applications in Kubuntu. A convenient "
+"way to add or remove applications is with a package manager."
+msgstr ""
+
+#: ../../source/docs/advanced.rst:14
+msgid "Graphical Clients"
+msgstr ""
+
+#: ../../source/docs/advanced.rst:16
+msgid ""
+"By default Kubuntu comes with a great package manager called Muon "
+"Discover. Muon Discover is an advanced program with a graphical user "
+"interface (GUI) for installing and removing applications. It will "
+"automatically notify you for updates (in the lower right hand corner), "
+"but you can use it at anytime to install new packages by going to KickOff"
+" and type Muon. Select Muon Discover from the results. If you prefer the "
+"Ubuntu-style \"Software Center\" you will need to install it from within "
+"Muon."
+msgstr ""
+
+#: ../../source/docs/advanced.rst:20
+msgid ""
+"Muon Discover might provide information about required dependencies, "
+"these are other packages (programs) that the piece of software that you "
+"want to install needs to run. Once this information is acknowledged, the "
+"required packages will begin downloading. When the installation process "
+"is complete, the software will be ready to use. It is rarely necessary to"
+" restart the system after software installation or updates. If it is, the"
+" system will warn you and give you a restart icon to do the restart at "
+"your convenience."
+msgstr ""
+
+#: ../../source/docs/advanced.rst:22
+msgid ""
+"Muon Discover also provides an easy method to remove software that is no "
+"longer needed."
+msgstr ""
+
+#: ../../source/docs/advanced.rst:25
+msgid "Tip:"
+msgstr ""
+
+#: ../../source/docs/advanced.rst:27
+msgid "Click on Installed and find the application you want to remove."
+msgstr ""
+
+#: ../../source/docs/advanced.rst:28
+msgid "Click Remove and Muon Discover will remove the application."
+msgstr ""
+
+#: ../../source/docs/advanced.rst:32 ../../source/docs/repositories.rst:4
+msgid "Repositories"
+msgstr ""
+
+#: ../../source/docs/advanced.rst:34
+msgid ""
+"Thousands of programs are freely available to install in Kubuntu. These "
+"programs are stored in software archives (\"repositories\") and are made "
+"available for installation over the Internet. Installing new programs in "
+"Kubuntu is quick, reliable, and secure because each program is built "
+"specifically for Kubuntu and is checked thoroughly before it is made "
+"available. Kubuntu repositories are categorized into four groups:"
+msgstr ""
+
+#: ../../source/docs/advanced.rst:36
+msgid "Main"
+msgstr ""
+
+#: ../../source/docs/advanced.rst:37
+msgid "Restricted"
+msgstr ""
+
+#: ../../source/docs/advanced.rst:38
+msgid "Universe"
+msgstr ""
+
+#: ../../source/docs/advanced.rst:39
+msgid "Multiverse"
+msgstr ""
+
+#: ../../source/docs/advanced.rst:41
+msgid "Two factors are used to determine categories"
+msgstr ""
+
+#: ../../source/docs/advanced.rst:43
+msgid ""
+"The level of support provided for a program by its software development "
+"teams."
+msgstr ""
+
+#: ../../source/docs/advanced.rst:44
+msgid ""
+"The level of compliance the program has to the `Ubuntu Free Software "
+"Philosophy <http://www.ubuntu.com/about/about-ubuntu/our-philosophy>`_."
+msgstr ""
+
+#: ../../source/docs/advanced.rst:46
+msgid ""
+"The standard Kubuntu LiveDVD contains some software from the \"Main\" and"
+" \"Restricted\" categories. Once a system has information about the "
+"Internet-based locations for these repositories, more programs are "
+"available for installation. Using the software package management tools "
+"installed by default, it is possible to discover, install, and update any"
+" piece of software directly over the internet without the need for the "
+"LiveDVD."
+msgstr ""
+
+#: ../../source/docs/advanced.rst:48
+msgid ""
+"For more information about managing repositories, click on `Managing "
+"Repositories <https://help.ubuntu.com/community/Repositories>`_."
+msgstr ""
+
+#: ../../source/docs/advanced.rst:51
+msgid "PPAs (Personal Package Archive)"
+msgstr ""
+
+#: ../../source/docs/advanced.rst:53
+msgid ""
+"Personal Package Archives allow any person in the Ubuntu community who "
+"has committed to observe the `Ubuntu Code of Conduct "
+"<https://launchpad.net/codeofconduct>`_ to upload Ubuntu source packages "
+"to be built and published as an apt repository by Launchpad. Software "
+"from Launchpad's `Personal Package Archive "
+"<https://launchpad.net/ubuntu/+ppas>`_ (PPA) requires a `GnuPG  "
+"<https://www.gnupg.org/>`_ (GPG) key so your system can verify that it's "
+"getting the packages from the correct source and that the packages have "
+"not been interfered with since they were built. GnuPG is GNU's tool for "
+"secure communication and data storage."
+msgstr ""
+
+#: ../../source/docs/advanced.rst:56
+msgid ""
+"For more information about PPAs, see `Managing Personal Package Archives "
+"<https://userbase.kde.org/Kubuntu/Advanced/Repositories#Managing_Personal_Package_Archives>`_."
+msgstr ""
+
+#: ../../source/docs/advanced.rst:59
+msgid "Install/Uninstall '.deb' files"
+msgstr ""
+
+#: ../../source/docs/advanced.rst:61
+msgid ""
+"The package files associated with Kubuntu have the \".deb\" suffix "
+"because of Kubuntu's close relationship with the Debian GNU/Linux "
+"distribution. Individual \".deb\" files can be downloaded and installed. "
+"Humble Bundles, for instance, distribute debs. Administrative privileges "
+"are required."
+msgstr ""
+
+#: ../../source/docs/advanced.rst:64
+msgid "Install from Source"
+msgstr ""
+
+#: ../../source/docs/advanced.rst:66
+msgid ""
+"Files with the .tar.gz or .tar.bz2 suffix are package files known as "
+"\"tarballs\" or \"source\" packages. These are widely used in Linux. If "
+"there is no native Kubuntu package available in any of the repositories, "
+"it may be possible to compile and install the package from source. For "
+"tips on compiling software, look at the `Compiling Software "
+"<https://help.ubuntu.com/community/CompilingSoftware>`_ page on the "
+"Ubuntu Wiki."
+msgstr ""
+
+#: ../../source/docs/advanced.rst:69
+msgid "Drivers"
+msgstr ""
+
+#: ../../source/docs/advanced.rst:71
+msgid ""
+"On every Operating System (Windows, Mac OS X, and Linux) there are "
+"programs called Drivers which you install on your computer. These Drivers"
+" let your computer use new hardware or existing hardware, like `Wifi "
+"<https://userbase.kde.org/Kubuntu/Basic#Wireless>`_. There Drivers also "
+"cover your graphics card e.g NVIDIA, AMD, sometimes the nonfree or "
+"restricted drivers let the cards perform better than the free ones. The "
+"Driver Manager handles installing and uninstalling these for you. These "
+"improvements may cover gaming, video editing and processing to image "
+"editing."
+msgstr ""
+
+#: ../../source/docs/appendix/appendix.rst:3
+msgid "Appendix"
+msgstr ""
+
+#: ../../source/docs/appendix/appendix.rst:5
+#: ../../source/docs/packaging_guide/packaging.rst:4
+msgid "Contents:"
+msgstr ""
+
+#: ../../source/docs/appendix/changes.rst:3
+msgid "Changelog"
+msgstr ""
+
+#: ../../source/docs/appendix/changes.rst:6
+msgid "First off"
+msgstr ""
+
+#: ../../source/docs/appendix/changes.rst:8
+msgid ""
+"Thanks for reading this! Second I'll try to keep this as up to date as "
+"humanly possible."
+msgstr ""
+
+#: ../../source/docs/appendix/changes.rst:11
+msgid "Changes"
+msgstr ""
+
+#: ../../source/docs/appendix/changes.rst:13
+msgid "07/8/16 - ahoneybun <aaronhoneycutt@kubuntu.org>"
+msgstr ""
+
+#: ../../source/docs/appendix/changes.rst:15
+msgid ""
+"added sections from Lubuntu Manual [https://github.com/tsimonq2/lubuntu-"
+"manual]"
+msgstr ""
+
+#: ../../source/docs/appendix/changes.rst:16
+msgid "tsimonq2"
+msgstr ""
+
+#: ../../source/docs/appendix/changes.rst:18
+msgid "01/8/16 - ahoneybun <aaronhoneycutt@kubuntu.org>"
+msgstr ""
+
+#: ../../source/docs/appendix/changes.rst:20
+msgid "merged Activities section for source/docs/basic.rst from ricktimmis's fork"
+msgstr ""
+
+#: ../../source/docs/appendix/changes.rst:22
+msgid "01/08/16 - ricktimmis <rick-timmis@kubuntu.org>"
+msgstr ""
+
+#: ../../source/docs/appendix/changes.rst:24
+msgid "added Activities section to Basic"
+msgstr ""
+
+#: ../../source/docs/appendix/changes.rst:25
+msgid "linked Change log to appendix in toctree"
+msgstr ""
+
+#: ../../source/docs/appendix/changes.rst:26
+msgid "updated copyright dates"
+msgstr ""
+
+#: ../../source/docs/appendix/changes.rst:27
+msgid "Added appendix, changelog, references ( Stubs for future links etc.. )"
+msgstr ""
+
+#: ../../source/docs/appendix/changes.rst:28
+msgid "Added Packaging Guide, Welcome to Packaging, and Getting Started"
+msgstr ""
+
+#: ../../source/docs/appendix/changes.rst:29
+msgid "Amends as per review by ahoneycutt"
+msgstr ""
+
+#: ../../source/docs/appendix/changes.rst:31
+#: ../../source/docs/appendix/changes.rst:37
+msgid "28/5/15 - ahoneybun <aaronhoneycutt@kubuntu.org>"
+msgstr ""
+
+#: ../../source/docs/appendix/changes.rst:33
+msgid "finished up the rest of the pages"
+msgstr ""
+
+#: ../../source/docs/appendix/changes.rst:34
+msgid "added repositories."
+msgstr ""
+
+#: ../../source/docs/appendix/changes.rst:35
+msgid "added 3 images managing-repositories"
+msgstr ""
+
+#: ../../source/docs/appendix/changes.rst:39
+msgid "added in this file :)"
+msgstr ""
+
+#: ../../source/docs/appendix/changes.rst:40
+msgid ""
+"changed \"deb http://ppa.launchpad.net/kubuntu-ppa/backports/ubuntu vivid"
+" main\" to \"ppa:kubuntu-ppa/backports\""
+msgstr ""
+
+#: ../../source/docs/appendix/changes.rst:41
+msgid "fixed some images not showing up"
+msgstr ""
+
+#: ../../source/docs/appendix/changes.rst:42
+msgid "changed Kubuntu to *Kubuntu* and KDE to *KDE* in the files"
+msgstr ""
+
+#: ../../source/docs/appendix/references.rst:2
+msgid "References"
+msgstr ""
+
+#: ../../source/docs/appendix/references.rst:4
+msgid "Kubuntu packaging involves the use of many other tools."
+msgstr ""
+
+#: ../../source/docs/appendix/references.rst:7
+msgid "Kubuntu CI"
+msgstr ""
+
+#: ../../source/docs/appendix/references.rst:9
+msgid ""
+"The Kubuntu Continuous Integrations ( CI ) system relies upon the use of "
+"the Jenkins CI tool"
+msgstr ""
+
+#: ../../source/docs/appendix/references.rst:11
+msgid "https://jenkins.org"
+msgstr ""
+
+#: ../../source/docs/appendix/references.rst:14
+msgid "Debian Packages"
+msgstr ""
+
+#: ../../source/docs/appendix/references.rst:16
+msgid ""
+"Debian software packaging is a tried and tested method of packaging "
+"software source code and binaries for inclusion in Linux distributions"
+msgstr ""
+
+#: ../../source/docs/appendix/references.rst:18
+msgid ""
+"Of particular interests to the Kubuntu Packager should be the Debian "
+"Policy"
+msgstr ""
+
+#: ../../source/docs/appendix/references.rst:20
+msgid "https://debian.org"
+msgstr ""
+
+#: ../../source/docs/basic.rst:4
+msgid "Basic"
+msgstr ""
+
+#: ../../source/docs/basic.rst:6
+msgid ""
+"This section of the Documentation will cover the components available "
+"within Kubuntu to meet your desired functionality and make Kubuntu your "
+"own."
+msgstr ""
+
+#: ../../source/docs/basic.rst:9
+msgid "Launchers"
+msgstr ""
+
+#: ../../source/docs/basic.rst:12
+msgid "KickOff"
+msgstr ""
+
+#: ../../source/docs/basic.rst:17
+msgid ""
+"As a *KDE* distribution, Kubuntu uses the Kickoff Application Launcher by"
+" default. The Kickoff Launcher can be compared with the 'Start Menu' in "
+"Windows (pre Windows 8). The icon to launch Kickoff is on the bottom left"
+" very much like Windows XP or 7. For more information on how to use and "
+"customize it, see `Plasma Kickoff "
+"<https://userbase.kde.org/Special:MyLanguage/Plasma/Kickoff>`_."
+msgstr ""
+
+#: ../../source/docs/basic.rst:20
+msgid "KRunner"
+msgstr ""
+
+#: ../../source/docs/basic.rst:25
+msgid ""
+"Like Kickoff, KRunner is a launcher, but it does a lot more than just "
+"launching applications. Usually KRunner is accessed by pressing Alt + "
+"Space. For more information on what it can do, see `Plasma Krunner "
+"<https://userbase.kde.org/Special:MyLanguage/Plasma/Krunner>`_."
+msgstr ""
+
+#: ../../source/docs/basic.rst:28
+msgid "Networking"
+msgstr ""
+
+#: ../../source/docs/basic.rst:34
+msgid "Wired"
+msgstr ""
+
+#: ../../source/docs/basic.rst:36
+msgid ""
+"In most cases the wired network connection will simply work without any "
+"changes to the default Kubuntu configuration. Wired network connections "
+"are selected as default when they are available."
+msgstr ""
+
+#: ../../source/docs/basic.rst:39
+msgid "Wireless"
+msgstr ""
+
+#: ../../source/docs/basic.rst:41
+msgid ""
+"Most Wireless cards are supported out of the box by Kubuntu. However, in "
+"some cases the Wireless network device may have a restricted driver in "
+"order to operate. The best way to check this is to open the 'Driver "
+"Manager'. To open this program use 'KickOff' -> 'System Settings' -> "
+"'Driver Manager'. If the device needs a restricted driver, then 'Driver "
+"Manager' can help with selecting, installing, and activating the proper "
+"driver. Once this is all handled, the system will need to be rebooted. "
+"For more information on troubleshooting Wi-Fi on your system, see "
+"`Wireless troubleshooting "
+"<https://help.ubuntu.com/community/WifiDocs/WirelessTroubleShootingGuide>`_."
+msgstr ""
+
+#: ../../source/docs/basic.rst:44
+msgid "Deskop Customization"
+msgstr ""
+
+#: ../../source/docs/basic.rst:46
+msgid ""
+"This section covers the basics of configuring Kubuntu to suit your needs."
+" One of the strengths of the *KDE* philosophy is the focus on control of "
+"just about every aspect of the desktop environment. Wallpapers, themes, "
+"widgets, color schemes, splash screens, and more; the options for "
+"customization are endless."
+msgstr ""
+
+#: ../../source/docs/basic.rst:48
+msgid ""
+"KDE-Look is the number one location to find customized settings for the "
+"*KDE* Plasma desktop. Some of the applications even allow direct "
+"connections to KDE-Look to download a new configuration or image."
+msgstr ""
+
+#: ../../source/docs/basic.rst:51
+msgid "Themes"
+msgstr ""
+
+#: ../../source/docs/basic.rst:53
+msgid ""
+"Kubuntu allows themes to be changed easily. To change your theme go to "
+"System Settings -> Workspace Theme in the Desktop Theme section, then "
+"choose from the list of installed themes. You can change the theme of the"
+" Desktop Theme, Cursor Theme, and the Splash Screen. Pick from the "
+"default choices that are installed, or left-click the 'Get New...' button"
+" in each section for more choices."
+msgstr ""
+
+#: ../../source/docs/basic.rst:56
+msgid "Plasmoids"
+msgstr ""
+
+#: ../../source/docs/basic.rst:58
+msgid ""
+"Plasmoids (also called Widgets) can be added by right-clicking the "
+"desktop and selecting Add Widgets..., which will bring up a list of "
+"Widgets. For more information, see `Plasma Widgets "
+"<https://userbase.kde.org/Special:MyLanguage/Plasma#Widgets>`_."
+msgstr ""
+
+#: ../../source/docs/basic.rst:61
+msgid "Panel"
+msgstr ""
+
+#: ../../source/docs/basic.rst:63
+msgid ""
+"By right-clicking on the desktop once again, you can select Add Panel to "
+"get more panels. You can left-click the button on the far right side of "
+"the panel to alter the properties of the panel, like changing its height "
+"or width or adding Widgets, for example. For more information, see "
+"`Plasma Panels "
+"<https://userbase.kde.org/Special:MyLanguage/Plasma#Panels>`_."
+msgstr ""
+
+#: ../../source/docs/basic.rst:66
+msgid "Activities"
+msgstr ""
+
+#: ../../source/docs/basic.rst:68
+msgid ""
+"Activites are specific and exclusive to KDE. As such they're often under "
+"utilised and misunderstood. In this section we're going to explore what "
+"KDE Activities are, how to set them up, and how to use them."
+msgstr ""
+
+#: ../../source/docs/basic.rst:70
+msgid ""
+"Think for a moment about your average day working on your PC. It will "
+"often traverse different activities. For example doing email and "
+"researching things on the internet, perhaps developing some documents, "
+"working on a piece of software, writing your thesis in LaTeX etc..."
+msgstr ""
+
+#: ../../source/docs/basic.rst:72
+msgid ""
+"Commonly KDE users might use Virtual desktops to seperate these "
+"workspaces."
+msgstr ""
+
+#: ../../source/docs/basic.rst:74
+msgid ""
+"KDE Activites in Kubuntu provide a slick way to setup and configure "
+"environments specific to your task routines. For example your might want "
+"to have your email, and social networks configured as one activity. "
+"Perhaps your research, and writing for your thesis configured as another "
+"activity."
+msgstr ""
+
+#: ../../source/docs/basic.rst:77
+msgid "Activities first look"
+msgstr ""
+
+#: ../../source/docs/basic.rst:83
+msgid ""
+"Let's take a look at the default KDE Activities configured in Kubuntu. "
+"Right Click anywhere on the empty desktop and choose \"Activities\" from "
+"the menu. The Activities side bar appears on the left, with the Default "
+"activity. Notice the + Create Activity at the bottom. Click that, and "
+"lets created a new \"Social\" Activity. Enter \"Social\" as the Activity "
+"name: and then click Create."
+msgstr ""
+
+#: ../../source/docs/basic.rst:86
+msgid "That's it you have created your first activity."
+msgstr ""
+
+#: ../../source/docs/basic.rst:88
+msgid ""
+"You can theme, and configured this new activity desktop in the same ways "
+"as mentioned early in this section of the manual."
+msgstr ""
+
+#: ../../source/docs/basic.rst:91
+msgid "A Step Further"
+msgstr ""
+
+#: ../../source/docs/basic.rst:93
+msgid ""
+"OK, looking good, lets create another activity. Call this one \"News\". "
+"Once created switch to this activity, either by Right Click on the "
+"Desktop > Activities or use the Keyboard shortcut Alt+D,A ( Hold Alt "
+"down, press D, then Press A ) Then select the News activity from the side"
+" bar."
+msgstr ""
+
+#: ../../source/docs/basic.rst:96
+msgid "OK, lets configure a few useful tools"
+msgstr ""
+
+#: ../../source/docs/basic.rst:98
+msgid "Change the desktop wallpaper to something you like"
+msgstr ""
+
+#: ../../source/docs/basic.rst:99
+msgid "Right click > Add Widgets, and add the Digital Clock"
+msgstr ""
+
+#: ../../source/docs/basic.rst:100
+msgid "Right click > Add Widgets, and add the Web Browser"
+msgstr ""
+
+#: ../../source/docs/basic.rst:101
+msgid "Right click > Add Widgets, and add the RSS"
+msgstr ""
+
+#: ../../source/docs/basic.rst:103
+msgid ""
+"You can now resize these widgets and lay them out on the desktop however "
+"you wish. and configure them to suit your needs, as in the example below."
+msgstr ""
+
+#: ../../source/docs/basic.rst:110
+msgid "Dolphin"
+msgstr ""
+
+#: ../../source/docs/basic.rst:112
+msgid ""
+"Dolphin is the default file manager in Kubuntu and can be compared with "
+"Windows Explorer. Dolphin looks simple because of great design, while "
+"having many powerful features. For more information, see `Dolphin "
+"<https://userbase.kde.org/Special:MyLanguage/Dolphin>`_."
+msgstr ""
+
+#: ../../source/docs/basic.rst:115
+msgid "Updating"
+msgstr ""
+
+#: ../../source/docs/basic.rst:117
+msgid ""
+"Kubuntu developers release feature and security updates for applications "
+"and packages within the Kubuntu system. When updates become available, "
+"Kubuntu will display a message in the System Tray. To update the system, "
+"open Muon Update Manager from either KickOff or Krunner and click the "
+"Install updates button. After installing some updates, it may be "
+"necessary to restart the computer. If so, Kubuntu will display a pop-up "
+"and an icon in the System Tray."
+msgstr ""
+
+#: ../../source/docs/basic.rst:122
+msgid "`Basic`_"
+msgstr ""
+
+#: ../../source/docs/contribute.rst:4
+msgid "Contribute"
+msgstr ""
+
+#: ../../source/docs/contribute.rst:6
+msgid ""
+"The Kubuntu community is made up of individuals and teams working to "
+"package software, test it, triage bugs, and then promote Kubuntu to a "
+"wider audience. All of the software, artwork, and documentation has been "
+"created, tested, used, and discussed openly by people around the world "
+"participating in the Open Source community made possible by the Internet."
+" We invite you to help shape Kubuntu to better meet your needs."
+msgstr ""
+
+#: ../../source/docs/contribute.rst:9
+msgid "Spreading the word"
+msgstr ""
+
+#: ../../source/docs/contribute.rst:11
+msgid ""
+"The easiest way to give back to the Kubuntu community is by sharing "
+"Kubuntu with others. Recommend Kubuntu to others, show them how to "
+"download and install it, and discuss the possibilities and qualities of "
+"Open Source Software with them. As our community grows, it becomes more "
+"vigorous and supported."
+msgstr ""
+
+#: ../../source/docs/contribute.rst:14
+msgid "Giving support and getting it"
+msgstr ""
+
+#: ../../source/docs/contribute.rst:16
+msgid ""
+"Providing support is an awesome way to give back to the community because"
+" it is not required to have advanced skills or know everything about "
+"Linux or Kubuntu. You'll actually end up learning more as you help "
+"others, which increases your own knowledge and skills. This can be a "
+"gateway to learning other things, from bug triaging to packaging, and "
+"perhaps even to programming. Also, it is quite rewarding to fix the "
+"system of someone who is on the other side of the world!"
+msgstr ""
+
+#: ../../source/docs/contribute.rst:18
+msgid ""
+"You can give support and get it in the IRC channels, through the `Kubuntu"
+" Users Mailing List <https://lists.ubuntu.com/mailman/listinfo/kubuntu-"
+"users>`_, or through the `Kubuntu Forums "
+"<https://www.kubuntuforums.net/content.php>`_, `Ubuntu Forums "
+"<http://ubuntuforums.org/>`_, and `KDE Forums <https://forum.kde.org/>`_."
+msgstr ""
+
+#: ../../source/docs/contribute.rst:21
+msgid "Subscribe"
+msgstr ""
+
+#: ../../source/docs/contribute.rst:23
+msgid ""
+"To begin using the mailing lists, please subscribe. Subscribing allows "
+"you to post a message without having it sit in an authorization queue, "
+"and allows you to receive messages from others who are also subscribed to"
+" the mailing list."
+msgstr ""
+
+#: ../../source/docs/contribute.rst:25 ../../source/docs/support.rst:19
+msgid ""
+"Before you send a message, check to see if the topic has been raised in "
+"the past. To do this, use Google to search the archives."
+msgstr ""
+
+#: ../../source/docs/contribute.rst:28
+msgid "Kubuntu Users"
+msgstr ""
+
+#: ../../source/docs/contribute.rst:30
+msgid "`Register <https://lists.ubuntu.com/mailman/listinfo/kubuntu-users>`_"
+msgstr ""
+
+#: ../../source/docs/contribute.rst:31
+msgid "`Archive <https://lists.ubuntu.com/archives/kubuntu-users>`_"
+msgstr ""
+
+#: ../../source/docs/contribute.rst:34
+msgid "Kubuntu Development"
+msgstr ""
+
+#: ../../source/docs/contribute.rst:36
+#: ../../source/docs/packaging_guide/welcome.rst:13
+msgid "`Register <https://lists.ubuntu.com/mailman/listinfo/kubuntu-devel>`_"
+msgstr ""
+
+#: ../../source/docs/contribute.rst:37
+#: ../../source/docs/packaging_guide/welcome.rst:14
+msgid "`Archive <https://lists.ubuntu.com/archives/kubuntu-devel>`_"
+msgstr ""
+
+#: ../../source/docs/contribute.rst:40
+msgid "Kubuntu Documentation"
+msgstr ""
+
+#: ../../source/docs/contribute.rst:42
+msgid "`Register <https://lists.ubuntu.com/mailman/listinfo/ubuntu-doc>`_"
+msgstr ""
+
+#: ../../source/docs/contribute.rst:43
+msgid "`Archive <https://lists.ubuntu.com/archives/ubuntu-doc>`_"
+msgstr ""
+
+#: ../../source/docs/contribute.rst:46
+#: ../../source/docs/packaging_guide/welcome.rst:18
+msgid "Kubuntu IRC Channels"
+msgstr ""
+
+#: ../../source/docs/contribute.rst:49
+#: ../../source/docs/packaging_guide/welcome.rst:23
+msgid "#kubuntu"
+msgstr ""
+
+#: ../../source/docs/contribute.rst:49
+#: ../../source/docs/packaging_guide/welcome.rst:23
+msgid "The official Kubuntu Support channel"
+msgstr ""
+
+#: ../../source/docs/contribute.rst:51
+#: ../../source/docs/packaging_guide/welcome.rst:25
+msgid ""
+"Connect to #kubuntu on the web here: `#kubuntu "
+"<irc://irc.ubuntu.com/kubuntu>`_"
+msgstr ""
+
+#: ../../source/docs/contribute.rst:53
+#: ../../source/docs/packaging_guide/welcome.rst:27
+msgid "#kubuntu-offtopic"
+msgstr ""
+
+#: ../../source/docs/contribute.rst:54
+#: ../../source/docs/packaging_guide/welcome.rst:28
+msgid "For off-topic chatter with your fellow Kubuntu users"
+msgstr ""
+
+#: ../../source/docs/contribute.rst:56
+#: ../../source/docs/packaging_guide/welcome.rst:31
+msgid "#kubuntu-devel"
+msgstr ""
+
+#: ../../source/docs/contribute.rst:56
+#: ../../source/docs/packaging_guide/welcome.rst:30
+msgid "This is the channel where the developers hang out"
+msgstr ""
+
+#: ../../source/docs/contribute.rst:59
+msgid "Bug Reporting"
+msgstr ""
+
+#: ../../source/docs/contribute.rst:61
+msgid ""
+"Filing good bugs is very important to improving the quality of Kubuntu. "
+"For information about filing bugs and writing useful bug reports, see "
+"`Bug Reporting <https://wiki.kubuntu.org/Kubuntu/Bugs/Reporting>`_."
+msgstr ""
+
+#: ../../source/docs/contribute.rst:63
+msgid ""
+"For typical responses that you will likely get from upstream *KDE* "
+"developers, see `Bug Responses "
+"<https://community.kde.org/Kubuntu/BugTriage>`_."
+msgstr ""
+
+#: ../../source/docs/contribute.rst:66
+msgid "Local Teams"
+msgstr ""
+
+#: ../../source/docs/contribute.rst:68
+msgid ""
+"If you want to meet other Kubuntu users in your area, look for a Local "
+"Ubuntu Community team (LoCo team for short) to join."
+msgstr ""
+
+#: ../../source/docs/contribute.rst:70
+msgid "`LoCo portal <http://loco.ubuntu.com/>`_"
+msgstr ""
+
+#: ../../source/docs/contribute.rst:71
+msgid "`LoCo Team List wiki <https://wiki.ubuntu.com/LoCoTeams>`_"
+msgstr ""
+
+#: ../../source/docs/contribute.rst:74
+msgid "Packaging and Development"
+msgstr ""
+
+#: ../../source/docs/contribute.rst:76
+msgid ""
+"Information about making packages and helping to `develop Kubuntu "
+"<https://wiki.kubuntu.org/Kubuntu/GettingInvolved/Development>`_."
+msgstr ""
+
+#: ../../source/docs/contribute.rst:79
+msgid "Translations"
+msgstr ""
+
+#: ../../source/docs/contribute.rst:81
+msgid ""
+"Kubuntu welcomes all translators from all over the world. Translating "
+"Kubuntu helps usage by people who are more comfortable with their mother "
+"tongue. The required translations can be found here, `Kubuntu Translation"
+" <https://community.kde.org/Kubuntu/Translation>`_."
+msgstr ""
+
+#: ../../source/docs/contribute.rst:84
+msgid "Testing"
+msgstr ""
+
+#: ../../source/docs/contribute.rst:86
+msgid ""
+"Being a Kubuntu tester involves running bleeding-edge software, testing "
+"ISO's to see if they install correctly, and testing packages to confirm "
+"that a bug is fixed. If you want to help test Kubuntu, see `Kubuntu "
+"Testers <https://wiki.kubuntu.org/KubuntuTesters>`_."
+msgstr ""
+
+#: ../../source/docs/contribute.rst:89
+msgid "Membership"
+msgstr ""
+
+#: ../../source/docs/contribute.rst:91
+msgid ""
+"Have you found your spot in our community? Why don't you go grab an "
+"awesome Ubuntu Membership! Just follow this `link "
+"<https://wiki.ubuntu.com/Membership>`_!"
+msgstr ""
+
+#: ../../source/docs/installation.rst:2
+msgid "Installation"
+msgstr ""
+
+#: ../../source/docs/installation.rst:5
+msgid "Why try Kubuntu?"
+msgstr ""
+
+#: ../../source/docs/installation.rst:7
+msgid "There are many good reasons to install Kubuntu! Some of them include:"
+msgstr ""
+
+#: ../../source/docs/installation.rst:10
+msgid "Kubuntu makes your PC friendly."
+msgstr ""
+
+#: ../../source/docs/installation.rst:11
+msgid ""
+"Kubuntu is an operating system built by a friendly worldwide team of "
+"expert developers. It contains all the applications you need: web "
+"browser, office suite, media apps, instant messaging, and many others. "
+"For a list of the included software, see the :ref:`software-link` page."
+msgstr ""
+
+#: ../../source/docs/installation.rst:16
+msgid "Kubuntu is a free, open-source alternative to Windows and Mac OS X."
+msgstr ""
+
+#: ../../source/docs/installation.rst:18
+msgid "Easily install beside, or instead of, Windows."
+msgstr ""
+
+#: ../../source/docs/installation.rst:23
+msgid "Preparing the Installation media"
+msgstr ""
+
+#: ../../source/docs/installation.rst:25
+msgid "Getting the ISO(Disc Image):"
+msgstr ""
+
+#: ../../source/docs/installation.rst:27
+msgid "Download it though `Get Kubuntu <http://www.kubuntu.org/getkubuntu/>`_."
+msgstr ""
+
+#: ../../source/docs/installation.rst:30
+msgid "Checking the MD5SUM"
+msgstr ""
+
+#: ../../source/docs/installation.rst:34
+msgid ""
+"Doing this will make sure your download completed fully and has given you"
+" a fully working ISO to boot and perhaps later install from."
+msgstr ""
+
+#: ../../source/docs/installation.rst:37
+msgid "From Windows XP -> 7 -> 8 -> 10"
+msgstr ""
+
+#: ../../source/docs/installation.rst:39
+msgid ""
+"Microsoft Windows does not have any built-in tools for MD5SUM but they do"
+" provide some `decent documentation <https://support.microsoft.com/en-"
+"us/kb/841290>`_ and a tool for checking the MD5SUM. How-To-Geek also "
+"provides some `reading material <http://www.howtogeek.com/67241/htg-"
+"explains-what-are-md5-sha-1-hashes-and-how-do-i-check-them/>`_ if you "
+"want to understand the technology behind MD5SUM if you like."
+msgstr ""
+
+#: ../../source/docs/installation.rst:43
+msgid "From Mac OS X"
+msgstr ""
+
+#: ../../source/docs/installation.rst:45
+msgid ""
+"Open the Terminal app, then navigate to the directory where the ISO is "
+"saved. Run:"
+msgstr ""
+
+#: ../../source/docs/installation.rst:52
+msgid "And compare the output to the hashes page for the ISO file."
+msgstr ""
+
+#: ../../source/docs/installation.rst:56
+msgid "From Ubuntu Linux"
+msgstr ""
+
+#: ../../source/docs/installation.rst:58
+msgid ""
+"The first thing to do is to make sure you're in the directory with the "
+".iso file (most likely in the Downloads directory). For more complex use "
+"of MD5SUM check this `out "
+"https://help.ubuntu.com/community/HowToMD5SUM>`_. Then running the "
+"command 'md5sum':"
+msgstr ""
+
+#: ../../source/docs/installation.rst:66
+msgid "Windows 7/8"
+msgstr ""
+
+#: ../../source/docs/installation.rst:71 ../../source/docs/installation.rst:99
+#: ../../source/docs/installation.rst:131
+#: ../../source/docs/installation.rst:146
+msgid "USB/Flash Drives"
+msgstr ""
+
+#: ../../source/docs/installation.rst:73
+msgid ""
+"For a GUI (Graphic User Interface) we use `UNetBootin "
+"<http://unetbootin_link/>`_."
+msgstr ""
+
+#: ../../source/docs/installation.rst:75
+msgid ""
+"If you choose the `Diskimage` option you use the `...` button to select "
+"your downloaded ISO. Then click OK."
+msgstr ""
+
+#: ../../source/docs/installation.rst:80
+msgid "Pay special attention when selecting the right USB device under 'Drive'"
+msgstr ""
+
+#: ../../source/docs/installation.rst:83 ../../source/docs/installation.rst:106
+#: ../../source/docs/installation.rst:135
+#: ../../source/docs/installation.rst:149
+msgid "DVD"
+msgstr ""
+
+#: ../../source/docs/installation.rst:85
+msgid ""
+"The recommended tool to use is `ImgBurn <http://www.imgburn.com/>`_. "
+"There is a excellent how-to on the ImgBurn forums by the admin `here "
+"<http://forum.imgburn.com/index.php?/topic/61-how-to-write-an-image-file-"
+"to-a-disc-using-imgburn/>`_."
+msgstr ""
+
+#: ../../source/docs/installation.rst:90
+msgid "Mac OS X"
+msgstr ""
+
+#: ../../source/docs/installation.rst:92
+msgid ""
+"Burn an installer DVD using `Disk Utility "
+"<https://help.ubuntu.com/community/BurningIsoHowto#Burning_from_Mac_OS_X>`_."
+msgstr ""
+
+#: ../../source/docs/installation.rst:96
+msgid "Existing Kubuntu Install"
+msgstr ""
+
+#: ../../source/docs/installation.rst:101
+msgid ""
+"Since UNetBootin is a cross-platform application we will be using the "
+"same instructions from :ref:`usb-drives-link`"
+msgstr ""
+
+#: ../../source/docs/installation.rst:103
+msgid ""
+"Be extremely careful to set /dev/sdX to the right value, if you point it "
+"to your hard drive you will wipe the disk."
+msgstr ""
+
+#: ../../source/docs/installation.rst:112
+msgid ""
+"Look for `More actions...` click it then pick `Burn image...` from the "
+"list of actions"
+msgstr ""
+
+#: ../../source/docs/installation.rst:117
+msgid ""
+"Then you select the ISO(Disk Image) that you want to burn to the DVD from"
+" your computer."
+msgstr ""
+
+#: ../../source/docs/installation.rst:119
+msgid ""
+"Most torrent and browsers store your downloads in the 'Download' "
+"directory."
+msgstr ""
+
+#: ../../source/docs/installation.rst:121
+msgid "Most of the default setting for K3b for DVD burning are fine"
+msgstr ""
+
+#: ../../source/docs/installation.rst:125
+msgid "Other Linux Distributions"
+msgstr ""
+
+#: ../../source/docs/installation.rst:128
+msgid "GNOME Environment"
+msgstr ""
+
+#: ../../source/docs/installation.rst:132
+msgid ""
+"For USB/Flash Drives we'll be stick to using UNetBootin from this "
+"tutorial: :ref:`usb-drives-link`"
+msgstr ""
+
+#: ../../source/docs/installation.rst:140
+msgid ""
+"For Linux Distributions that use GNOME we'll be using the default DVD "
+"burning tool Brasero."
+msgstr ""
+
+#: ../../source/docs/installation.rst:143
+msgid "KDE Environment"
+msgstr ""
+
+#: ../../source/docs/installation.rst:151
+msgid "You can follow the same instructions as a :ref:`kubuntu-install-link`"
+msgstr ""
+
+#: ../../source/docs/installation.rst:154
+msgid "Install Process"
+msgstr ""
+
+#: ../../source/docs/installation.rst:156
+msgid ""
+"You will need to press a special key on the keyboard in order to boot "
+"from your chosen Installation Media. Ex: Esc, F2, F10, F12, or Del it all"
+" depends on the OEM(Original Equipment Manufacturer)"
+msgstr ""
+
+#: ../../source/docs/installation.rst:159
+msgid ""
+"First we'll need the Kubuntu Disk Image(ISO) from here: :ref:`get-"
+"kubuntu-link`"
+msgstr ""
+
+#: ../../source/docs/installation.rst:164
+msgid "When the installer starts you will see these options:"
+msgstr ""
+
+#: ../../source/docs/installation.rst:166
+msgid "Try out Kubuntu without changing anything on your computer"
+msgstr ""
+
+#: ../../source/docs/installation.rst:167
+msgid "Install Kubuntu on your computer."
+msgstr ""
+
+#: ../../source/docs/installation.rst:170
+msgid "Prepare"
+msgstr ""
+
+#: ../../source/docs/installation.rst:172
+msgid "Fro the best result, ensure that:"
+msgstr ""
+
+#: ../../source/docs/installation.rst:174
+msgid ""
+"Your computer has enough room for Kubuntu and your data - your songs, "
+"pictures, videos, and documents."
+msgstr ""
+
+#: ../../source/docs/installation.rst:175
+msgid ""
+"Your computer is connected to the Internet so that you can download "
+"updates and third-party software as Kubuntu is installing."
+msgstr ""
+
+#: ../../source/docs/installation.rst:180
+msgid ""
+"Include this third-party software: includes software that either does not"
+" follow the Open Source model or the `Ubuntu Philosophy "
+"<http://www.ubuntu.com/about/about-ubuntu/our-philosophy>`_, but is safe "
+"for use on your system."
+msgstr ""
+
+#: ../../source/docs/installation.rst:182
+msgid ""
+"Download updates while installing: will ensure that you have the latest "
+"bug and security fixes included and applied once the installation is "
+"complete."
+msgstr ""
+
+#: ../../source/docs/installation.rst:185
+msgid "Disk Setup"
+msgstr ""
+
+#: ../../source/docs/installation.rst:187
+msgid ""
+"This is where you choose how to organize your hard drive. This step is "
+"the most complicated and consequential in the entire install process, so "
+"take your time."
+msgstr ""
+
+#: ../../source/docs/installation.rst:189
+msgid ""
+"You will be able to change your mind and go back until the Install Now "
+"button is clicked"
+msgstr ""
+
+#: ../../source/docs/installation.rst:191
+msgid ""
+"The following sections are some possible installation scenarios you might"
+" choose. Each of these choices points to a page or series of pages with "
+"more details. For each option (except Manual), the installer asks which "
+"hard drive to use. After choosing, you will see a before and after layout"
+" on that hard drive."
+msgstr ""
+
+#: ../../source/docs/installation.rst:194
+msgid "Resize"
+msgstr ""
+
+#: ../../source/docs/installation.rst:196
+msgid ""
+"This will resize the partitions for you and install Kubuntu on the free "
+"space. With this option you can create what is called a dual-boot and "
+"choose which OS to boot into at startup."
+msgstr ""
+
+#: ../../source/docs/installation.rst:198
+msgid "This is available only at least 25GB can be freed"
+msgstr ""
+
+#: ../../source/docs/installation.rst:201
+msgid "Use entire disk"
+msgstr ""
+
+#: ../../source/docs/installation.rst:206
+msgid "This will wipe all your data"
+msgstr ""
+
+#: ../../source/docs/installation.rst:209
+msgid "Use entire disk and set up LVM"
+msgstr ""
+
+#: ../../source/docs/installation.rst:211
+msgid "More about `LVM <https://wiki.ubuntu.com/Lvm>`_"
+msgstr ""
+
+#: ../../source/docs/installation.rst:214
+msgid "Use entire disk and set up encrypted LVM"
+msgstr ""
+
+#: ../../source/docs/installation.rst:216
+msgid ""
+"More about `encrypted file systems "
+"<https://help.ubuntu.com/community/EncryptedFilesystems>`_"
+msgstr ""
+
+#: ../../source/docs/installation.rst:219
+msgid "Manual"
+msgstr ""
+
+#: ../../source/docs/installation.rst:224
+msgid ""
+"When using Manual to set up your system as you would like it, keep these "
+"thoughts in mind:"
+msgstr ""
+
+#: ../../source/docs/installation.rst:226
+msgid "The root ( / ) directory needs at least 25 GBs of space."
+msgstr ""
+
+#: ../../source/docs/installation.rst:227
+msgid ""
+"The home ( /home ) directory needs as much space as you will need for "
+"your files, music, pictures and documents. So it is best to use the "
+"remaining space for the home partition, unless you have going to dual "
+"boot."
+msgstr ""
+
+#: ../../source/docs/installation.rst:229
+msgid ""
+"Swap space of at least half of the available RAM is recommended. For "
+"instance, with 8 GBs, make the swap with at least 4 GBs."
+msgstr ""
+
+#: ../../source/docs/installation.rst:231
+msgid ""
+"If you have a Windows 8 sticker on your machine you might need to make a "
+"separate EFI partition with a fat32 filesystem."
+msgstr ""
+
+#: ../../source/docs/installation.rst:233
+msgid ""
+"For more detailed information regarding the Disk Setup of a linux system "
+"you can check the `DiskSpace "
+"<https://help.ubuntu.com/community/DiskSpace>`_ page."
+msgstr ""
+
+#: ../../source/docs/installation.rst:236
+msgid "Timezone"
+msgstr ""
+
+#: ../../source/docs/installation.rst:238
+msgid ""
+"During this step you get to pick the Region where you live and then the "
+"Timezone of the location in that Region. An example would be that I live "
+"in New York, so my Region is North America and my Timezone is New York."
+msgstr ""
+
+#: ../../source/docs/installation.rst:244
+msgid "Keyboard"
+msgstr ""
+
+#: ../../source/docs/installation.rst:246
+msgid ""
+"This is the step that will set up your keyboard's language and, if the "
+"language has it, a different version of the language. For example, there "
+"is a Cherokee American English setting as well as different setups with "
+"special keys used in certain countries; in Kubuntu we try to make the "
+"system easy for everyone!"
+msgstr ""
+
+#: ../../source/docs/installation.rst:252
+msgid "User Info"
+msgstr ""
+
+#: ../../source/docs/installation.rst:254
+msgid ""
+"At this step of the installation you will be putting in user information "
+"like your name, username, and password. The password will be your key to "
+"logging into your new installation as well as installing new software, "
+"updating your system, and more, so keep it written down somewhere!"
+msgstr ""
+
+#: ../../source/docs/packaging_guide/getting_started.rst:2
+msgid "Getting Started"
+msgstr ""
+
+#: ../../source/docs/packaging_guide/getting_started.rst:5
+msgid "2. Getting Set Up"
+msgstr ""
+
+#: ../../source/docs/packaging_guide/getting_started.rst:7
+msgid ""
+"There are a number of things you need to do to get started developing for"
+" Kubuntu. This article is designed to get your computer set up so that "
+"you can start working with packages, and upload your packages to "
+"Kubuntu’s hosting platform, Launchpad. Here’s what we’ll cover: "
+"Installing packaging-related software. This includes:"
+msgstr ""
+
+#: ../../source/docs/packaging_guide/getting_started.rst:10
+msgid "Kubuntu-specific packaging utilities"
+msgstr ""
+
+#: ../../source/docs/packaging_guide/getting_started.rst:12
+msgid ""
+"Encryption software so your work can be verified as being done by you "
+"Additional encryption software so you can securely transfer files "
+"Creating and configuring your account on Launchpad Setting up your "
+"development environment to help you do local builds of packages, interact"
+" with other developers, and propose your changes on Launchpad. Note It is"
+" advisable to do packaging work using the current development version of "
+"Kubuntu. Doing so will allow you to test changes in the same environment "
+"where those changes will actually be applied and used. Don’t worry "
+"though, you can use Testdrive or chroots to safely use the development "
+"release."
+msgstr ""
+
+#: ../../source/docs/packaging_guide/getting_started.rst:21
+msgid "2.1. Install basic packaging software"
+msgstr ""
+
+#: ../../source/docs/packaging_guide/getting_started.rst:23
+msgid ""
+"There are a number of tools that will make your life as an Kubuntu "
+"developer much easier. You will encounter these tools later in this "
+"guide. To install most of the tools you will need run this command: $ "
+"sudo apt-get install gnupg pbuilder ubuntu-dev-tools bzr-builddeb apt-"
+"file"
+msgstr ""
+
+#: ../../source/docs/packaging_guide/getting_started.rst:27
+msgid ""
+"Note: Since Kubuntu 11.10 “Oneiric Ocelot” (or if you have Backports "
+"enabled on a currently supported release), the following command will "
+"install the above and other tools which are quite common in Kubuntu "
+"development: $ sudo apt-get install packaging-dev"
+msgstr ""
+
+#: ../../source/docs/packaging_guide/getting_started.rst:31
+msgid "This command will install the following software:"
+msgstr ""
+
+#: ../../source/docs/packaging_guide/getting_started.rst:33
+msgid ""
+"gnupg – GNU Privacy Guard contains tools you will need to create a "
+"cryptographic key with which you will sign files you want to upload to "
+"Launchpad."
+msgstr ""
+
+#: ../../source/docs/packaging_guide/getting_started.rst:34
+msgid ""
+"pbuilder – a tool to do reproducible builds of a package in a clean and "
+"isolated environment."
+msgstr ""
+
+#: ../../source/docs/packaging_guide/getting_started.rst:35
+msgid ""
+"ubuntu-dev-tools (and devscripts, a direct dependency) – a collection of "
+"tools that make many packaging tasks easier."
+msgstr ""
+
+#: ../../source/docs/packaging_guide/getting_started.rst:36
+msgid ""
+"bzr-builddeb (and bzr, a dependency) – distributed version control with "
+"Bazaar, a new way of working with packages for Kubuntu that will make it "
+"easy for many developers to collaborate and work on the same code while "
+"keeping it trivial to merge each other’s work."
+msgstr ""
+
+#: ../../source/docs/packaging_guide/getting_started.rst:37
+msgid ""
+"apt-file provides an easy way to find the binary package that contains a "
+"given file."
+msgstr ""
+
+#: ../../source/docs/packaging_guide/getting_started.rst:40
+msgid "2.1.1. Create your GPG key"
+msgstr ""
+
+#: ../../source/docs/packaging_guide/getting_started.rst:42
+msgid ""
+"GPG stands for GNU Privacy Guard and it implements the OpenPGP standard "
+"which allows you to sign and encrypt messages and files. This is useful "
+"for a number of purposes. In our case it is important that you can sign "
+"files with your key so they can be identified as something that you "
+"worked on. If you upload a source package to Launchpad, it will only "
+"accept the package if it can absolutely determine who uploaded the "
+"package. To generate a new GPG key, run::"
+msgstr ""
+
+#: ../../source/docs/packaging_guide/getting_started.rst:48
+msgid ""
+"GPG will first ask you which kind of key you want to generate. Choosing "
+"the default (RSA and DSA) is fine. Next it will ask you about the "
+"keysize. The default (currently 2048) is fine, but 4096 is more secure. "
+"Afterwards, it will ask you if you want it to expire the key at some "
+"stage. It is safe to say “0”, which means the key will never expire. The "
+"last questions will be about your name and email address. Just pick the "
+"ones you are going to use for Kubuntu development here, you can add "
+"additional email addresses later on. Adding a comment is not necessary. "
+"Then you will have to set a passphrase, choose a safe one (a passphrase "
+"is just a password which is allowed to include spaces). Now GPG will "
+"create a key for you, which can take a little bit of time; it needs "
+"random bytes, so if you give the system some work to do it will be just "
+"fine. Move the cursor around, type some paragraphs of random text, load "
+"some web page. Once this is done, you will get a message similar to this "
+"one::"
+msgstr ""
+
+#: ../../source/docs/packaging_guide/getting_started.rst:58
+msgid ""
+"In this case 43CDE61D is the key ID. Next, you need to upload the public "
+"part of your key to a keyserver so the world can identify messages and "
+"files as yours. To do so, enter::"
+msgstr ""
+
+#: ../../source/docs/packaging_guide/getting_started.rst:64
+msgid ""
+"This will send your key to the Ubuntu keyserver, but a network of "
+"keyservers will automatically sync the key between themselves. Once this "
+"syncing is complete, your signed public key will be ready to verify your "
+"contributions around the world."
+msgstr ""
+
+#: ../../source/docs/packaging_guide/getting_started.rst:67
+msgid "2.1.2. Create your SSH key"
+msgstr ""
+
+#: ../../source/docs/packaging_guide/getting_started.rst:69
+msgid ""
+"SSH stands for Secure Shell, and it is a protocol that allows you to "
+"exchange data in a secure way over a network. It is common to use SSH to "
+"access and open a shell on another computer, and to use it to securely "
+"transfer files. For our purposes, we will mainly be using SSH to securely"
+" upload source packages to Launchpad. To generate an SSH key, enter::"
+msgstr ""
+
+#: ../../source/docs/packaging_guide/getting_started.rst:75
+msgid ""
+"The default file name usually makes sense, so you can just leave it as it"
+" is. For security purposes, it is highly recommended that you use a "
+"passphrase."
+msgstr ""
+
+#: ../../source/docs/packaging_guide/getting_started.rst:78
+msgid "2.1.3. Set up pbuilder"
+msgstr ""
+
+#: ../../source/docs/packaging_guide/getting_started.rst:80
+msgid ""
+"pbuilder allows you to build packages locally on your machine. It serves "
+"a couple of purposes: The build will be done in a minimal and clean "
+"environment. This helps you make sure your builds succeed in a "
+"reproducible way, but without modifying your local system There is no "
+"need to install all necessary build dependencies locally You can set up "
+"multiple instances for various Kubuntu and Debian releases Setting "
+"pbuilder up is very easy, run::"
+msgstr ""
+
+#: ../../source/docs/packaging_guide/getting_started.rst:89
+msgid ""
+"where <release> is for example raring, saucy, trusty or in the case of "
+"Debian maybe sid. This will take a while as it will download all the "
+"necessary packages for a “minimal installation”. These will be cached "
+"though."
+msgstr ""
+
+#: ../../source/docs/packaging_guide/getting_started.rst:92
+msgid "2.2. Get set up to work with Launchpad"
+msgstr ""
+
+#: ../../source/docs/packaging_guide/getting_started.rst:94
+msgid ""
+"With a basic local configuration in place, your next step will be to "
+"configure your system to work with Launchpad. This section will focus on "
+"the following topics: What Launchpad is and creating a Launchpad account "
+"Uploading your GPG and SSH keys to Launchpad Configuring Bazaar to work "
+"with Launchpad Configuring Bash to work with Bazaar"
+msgstr ""
+
+#: ../../source/docs/packaging_guide/getting_started.rst:101
+msgid "2.2.1. About Launchpad"
+msgstr ""
+
+#: ../../source/docs/packaging_guide/getting_started.rst:103
+msgid ""
+"Launchpad is the central piece of infrastructure we use in Kubuntu. It "
+"not only stores our packages and our code, but also things like "
+"translations, bug reports, and information about the people who work on "
+"Kubuntu and their team memberships. You will also use Launchpad to "
+"publish your proposed fixes, and get other Kubuntu developers to review "
+"and sponsor them. You will need to register with Launchpad and provide a "
+"minimal amount of information. This will allow you to download and upload"
+" code, submit bug reports, and more. Besides hosting Kubuntu, Launchpad "
+"can host any Free Software project. For more information see the "
+"Launchpad Help wiki."
+msgstr ""
+
+#: ../../source/docs/packaging_guide/getting_started.rst:108
+msgid "2.2.2. Get a Launchpad account"
+msgstr ""
+
+#: ../../source/docs/packaging_guide/getting_started.rst:110
+msgid ""
+"If you don’t already have a Launchpad account, you can easily create one."
+" If you have a Launchpad account but cannot remember your Launchpad id, "
+"you can find this out by going to https://launchpad.net/~ and looking for"
+" the part after the ~ in the URL. Launchpad’s registration process will "
+"ask you to choose a display name. It is encouraged for you to use your "
+"real name here so that your Kubuntu developer colleagues will be able to "
+"get to know you better. When you register a new account, Launchpad will "
+"send you an email with a link you need to open in your browser in order "
+"to verify your email address. If you don’t receive it, check in your spam"
+" folder. The new account help page on Launchpad has more information "
+"about the process and additional settings you can change."
+msgstr ""
+
+#: ../../source/docs/packaging_guide/getting_started.rst:116
+msgid "2.2.3. Upload your GPG key to Launchpad"
+msgstr ""
+
+#: ../../source/docs/packaging_guide/getting_started.rst:118
+msgid ""
+"First, you will need to get your fingerprint and key ID. To find about "
+"your GPG fingerprint, run::"
+msgstr ""
+
+#: ../../source/docs/packaging_guide/getting_started.rst:124
+msgid "and it will print out something like::"
+msgstr ""
+
+#: ../../source/docs/packaging_guide/getting_started.rst:132
+msgid "Then run this command to submit your key to Ubuntu keyserver::"
+msgstr ""
+
+#: ../../source/docs/packaging_guide/getting_started.rst:137
+msgid ""
+"where 43CDE61D should be replaced by your key ID (which is in the first "
+"line of output of the previous command). Now you can import your key to "
+"Launchpad."
+msgstr ""
+
+#: ../../source/docs/packaging_guide/getting_started.rst:139
+msgid ""
+"Head to https://launchpad.net/~/+editpgpkeys and copy the “Key "
+"fingerprint” into the text box."
+msgstr ""
+
+#: ../../source/docs/packaging_guide/getting_started.rst:141
+msgid ""
+"In the case above this would be 5C28 0144 FB08 91C0 2CF3  37AC 6F0B F90F "
+"43CD E61D. Now click on “Import Key”."
+msgstr ""
+
+#: ../../source/docs/packaging_guide/getting_started.rst:144
+msgid ""
+"Launchpad will use the fingerprint to check the Ubuntu key server for "
+"your key and, if successful, send you an encrypted email asking you to "
+"confirm the key import. Check your email account and read the email that "
+"Launchpad sent you. If your email client supports OpenPGP encryption, it "
+"will prompt you for the password you chose for the key when GPG generated"
+" it. Enter the password, then click the link to confirm that the key is "
+"yours. Launchpad encrypts the email, using your public key, so that it "
+"can be sure that the key is yours. If you are using Thunderbird, the "
+"default Ubuntu email client, you can install the Enigmail plugin to "
+"easily decrypt the message. If your email software does not support "
+"OpenPGP encryption, copy the encrypted email’s contents, type gpg in your"
+" terminal, then paste the email contents into your terminal window. Back "
+"on the Launchpad website, use the Confirm button and Launchpad will "
+"complete the import of your OpenPGP key."
+msgstr ""
+
+#: ../../source/docs/packaging_guide/getting_started.rst:148
+msgid ""
+"Find more information at "
+"https://help.launchpad.net/YourAccount/ImportingYourPGPKey"
+msgstr ""
+
+#: ../../source/docs/packaging_guide/getting_started.rst:151
+msgid "2.2.4. Upload your SSH key to Launchpad"
+msgstr ""
+
+#: ../../source/docs/packaging_guide/getting_started.rst:153
+msgid ""
+"Open https://launchpad.net/~/+editsshkeys in a web browser, also open "
+"~/.ssh/id_rsa.pub in a text editor. This is the public part of your SSH "
+"key, so it is safe to share it with Launchpad. Copy the contents of the "
+"file and paste them into the text box on the web page that says “Add an "
+"SSH key”. Now click “Import Public Key”. For more information on this "
+"process, visit the creating an SSH keypair page on Launchpad."
+msgstr ""
+
+#: ../../source/docs/packaging_guide/getting_started.rst:157
+msgid "2.2.5. Configure Bazaar"
+msgstr ""
+
+#: ../../source/docs/packaging_guide/getting_started.rst:159
+msgid ""
+"Bazaar is the tool we use to store code changes in a logical way, to "
+"exchange proposed changes and merge them, even if development is done "
+"concurrently. It is used for the new Kubuntu Distributed Development "
+"method of working with Kubuntu packages. To tell Bazaar who you are, "
+"simply run::"
+msgstr ""
+
+#: ../../source/docs/packaging_guide/getting_started.rst:166
+msgid ""
+"whoami will tell Bazaar which name and email address it should use for "
+"your commit messages. With launchpad-loginyou set your Launchpad ID. This"
+" way code that you publish in Launchpad will be associated with you. "
+"Note: If you can not remember the ID, go to https://launchpad.net/~ and "
+"see where it redirects you. The part after the “~” in the URL is your "
+"Launchpad ID.)"
+msgstr ""
+
+#: ../../source/docs/packaging_guide/getting_started.rst:170
+msgid "2.2.6. Configure your shell"
+msgstr ""
+
+#: ../../source/docs/packaging_guide/getting_started.rst:172
+msgid ""
+"Similar to Bazaar, the Debian/Kubuntu packaging tools need to learn about"
+" you as well. Simply open your ~/.bashrc in a text editor and add "
+"something like this to the bottom of it::"
+msgstr ""
+
+#: ../../source/docs/packaging_guide/getting_started.rst:178
+msgid "Now save the file and either restart your terminal or run::"
+msgstr ""
+
+#: ../../source/docs/packaging_guide/getting_started.rst:183
+msgid ""
+"(If you do not use the default shell, which is bash, please edit the "
+"configuration file for that shell accordingly.)"
+msgstr ""
+
+#: ../../source/docs/packaging_guide/packaging.rst:2
+msgid "Kubuntu Packagers Guide"
+msgstr ""
+
+#: ../../source/docs/packaging_guide/welcome.rst:3
+msgid "Welcome"
+msgstr ""
+
+#: ../../source/docs/packaging_guide/welcome.rst:5
+msgid ""
+"The beauty of Open Source is that you are not limited to simply using the"
+" software in a predetermined way. You can choose how and what you do with"
+" it, and this includes copying and modifying the software that you use. "
+"This guide is designed to get you started on your journey in modifying "
+"Kubuntu, changing and contributing to make the software do the things "
+"that you want it ti."
+msgstr ""
+
+#: ../../source/docs/packaging_guide/welcome.rst:8
+msgid ""
+"This guide takes you on a step by step journey from getting set up with "
+"all the tools you need for software packaging. You are highly encouraged "
+"to support your exploration with the wider Kubuntu community, by joining "
+"the Kubuntu Developers mailing list"
+msgstr ""
+
+#: ../../source/docs/packaging_guide/welcome.rst:11
+msgid "Kubuntu Developers Mailing List"
+msgstr ""
+
+#: ../../source/docs/packaging_guide/welcome.rst:20
+msgid "Introduce yourself on Internet Relay Chat ( IRC )"
+msgstr ""
+
+#: ../../source/docs/packaging_guide/welcome.rst:33
+msgid ""
+"Packaging is fun, and there are many components to the Kubuntu "
+"development tool chain. You are not going to learn it all at once, and "
+"there will be many obstacles and challenges along the way. If you are a "
+"tinkerer, with a knack for fixing stuff, someone who likes to find out "
+"what goes on under the hood, and get excited by watching you machine "
+"follow you every utterance ?"
+msgstr ""
+
+#: ../../source/docs/packaging_guide/welcome.rst:36
+msgid "You will find Kubuntu Packaging and development very exciting."
+msgstr ""
+
+#: ../../source/docs/packaging_guide/welcome.rst:38
+msgid "Ready to Get Started ?"
+msgstr ""
+
+#: ../../source/docs/repositories.rst:7
+msgid "Managing Repositories"
+msgstr ""
+
+#: ../../source/docs/repositories.rst:10
+msgid "Add a Repository"
+msgstr ""
+
+#: ../../source/docs/repositories.rst:12
+msgid "You can use the Muon Discover to add new repositories."
+msgstr ""
+
+#: ../../source/docs/repositories.rst:14
+msgid ""
+"**How-to**: Start Muon Discover. Select Sources, Configure Software "
+"Sources in the window. Enter your administrative password at the prompt. "
+"Left-click the 'Other Software' tab. Left-click the 'Add...' button. "
+"Enter the repository address into the text box. The proper format is "
+"required, and looks similar to this: ppa:kubuntu-ppa/backports Left-click"
+" the 'OK' button to add the repository. Left-click the 'Close' button. A "
+"prompt will appear to update the package list. Muon will now be allowed "
+"to find the newly available software."
+msgstr ""
+
+#: ../../source/docs/repositories.rst:27
+msgid "Enable a Repository"
+msgstr ""
+
+#: ../../source/docs/repositories.rst:29
+msgid "You can use the Muon Discover to enable repositories."
+msgstr ""
+
+#: ../../source/docs/repositories.rst:31
+msgid ""
+"**How-to**: Start Muon Discover. Select Sources, Configure Software "
+"Sources in the window. Enter your administrative password at the prompt. "
+"Left-click the 'Other Software' tab. Check the appropriate box in the "
+"center section of the window to enable a repository. Left-click the "
+"'Close' button. A prompt will appear to update the package list. Muon "
+"will now be allowed to find the newly available software."
+msgstr ""
+
+#: ../../source/docs/repositories.rst:34
+msgid "Disable a Repository"
+msgstr ""
+
+#: ../../source/docs/repositories.rst:36
+msgid "You can use the Muon Discover to disable repositories."
+msgstr ""
+
+#: ../../source/docs/repositories.rst:38
+msgid ""
+"**How-to**: Start Muon Discover. Select Sources, Configure Software "
+"Sources in the window. Enter your administrative password at the prompt. "
+"Left-click the 'Other Software' tab. Uncheck the appropriate box in the "
+"center section of the window to disable a repository. Left-click the "
+"'Close' button. A prompt will appear to update the package list. Muon "
+"will now forget the no longer available software."
+msgstr ""
+
+#: ../../source/docs/repositories.rst:41
+msgid "Remove a Repository"
+msgstr ""
+
+#: ../../source/docs/repositories.rst:43
+msgid "You can use the Muon Discover to remove repositories."
+msgstr ""
+
+#: ../../source/docs/repositories.rst:45
+msgid ""
+"**How-to**: Start Muon Discover. Select Sources, Configure Software "
+"Sources in the window. Enter your administrative password at the prompt. "
+"Left-click the 'Other Software' tab. Left-click the name of an existing "
+"repository in the center section of the window to select it. Left-click "
+"the 'Remove' button. Left-click the 'Close' button. A prompt will appear "
+"to update the package list. Muon will now forget the no longer available "
+"software."
+msgstr ""
+
+#: ../../source/docs/repositories.rst:48
+msgid "Managing Personal Package Archives"
+msgstr ""
+
+#: ../../source/docs/repositories.rst:50
+msgid ""
+"Personal Package Archives allow any person in the Ubuntu community who "
+"has committed to observe the `Ubuntu Code of Conduct "
+"<https://launchpad.net/codeofconduct>`_ to upload Ubuntu source packages "
+"to be built and published as an apt repository by Launchpad. Software "
+"from Launchpad's `Personal Package Archive "
+"<https://launchpad.net/ubuntu/+ppas>`_ (PPA) requires a `GnuPG "
+"<https://www.gnupg.org/>`_ (GPG) key so your system can verify that it's "
+"getting the packages from the correct source and that the packages have "
+"not been interfered with since they were built. GnuPG is GNU's tool for "
+"secure communication and data storage."
+msgstr ""
+
+#: ../../source/docs/repositories.rst:52
+msgid ""
+"**Important**: The contents of Personal Package Archives are not checked "
+"or monitored. You install software from them at your own risk."
+msgstr ""
+
+#: ../../source/docs/repositories.rst:55
+msgid "Add a PPA"
+msgstr ""
+
+#: ../../source/docs/repositories.rst:57 ../../source/docs/repositories.rst:72
+msgid "You can use the Muon Discover to add a PPA:"
+msgstr ""
+
+#: ../../source/docs/repositories.rst:59 ../../source/docs/repositories.rst:74
+msgid ""
+"**How-to**: Open the Launchpad PPA overview page in your browser. Look "
+"for the location of the PPA in the 'Adding this PPA to your system' "
+"section."
+msgstr ""
+
+#: ../../source/docs/repositories.rst:61 ../../source/docs/repositories.rst:76
+msgid ""
+"Open Muon Discover. Select Sources, Configure Software Sources in the "
+"window. Enter your administrative password at the prompt. Left-click on "
+"the 'Other Software' tab. Left-click the 'Add...' button. Paste the "
+"location you got from the PPA's overview page into the text box. Left-"
+"click the 'OK' button to add the repository. Left-click the 'Close' "
+"button. A prompt will appear to update the package list. Muon will now be"
+" allowed to find the newly available software."
+msgstr ""
+
+#: ../../source/docs/repositories.rst:63 ../../source/docs/repositories.rst:78
+msgid ""
+"You can use the command line to add a PPA on 9.10 Karmic Koala or newer "
+"Kubuntu systems:"
+msgstr ""
+
+#: ../../source/docs/repositories.rst:65 ../../source/docs/repositories.rst:80
+msgid ""
+"**How-to**: Visit the Launchpad PPA overview page. Look for the location "
+"of the PPA in the 'Adding this PPA to your system' section."
+msgstr ""
+
+#: ../../source/docs/repositories.rst:67 ../../source/docs/repositories.rst:82
+msgid ""
+"Open a terminal window. Add the PPA to your system by entering this "
+"command in the terminal window, replacing Location with the location you "
+"got from the PPA's overview page: sudo add-apt-repository Location Update"
+" the package index by entering this command in the terminal window: sudo "
+"apt-get update You can now install software from the PPA."
+msgstr ""
+
+#: ../../source/docs/repositories.rst:70
+msgid "Remove a PPA"
+msgstr ""
+
+#: ../../source/docs/software.rst:4
+msgid "Software"
+msgstr ""
+
+#: ../../source/docs/software.rst:6
+msgid ""
+"Short guide to the software which is included in your Kubuntu "
+"installation."
+msgstr ""
+
+#: ../../source/docs/software.rst:9
+msgid "Graphics"
+msgstr ""
+
+#: ../../source/docs/software.rst:11
+msgid ""
+"Some basic graphics applications are installed in Kubuntu by default, "
+"allowing you to create, view, scan, and manipulate images. The following "
+"applications are installed by default:"
+msgstr ""
+
+#: ../../source/docs/software.rst:13
+msgid ""
+"`Okular <https://userbase.kde.org/Special:MyLanguage/Okular>`_ is a "
+"universal document viewer for many kinds of documents: PDF, Postscript, "
+"!DjVu, CHM, XPS, ePub and others."
+msgstr ""
+
+#: ../../source/docs/software.rst:14
+msgid ""
+"`LibreOffice Draw <http://www.libreoffice.org/discover/draw/>`_ is an "
+"all-purpose diagramming and charting tool which lets you produce anything"
+" from a quick sketch to a complex plan, and gives you the means to "
+"communicate with graphics and diagrams. With a maximum page size of 300cm"
+" by 300cm, Draw is a an excellent package for producing technical "
+"drawings, general posters, and much else."
+msgstr ""
+
+#: ../../source/docs/software.rst:15
+msgid ""
+"`Skanlite <https://userbase.kde.org/Special:MyLanguage/Skanlite>`_ is a "
+"simple image scanning application."
+msgstr ""
+
+#: ../../source/docs/software.rst:16
+msgid ""
+"`Gwenview <https://userbase.kde.org/Special:MyLanguage/Gwenview>`_ is an "
+"image viewer with many features."
+msgstr ""
+
+#: ../../source/docs/software.rst:17
+msgid ""
+"`Kamoso <https://userbase.kde.org/Special:MyLanguage/Kamoso>`_ is a "
+"webcam recorder from the *KDE* community."
+msgstr ""
+
+#: ../../source/docs/software.rst:18
+msgid ""
+"`KSnapshot <https://userbase.kde.org/Special:MyLanguage/KSnapshot>`_ is "
+"the best at desktop screenshots, simple and sweet."
+msgstr ""
+
+#: ../../source/docs/software.rst:21
+msgid "Internet"
+msgstr ""
+
+#: ../../source/docs/software.rst:24
+msgid "Browsers"
+msgstr ""
+
+#: ../../source/docs/software.rst:26
+msgid ""
+"Firefox is the default browser shipped with Kubuntu, the most popular "
+"open-source browser in the world. For more information on how to use "
+"Firefox see the `Firefox Help Page <https://support.mozilla.org/en-"
+"US/products/firefox>`_."
+msgstr ""
+
+#: ../../source/docs/software.rst:29
+msgid "Export your bookmarks"
+msgstr ""
+
+#: ../../source/docs/software.rst:31
+msgid "To export your bookmarks from Firefox"
+msgstr ""
+
+#: ../../source/docs/software.rst:33
+msgid "Click on the Bookmarks menu item"
+msgstr ""
+
+#: ../../source/docs/software.rst:34
+msgid "Select Show All Bookmarks or Ctrl+Shirt+o"
+msgstr ""
+
+#: ../../source/docs/software.rst:35
+msgid "A new window will appear. Select Import and Backup"
+msgstr ""
+
+#: ../../source/docs/software.rst:37
+msgid "> Tip: Note where you save your bookmarks (by default in ~/yourfoldername)"
+msgstr ""
+
+#: ../../source/docs/software.rst:40
+msgid "Import your bookmarks into Firefox"
+msgstr ""
+
+#: ../../source/docs/software.rst:42
+msgid ""
+"Click for guide to `import your bookmarks <https://support.mozilla.org"
+"/en-US/kb/import-bookmarks-html-file>`_ into Firefox."
+msgstr ""
+
+#: ../../source/docs/software.rst:45
+msgid "Email Clients"
+msgstr ""
+
+#: ../../source/docs/software.rst:47
+msgid ""
+"There are many options when it comes to email clients. In Kubuntu, Kmail "
+"is default email client, either as a stand-alone client or as part of the"
+" Kontact personal information manager (PIM). Kmail is the email component"
+" of Kontact, the *KDE* personal information manager (PIM). Kmail by "
+"itself is similar in functionality to other popular email programs, while"
+" Kontact is as full-featured as the fanciest personal information "
+"managers (PIMs), as it can be configured with calendars, address books, "
+"notes, an RSS reader, time tracking, journals and simple project "
+"planning. The following are just some of the features of Kmail:"
+msgstr ""
+
+#: ../../source/docs/software.rst:49
+msgid "IMAP, POP3, SMTP support"
+msgstr ""
+
+#: ../../source/docs/software.rst:50
+msgid "SSL, TLS, and Digest-md5 secure logon support"
+msgstr ""
+
+#: ../../source/docs/software.rst:51
+msgid "PGP and GNUPG signatures and encryption support"
+msgstr ""
+
+#: ../../source/docs/software.rst:52
+msgid ""
+"HTML reading, spam filtering, internal character sets, search and filter "
+"functions, spell checking, and robust searching. More information on "
+"Kmail can be found in the `KMail documentation "
+"<https://userbase.kde.org/Special:MyLanguage/KMail>`_."
+msgstr ""
+
+#: ../../source/docs/software.rst:55
+msgid "Chat Clients"
+msgstr ""
+
+#: ../../source/docs/software.rst:57
+msgid ""
+"Chatting with friends and family is a popular use of the internet, and "
+"Kubuntu provides the necessary applications. There are two default chat "
+"clients installed in Kubuntu - *KDE* Telepathy for instant messaging, and"
+" Quassel for chatting on IRC (Internet Relay Chat)."
+msgstr ""
+
+#: ../../source/docs/software.rst:59
+msgid ""
+"*KDE* `Telepathy "
+"<https://userbase.kde.org/Special:MyLanguage/Telepathy>`_ is already "
+"installed and ready to configure."
+msgstr ""
+
+#: ../../source/docs/software.rst:60
+msgid ""
+"`Konversation "
+"<https://userbase.kde.org/Special:MyLanguage/Konversation>`_ is the IRC "
+"(Internet Relay Chat) client pre-installed in Kubuntu. Not only does it "
+"provide functions similar to those of other popular IRC clients such as "
+"'X-chat, its design emphasizes ease of use. Konversation includes tabbed "
+"browsing and notification of messages and other events."
+msgstr ""
+
+#: ../../source/docs/software.rst:62
+msgid ""
+"*KDE* software connects you to the world. See `Internet, Networking, & "
+"Communication "
+"<https://userbase.kde.org/Special:MyLanguage/Applications/Internet>`_ for"
+" more."
+msgstr ""
+
+#: ../../source/docs/software.rst:65
+msgid "Multimedia"
+msgstr ""
+
+#: ../../source/docs/software.rst:67
+msgid ""
+"The best in multimedia is installed when you open your new Kubuntu "
+"installation. If you get an error message about \"missing codecs\" please"
+" install kubuntu-restricted-extras. You can find your Multimedia "
+"applications through Kickoff->Applications->Multimedia."
+msgstr ""
+
+#: ../../source/docs/software.rst:69
+msgid "The following applications are installed by default:"
+msgstr ""
+
+#: ../../source/docs/software.rst:71
+msgid ""
+"`Pulseaudio <https://wiki.ubuntu.com/PulseAudio>`_ keeps all your sound "
+"and video inputs and outputs working together. If you need to direct your"
+" audio or video output to other devices, install the pavucontrol package,"
+" launch it by pressing Alt + F2, then type pavucontrol."
+msgstr ""
+
+#: ../../source/docs/software.rst:72
+msgid ""
+"Exploring your music in Kubuntu is exciting with the pre-installed Amarok"
+" music player. For more about how to use and customize it see `Amarok "
+"<https://userbase.kde.org/Special:MyLanguage/Amarok>`_."
+msgstr ""
+
+#: ../../source/docs/software.rst:73
+msgid ""
+"`K3b <https://userbase.kde.org/Special:MyLanguage/K3b>`_ is a simple, "
+"powerful and highly-configurable graphical optical disk burning "
+"application for audio, video, data projects."
+msgstr ""
+
+#: ../../source/docs/software.rst:74
+msgid ""
+"`Kmix <https://userbase.kde.org/Special:MyLanguage/KMix>`_ controls all "
+"your audio channels."
+msgstr ""
+
+#: ../../source/docs/software.rst:75
+msgid ""
+"`Dragon Player "
+"<https://userbase.kde.org/Special:MyLanguage/Dragon_Player>`_ is a simple"
+" interface for playing your movies, TV shows, and music."
+msgstr ""
+
+#: ../../source/docs/software.rst:78
+msgid "Office"
+msgstr ""
+
+#: ../../source/docs/software.rst:80
+msgid ""
+"The default office suite installed in Kubuntu is LibreOffice. It includes"
+" Calc, Draw, Impress, Math, Base and Writer. This suite is the open "
+"source equivalent of the Microsoft Office suite and each application "
+"corresponds to a similar product in that line."
+msgstr ""
+
+#: ../../source/docs/software.rst:82
+msgid "Calc = Excel"
+msgstr ""
+
+#: ../../source/docs/software.rst:83
+msgid "Writer = Word"
+msgstr ""
+
+#: ../../source/docs/software.rst:84
+msgid "Impress = PowerPoint"
+msgstr ""
+
+#: ../../source/docs/software.rst:85
+msgid "Base = Access"
+msgstr ""
+
+#: ../../source/docs/software.rst:87
+msgid ""
+"LibreOffice works well with the files created by their Microsoft "
+"counterparts, with the exception of Microsoft Access files. For more "
+"information see `LibreOffice <https://wiki.ubuntu.com/LibreOffice>`_."
+msgstr ""
+
+#: ../../source/docs/software.rst:90
+msgid "Personal Information Manager (PIM)"
+msgstr ""
+
+#: ../../source/docs/software.rst:92
+msgid ""
+"Installed with your system is the *KDE* Personal Information Manager "
+"Kontact. This includes many tools to manage your life."
+msgstr ""
+
+#: ../../source/docs/software.rst:94
+msgid "email"
+msgstr ""
+
+#: ../../source/docs/software.rst:95
+msgid "contacts"
+msgstr ""
+
+#: ../../source/docs/software.rst:96
+msgid "diary"
+msgstr ""
+
+#: ../../source/docs/software.rst:97
+msgid "notes"
+msgstr ""
+
+#: ../../source/docs/software.rst:98
+msgid "feeds"
+msgstr ""
+
+#: ../../source/docs/software.rst:99
+msgid "to-do list"
+msgstr ""
+
+#: ../../source/docs/software.rst:101
+msgid ""
+"Please see `Kontact "
+"<https://userbase.kde.org/Special:MyLanguage/Kontact>`_ for more details "
+"and help with this powerful set of tools."
+msgstr ""
+
+#: ../../source/docs/software.rst:104
+msgid "System Settings"
+msgstr ""
+
+#: ../../source/docs/software.rst:106
+msgid ""
+"Information on adjusting system settings can be found at `System Settings"
+" <https://userbase.kde.org/Special:MyLanguage/System_Settings>`_."
+msgstr ""
+
+#: ../../source/docs/software.rst:109
+msgid "Utilities"
+msgstr ""
+
+#: ../../source/docs/software.rst:111
+msgid ""
+"Your newly installed Kubuntu system has some utilities already installed."
+" One of the most useful is not in your menus; just press ALT + F2. Look "
+"at the top of your screen; there is one of your most powerful utilities, "
+"called Krunner. See more here: `Krunner "
+"<https://userbase.kde.org/Special:MyLanguage/Plasma/Krunner>`_."
+msgstr ""
+
+#: ../../source/docs/software.rst:113
+msgid ""
+"`Kate <https://userbase.kde.org/Special:MyLanguage/Kate>`_ is the default"
+" text editor for KDE. It has many great features for editing plain text "
+"or writing code in many different languages."
+msgstr ""
+
+#: ../../source/docs/software.rst:114
+msgid ""
+"`Ark <https://userbase.kde.org/Special:MyLanguage/Ark>`_ is the default "
+"tool for handling archives of files such as tar, gzip, bzip2, zip, rar "
+"and 7z."
+msgstr ""
+
+#: ../../source/docs/software.rst:115
+msgid ""
+"`Klipper <https://userbase.kde.org/Special:MyLanguage/Klipper>`_ is a "
+"clipboard to hold copied text for later use. Unlike other clipboards it "
+"will hold your entire copied text, rather than just one line."
+msgstr ""
+
+#: ../../source/docs/software.rst:116
+msgid ""
+"`Knotes <https://userbase.kde.org/Special:MyLanguage/KNotes>`_ is a "
+"sticky-note application to post notes on your desktop."
+msgstr ""
+
+#: ../../source/docs/software.rst:117
+msgid ""
+"`KCalc <https://userbase.kde.org/Special:MyLanguage/KCalc>`_ offers basic"
+" calculator functions and much more."
+msgstr ""
+
+#: ../../source/docs/software.rst:118
+msgid ""
+"`Konsole <https://userbase.kde.org/Special:MyLanguage/Konsole>`_ is the "
+"KDE terminal emulator, it can be used to run console shells."
+msgstr ""
+
+#: ../../source/docs/software.rst:121
+msgid "Bash"
+msgstr ""
+
+#: ../../source/docs/software.rst:123
+msgid ""
+"Bash is the default shell in Konsole and the terminals. Click for more on"
+" `using the Terminal "
+"<https://help.ubuntu.com/community/UsingTheTerminal>`_."
+msgstr ""
+
+#: ../../source/docs/software.rst:126
+msgid "Firewall configuration"
+msgstr ""
+
+#: ../../source/docs/software.rst:128
+msgid ""
+"Ufw is the default commandline configuration tool for the firewall. Ufw "
+"stands for Uncomplicated Firewall, it is developed to ease iptables "
+"firewall configuration. For more information about ufw see: `UFW "
+"<https://help.ubuntu.com/community/UFW>`_"
+msgstr ""
+
+#: ../../source/docs/support.rst:4
+msgid "Support"
+msgstr ""
+
+#: ../../source/docs/support.rst:7
+msgid "Contact and Support"
+msgstr ""
+
+#: ../../source/docs/support.rst:9
+msgid ""
+"There are three ways to contact with the Kubuntu Project; mailing lists "
+"(email), Internet Relay Chat (IRC), and the forums."
+msgstr ""
+
+#: ../../source/docs/support.rst:12
+msgid "Mailing Lists"
+msgstr ""
+
+#: ../../source/docs/support.rst:14
+msgid ""
+"Mailing lists are the Kubuntu Project's official communication tools. "
+"They allow for email discussion and have searchable archives."
+msgstr ""
+
+#: ../../source/docs/support.rst:16
+msgid ""
+"Subscribe: To begin using the mailing lists, please subscribe. "
+"Subscribing allows you to post a message without having it sit in an "
+"authorization queue, and allows you to receive messages from others who "
+"are also subscribed to the mailing list."
+msgstr ""
+
+#: ../../source/docs/support.rst:21
+msgid "Refer to the Contribute Page for more infomation about Mailing Lists."
+msgstr ""
+
+#: ../../source/docs/support.rst:24
+msgid "Internet Relay Chat"
+msgstr ""
+
+#: ../../source/docs/support.rst:26
+msgid ""
+"IRC allows you to communicate in real-time with many others who are also "
+"using IRC and are on common networks and channels. For more information "
+"about IRC clients, see the Chat Clients section on the Sofware Page. You "
+"can also use your browser to chat. To do so, go to the `Webchat "
+"<http://webchat.freenode.net/>`_ page."
+msgstr ""
+
+#: ../../source/docs/support.rst:28
+msgid "Refer to the Contribute Page for more infomation about IRC Channels."
+msgstr ""
+
+#: ../../source/docs/support.rst:31
+msgid "Forums"
+msgstr ""
+
+#: ../../source/docs/support.rst:33
+msgid ""
+"Kubuntu Forums are located at: `Kubuntu Forums "
+"<https://www.kubuntuforums.net/content.php>`_"
+msgstr ""
+
+#: ../../source/docs/support.rst:36
+msgid "Application Help"
+msgstr ""
+
+#: ../../source/docs/support.rst:38
+msgid ""
+"In most *KDE* applications there is a 'Help' button in the toolbar that "
+"will lead you to the handbook. For general *KDE* documentation, see `KDE "
+"Documentation <https://www.kde.org/documentation/>`_ and `KDE Userbase "
+"Wiki "
+"<https://userbase.kde.org/Special:MyLanguage/Welcome_to_KDE_UserBase>`_."
+msgstr ""
+
+#: ../../source/docs/support.rst:41
+msgid "Kubuntu Phone Support"
+msgstr ""
+
+#: ../../source/docs/support.rst:43
+msgid ""
+"If you or your organisation needs help with your computer systems running"
+" Kubuntu but you don't want to worry about the best IRC channel to ask in"
+" you can pay some money and phone up the office in England to get some "
+"help. They will use phone, e-mail, Google hangout, Skype, VNC and any "
+"other method you like to help diagnose the issue and resolve it for you."
+msgstr ""
+
+#: ../../source/docs/support.rst:45
+msgid "`Click here for more information <http://kubuntu.emerge-open.com/buy>`_"
+msgstr ""
+
