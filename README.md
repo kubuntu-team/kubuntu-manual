@@ -5,6 +5,12 @@ Licensed under FDL v1.1
 
 16.10 STATUS: Updating text and screenshots, adding sections like Activities and a Packaging Guide 
 
+## To Do list
+
+[] Update docs.kubuntu.org to 16.04.1
+[] Find how python docs site handles versions (16.04.1 and 16.10)
+[] Find how python docs site handles translations 
+
 ## How it works
 
 The documentation is powered by [Sphinx](http://www.sphinx-doc.org/en/stable/).
@@ -50,7 +56,7 @@ To contribute to the Kubuntu Manual, you can either create a pull request on Git
 
 We take simple fixes like grammar, spelling all the way to translations!
 
----
+***
 Helpful Links::
 
 KDE MediaWiki: http://userbase.kde.org/Kubuntu
