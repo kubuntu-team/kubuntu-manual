@@ -7,9 +7,9 @@ Licensed under FDL v1.1
 
 ## To Do list
 
-[] Update docs.kubuntu.org to 16.04.1
-[] Find how python docs site handles versions (16.04.1 and 16.10)
-[] Find how python docs site handles translations 
+-[] Update docs.kubuntu.org to 16.04.1
+-[] Find how python docs site handles versions (16.04.1 and 16.10)
+-[] Find how python docs site handles translations 
 
 ## How it works
 
