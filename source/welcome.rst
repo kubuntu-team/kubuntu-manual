@@ -45,4 +45,4 @@ The entire *Kubuntu* team thanks you for choosing *Kubuntu!*
 :Authors: 
     Kubuntu Team
 
-:Version: 0.1.0 Beta ; Released: 8/4/15
+:Version: 16.10 Beta 2 ; Released: 26/09/16
