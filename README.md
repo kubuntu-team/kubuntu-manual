@@ -3,12 +3,12 @@ Kubuntu Manual
 
 Licensed under FDL v1.1
 
-16.10 STATUS: Updating text and screenshots, adding sections like Activities and a Packaging Guide 
+17.04 STATUS: Updating text and screenshots
 
 ## To Do list
 
 - [ ] Update docs.kubuntu.org to 16.04.1
-- [ ] Find how python docs site handles versions (16.04.1 and 16.10)
+- [ ] Find how python docs site handles versions (16.04.1 and 17.04)
 - [ ] Find how python docs site handles translations 
 
 ## How it works
