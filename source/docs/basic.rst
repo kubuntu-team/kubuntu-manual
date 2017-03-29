@@ -11,7 +11,7 @@ Launchers
 KickOff
 ~~~~~~~~~~
 
-.. image:: ../images/KickOff.png
+.. image:: ../images/xenial/KickOff.png
     :scale: 50 %
   
 As a *KDE* distribution, Kubuntu uses the Kickoff Application Launcher by default. The Kickoff Launcher can be compared with the 'Start Menu' in Windows (pre Windows 8). The icon to launch Kickoff is on the bottom left very much like Windows XP or 7. For more information on how to use and customize it, see `Plasma Kickoff <https://userbase.kde.org/Special:MyLanguage/Plasma/Kickoff>`_.
@@ -19,7 +19,7 @@ As a *KDE* distribution, Kubuntu uses the Kickoff Application Launcher by defaul
 KRunner
 ~~~~~~~~
 
-.. image:: ../images/Krunner.png
+.. image:: ../images/xenial/Krunner.png
    :align: center
 
 Like Kickoff, KRunner is a launcher, but it does a lot more than just launching applications. Usually KRunner is accessed by pressing Alt + Space. For more information on what it can do, see `Plasma Krunner <https://userbase.kde.org/Special:MyLanguage/Plasma/Krunner>`_.
@@ -27,7 +27,7 @@ Like Kickoff, KRunner is a launcher, but it does a lot more than just launching 
 Networking
 -----------
 
-.. image:: ../images/Network_Panel.png
+.. image:: ../images/xenial/Network_Panel.png
     :scale: 50 %
 
 Wired
