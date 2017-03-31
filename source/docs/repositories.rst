@@ -11,15 +11,15 @@ Add a Repository
 
 You can use the Muon Discover to add new repositories.
 
-**How-to**: Start Muon Discover. Select Sources, Configure Software Sources in the window. Enter your administrative password at the prompt. Left-click the 'Other Software' tab. Left-click the 'Add...' button. Enter the repository address into the text box. The proper format is required, and looks similar to this: ppa:kubuntu-ppa/backports Left-click the 'OK' button to add the repository. Left-click the 'Close' button. A prompt will appear to update the package list. Muon will now be allowed to find the newly available software. 
+**How-to**: Start Muon Discover. Select Settings, click 'More...' at the top of the window. Enter your administrative password at the prompt. Left-click the 'Other Software' tab. Left-click the 'Add...' button. Enter the repository address into the text box. The proper format is required, and looks similar to this: ppa:kubuntu-ppa/backports Left-click the 'OK' button to add the repository. Left-click the 'Close' button. A prompt will appear to update the package list. Muon will now be allowed to find the newly available software. 
 
-.. image:: ../images/managing-repositories.png
+.. image:: ../images/repos/SoftwareSources-zesty.png
     :align: center
     :scale: 50 %
-.. image:: ../images/managing-repositories-part2.png
+.. image:: ../images/repos/EditRepos-zesty.png
     :align: center
     :scale: 50 %
-.. image:: ../images/managing-repositories-part3.png
+.. image:: ../images/repos/EditRepo-zesty.png
     :align: center
     :scale: 50 %
     
