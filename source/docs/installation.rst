@@ -218,7 +218,7 @@ More about `encrypted file systems <https://help.ubuntu.com/community/EncryptedF
 Manual
 ```````
 
-.. image:: ../images/zesty/disksetup-full.png
+.. image:: ../images/zesty/disksetup-manual.png
     :align: center
 
 When using Manual to set up your system as you would like it, keep these thoughts in mind:
