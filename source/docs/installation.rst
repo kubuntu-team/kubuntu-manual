@@ -47,7 +47,7 @@ Run:
 
 .. code-block:: bash
 
-    md5 -r kubuntu-15.10-desktop-amd64.iso
+    md5 -r kubuntu-17.04-desktop-amd64.iso
 
 And compare the output to the hashes page for the ISO file.
 
@@ -59,7 +59,7 @@ The first thing to do is to make sure you're in the directory with the .iso file
 
 .. code-block:: bash
 
-    md5sum kubuntu-15.10-desktop-amd64.iso
+    md5sum kubuntu-17.04-desktop-amd64.iso
 
 
 Windows 7/8
@@ -158,7 +158,7 @@ Install Process
 
 First we'll need the Kubuntu Disk Image(ISO) from here: :ref:`get-kubuntu-link`
 
-.. image:: ../images/wily/welcome-15_10.png
+.. image:: ../images/welcome-slide.png
     :align: center
 
 When the installer starts you will see these options:
@@ -174,7 +174,7 @@ Fro the best result, ensure that:
 - Your computer has enough room for Kubuntu and your data - your songs, pictures, videos, and documents. 
 - Your computer is connected to the Internet so that you can download updates and third-party software as Kubuntu is installing. 
 
-.. image:: ../images/wily/prepare-15_10.png
+.. image:: ../images/zesty/prepare.png
     :align: center
     
 Include this third-party software: includes software that either does not follow the Open Source model or the `Ubuntu Philosophy <http://www.ubuntu.com/about/about-ubuntu/our-philosophy>`_, but is safe for use on your system. 
@@ -200,7 +200,7 @@ This will resize the partitions for you and install Kubuntu on the free space. W
 Use entire disk
 ````````````````
 
-.. image:: ../images/wily/disksetup_guided-entire-disk-15_10.png
+.. image:: ../images/zesty/disksetup-full.png
     :align: center
 
 .. warning:: This will wipe all your data    
@@ -218,7 +218,7 @@ More about `encrypted file systems <https://help.ubuntu.com/community/EncryptedF
 Manual
 ```````
 
-.. image:: ../images/wily/disksetup_manual-15_10.png
+.. image:: ../images/zesty/disksetup-full.png
     :align: center
 
 When using Manual to set up your system as you would like it, keep these thoughts in mind:
@@ -237,7 +237,7 @@ Timezone
 
 During this step you get to pick the Region where you live and then the Timezone of the location in that Region. An example would be that I live in New York, so my Region is North America and my Timezone is New York. 
 
-.. image:: ../images/wily/timezone-15_10.png
+.. image:: ../images/zesty/timezone.png
     :align: center
 
 Keyboard
@@ -245,7 +245,7 @@ Keyboard
 
 This is the step that will set up your keyboard's language and, if the language has it, a different version of the language. For example, there is a Cherokee American English setting as well as different setups with special keys used in certain countries; in Kubuntu we try to make the system easy for everyone! 
 
-.. image:: ../images/wily/keyboard-15_10.png
+.. image:: ../images/zesty/keyboard.png
     :align: center
 
 User Info
@@ -253,5 +253,5 @@ User Info
 
 At this step of the installation you will be putting in user information like your name, username, and password. The password will be your key to logging into your new installation as well as installing new software, updating your system, and more, so keep it written down somewhere! 
 
-.. image:: ../images/wily/userinfo-15_10.png
+.. image:: ../images/zesty/userinfo.png
     :align: center
