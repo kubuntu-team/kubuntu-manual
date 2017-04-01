@@ -27,7 +27,7 @@ Taken from the old Plasma Netbook interface we have the Application Dashboard me
 KRunner
 ~~~~~~~~
 
-.. image:: ../images/xenial/Krunner.png
+.. image:: ../images/Krunner-zesty.png
    :align: center
 
 Like Kickoff, KRunner is a launcher, but it does a lot more than just launching applications. Usually KRunner is accessed by pressing Alt + Space. For more information on what it can do, see `Plasma Krunner <https://userbase.kde.org/Special:MyLanguage/Plasma/Krunner>`_.
