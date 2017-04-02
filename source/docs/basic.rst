@@ -11,7 +11,7 @@ Launchers
 KickOff
 ~~~~~~~~~~
 
-.. image:: ../images/xenial/KickOff.png
+.. image:: ../images/Kickoff-zesty.png
     :scale: 50 %
   
 As a *KDE* distribution, Kubuntu uses the Kickoff Application Launcher by default. The Kickoff Launcher can be compared with the 'Start Menu' in Windows (pre Windows 8). The icon to launch Kickoff is on the bottom left very much like Windows XP or 7. For more information on how to use and customize it, see `Plasma Kickoff <https://userbase.kde.org/Special:MyLanguage/Plasma/Kickoff>`_.
@@ -69,6 +69,7 @@ Panel
 ~~~~~~
 
 .. image:: ../images/Panels-zesty.png
+    :align: left
     :scale: 50 %
 
 By right-clicking on the desktop once again, you can select Add Panel to get more panels. You can left-click the button on the far right side of the panel to alter the properties of the panel, like changing its height or width or adding Widgets, for example. For more information, see `Plasma Panels <https://userbase.kde.org/Special:MyLanguage/Plasma#Panels>`_. 
