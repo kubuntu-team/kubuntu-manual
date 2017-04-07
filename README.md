@@ -1,7 +1,7 @@
 Kubuntu Manual
 ===============
 
-Licensed under FDL v1.1
+Licensed under FDL v1.3
 
 17.04 STATUS: Updating text and screenshots
 
