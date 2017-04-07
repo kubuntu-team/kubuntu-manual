@@ -126,9 +126,9 @@ Dolphin is the default file manager in Kubuntu and can be compared with Windows 
 Updating
 ---------
 
-Kubuntu developers release feature and security updates for applications and packages within the Kubuntu system. When updates become available, Kubuntu will display a message in the System Tray. To update the system, open Muon Update Manager from either KickOff or Krunner and click the Install updates button. After installing some updates, it may be necessary to restart the computer. If so, Kubuntu will display a pop-up and an icon in the System Tray. 
+Kubuntu developers release feature and security updates for applications and packages within the Kubuntu system. When updates become available, Kubuntu will display a message in the System Tray. To update the system, open Discover from either the Application Menu or Krunner and click the Update button (usually yellow/orange when there are updates). After installing some updates, it may be necessary to restart the computer. If so, Kubuntu will display a pop-up and an icon in the System Tray. 
 
-.. image:: ../images/muonupdater-15_10.png
+.. image:: ../images/DiscoverUpdates-zesty.png
     :scale: 75 %
 
 `Basic`_
