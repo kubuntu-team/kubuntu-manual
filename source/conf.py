@@ -35,7 +35,7 @@ extensions = [
     'sphinx.ext.intersphinx',
     'sphinx.ext.todo',
     'sphinx.ext.coverage',
-    'sphinx.ext.pngmath',
+    'sphinx.ext.imgmath',
     'sphinx.ext.ifconfig',
     'sphinx.ext.viewcode',
 ]
@@ -61,7 +61,7 @@ copyright = u'2021, Kubuntu Team'
 # built documents.
 #
 # The short X.Y version.
-version = '16.04.1'
+version = '16.04.2'
 # The full version, including alpha/beta/rc tags.
 release = 'release'
 
