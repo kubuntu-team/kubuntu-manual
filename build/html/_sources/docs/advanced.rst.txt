@@ -13,19 +13,19 @@ There are several ways to manage applications in Kubuntu. A convenient way to ad
 Graphical Clients
 ~~~~~~~~~~~~~~~~~~
 
-By default Kubuntu comes with a great package manager called Muon Discover. Muon Discover is an advanced program with a graphical user interface (GUI) for installing and removing applications. It will automatically notify you for updates (in the lower right hand corner), but you can use it at anytime to install new packages by going to KickOff and type Muon. Select Muon Discover from the results. If you prefer the Ubuntu-style "Software Center" you will need to install it from within Muon.
+By default Kubuntu comes with a great package manager called Discover. Discover is an advanced program with a graphical user interface (GUI) for installing and removing applications. It will automatically notify you for updates (in the lower right hand corner), but you can use it at anytime to install new packages by going to KickOff and type . Select  Discover from the results. If you prefer the Ubuntu-style "Software Center" you will need to install it from within Discover.
 
-.. image:: ../images/repos/MuonDiscover-zesty.png
+.. image:: ../images/repos/Discover-zesty.png
 
-Muon Discover might provide information about required dependencies, these are other packages (programs) that the piece of software that you want to install needs to run. Once this information is acknowledged, the required packages will begin downloading. When the installation process is complete, the software will be ready to use. It is rarely necessary to restart the system after software installation or updates. If it is, the system will warn you and give you a restart icon to do the restart at your convenience.
+Discover might provide information about required dependencies, these are other packages (programs) that the piece of software that you want to install needs to run. Once this information is acknowledged, the required packages will begin downloading. When the installation process is complete, the software will be ready to use. It is rarely necessary to restart the system after software installation or updates. If it is, the system will warn you and give you a restart icon to do the restart at your convenience.
 
-Muon Discover also provides an easy method to remove software that is no longer needed. 
+Discover also provides an easy method to remove software that is no longer needed. 
 
 +--------------------------------------------------------------------------+
 |                           Tip:                                           |
 |                                                                          |
 | - Click on Installed and find the application you want to remove.        |
-| - Click Remove and Muon Discover will remove the application.            |                     
+| - Click Remove and Discover will remove the application.            |                     
 +--------------------------------------------------------------------------+
 
 Repositories

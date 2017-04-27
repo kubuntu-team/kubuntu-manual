@@ -48,4 +48,4 @@ The entire *Kubuntu* team thanks you for choosing *Kubuntu!*
 :Authors: 
     Kubuntu Team
 
-:Version: 17.04 Beta 2 ; Released:
+:Version: 17.04 ; Released: April 13, 2017
