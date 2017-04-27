@@ -1,15 +1,11 @@
 Kubuntu Manual
 ===============
 
-Licensed under FDL v1.1
-
-16.10 STATUS: Updating text and screenshots, adding sections like Activities and a Packaging Guide 
+Licensed under FDL v1.3
 
 ## To Do list
 
-- [ ] Update docs.kubuntu.org to 16.04.1
-- [ ] Find how python docs site handles versions (16.04.1 and 16.10)
-- [ ] Find how python docs site handles translations 
+- [ ] Update docs.kubuntu.org to 16.04.2
 
 ## How it works
 
@@ -18,7 +14,7 @@ The documentation is powered by [Sphinx](http://www.sphinx-doc.org/en/stable/).
 Run the following command to install the needed dependencies:
 
 ```
-sudo apt install python3-sphinx texlive-full && pip install sphinx_bootstrap_theme
+sudo apt install python3-sphinx python3-pip texlive-full && pip3 install sphinx_bootstrap_theme
 ```                                                                                                        
                                                                                                            
 You can see the options for building the documentation by running `make help`.                             
@@ -28,7 +24,7 @@ You can see the options for building the documentation by running `make help`.
 Documentation is here: http://www.sphinx-doc.org/en/stable/intl.html
 
 ```
-pip install sphinx-intl
+pip3 install sphinx-intl
 ```
 
 ## What you can do
