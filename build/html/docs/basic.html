@@ -5,7 +5,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>Basic &mdash; Kubuntu Manual beta1 documentation</title>
+    <title>Basic &#8212; Kubuntu Manual beta2 documentation</title>
     
     <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
@@ -15,10 +15,11 @@
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
         URL_ROOT:    '../',
-        VERSION:     'beta1',
+        VERSION:     'beta2',
         COLLAPSE_INDEX: false,
         FILE_SUFFIX: '.html',
-        HAS_SOURCE:  true
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
       };
     </script>
     <script type="text/javascript" src="../_static/jquery.js"></script>
@@ -28,7 +29,8 @@
     <script type="text/javascript" src="../_static/js/jquery-fix.js"></script>
     <script type="text/javascript" src="../_static/bootstrap-3.3.6/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="../_static/bootstrap-sphinx.js"></script>
-    <link rel="top" title="Kubuntu Manual beta1 documentation" href="../index.html" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Advanced" href="advanced.html" />
     <link rel="prev" title="Installation" href="installation.html" />
 <meta charset='utf-8'>
@@ -50,7 +52,7 @@
         </button>
         <a class="navbar-brand" href="../index.html">
           Kubuntu Manual</a>
-        <span class="navbar-text navbar-version pull-left"><b>16.10</b></span>
+        <span class="navbar-text navbar-version pull-left"><b>17.04</b></span>
       </div>
 
         <div class="collapse navbar-collapse nav-collapse">
@@ -95,7 +97,7 @@
             
               <li class="hidden-sm">
 <div id="sourcelink">
-  <a href="../_sources/docs/basic.txt"
+  <a href="../_sources/docs/basic.rst.txt"
      rel="nofollow">Source</a>
 </div></li>
             
@@ -122,6 +124,7 @@
 <li><a class="reference internal" href="#">Basic</a><ul>
 <li><a class="reference internal" href="#launchers">Launchers</a><ul>
 <li><a class="reference internal" href="#kickoff">KickOff</a></li>
+<li><a class="reference internal" href="#application-dashboard">Application Dashboard</a></li>
 <li><a class="reference internal" href="#krunner">KRunner</a></li>
 </ul>
 </li>
@@ -158,12 +161,17 @@
 <h2>Launchers<a class="headerlink" href="#launchers" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="kickoff">
 <h3>KickOff<a class="headerlink" href="#kickoff" title="Permalink to this headline">¶</a></h3>
-<a class="reference internal image-reference" href="../_images/KickOff.png"><img alt="../_images/KickOff.png" src="../_images/KickOff.png" style="width: 243.5px; height: 329.0px;" /></a>
+<a class="reference internal image-reference" href="../_images/Kickoff-zesty.png"><img alt="../_images/Kickoff-zesty.png" src="../_images/Kickoff-zesty.png" style="width: 241.5px; height: 322.0px;" /></a>
 <p>As a <em>KDE</em> distribution, Kubuntu uses the Kickoff Application Launcher by default. The Kickoff Launcher can be compared with the &#8216;Start Menu&#8217; in Windows (pre Windows 8). The icon to launch Kickoff is on the bottom left very much like Windows XP or 7. For more information on how to use and customize it, see <a class="reference external" href="https://userbase.kde.org/Special:MyLanguage/Plasma/Kickoff">Plasma Kickoff</a>.</p>
+</div>
+<div class="section" id="application-dashboard">
+<h3>Application Dashboard<a class="headerlink" href="#application-dashboard" title="Permalink to this headline">¶</a></h3>
+<a class="reference internal image-reference" href="../_images/AppDash-zesty.png"><img alt="../_images/AppDash-zesty.png" src="../_images/AppDash-zesty.png" style="width: 960.0px; height: 540.0px;" /></a>
+<p>Taken from the old Plasma Netbook interface we have the Application Dashboard menu for users with smaller screens ie. Netbooks or small laptops.</p>
 </div>
 <div class="section" id="krunner">
 <h3>KRunner<a class="headerlink" href="#krunner" title="Permalink to this headline">¶</a></h3>
-<img alt="../_images/Krunner.png" class="align-center" src="../_images/Krunner.png" />
+<img alt="../_images/Krunner-zesty.png" class="align-center" src="../_images/Krunner-zesty.png" />
 <p>Like Kickoff, KRunner is a launcher, but it does a lot more than just launching applications. Usually KRunner is accessed by pressing Alt + Space. For more information on what it can do, see <a class="reference external" href="https://userbase.kde.org/Special:MyLanguage/Plasma/Krunner">Plasma Krunner</a>.</p>
 </div>
 </div>
@@ -193,6 +201,7 @@
 </div>
 <div class="section" id="panel">
 <h3>Panel<a class="headerlink" href="#panel" title="Permalink to this headline">¶</a></h3>
+<a class="reference internal image-reference" href="../_images/Panels-zesty.png"><img alt="../_images/Panels-zesty.png" class="align-left" src="../_images/Panels-zesty.png" style="width: 222.5px; height: 275.0px;" /></a>
 <p>By right-clicking on the desktop once again, you can select Add Panel to get more panels. You can left-click the button on the far right side of the panel to alter the properties of the panel, like changing its height or width or adding Widgets, for example. For more information, see <a class="reference external" href="https://userbase.kde.org/Special:MyLanguage/Plasma#Panels">Plasma Panels</a>.</p>
 </div>
 <div class="section" id="activities">
@@ -231,8 +240,8 @@ Then select the News activity from the side bar.</p>
 </div>
 <div class="section" id="updating">
 <h2>Updating<a class="headerlink" href="#updating" title="Permalink to this headline">¶</a></h2>
-<p>Kubuntu developers release feature and security updates for applications and packages within the Kubuntu system. When updates become available, Kubuntu will display a message in the System Tray. To update the system, open Muon Update Manager from either KickOff or Krunner and click the Install updates button. After installing some updates, it may be necessary to restart the computer. If so, Kubuntu will display a pop-up and an icon in the System Tray.</p>
-<a class="reference internal image-reference" href="../_images/muonupdater-15_10.png"><img alt="../_images/muonupdater-15_10.png" src="../_images/muonupdater-15_10.png" style="width: 505.5px; height: 404.25px;" /></a>
+<p>Kubuntu developers release feature and security updates for applications and packages within the Kubuntu system. When updates become available, Kubuntu will display a message in the System Tray. To update the system, open Discover from either the Application Menu or Krunner and click the Update button (usually yellow/orange when there are updates). After installing some updates, it may be necessary to restart the computer. If so, Kubuntu will display a pop-up and an icon in the System Tray.</p>
+<a class="reference internal image-reference" href="../_images/DiscoverUpdates-zesty.png"><img alt="../_images/DiscoverUpdates-zesty.png" src="../_images/DiscoverUpdates-zesty.png" style="width: 1043.25px; height: 617.25px;" /></a>
 <p><a class="reference internal" href="#basic">Basic</a></p>
 </div>
 </div>
@@ -250,7 +259,7 @@ Then select the News activity from the side bar.</p>
     </p>
     <p>
         &copy; Copyright 2017, Kubuntu Team.<br/>
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.4.5.<br/>
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.5.3.<br/>
     </p>
   </div>
 </footer>

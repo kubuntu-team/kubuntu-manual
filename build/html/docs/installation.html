@@ -5,7 +5,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>Installation &mdash; Kubuntu Manual beta1 documentation</title>
+    <title>Installation &#8212; Kubuntu Manual beta2 documentation</title>
     
     <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
@@ -15,10 +15,11 @@
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
         URL_ROOT:    '../',
-        VERSION:     'beta1',
+        VERSION:     'beta2',
         COLLAPSE_INDEX: false,
         FILE_SUFFIX: '.html',
-        HAS_SOURCE:  true
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
       };
     </script>
     <script type="text/javascript" src="../_static/jquery.js"></script>
@@ -28,7 +29,8 @@
     <script type="text/javascript" src="../_static/js/jquery-fix.js"></script>
     <script type="text/javascript" src="../_static/bootstrap-3.3.6/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="../_static/bootstrap-sphinx.js"></script>
-    <link rel="top" title="Kubuntu Manual beta1 documentation" href="../index.html" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Basic" href="basic.html" />
     <link rel="prev" title="Welcome to Kubuntu" href="../welcome.html" />
 <meta charset='utf-8'>
@@ -50,7 +52,7 @@
         </button>
         <a class="navbar-brand" href="../index.html">
           Kubuntu Manual</a>
-        <span class="navbar-text navbar-version pull-left"><b>16.10</b></span>
+        <span class="navbar-text navbar-version pull-left"><b>17.04</b></span>
       </div>
 
         <div class="collapse navbar-collapse nav-collapse">
@@ -95,7 +97,7 @@
             
               <li class="hidden-sm">
 <div id="sourcelink">
-  <a href="../_sources/docs/installation.txt"
+  <a href="../_sources/docs/installation.rst.txt"
      rel="nofollow">Source</a>
 </div></li>
             
@@ -207,7 +209,7 @@ provide some <a class="reference external" href="https://support.microsoft.com/e
 <h4>From Mac OS X<a class="headerlink" href="#from-mac-os-x" title="Permalink to this headline">¶</a></h4>
 <p>Open the Terminal app, then navigate to the directory where the ISO is saved.
 Run:</p>
-<div class="highlight-bash"><div class="highlight"><pre><span></span>md5 -r kubuntu-15.10-desktop-amd64.iso
+<div class="highlight-bash"><div class="highlight"><pre><span></span>md5 -r kubuntu-17.04-desktop-amd64.iso
 </pre></div>
 </div>
 <p>And compare the output to the hashes page for the ISO file.</p>
@@ -215,7 +217,7 @@ Run:</p>
 <div class="section" id="from-ubuntu-linux">
 <h4>From Ubuntu Linux<a class="headerlink" href="#from-ubuntu-linux" title="Permalink to this headline">¶</a></h4>
 <p>The first thing to do is to make sure you&#8217;re in the directory with the .iso file (most likely in the Downloads directory). For more complex use of MD5SUM check this <a href="#id7"><span class="problematic" id="id8">`out https://help.ubuntu.com/community/HowToMD5SUM&gt;`_</span></a>. Then running the command &#8216;md5sum&#8217;:</p>
-<div class="highlight-bash"><div class="highlight"><pre><span></span>md5sum kubuntu-15.10-desktop-amd64.iso
+<div class="highlight-bash"><div class="highlight"><pre><span></span>md5sum kubuntu-17.04-desktop-amd64.iso
 </pre></div>
 </div>
 </div>
@@ -300,7 +302,7 @@ Run:</p>
 <p class="last">You will need to press a special key on the keyboard in order to boot from your chosen Installation Media. Ex: Esc, F2, F10, F12, or Del it all depends on the OEM(Original Equipment Manufacturer)</p>
 </div>
 <p>First we&#8217;ll need the Kubuntu Disk Image(ISO) from here: <a class="reference internal" href="#get-kubuntu-link"><span class="std std-ref">Preparing the Installation media</span></a></p>
-<img alt="docs/../images/wily/welcome-15_10.png" class="align-center" src="docs/../images/wily/welcome-15_10.png" />
+<img alt="../_images/welcome-slide.png" class="align-center" src="../_images/welcome-slide.png" />
 <p>When the installer starts you will see these options:</p>
 <ul class="simple">
 <li>Try out Kubuntu without changing anything on your computer</li>
@@ -313,7 +315,7 @@ Run:</p>
 <li>Your computer has enough room for Kubuntu and your data - your songs, pictures, videos, and documents.</li>
 <li>Your computer is connected to the Internet so that you can download updates and third-party software as Kubuntu is installing.</li>
 </ul>
-<img alt="docs/../images/wily/prepare-15_10.png" class="align-center" src="docs/../images/wily/prepare-15_10.png" />
+<img alt="../_images/prepare.png" class="align-center" src="../_images/prepare.png" />
 <p>Include this third-party software: includes software that either does not follow the Open Source model or the <a class="reference external" href="http://www.ubuntu.com/about/about-ubuntu/our-philosophy">Ubuntu Philosophy</a>, but is safe for use on your system.</p>
 <p>Download updates while installing: will ensure that you have the latest bug and security fixes included and applied once the installation is complete.</p>
 </div>
@@ -335,7 +337,7 @@ Run:</p>
 </div>
 <div class="section" id="use-entire-disk">
 <h4>Use entire disk<a class="headerlink" href="#use-entire-disk" title="Permalink to this headline">¶</a></h4>
-<img alt="docs/../images/wily/disksetup_guided-entire-disk-15_10.png" class="align-center" src="docs/../images/wily/disksetup_guided-entire-disk-15_10.png" />
+<img alt="../_images/disksetup-full.png" class="align-center" src="../_images/disksetup-full.png" />
 <div class="admonition warning">
 <p class="first admonition-title">Warning</p>
 <p class="last">This will wipe all your data</p>
@@ -351,7 +353,7 @@ Run:</p>
 </div>
 <div class="section" id="manual">
 <h4>Manual<a class="headerlink" href="#manual" title="Permalink to this headline">¶</a></h4>
-<img alt="docs/../images/wily/disksetup_manual-15_10.png" class="align-center" src="docs/../images/wily/disksetup_manual-15_10.png" />
+<img alt="../_images/disksetup-manual.png" class="align-center" src="../_images/disksetup-manual.png" />
 <p>When using Manual to set up your system as you would like it, keep these thoughts in mind:</p>
 <ul class="simple">
 <li>The root ( / ) directory needs at least 25 GBs of space.</li>
@@ -369,17 +371,17 @@ So it is best to use the remaining space for the home partition, unless you have
 <div class="section" id="timezone">
 <h3>Timezone<a class="headerlink" href="#timezone" title="Permalink to this headline">¶</a></h3>
 <p>During this step you get to pick the Region where you live and then the Timezone of the location in that Region. An example would be that I live in New York, so my Region is North America and my Timezone is New York.</p>
-<img alt="docs/../images/wily/timezone-15_10.png" class="align-center" src="docs/../images/wily/timezone-15_10.png" />
+<img alt="../_images/timezone.png" class="align-center" src="../_images/timezone.png" />
 </div>
 <div class="section" id="keyboard">
 <h3>Keyboard<a class="headerlink" href="#keyboard" title="Permalink to this headline">¶</a></h3>
 <p>This is the step that will set up your keyboard&#8217;s language and, if the language has it, a different version of the language. For example, there is a Cherokee American English setting as well as different setups with special keys used in certain countries; in Kubuntu we try to make the system easy for everyone!</p>
-<img alt="docs/../images/wily/keyboard-15_10.png" class="align-center" src="docs/../images/wily/keyboard-15_10.png" />
+<img alt="../_images/keyboard.png" class="align-center" src="../_images/keyboard.png" />
 </div>
 <div class="section" id="user-info">
 <h3>User Info<a class="headerlink" href="#user-info" title="Permalink to this headline">¶</a></h3>
 <p>At this step of the installation you will be putting in user information like your name, username, and password. The password will be your key to logging into your new installation as well as installing new software, updating your system, and more, so keep it written down somewhere!</p>
-<img alt="docs/../images/wily/userinfo-15_10.png" class="align-center" src="docs/../images/wily/userinfo-15_10.png" />
+<img alt="../_images/userinfo.png" class="align-center" src="../_images/userinfo.png" />
 </div>
 </div>
 </div>
@@ -397,7 +399,7 @@ So it is best to use the remaining space for the home partition, unless you have
     </p>
     <p>
         &copy; Copyright 2017, Kubuntu Team.<br/>
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.4.5.<br/>
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.5.3.<br/>
     </p>
   </div>
 </footer>
