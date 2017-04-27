@@ -3,12 +3,12 @@ Kubuntu Manual
 
 Licensed under FDL v1.3
 
-17.04 STATUS: Updating text and screenshots
+17.04 STATUS: RELEASED
 
 ## To Do list
 
-- [ ] Update docs.kubuntu.org to 16.04.1
-- [ ] Find how python docs site handles versions (16.04.1 and 17.04)
+- [ ] Update docs.kubuntu.org to 16.04.2
+- [ ] Find how python docs site handles versions (16.04.2 and 17.04)
 - [ ] Find how python docs site handles translations 
 
 ## How it works
@@ -28,7 +28,7 @@ You can see the options for building the documentation by running `make help`.
 Documentation is here: http://www.sphinx-doc.org/en/stable/intl.html
 
 ```
-pip install sphinx-intl
+pip3 install sphinx-intl
 ```
 
 ## What you can do
