@@ -15,7 +15,7 @@ Some basic graphics applications are installed in Kubuntu by default, allowing y
 - `Skanlite <https://userbase.kde.org/Special:MyLanguage/Skanlite>`_ is a simple image scanning application. 
 - `Gwenview <https://userbase.kde.org/Special:MyLanguage/Gwenview>`_ is an image viewer with many features. 
 - `Kamoso <https://userbase.kde.org/Special:MyLanguage/Kamoso>`_ is a webcam recorder from the *KDE* community. 
-- `KSnapshot <https://userbase.kde.org/Special:MyLanguage/KSnapshot>`_ is the best at desktop screenshots, simple and sweet. 
+- `Spectacle <https://www.kde.org/applications/graphics/spectacle/>`_ is the best at desktop screenshots, simple and sweet. 
 
 Internet
 ---------

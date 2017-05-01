@@ -9,9 +9,9 @@ Managing Repositories
 Add a Repository
 ~~~~~~~~~~~~~~~~~
 
-You can use the Muon Discover to add new repositories.
+You can use the Discover to add new repositories.
 
-**How-to**: Start Muon Discover. Select Settings, click 'More...' at the top of the window. Enter your administrative password at the prompt. Left-click the 'Other Software' tab. Left-click the 'Add...' button. Enter the repository address into the text box. The proper format is required, and looks similar to this: ppa:kubuntu-ppa/backports Left-click the 'OK' button to add the repository. Left-click the 'Close' button. A prompt will appear to update the package list. Muon will now be allowed to find the newly available software. 
+**How-to**: Start Discover. Select Settings, click 'More...' at the top of the window. Enter your administrative password at the prompt. Left-click the 'Other Software' tab. Left-click the 'Add...' button. Enter the repository address into the text box. The proper format is required, and looks similar to this: ppa:kubuntu-ppa/backports Left-click the 'OK' button to add the repository. Left-click the 'Close' button. A prompt will appear to update the package list. Muon will now be allowed to find the newly available software. 
 
 .. image:: ../images/repos/SoftwareSources-zesty.png
     :align: center
@@ -26,23 +26,23 @@ You can use the Muon Discover to add new repositories.
 Enable a Repository
 ~~~~~~~~~~~~~~~~~~~~
 
-You can use the Muon Discover to enable repositories.
+You can use the Discover to enable repositories.
 
-**How-to**: Start Muon Discover. Select Sources, Configure Software Sources in the window. Enter your administrative password at the prompt. Left-click the 'Other Software' tab. Check the appropriate box in the center section of the window to enable a repository. Left-click the 'Close' button. A prompt will appear to update the package list. Muon will now be allowed to find the newly available software. 
+**How-to**: Start Discover. Select Sources, Configure Software Sources in the window. Enter your administrative password at the prompt. Left-click the 'Other Software' tab. Check the appropriate box in the center section of the window to enable a repository. Left-click the 'Close' button. A prompt will appear to update the package list. Muon will now be allowed to find the newly available software. 
 
 Disable a Repository
 ~~~~~~~~~~~~~~~~~~~~~
 
-You can use the Muon Discover to disable repositories.
+You can use the Discover to disable repositories.
 
-**How-to**: Start Muon Discover. Select Sources, Configure Software Sources in the window. Enter your administrative password at the prompt. Left-click the 'Other Software' tab. Uncheck the appropriate box in the center section of the window to disable a repository. Left-click the 'Close' button. A prompt will appear to update the package list. Muon will now forget the no longer available software. 
+**How-to**: Start Discover. Select Sources, Configure Software Sources in the window. Enter your administrative password at the prompt. Left-click the 'Other Software' tab. Uncheck the appropriate box in the center section of the window to disable a repository. Left-click the 'Close' button. A prompt will appear to update the package list. Muon will now forget the no longer available software. 
 
 Remove a Repository
 ~~~~~~~~~~~~~~~~~~~~
 
-You can use the Muon Discover to remove repositories.
+You can use the Discover to remove repositories.
 
-**How-to**: Start Muon Discover. Select Sources, Configure Software Sources in the window. Enter your administrative password at the prompt. Left-click the 'Other Software' tab. Left-click the name of an existing repository in the center section of the window to select it. Left-click the 'Remove' button. Left-click the 'Close' button. A prompt will appear to update the package list. Muon will now forget the no longer available software. 
+**How-to**: Start Discover. Select Sources, Configure Software Sources in the window. Enter your administrative password at the prompt. Left-click the 'Other Software' tab. Left-click the name of an existing repository in the center section of the window to select it. Left-click the 'Remove' button. Left-click the 'Close' button. A prompt will appear to update the package list. Muon will now forget the no longer available software. 
 
 Managing Personal Package Archives
 -----------------------------------
@@ -54,11 +54,11 @@ Personal Package Archives allow any person in the Ubuntu community who has commi
 Add a PPA
 ~~~~~~~~~~
 
-You can use the Muon Discover to add a PPA:
+You can use the Discover to add a PPA:
 
 **How-to**: Open the Launchpad PPA overview page in your browser. Look for the location of the PPA in the 'Adding this PPA to your system' section.
 
-Open Muon Discover. Select Sources, Configure Software Sources in the window. Enter your administrative password at the prompt. Left-click on the 'Other Software' tab. Left-click the 'Add...' button. Paste the location you got from the PPA's overview page into the text box. Left-click the 'OK' button to add the repository. Left-click the 'Close' button. A prompt will appear to update the package list. Muon will now be allowed to find the newly available software.
+Open Discover. Select Sources, Configure Software Sources in the window. Enter your administrative password at the prompt. Left-click on the 'Other Software' tab. Left-click the 'Add...' button. Paste the location you got from the PPA's overview page into the text box. Left-click the 'OK' button to add the repository. Left-click the 'Close' button. A prompt will appear to update the package list. Muon will now be allowed to find the newly available software.
 
 You can use the command line to add a PPA on 9.10 Karmic Koala or newer Kubuntu systems:
 
@@ -69,11 +69,11 @@ Open a terminal window. Add the PPA to your system by entering this command in t
 Remove a PPA
 ~~~~~~~~~~~~~
 
-You can use the Muon Discover to add a PPA:
+You can use the Discover to add a PPA:
 
 **How-to**: Open the Launchpad PPA overview page in your browser. Look for the location of the PPA in the 'Adding this PPA to your system' section.
 
-Open Muon Discover. Select Sources, Configure Software Sources in the window. Enter your administrative password at the prompt. Left-click on the 'Other Software' tab. Left-click the 'Add...' button. Paste the location you got from the PPA's overview page into the text box. Left-click the 'OK' button to add the repository. Left-click the 'Close' button. A prompt will appear to update the package list. Muon will now be allowed to find the newly available software.
+Open Discover. Select Sources, Configure Software Sources in the window. Enter your administrative password at the prompt. Left-click on the 'Other Software' tab. Left-click the 'Add...' button. Paste the location you got from the PPA's overview page into the text box. Left-click the 'OK' button to add the repository. Left-click the 'Close' button. A prompt will appear to update the package list. Muon will now be allowed to find the newly available software.
 
 You can use the command line to add a PPA on 9.10 Karmic Koala or newer Kubuntu systems:
 
