@@ -18,10 +18,10 @@ You can use the Discover to add new repositories.
     :scale: 50 %
 .. image:: ../images/repos/EditRepos-zesty.png
     :align: center
-    :scale: 50 %
+    :scale: 75 %
 .. image:: ../images/repos/EditRepo-zesty.png
     :align: center
-    :scale: 50 %
+    :scale: 75 %
     
 Enable a Repository
 ~~~~~~~~~~~~~~~~~~~~
