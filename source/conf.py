@@ -297,7 +297,7 @@ texinfo_documents = [
 epub_title = u'Kubuntu Manual'
 epub_author = u'Kubuntu Team'
 epub_publisher = u'Kubuntu Team'
-epub_copyright = u'2015, Kubuntu Team'
+epub_copyright = u'2021, Kubuntu Team'
 
 # The basename for the epub file. It defaults to the project name.
 #epub_basename = u'Kubuntu Manual'
