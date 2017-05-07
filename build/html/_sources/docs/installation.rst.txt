@@ -55,7 +55,7 @@ And compare the output to the hashes page for the ISO file.
 From Ubuntu Linux
 ``````````````````
 
-The first thing to do is to make sure you're in the directory with the .iso file (most likely in the Downloads directory). For more complex use of MD5SUM check this `out https://help.ubuntu.com/community/HowToMD5SUM>`_. Then running the command 'md5sum':
+The first thing to do is to make sure you're in the directory with the .iso file (most likely in the Downloads directory). For more complex use of MD5SUM check this `out <https://help.ubuntu.com/community/HowToMD5SUM>`_. Then running the command 'md5sum':
 
 .. code-block:: bash
 
