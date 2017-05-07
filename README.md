@@ -3,6 +3,8 @@ Kubuntu Manual
 
 Licensed under FDL v1.3
 
+![](https://travis-ci.org/ahoneybun/kubuntu-manual.svg?branch=master)
+
 17.04 STATUS: RELEASED
 
 ## To Do list
