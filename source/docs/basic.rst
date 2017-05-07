@@ -19,7 +19,7 @@ KickOff
 As a *KDE* distribution, Kubuntu uses the Kickoff Application Launcher by default. The Kickoff Launcher can be compared with the 'Start Menu' in Windows (pre Windows 8). The icon to launch Kickoff is on the bottom left very much like Windows XP or 7. For more information on how to use and customize it, see `Plasma Kickoff <https://userbase.kde.org/Special:MyLanguage/Plasma/Kickoff>`_.
 
 Application Dashboard
-~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: ../images/AppDash-zesty.png
     :scale: 50 %

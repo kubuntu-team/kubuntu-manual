@@ -82,7 +82,7 @@ You can use the command line to add a PPA on 9.10 Karmic Koala or newer Kubuntu 
 Open a terminal window. Add the PPA to your system by entering this command in the terminal window, replacing Location with the location you got from the PPA's overview page: sudo add-apt-repository Location Update the package index by entering this command in the terminal window: sudo apt-get update You can now install software from the PPA. 
 
 Kubuntu Backports
-~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~
 
 The Kubuntu Backports are "Backports of new versions of KDE Platform, Plasma and Applications as well as major KDE apps for Kubuntu." As any PPA you should know how to remove it before you add it so please do read above on how to do so. The Backports exist because of the Ubuntu release cycle, if there is a new Plasma, Applications or Frameworks after the freeze or release of a new Ubuntu release we package it up for you to enjoy.
 

@@ -25,7 +25,7 @@ Discover also provides an easy method to remove software that is no longer neede
 |                           Tip:                                           |
 |                                                                          |
 | - Click on Installed and find the application you want to remove.        |
-| - Click Remove and Discover will remove the application.            |                     
+| - Click Remove and Discover will remove the application.                 |
 +--------------------------------------------------------------------------+
 
 Repositories

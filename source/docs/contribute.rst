@@ -27,20 +27,20 @@ Before you send a message, check to see if the topic has been raised in the past
 Kubuntu Users
 ~~~~~~~~~~~~~~
 
-- `Register <https://lists.ubuntu.com/mailman/listinfo/kubuntu-users>`_
-- `Archive <https://lists.ubuntu.com/archives/kubuntu-users>`_
+- [Register](https://lists.ubuntu.com/mailman/listinfo/kubuntu-users)
+- [Archive](https://lists.ubuntu.com/archives/kubuntu-users)
 
 Kubuntu Development
 ~~~~~~~~~~~~~~~~~~~~
 
-- `Register <https://lists.ubuntu.com/mailman/listinfo/kubuntu-devel>`_
-- `Archive <https://lists.ubuntu.com/archives/kubuntu-devel>`_
+- [Register](https://lists.ubuntu.com/mailman/listinfo/kubuntu-devel)
+- [Archive](https://lists.ubuntu.com/archives/kubuntu-devel)
 
 Kubuntu Documentation
 ~~~~~~~~~~~~~~~~~~~~~~
 
-- `Register <https://lists.ubuntu.com/mailman/listinfo/ubuntu-doc>`_
-- `Archive <https://lists.ubuntu.com/archives/ubuntu-doc>`_
+- [Register](https://lists.ubuntu.com/mailman/listinfo/ubuntu-doc)
+- [Archive](https://lists.ubuntu.com/archives/ubuntu-doc)
 
 Kubuntu IRC Channels
 ---------------------
