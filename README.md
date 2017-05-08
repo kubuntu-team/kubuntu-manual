@@ -3,6 +3,8 @@ Kubuntu Manual
 
 Licensed under FDL v1.3
 
+![](https://travis-ci.org/ahoneybun/kubuntu-manual.svg?branch=kubuntu-16.04-LTS)
+
 ## To Do list
 
 - [ ] Update docs.kubuntu.org to 16.04.2
