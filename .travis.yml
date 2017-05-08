@@ -1,0 +1,18 @@
+sudo: required
+dist: trusty
+
+before_install:
+  - sudo apt-get -qq update
+  - sudo apt-get -y install python3-pip texlive-full
+  - sudo pip3 install --upgrade pip
+  - sudo pip3 install sphinx
+  - sudo pip3 install sphinx_bootstrap_theme
+
+enenv:
+  matrix:
+  - COMMAND="make clean && make html"
+  - COMMAND="make clean && make latexpdf"
+  - COMMAND="make clean && make epub"
+
+script:
+  - bash -c "$COMMAND"
