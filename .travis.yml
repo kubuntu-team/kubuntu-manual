@@ -15,7 +15,9 @@ enenv:
   - COMMAND="make clean && make epub"
 
 notifications:
-  irc: "chat.freenode.net#kubuntu-devel"
+  email: 
+     - aaronhoneycutt@kubuntu.org
+  irc: "irc://chat.freenode.net:6667#kubuntu-devel"
 
 script:
   - bash -c "$COMMAND"
