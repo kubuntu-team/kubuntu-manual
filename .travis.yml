@@ -14,6 +14,15 @@ env:
   - COMMAND="make clean && make latexpdf"
   - COMMAND="make clean && make epub"
 
+deploy:
+  provider: releases
+  user: ahoneybun
+  password: 
+  file: TRAVIS_BUILD_DIR/build/epub/KubuntuManual.epub
+  skip_cleanup: true
+  on:
+    tags: true
+  
 notifications:
   email: 
      - aaronhoneycutt@kubuntu.org
