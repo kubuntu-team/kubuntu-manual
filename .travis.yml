@@ -21,7 +21,7 @@ deploy:
   file: TRAVIS_BUILD_DIR/build/epub/KubuntuManual.epub
   skip_cleanup: true
   on:
-    tags: true
+    tags: false
   
 notifications:
   email: 
