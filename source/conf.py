@@ -297,7 +297,7 @@ texinfo_documents = [
 epub_title = u'Kubuntu Manual'
 epub_author = u'Kubuntu Team'
 epub_publisher = u'Kubuntu Team'
-epub_copyright = u'2021, Kubuntu Team'
+epub_copyright = u'2017, Kubuntu Team'
 
 # The basename for the epub file. It defaults to the project name.
 #epub_basename = u'Kubuntu Manual'
@@ -306,7 +306,7 @@ epub_copyright = u'2021, Kubuntu Team'
 # for small screen space, using the same theme for HTML and epub output is
 # usually not wise. This defaults to 'epub', a theme designed to save visual
 # space.
-#epub_theme = 'epub'
+epub_theme = 'epub'
 
 # The language of the text. It defaults to the language option
 # or en if the language is not set.
@@ -352,7 +352,7 @@ epub_exclude_files = ['search.html']
 #epub_fix_images = False
 
 # Scale large images.
-#epub_max_image_width = 0
+epub_max_image_width = 0
 
 # How to display URL addresses: 'footnote', 'no', or 'inline'.
 #epub_show_urls = 'inline'

@@ -47,7 +47,7 @@ Run:
 
 .. code-block:: bash
 
-    md5 -r kubuntu-15.10-desktop-amd64.iso
+    md5 -r kubuntu-16.04.2-desktop-amd64.iso
 
 And compare the output to the hashes page for the ISO file.
 
