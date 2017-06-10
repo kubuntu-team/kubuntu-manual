@@ -17,7 +17,7 @@ env:
 deploy:
   provider: releases
   user: ahoneybun
-  password: 
+  password: Frappe92
   file: TRAVIS_BUILD_DIR/build/epub/KubuntuManual.epub
   skip_cleanup: true
   on:
