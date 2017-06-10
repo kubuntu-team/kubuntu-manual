@@ -8,7 +8,7 @@ before_install:
   - sudo pip3 install sphinx
   - sudo pip3 install sphinx_bootstrap_theme
 
-enenv:
+env:
   matrix:
   - COMMAND="make clean && make html"
   - COMMAND="make clean && make latexpdf"
