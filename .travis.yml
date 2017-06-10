@@ -17,6 +17,10 @@ env:
 notifications:
   email: 
      - aaronhoneycutt@kubuntu.org
+  pushover:
+    api_key: [arievyx8tbx5z5gxjh6p44sb9mwmpc]
+    users:
+      - [usmitnk6my6gv8dgvdxmx395omemou]
   irc: "irc://chat.freenode.net:6667#kubuntu-devel"
 
 script:
