@@ -14,6 +14,9 @@ env:
   - COMMAND="make clean && make latexpdf"
   - COMMAND="make clean && make epub"
   
+addons:
+  ssh_known_hosts: 23.92.28.147
+
 deploy:
   provider: script
   skip_cleanup: true
