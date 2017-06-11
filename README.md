@@ -9,7 +9,7 @@ Licensed under FDL v1.3
 
 ## To Do list
 
-- [ ] Find how python docs site handles translations 
+- [ ] To Do 
 
 ## How it works
 
