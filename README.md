@@ -5,11 +5,11 @@ Licensed under FDL v1.3
 
 ![](https://travis-ci.org/ahoneybun/kubuntu-manual.svg?branch=master)
 
-17.04 STATUS: RELEASED
+17.10 STATUS: WIP
 
 ## To Do list
 
-- [ ] Find how python docs site handles translations 
+- [ ] To Do
 
 ## How it works
 
