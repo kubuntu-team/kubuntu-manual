@@ -16,12 +16,12 @@ env:
 
 deploy:
   provider: releases
-  user: ahoneybun
-  password: Frappe92
+  api_key:
+    secure: 7ffd2c4a77f748df14ec04fda46a422e6e697fdb
   file: TRAVIS_BUILD_DIR/build/epub/KubuntuManual.epub
   skip_cleanup: true
   on:
-    tags: false
+    tags: true
   
 notifications:
   email: 
