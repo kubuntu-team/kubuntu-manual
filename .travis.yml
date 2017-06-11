@@ -8,11 +8,16 @@ before_install:
   - sudo pip3 install sphinx
   - sudo pip3 install sphinx_bootstrap_theme
 
-enenv:
+env:
   matrix:
   - COMMAND="make clean && make html"
   - COMMAND="make clean && make latexpdf"
   - COMMAND="make clean && make epub"
+  
+notifications:
+  email:
+  - aaronhoneycutt@kubuntu.org
+  irc: "irc://chat.freenode.net:6667#kubuntu-devel"
 
 script:
   - bash -c "$COMMAND"

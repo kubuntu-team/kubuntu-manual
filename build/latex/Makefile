@@ -3,17 +3,24 @@
 ALLDOCS = $(basename $(wildcard *.tex))
 ALLPDF = $(addsuffix .pdf,$(ALLDOCS))
 ALLDVI = $(addsuffix .dvi,$(ALLDOCS))
+ALLPS  = $(addsuffix .ps,$(ALLDOCS))
 
 # Prefix for archive names
 ARCHIVEPRREFIX =
 # Additional LaTeX options
 LATEXOPTS =
+# format: pdf or dvi
+FMT = pdf
+
+LATEX = latex
+PDFLATEX = pdflatex
+MAKEINDEX = makeindex
+
 
 all: $(ALLPDF)
 all-pdf: $(ALLPDF)
 all-dvi: $(ALLDVI)
-all-ps: all-dvi
-	for f in *.dvi; do dvips $$f; done
+all-ps: $(ALLPS)
 
 all-pdf-ja:
 	for f in *.pdf *.png *.gif *.jpg *.jpeg; do extractbb $$f; done
@@ -37,30 +44,38 @@ tar: all-$(FMT)
 	tar cf $(ARCHIVEPREFIX)docs-$(FMT).tar $(ARCHIVEPREFIX)docs-$(FMT)
 	rm -r $(ARCHIVEPREFIX)docs-$(FMT)
 
+gz: tar
+	gzip -9 < $(ARCHIVEPREFIX)docs-$(FMT).tar > $(ARCHIVEPREFIX)docs-$(FMT).tar.gz
+
 bz2: tar
 	bzip2 -9 -k $(ARCHIVEPREFIX)docs-$(FMT).tar
+
+xz: tar
+	xz -9 -k $(ARCHIVEPREFIX)docs-$(FMT).tar
 
 # The number of LaTeX runs is quite conservative, but I don't expect it
 # to get run often, so the little extra time won't hurt.
 %.dvi: %.tex
-	latex $(LATEXOPTS) '$<'
-	latex $(LATEXOPTS) '$<'
-	latex $(LATEXOPTS) '$<'
-	-makeindex -s python.ist '$(basename $<).idx'
-	latex $(LATEXOPTS) '$<'
-	latex $(LATEXOPTS) '$<'
+	$(LATEX) $(LATEXOPTS) '$<'
+	$(LATEX) $(LATEXOPTS) '$<'
+	$(LATEX) $(LATEXOPTS) '$<'
+	-$(MAKEINDEX) -s python.ist '$(basename $<).idx'
+	$(LATEX) $(LATEXOPTS) '$<'
+	$(LATEX) $(LATEXOPTS) '$<'
 
 %.pdf: %.tex
-	pdflatex $(LATEXOPTS) '$<'
-	pdflatex $(LATEXOPTS) '$<'
-	pdflatex $(LATEXOPTS) '$<'
-	-makeindex -s python.ist '$(basename $<).idx'
-	pdflatex $(LATEXOPTS) '$<'
-	pdflatex $(LATEXOPTS) '$<'
+	$(PDFLATEX) $(LATEXOPTS) '$<'
+	$(PDFLATEX) $(LATEXOPTS) '$<'
+	$(PDFLATEX) $(LATEXOPTS) '$<'
+	-$(MAKEINDEX) -s python.ist '$(basename $<).idx'
+	$(PDFLATEX) $(LATEXOPTS) '$<'
+	$(PDFLATEX) $(LATEXOPTS) '$<'
+
+%.ps: %.dvi
+	dvips '$<'
 
 clean:
-	rm -f *.dvi *.log *.ind *.aux *.toc *.syn *.idx *.out *.ilg *.pla
+	rm -f *.log *.ind *.aux *.toc *.syn *.idx *.out *.ilg *.pla *.ps *.tar *.tar.gz *.tar.bz2 *.tar.xz $(ALLPDF) $(ALLDVI)
 
-.PHONY: all all-pdf all-dvi all-ps clean
+.PHONY: all all-pdf all-dvi all-ps clean zip tar gz bz2 xz
 .PHONY: all-pdf-ja
-
