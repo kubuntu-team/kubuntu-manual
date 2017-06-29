@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+                  "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<article>
+  <articleinfo>
+    <title>Basic</title>
+  </articleinfo>
+<para>
+  This section of the Documentation will cover the components available
+  within Kubuntu to meet your desired functionality and make Kubuntu
+  your own.
+</para>
+<sect1 id="launchers">
+  <title>Launchers</title>
+  <sect2 id="kickoff">
+    <title>KickOff</title>
+    <para>
+      <ulink url="https://userbase.kde.org/Special:MyLanguage/Plasma/Kickoff"><inlinemediaobject>
+        <imageobject>
+          <imagedata fileref="../images/Kickoff-zesty.png" />
+        </imageobject>
+      </inlinemediaobject></ulink>
+    </para>
+    <para>
+      As a <emphasis>KDE</emphasis> distribution, Kubuntu uses the
+      Kickoff Application Launcher by default. The Kickoff Launcher can
+      be compared with the <quote>Start Menu</quote> in Windows (pre
+      Windows 8). The icon to launch Kickoff is on the bottom left very
+      much like Windows XP or 7. For more information on how to use and
+      customize it, see
+      <ulink url="https://userbase.kde.org/Special:MyLanguage/Plasma/Kickoff">Plasma
+      Kickoff</ulink>.
+    </para>
+  </sect2>
+  <sect2 id="application-dashboard">
+    <title>Application Dashboard</title>
+    <para>
+      <inlinemediaobject>
+        <imageobject>
+          <imagedata fileref="../images/AppDash-zesty.png" />
+        </imageobject>
+      </inlinemediaobject>
+    </para>
+    <para>
+      Taken from the old Plasma Netbook interface we have the
+      Application Dashboard menu for users with smaller screens ie.
+      Netbooks or small laptops.
+    </para>
+  </sect2>
+  <sect2 id="krunner">
+    <title>KRunner</title>
+    <para>
+      <ulink url="https://userbase.kde.org/Special:MyLanguage/Plasma/Krunner"><inlinemediaobject>
+        <imageobject>
+          <imagedata fileref="../images/Krunner-zesty.png" />
+        </imageobject>
+      </inlinemediaobject></ulink>
+    </para>
+    <para>
+      Like Kickoff, KRunner is a launcher, but it does a lot more than
+      just launching applications. Usually KRunner is accessed by
+      pressing Alt + Space. For more information on what it can do, see
+      <ulink url="https://userbase.kde.org/Special:MyLanguage/Plasma/Krunner">Plasma
+      Krunner</ulink>.
+    </para>
+  </sect2>
+</sect1>
+<sect1 id="networking">
+  <title>Networking</title>
+  <para>
+    <inlinemediaobject>
+      <imageobject>
+        <imagedata fileref="../images/Network_Panel-zesty.png" />
+      </imageobject>
+    </inlinemediaobject>
+  </para>
+  <sect2 id="wired">
+    <title>Wired</title>
+    <para>
+      In most cases the wired network connection will simply work
+      without any changes to the default Kubuntu configuration. Wired
+      network connections are selected as default when they are
+      available.
+    </para>
+  </sect2>
+  <sect2 id="wireless">
+    <title>Wireless</title>
+    <para>
+      Most Wireless cards are supported out of the box by Kubuntu.
+      However, in some cases the Wireless network device may have a
+      restricted driver in order to operate. The best way to check this
+      is to open the <quote>Driver Manager</quote>. To open this program
+      use <quote>KickOff</quote> -&gt; <quote>System Settings</quote>
+      -&gt; <quote>Driver Manager</quote>. If the device needs a
+      restricted driver, then <quote>Driver Manager</quote> can help
+      with selecting, installing, and activating the proper driver. Once
+      this is all handled, the system will need to be rebooted. For more
+      information on troubleshooting Wi-Fi on your system, see
+      <ulink url="https://help.ubuntu.com/community/WifiDocs/WirelessTroubleShootingGuide">Wireless
+      troubleshooting</ulink>.
+    </para>
+  </sect2>
+</sect1>
+<sect1 id="deskop-customization">
+  <title>Deskop Customization</title>
+  <para>
+    This section covers the basics of configuring Kubuntu to suit your
+    needs. One of the strengths of the <emphasis>KDE</emphasis>
+    philosophy is the focus on control of just about every aspect of the
+    desktop environment. Wallpapers, themes, widgets, color schemes,
+    splash screens, and more; the options for customization are endless.
+  </para>
+  <para>
+    KDE-Look is the number one location to find customized settings for
+    the <emphasis>KDE</emphasis> Plasma desktop. Some of the
+    applications even allow direct connections to KDE-Look to download a
+    new configuration or image.
+  </para>
+  <sect2 id="themes">
+    <title>Themes</title>
+    <para>
+      Kubuntu allows themes to be changed easily. To change your theme
+      go to System Settings -&gt; Workspace Theme in the Desktop Theme
+      section, then choose from the list of installed themes. You can
+      change the theme of the Desktop Theme, Cursor Theme, and the
+      Splash Screen. Pick from the default choices that are installed,
+      or left-click the <quote>Get New…</quote> button in each section
+      for more choices.
+    </para>
+  </sect2>
+  <sect2 id="plasmoids">
+    <title>Plasmoids</title>
+    <para>
+      Plasmoids (also called Widgets) can be added by right-clicking the
+      desktop and selecting Add Widgets…, which will bring up a list of
+      Widgets. For more information, see
+      <ulink url="https://userbase.kde.org/Special:MyLanguage/Plasma#Widgets">Plasma
+      Widgets</ulink>.
+    </para>
+  </sect2>
+  <sect2 id="panel">
+    <title>Panel</title>
+    <para>
+      <inlinemediaobject>
+        <imageobject>
+          <imagedata fileref="../images/Panels-zesty.png" />
+        </imageobject>
+      </inlinemediaobject>
+    </para>
+    <para>
+      By right-clicking on the desktop once again, you can select Add
+      Panel to get more panels. You can left-click the button on the far
+      right side of the panel to alter the properties of the panel, like
+      changing its height or width or adding Widgets, for example. For
+      more information, see
+      <ulink url="https://userbase.kde.org/Special:MyLanguage/Plasma#Panels">Plasma
+      Panels</ulink>.
+    </para>
+  </sect2>
+  <sect2 id="activities">
+    <title>Activities</title>
+    <para>
+      Activites are specific and exclusive to KDE. As such they’re often
+      under utilised and misunderstood. In this section we’re going to
+      explore what KDE Activities are, how to set them up, and how to
+      use them.
+    </para>
+    <para>
+      Think for a moment about your average day working on your PC. It
+      will often traverse different activities. For example doing email
+      and researching things on the internet, perhaps developing some
+      documents, working on a piece of software, writing your thesis in
+      LaTeX etc…
+    </para>
+    <para>
+      Commonly KDE users might use Virtual desktops to seperate these
+      workspaces.
+    </para>
+    <para>
+      KDE Activites in Kubuntu provide a slick way to setup and
+      configure environments specific to your task routines. For example
+      your might want to have your email, and social networks configured
+      as one activity. Perhaps your research, and writing for your
+      thesis configured as another activity.
+    </para>
+  </sect2>
+  <sect2 id="activities-first-look">
+    <title>Activities first look</title>
+    <para>
+      <inlinemediaobject>
+        <imageobject>
+          <imagedata fileref="../images/basic/activity_desktop_side_bar.png" />
+        </imageobject>
+      </inlinemediaobject>
+    </para>
+    <para>
+      Let’s take a look at the default KDE Activities configured in
+      Kubuntu. Right Click anywhere on the empty desktop and choose
+      <quote>Activities</quote> from the menu. The Activities side bar
+      appears on the left, with the Default activity. Notice the +
+      Create Activity at the bottom. Click that, and lets created a new
+      <quote>Social</quote> Activity. Enter <quote>Social</quote> as the
+      Activity name: and then click Create.
+    </para>
+    <para>
+      That’s it you have created your first activity.
+    </para>
+    <para>
+      You can theme, and configured this new activity desktop in the
+      same ways as mentioned early in this section of the manual.
+    </para>
+  </sect2>
+  <sect2 id="a-step-further">
+    <title>A Step Further</title>
+    <para>
+      OK, looking good, lets create another activity. Call this one
+      <quote>News</quote>. Once created switch to this activity, either
+      by Right Click on the Desktop &gt; Activities or use the Keyboard
+      shortcut Alt+D,A ( Hold Alt down, press D, then Press A ) Then
+      select the News activity from the side bar.
+    </para>
+    <para>
+      OK, lets configure a few useful tools
+    </para>
+    <orderedlist numeration="arabic" spacing="compact">
+      <listitem>
+        <para>
+          Change the desktop wallpaper to something you like
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Right click &gt; Add Widgets, and add the Digital Clock
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Right click &gt; Add Widgets, and add the Web Browser
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          Right click &gt; Add Widgets, and add the RSS
+        </para>
+      </listitem>
+    </orderedlist>
+    <para>
+      You can now resize these widgets and lay them out on the desktop
+      however you wish. and configure them to suit your needs, as in the
+      example below.
+    </para>
+    <para>
+      <inlinemediaobject>
+        <imageobject>
+          <imagedata fileref="../images/basic/activity_desktop_news.png" />
+        </imageobject>
+      </inlinemediaobject>
+    </para>
+    <sect3 id="dolphin">
+      <title>Dolphin</title>
+      <para>
+        Dolphin is the default file manager in Kubuntu and can be
+        compared with Windows Explorer. Dolphin looks simple because of
+        great design, while having many powerful features. For more
+        information, see
+        <ulink url="https://userbase.kde.org/Special:MyLanguage/Dolphin">Dolphin</ulink>.
+      </para>
+    </sect3>
+  </sect2>
+</sect1>
+<sect1 id="updating">
+  <title>Updating</title>
+  <para>
+    Kubuntu developers release feature and security updates for
+    applications and packages within the Kubuntu system. When updates
+    become available, Kubuntu will display a message in the System Tray.
+    To update the system, open Discover from either the Application Menu
+    or Krunner and click the Update button (usually yellow/orange when
+    there are updates). After installing some updates, it may be
+    necessary to restart the computer. If so, Kubuntu will display a
+    pop-up and an icon in the System Tray.
+  </para>
+  <para>
+    <inlinemediaobject>
+      <imageobject>
+        <imagedata fileref="../images/DiscoverUpdates-zesty.png" />
+      </imageobject>
+    </inlinemediaobject>
+  </para>
+  <para>
+    Basic_
+  </para>
+</sect1>
+</article>
