@@ -27,6 +27,7 @@ notifications:
   email: 
      - aaronhoneycutt@kubuntu.org
   irc: "irc://chat.freenode.net:6667#kubuntu-devel"
+  slack: kubuntu:puzVpRNriVEjjGOmGqvws9FU
 
 script:
   - bash -c "$COMMAND"
