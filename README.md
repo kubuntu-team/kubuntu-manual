@@ -5,7 +5,7 @@ Licensed under FDL v1.3
 
 ![](https://travis-ci.org/ahoneybun/kubuntu-manual.svg?branch=master)
 
-17.10 STATUS: WIP
+17.10 STATUS: Alpha2
 
 ## To Do list
 
