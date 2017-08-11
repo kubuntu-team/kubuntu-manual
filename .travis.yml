@@ -17,7 +17,7 @@ env:
 deploy:
   provider: releases
   api_key:
-    secure: 7ffd2c4a77f748df14ec04fda46a422e6e697fdb
+    secure: 9bb8924dd0f1801bb210bebe9e00c71ac73fcc7a
   file: TRAVIS_BUILD_DIR/build/epub/KubuntuManual.epub
   skip_cleanup: true
   on:
