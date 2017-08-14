@@ -10,7 +10,7 @@ before_install:
 - sudo pip3 install sphinx_bootstrap_theme
 
 env:
-  - COMMAND="make clean && make html && make latexpdf && make epub"
+  - COMMAND="make clean html latexpdf epub"
   
 before_deploy: 
   "mv build/latex/KubuntuManual.pdf build/latex/KubuntuManual-17.10.pdf"
@@ -21,7 +21,7 @@ deploy:
     secure: ru0XfAzW/WBz+FS+3+aA8f5XUk74JljJLV7m0HRTUdTOQVBDvdaTEb7oTfBCkjM/cPc/U2sb3eXITU5PAhyId+dX8ezu7swqq8I3k4v48AFg/jnUzn46GO1U4jmwAgtLfXjAqTHYrXEtjxA0Ep6EwJ4w8zmPkf4Kfr9KzJESVhMcJzv4GDykl5Gbb+vZ+aj6BxsoD1CgO59yCdrxiPrx+IScF6GBGQrhL9Xm5QqJPtEg/r3jTTIok25FoWjRIl5Un40Hza+imXlSnn8HtUq/bwwJTjYSei+b/yCk+k+q/pQd9aLTxQvkGTmWQHp8wccUyv7ee7cgnOO82IVu7uo3bgpbN1VKDt2wOa7P7UtJ5Es5NMG+IUld4M/+Cyw85I8jo9YONJHePft8WeJ3bWo+f2d3AyPItRktOBSapvPSaaUHJaN3/nAoiEEPl8ydRjV9b5JBgDA+SRRTbxFJGr0nebpCvBu1w+HsqV/B+K6F2t7FcpCAS8TJIFPi83Ot37/HzZmFgtBTN7UFN7j38d/58IaUrOEqe4QEwnKp8zWzA75W3+wm+04KtzRL7y5hY/vjxmqciI6OgqBWl4XOp6IMgo1m5Zd7xNvq4I/btUxyk0xhDUrv1HMtUItrZm03StytrdZZ+a583HNz0SszJWn2jY06ngLyYLlNXL5ng8kRSxM=
   file: 
   - "build/epub/KubuntuManual.epub"
-  - "build/latex/KubuntuManual.pdf"
+  - "build/latex/KubuntuManual-17.10.pdf"
   skip_cleanup: true
   on:
     tags: true
