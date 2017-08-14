@@ -13,8 +13,8 @@ env:
   - COMMAND="make clean && make html && make latexpdf && make epub"
   
 before_deploy: 
-  - mv build/epub/KubuntuManual.epub build/epub/KubuntuManual-17.10.epub \
-  && mv build/latex/KubuntuManual.pdf build/latex/KubuntuManual-17.10.pdf \
+  "mv build/epub/KubuntuManual.epub build/epub/KubuntuManual-17.10.epub \
+  && mv build/latex/KubuntuManual.pdf build/latex/KubuntuManual-17.10.pdf \"
   
 deploy:
   provider: releases
