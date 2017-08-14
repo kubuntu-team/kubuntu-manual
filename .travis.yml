@@ -10,7 +10,7 @@ before_install:
 - sudo pip3 install sphinx_bootstrap_theme
 
 env:
-  - COMMAND="clean && make html && make latexpdf && make epub"
+  - COMMAND="make clean && make html && make latexpdf && make epub"
   
 deploy:
   provider: releases
