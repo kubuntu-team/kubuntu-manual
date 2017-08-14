@@ -10,7 +10,7 @@ before_install:
 - sudo pip3 install sphinx_bootstrap_theme
 
 env:
-  - make clean && make html && make latexpdf && make epub
+  - COMMAND="clean && make html && make latexpdf && make epub"
   
 deploy:
   provider: releases
@@ -28,4 +28,5 @@ notifications:
   - aaronhoneycutt@kubuntu.org
   irc: irc://chat.freenode.net:6667#kubuntu-devel
   slack: kubuntu:puzVpRNriVEjjGOmGqvws9FU
-
+script:
+- bash -c "$COMMAND"
