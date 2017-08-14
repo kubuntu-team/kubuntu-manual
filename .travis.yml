@@ -30,7 +30,8 @@ deploy:
 notifications:
   email:
   - aaronhoneycutt@kubuntu.org
-  irc: irc://chat.freenode.net:6667#kubuntu-devel
+  irc: 
+  - irc://chat.freenode.net:6667#kubuntu-devel
     on_success: change # default: always
     on_failure: always # default: always
   slack: kubuntu:puzVpRNriVEjjGOmGqvws9FU
