@@ -13,6 +13,7 @@ env:
   - make clean && make html && make latexpdf && make epub
   
 before_deploy:
+  - test $TRAVIS_TEST_RESULT = 0 \# checks that build worked first
   - mv build/epub/KubuntuManual.epub build/epub/KubuntuManual-17.10.epub
   
 deploy:
@@ -31,5 +32,3 @@ notifications:
   - aaronhoneycutt@kubuntu.org
   irc: irc://chat.freenode.net:6667#kubuntu-devel
   slack: kubuntu:puzVpRNriVEjjGOmGqvws9FU
-script:
-- bash -c "$COMMAND"
