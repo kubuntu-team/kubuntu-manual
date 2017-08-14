@@ -9,10 +9,11 @@ before_install:
 - sudo pip3 install sphinx
 - sudo pip3 install sphinx_bootstrap_theme
 
-matrix:
-  env:
-  - COMMAND="make clean && make html && make latexpdf && make epub"
-  - COMMAND="mv build/epub/KubuntuManual.epub build/epub/KubuntuManual-17.10.epub"
+env:
+  - make clean && make html && make latexpdf && make epub
+  
+before_deploy:
+  - mv build/epub/KubuntuManual.epub build/epub/KubuntuManual-17.10.epub
   
 deploy:
   provider: releases
