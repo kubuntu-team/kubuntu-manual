@@ -30,6 +30,11 @@ deploy:
 notifications:
   email:
   - aaronhoneycutt@kubuntu.org
+  irc: irc://chat.freenode.net:6667#kubuntu-devel
+    template:
+      - "%{repository}#%{build_number} (%{branch} : %{message}"
+    on_success: change # default: always
+    on_failure: always # default: always
   slack: kubuntu:puzVpRNriVEjjGOmGqvws9FU
 script:
 - bash -c "$COMMAND"
