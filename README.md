@@ -1,7 +1,8 @@
 Kubuntu Manual
 ===============
 
-Licensed under FDL v1.3
+Licensed under CC-BY-SA 4.0 
+Following this: https://community.kde.org/Policies/Licensing_Policy
 
 ![](https://travis-ci.org/ahoneybun/kubuntu-manual.svg?branch=kubuntu-16.04-LTS)
 
