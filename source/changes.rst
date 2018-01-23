@@ -12,6 +12,10 @@ Thanks for reading this! Second I'll try to keep this as up to date as humanly p
 Changes
 -------
 
+23/1/18 - ahoneybun <aaronhoneycutt@kubuntu.org>
+
+* started 18.04 branch
+
 07/8/16 - ahoneybun <aaronhoneycutt@kubuntu.org>
 
 * added sections from Lubuntu Manual [https://github.com/tsimonq2/lubuntu-manual] 
@@ -42,3 +46,4 @@ Changes
 * changed "deb http://ppa.launchpad.net/kubuntu-ppa/backports/ubuntu vivid main" to "ppa:kubuntu-ppa/backports"
 * fixed some images not showing up
 * changed Kubuntu to *Kubuntu* and KDE to *KDE* in the files
+
