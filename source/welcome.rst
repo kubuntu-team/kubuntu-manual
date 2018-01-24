@@ -48,4 +48,4 @@ The entire *Kubuntu* team thanks you for choosing *Kubuntu!*
 :Authors: 
     Kubuntu Team
 
-:Version: 17.10 ; Released: WIP
+:Version: 18.04 ; Released: WIP
