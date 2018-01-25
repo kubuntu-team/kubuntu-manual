@@ -6,8 +6,6 @@ Following this: https://community.kde.org/Policies/Licensing_Policy
 
 ![](https://travis-ci.org/ahoneybun/kubuntu-manual.svg?branch=master)
 
-17.10 STATUS: Alpha2
-
 ## To Do list
 
 - [ ] To Do
