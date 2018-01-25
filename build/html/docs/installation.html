@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Installation &#8212; Kubuntu Manual Alpha2 documentation</title>
+    <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     'Alpha2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-sphinx.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Basic" href="basic.html" />
+    <link rel="prev" title="Welcome to Kubuntu" href="../welcome.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  </head>
+  <body>
+
+  <div id="navbar" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../index.html">
+          Kubuntu Manual</a>
+        <span class="navbar-text navbar-version pull-left"><b>18.04</b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="../index.html">Sections <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../welcome.html">Welcome to <em>Kubuntu</em></a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="basic.html">Basic</a></li>
+<li class="toctree-l1"><a class="reference internal" href="advanced.html">Advanced</a></li>
+<li class="toctree-l1"><a class="reference internal" href="repositories.html">Repositories</a></li>
+<li class="toctree-l1"><a class="reference internal" href="software.html">Software</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contribute.html">Contribute</a></li>
+<li class="toctree-l1"><a class="reference internal" href="support.html">Support</a></li>
+<li class="toctree-l1"><a class="reference internal" href="packaging_guide/packaging.html">Kubuntu Packagers Guide</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="packaging_guide/welcome.html">Welcome</a></li>
+<li class="toctree-l2"><a class="reference internal" href="packaging_guide/getting_started.html">Getting Started</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="appendix/appendix.html">Appendix</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="appendix/changes.html">Changelog</a></li>
+<li class="toctree-l2"><a class="reference internal" href="appendix/references.html">References</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+            
+            
+            
+              <li class="hidden-sm">
+<div id="sourcelink">
+  <a href="../_sources/docs/installation.rst.txt"
+     rel="nofollow">Source</a>
+</div></li>
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+      <div class="col-md-3">
+        <div id="sidebar" class="bs-sidenav" role="complementary"><ul>
+<li><a class="reference internal" href="#">Installation</a><ul>
+<li><a class="reference internal" href="#why-try-kubuntu">Why try Kubuntu?</a></li>
+<li><a class="reference internal" href="#preparing-the-installation-media">Preparing the Installation media</a><ul>
+<li><a class="reference internal" href="#checking-the-md5sum">Checking the MD5SUM</a><ul>
+<li><a class="reference internal" href="#from-windows-xp-7-8-10">From Windows XP -&gt; 7 -&gt; 8 -&gt; 10</a></li>
+<li><a class="reference internal" href="#from-mac-os-x">From Mac OS X</a></li>
+<li><a class="reference internal" href="#from-ubuntu-linux">From Ubuntu Linux</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#windows-7-8">Windows 7/8</a><ul>
+<li><a class="reference internal" href="#usb-flash-drives">USB/Flash Drives</a></li>
+<li><a class="reference internal" href="#dvd">DVD</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#mac-os-x">Mac OS X</a></li>
+<li><a class="reference internal" href="#existing-kubuntu-install">Existing Kubuntu Install</a><ul>
+<li><a class="reference internal" href="#id1">USB/Flash Drives</a></li>
+<li><a class="reference internal" href="#id2">DVD</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#other-linux-distributions">Other Linux Distributions</a></li>
+<li><a class="reference internal" href="#gnome-environment">GNOME Environment</a><ul>
+<li><a class="reference internal" href="#id3">USB/Flash Drives</a></li>
+<li><a class="reference internal" href="#id4">DVD</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#kde-environment">KDE Environment</a><ul>
+<li><a class="reference internal" href="#id5">USB/Flash Drives</a></li>
+<li><a class="reference internal" href="#id6">DVD</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#install-process">Install Process</a><ul>
+<li><a class="reference internal" href="#prepare">Prepare</a></li>
+<li><a class="reference internal" href="#disk-setup">Disk Setup</a><ul>
+<li><a class="reference internal" href="#resize">Resize</a></li>
+<li><a class="reference internal" href="#use-entire-disk">Use entire disk</a></li>
+<li><a class="reference internal" href="#use-entire-disk-and-set-up-lvm">Use entire disk and set up LVM</a></li>
+<li><a class="reference internal" href="#use-entire-disk-and-set-up-encrypted-lvm">Use entire disk and set up encrypted LVM</a></li>
+<li><a class="reference internal" href="#manual">Manual</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#timezone">Timezone</a></li>
+<li><a class="reference internal" href="#keyboard">Keyboard</a></li>
+<li><a class="reference internal" href="#user-info">User Info</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    <div class="col-md-9 content">
+      
+  <div class="section" id="installation">
+<h1>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="why-try-kubuntu">
+<h2>Why try Kubuntu?<a class="headerlink" href="#why-try-kubuntu" title="Permalink to this headline">¶</a></h2>
+<p>There are many good reasons to install Kubuntu!
+Some of them include:</p>
+<ul class="simple">
+<li>Kubuntu makes your PC friendly.</li>
+<li>Kubuntu is an operating system built by a friendly worldwide team of expert developers.
+It contains all the applications you need: web browser, office suite, media apps,
+instant messaging, and many others. For a list of the included software, see the
+<a class="reference internal" href="software.html#software-link"><span class="std std-ref">Software</span></a> page.</li>
+<li>Kubuntu is a free, open-source alternative to Windows and Mac OS X.</li>
+<li>Easily install beside, or instead of, Windows.</li>
+</ul>
+</div>
+<div class="section" id="preparing-the-installation-media">
+<span id="get-kubuntu-link"></span><h2>Preparing the Installation media<a class="headerlink" href="#preparing-the-installation-media" title="Permalink to this headline">¶</a></h2>
+<p>Getting the ISO(Disc Image):</p>
+<p>Download it though <a class="reference external" href="http://www.kubuntu.org/getkubuntu/">Get Kubuntu</a>.</p>
+<div class="section" id="checking-the-md5sum">
+<h3>Checking the MD5SUM<a class="headerlink" href="#checking-the-md5sum" title="Permalink to this headline">¶</a></h3>
+<p id="checksum-link">Doing this will make sure your download completed fully and has given you a fully working ISO to boot and perhaps later install from.</p>
+<div class="section" id="from-windows-xp-7-8-10">
+<h4>From Windows XP -&gt; 7 -&gt; 8 -&gt; 10<a class="headerlink" href="#from-windows-xp-7-8-10" title="Permalink to this headline">¶</a></h4>
+<p>Microsoft Windows does not have any built-in tools for MD5SUM but they do
+provide some <a class="reference external" href="https://support.microsoft.com/en-us/kb/841290">decent documentation</a> and a tool for checking the MD5SUM. How-To-Geek also provides some <a class="reference external" href="http://www.howtogeek.com/67241/htg-explains-what-are-md5-sha-1-hashes-and-how-do-i-check-them/">reading material</a> if you want to understand the technology behind MD5SUM if you like.</p>
+</div>
+<div class="section" id="from-mac-os-x">
+<h4>From Mac OS X<a class="headerlink" href="#from-mac-os-x" title="Permalink to this headline">¶</a></h4>
+<p>Open the Terminal app, then navigate to the directory where the ISO is saved.
+Run:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>md5 -r kubuntu-17.04-desktop-amd64.iso
+</pre></div>
+</div>
+<p>And compare the output to the hashes page for the ISO file.</p>
+</div>
+<div class="section" id="from-ubuntu-linux">
+<h4>From Ubuntu Linux<a class="headerlink" href="#from-ubuntu-linux" title="Permalink to this headline">¶</a></h4>
+<p>The first thing to do is to make sure you’re in the directory with the .iso file (most likely in the Downloads directory). For more complex use of MD5SUM check this <a class="reference external" href="https://help.ubuntu.com/community/HowToMD5SUM">out</a>. Then running the command ‘md5sum’:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>md5sum kubuntu-17.04-desktop-amd64.iso
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="windows-7-8">
+<h3>Windows 7/8<a class="headerlink" href="#windows-7-8" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="usb-flash-drives">
+<span id="usb-drives-link"></span><h4>USB/Flash Drives<a class="headerlink" href="#usb-flash-drives" title="Permalink to this headline">¶</a></h4>
+<p>For a GUI (Graphic User Interface) we use <a class="reference external" href="http://unetbootin_link/">UNetBootin</a>.</p>
+<p>If you choose the <cite>Diskimage</cite> option you use the <cite>…</cite> button to select your downloaded ISO. Then click OK.</p>
+<img alt="../_images/unetbootin-win78.png" class="align-center" src="../_images/unetbootin-win78.png" />
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">Pay special attention when selecting the right USB device under ‘Drive’</p>
+</div>
+</div>
+<div class="section" id="dvd">
+<h4>DVD<a class="headerlink" href="#dvd" title="Permalink to this headline">¶</a></h4>
+<p>The recommended tool to use is <a class="reference external" href="http://www.imgburn.com/">ImgBurn</a>. There is a excellent how-to on the ImgBurn forums by the admin <a class="reference external" href="http://forum.imgburn.com/index.php?/topic/61-how-to-write-an-image-file-to-a-disc-using-imgburn/">here</a>.</p>
+</div>
+</div>
+<div class="section" id="mac-os-x">
+<span id="kubuntu-install-link"></span><h3>Mac OS X<a class="headerlink" href="#mac-os-x" title="Permalink to this headline">¶</a></h3>
+<p>Burn an installer DVD using <a class="reference external" href="https://help.ubuntu.com/community/BurningIsoHowto#Burning_from_Mac_OS_X">Disk Utility</a>.</p>
+</div>
+<div class="section" id="existing-kubuntu-install">
+<h3>Existing Kubuntu Install<a class="headerlink" href="#existing-kubuntu-install" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id1">
+<h4>USB/Flash Drives<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h4>
+<p>Since UNetBootin is a cross-platform application we will be using the same instructions from <a class="reference internal" href="#usb-drives-link"><span class="std std-ref">USB/Flash Drives</span></a></p>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">Be extremely careful to set /dev/sdX to the right value, if you point it to your hard drive you will wipe the disk.</p>
+</div>
+</div>
+<div class="section" id="id2">
+<h4>DVD<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h4>
+<img alt="../_images/K3b.png" class="align-center" src="../_images/K3b.png" />
+<p>Look for <cite>More actions…</cite> click it then pick <cite>Burn image…</cite> from the list of actions</p>
+<img alt="../_images/K3b-1.png" class="align-center" src="../_images/K3b-1.png" />
+<p>Then you select the ISO(Disk Image) that you want to burn to the DVD from your computer.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Most torrent and browsers store your downloads in the ‘Download’ directory.</p>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Most of the default setting for K3b for DVD burning are fine</p>
+</div>
+</div>
+</div>
+<div class="section" id="other-linux-distributions">
+<h3>Other Linux Distributions<a class="headerlink" href="#other-linux-distributions" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="gnome-environment">
+<h3>GNOME Environment<a class="headerlink" href="#gnome-environment" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id3">
+<h4>USB/Flash Drives<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h4>
+<p>For USB/Flash Drives we’ll be stick to using UNetBootin from this tutorial: <a class="reference internal" href="#usb-drives-link"><span class="std std-ref">USB/Flash Drives</span></a></p>
+</div>
+<div class="section" id="id4">
+<h4>DVD<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h4>
+<img alt="../_images/UbuntuGNOMEBrasero.png" class="align-center" src="../_images/UbuntuGNOMEBrasero.png" />
+<p>For Linux Distributions that use GNOME we’ll be using the default DVD burning tool Brasero.</p>
+</div>
+</div>
+<div class="section" id="kde-environment">
+<h3>KDE Environment<a class="headerlink" href="#kde-environment" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id5">
+<h4>USB/Flash Drives<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h4>
+</div>
+<div class="section" id="id6">
+<h4>DVD<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h4>
+<p>You can follow the same instructions as a <a class="reference internal" href="#kubuntu-install-link"><span class="std std-ref">Mac OS X</span></a></p>
+</div>
+</div>
+</div>
+<div class="section" id="install-process">
+<h2>Install Process<a class="headerlink" href="#install-process" title="Permalink to this headline">¶</a></h2>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">You will need to press a special key on the keyboard in order to boot from your chosen Installation Media. Ex: Esc, F2, F10, F12, or Del it all depends on the OEM(Original Equipment Manufacturer)</p>
+</div>
+<p>First we’ll need the Kubuntu Disk Image(ISO) from here: <a class="reference internal" href="#get-kubuntu-link"><span class="std std-ref">Preparing the Installation media</span></a></p>
+<img alt="../_images/welcome-slide.png" class="align-center" src="../_images/welcome-slide.png" />
+<p>When the installer starts you will see these options:</p>
+<ul class="simple">
+<li>Try out Kubuntu without changing anything on your computer</li>
+<li>Install Kubuntu on your computer.</li>
+</ul>
+<div class="section" id="prepare">
+<h3>Prepare<a class="headerlink" href="#prepare" title="Permalink to this headline">¶</a></h3>
+<p>Fro the best result, ensure that:</p>
+<ul class="simple">
+<li>Your computer has enough room for Kubuntu and your data - your songs, pictures, videos, and documents.</li>
+<li>Your computer is connected to the Internet so that you can download updates and third-party software as Kubuntu is installing.</li>
+</ul>
+<img alt="../_images/prepare.png" class="align-center" src="../_images/prepare.png" />
+<p>Include this third-party software: includes software that either does not follow the Open Source model or the <a class="reference external" href="http://www.ubuntu.com/about/about-ubuntu/our-philosophy">Ubuntu Philosophy</a>, but is safe for use on your system.</p>
+<p>Download updates while installing: will ensure that you have the latest bug and security fixes included and applied once the installation is complete.</p>
+</div>
+<div class="section" id="disk-setup">
+<h3>Disk Setup<a class="headerlink" href="#disk-setup" title="Permalink to this headline">¶</a></h3>
+<p>This is where you choose how to organize your hard drive. This step is the most complicated and consequential in the entire install process, so take your time.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">You will be able to change your mind and go back until the Install Now button is clicked</p>
+</div>
+<p>The following sections are some possible installation scenarios you might choose. Each of these choices points to a page or series of pages with more details. For each option (except Manual), the installer asks which hard drive to use. After choosing, you will see a before and after layout on that hard drive.</p>
+<div class="section" id="resize">
+<h4>Resize<a class="headerlink" href="#resize" title="Permalink to this headline">¶</a></h4>
+<p>This will resize the partitions for you and install Kubuntu on the free space. With this option you can create what is called a dual-boot and choose which OS to boot into at startup.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">This is available only at least 25GB can be freed</p>
+</div>
+</div>
+<div class="section" id="use-entire-disk">
+<h4>Use entire disk<a class="headerlink" href="#use-entire-disk" title="Permalink to this headline">¶</a></h4>
+<img alt="../_images/disksetup-full.png" class="align-center" src="../_images/disksetup-full.png" />
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">This will wipe all your data</p>
+</div>
+</div>
+<div class="section" id="use-entire-disk-and-set-up-lvm">
+<h4>Use entire disk and set up LVM<a class="headerlink" href="#use-entire-disk-and-set-up-lvm" title="Permalink to this headline">¶</a></h4>
+<p>More about <a class="reference external" href="https://wiki.ubuntu.com/Lvm">LVM</a></p>
+</div>
+<div class="section" id="use-entire-disk-and-set-up-encrypted-lvm">
+<h4>Use entire disk and set up encrypted LVM<a class="headerlink" href="#use-entire-disk-and-set-up-encrypted-lvm" title="Permalink to this headline">¶</a></h4>
+<p>More about <a class="reference external" href="https://help.ubuntu.com/community/EncryptedFilesystems">encrypted file systems</a></p>
+</div>
+<div class="section" id="manual">
+<h4>Manual<a class="headerlink" href="#manual" title="Permalink to this headline">¶</a></h4>
+<img alt="../_images/disksetup-manual.png" class="align-center" src="../_images/disksetup-manual.png" />
+<p>When using Manual to set up your system as you would like it, keep these thoughts in mind:</p>
+<ul class="simple">
+<li>The root ( / ) directory needs at least 25 GBs of space.</li>
+<li>The home ( /home ) directory needs as much space as you will need for your files, music, pictures and documents.
+So it is best to use the remaining space for the home partition, unless you have going to dual boot.</li>
+<li>Swap space of at least half of the available RAM is recommended. For instance, with 8 GBs, make the swap with at least 4 GBs.</li>
+</ul>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">If you have a Windows 8 sticker on your machine you might need to make a separate EFI partition with a fat32 filesystem.</p>
+</div>
+<p>For more detailed information regarding the Disk Setup of a linux system you can check the <a class="reference external" href="https://help.ubuntu.com/community/DiskSpace">DiskSpace</a> page.</p>
+</div>
+</div>
+<div class="section" id="timezone">
+<h3>Timezone<a class="headerlink" href="#timezone" title="Permalink to this headline">¶</a></h3>
+<p>During this step you get to pick the Region where you live and then the Timezone of the location in that Region. An example would be that I live in New York, so my Region is North America and my Timezone is New York.</p>
+<img alt="../_images/timezone.png" class="align-center" src="../_images/timezone.png" />
+</div>
+<div class="section" id="keyboard">
+<h3>Keyboard<a class="headerlink" href="#keyboard" title="Permalink to this headline">¶</a></h3>
+<p>This is the step that will set up your keyboard’s language and, if the language has it, a different version of the language. For example, there is a Cherokee American English setting as well as different setups with special keys used in certain countries; in Kubuntu we try to make the system easy for everyone!</p>
+<img alt="../_images/keyboard.png" class="align-center" src="../_images/keyboard.png" />
+</div>
+<div class="section" id="user-info">
+<h3>User Info<a class="headerlink" href="#user-info" title="Permalink to this headline">¶</a></h3>
+<p>At this step of the installation you will be putting in user information like your name, username, and password. The password will be your key to logging into your new installation as well as installing new software, updating your system, and more, so keep it written down somewhere!</p>
+<img alt="../_images/userinfo.png" class="align-center" src="../_images/userinfo.png" />
+</div>
+</div>
+</div>
+
+
+    </div>
+      
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+    </p>
+    <p>
+        &copy; Copyright 2018, Kubuntu Team.<br/>
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.6.5.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>

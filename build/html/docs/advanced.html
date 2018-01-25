@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Advanced &#8212; Kubuntu Manual Alpha2 documentation</title>
+    <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     'Alpha2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-sphinx.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Repositories" href="repositories.html" />
+    <link rel="prev" title="Basic" href="basic.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  </head>
+  <body>
+
+  <div id="navbar" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../index.html">
+          Kubuntu Manual</a>
+        <span class="navbar-text navbar-version pull-left"><b>18.04</b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="../index.html">Sections <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../welcome.html">Welcome to <em>Kubuntu</em></a></li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="basic.html">Basic</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Advanced</a></li>
+<li class="toctree-l1"><a class="reference internal" href="repositories.html">Repositories</a></li>
+<li class="toctree-l1"><a class="reference internal" href="software.html">Software</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contribute.html">Contribute</a></li>
+<li class="toctree-l1"><a class="reference internal" href="support.html">Support</a></li>
+<li class="toctree-l1"><a class="reference internal" href="packaging_guide/packaging.html">Kubuntu Packagers Guide</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="packaging_guide/welcome.html">Welcome</a></li>
+<li class="toctree-l2"><a class="reference internal" href="packaging_guide/getting_started.html">Getting Started</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="appendix/appendix.html">Appendix</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="appendix/changes.html">Changelog</a></li>
+<li class="toctree-l2"><a class="reference internal" href="appendix/references.html">References</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+            
+            
+            
+              <li class="hidden-sm">
+<div id="sourcelink">
+  <a href="../_sources/docs/advanced.rst.txt"
+     rel="nofollow">Source</a>
+</div></li>
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+      <div class="col-md-3">
+        <div id="sidebar" class="bs-sidenav" role="complementary"><ul>
+<li><a class="reference internal" href="#">Advanced</a><ul>
+<li><a class="reference internal" href="#software-management">Software Management</a><ul>
+<li><a class="reference internal" href="#graphical-clients">Graphical Clients</a></li>
+<li><a class="reference internal" href="#repositories">Repositories</a></li>
+<li><a class="reference internal" href="#ppas-personal-package-archive">PPAs (Personal Package Archive)</a></li>
+<li><a class="reference internal" href="#install-uninstall-deb-files">Install/Uninstall ‘.deb’ files</a><ul>
+<li><a class="reference internal" href="#install-from-source">Install from Source</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#drivers">Drivers</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    <div class="col-md-9 content">
+      
+  <div class="section" id="advanced">
+<span id="advanced-link"></span><h1>Advanced<a class="headerlink" href="#advanced" title="Permalink to this headline">¶</a></h1>
+<p>You can further customize your Kubuntu installation by adding new software packages. Below you will find several methods to install new packages (software).</p>
+<div class="section" id="software-management">
+<h2>Software Management<a class="headerlink" href="#software-management" title="Permalink to this headline">¶</a></h2>
+<p>There are several ways to manage applications in Kubuntu. A convenient way to add or remove applications is with a package manager.</p>
+<div class="section" id="graphical-clients">
+<h3>Graphical Clients<a class="headerlink" href="#graphical-clients" title="Permalink to this headline">¶</a></h3>
+<p>By default Kubuntu comes with a great package manager called Discover. Discover is an advanced program with a graphical user interface (GUI) for installing and removing applications. It will automatically notify you for updates (in the lower right hand corner), but you can use it at anytime to install new packages by going to KickOff and type . Select  Discover from the results. If you prefer the Ubuntu-style “Software Center” you will need to install it from within Discover.</p>
+<img alt="../_images/Discover-zesty.png" src="../_images/Discover-zesty.png" />
+<p>Discover might provide information about required dependencies, these are other packages (programs) that the piece of software that you want to install needs to run. Once this information is acknowledged, the required packages will begin downloading. When the installation process is complete, the software will be ready to use. It is rarely necessary to restart the system after software installation or updates. If it is, the system will warn you and give you a restart icon to do the restart at your convenience.</p>
+<p>Discover also provides an easy method to remove software that is no longer needed.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><blockquote class="first">
+<div>Tip:</div></blockquote>
+<ul class="last simple">
+<li>Click on Installed and find the application you want to remove.</li>
+<li>Click Remove and Discover will remove the application.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="repositories">
+<h3>Repositories<a class="headerlink" href="#repositories" title="Permalink to this headline">¶</a></h3>
+<p>Thousands of programs are freely available to install in Kubuntu. These programs are stored in software archives (“repositories”) and are made available for installation over the Internet. Installing new programs in Kubuntu is quick, reliable, and secure because each program is built specifically for Kubuntu and is checked thoroughly before it is made available. Kubuntu repositories are categorized into four groups:</p>
+<ul class="simple">
+<li>Main</li>
+<li>Restricted</li>
+<li>Universe</li>
+<li>Multiverse</li>
+</ul>
+<p>Two factors are used to determine categories</p>
+<ul class="simple">
+<li>The level of support provided for a program by its software development teams.</li>
+<li>The level of compliance the program has to the <a class="reference external" href="http://www.ubuntu.com/about/about-ubuntu/our-philosophy">Ubuntu Free Software Philosophy</a>.</li>
+</ul>
+<p>The standard Kubuntu LiveDVD contains some software from the “Main” and “Restricted” categories. Once a system has information about the Internet-based locations for these repositories, more programs are available for installation. Using the software package management tools installed by default, it is possible to discover, install, and update any piece of software directly over the internet without the need for the LiveDVD.</p>
+<p>For more information about managing repositories, click on <a class="reference external" href="https://help.ubuntu.com/community/Repositories">Managing Repositories</a>.</p>
+</div>
+<div class="section" id="ppas-personal-package-archive">
+<h3>PPAs (Personal Package Archive)<a class="headerlink" href="#ppas-personal-package-archive" title="Permalink to this headline">¶</a></h3>
+<p>Personal Package Archives allow any person in the Ubuntu community who has committed to observe the <a class="reference external" href="https://launchpad.net/codeofconduct">Ubuntu Code of Conduct</a> to upload Ubuntu source packages to be built and published as an apt repository by Launchpad. Software from Launchpad’s <a class="reference external" href="https://launchpad.net/ubuntu/+ppas">Personal Package Archive</a> (PPA) requires a <a class="reference external" href="https://www.gnupg.org/">GnuPG</a> (GPG) key so your system can verify that it’s getting the packages from the correct source and that the packages have not been interfered with since they were built. GnuPG is GNU’s tool for secure communication and data storage.</p>
+<p>For more information about PPAs, see <a class="reference external" href="https://userbase.kde.org/Kubuntu/Advanced/Repositories#Managing_Personal_Package_Archives">Managing Personal Package Archives</a>.</p>
+</div>
+<div class="section" id="install-uninstall-deb-files">
+<h3>Install/Uninstall ‘.deb’ files<a class="headerlink" href="#install-uninstall-deb-files" title="Permalink to this headline">¶</a></h3>
+<p>The package files associated with Kubuntu have the “.deb” suffix because of Kubuntu’s close relationship with the Debian GNU/Linux distribution. Individual “.deb” files can be downloaded and installed. Humble Bundles, for instance, distribute debs. Administrative privileges are required.</p>
+<div class="section" id="install-from-source">
+<h4>Install from Source<a class="headerlink" href="#install-from-source" title="Permalink to this headline">¶</a></h4>
+<p>Files with the .tar.gz or .tar.bz2 suffix are package files known as “tarballs” or “source” packages. These are widely used in Linux. If there is no native Kubuntu package available in any of the repositories, it may be possible to compile and install the package from source. For tips on compiling software, look at the <a class="reference external" href="https://help.ubuntu.com/community/CompilingSoftware">Compiling Software</a> page on the Ubuntu Wiki.</p>
+</div>
+</div>
+</div>
+<div class="section" id="drivers">
+<h2>Drivers<a class="headerlink" href="#drivers" title="Permalink to this headline">¶</a></h2>
+<p>On every Operating System (Windows, Mac OS X, and Linux) there are programs called Drivers which you install on your computer. These Drivers let your computer use new hardware or existing hardware, like <a class="reference external" href="https://userbase.kde.org/Kubuntu/Basic#Wireless">Wifi</a>. There Drivers also cover your graphics card e.g NVIDIA, AMD, sometimes the nonfree or restricted drivers let the cards perform better than the free ones. The Driver Manager handles installing and uninstalling these for you. These improvements may cover gaming, video editing and processing to image editing.</p>
+</div>
+</div>
+
+
+    </div>
+      
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+    </p>
+    <p>
+        &copy; Copyright 2018, Kubuntu Team.<br/>
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.6.5.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>
