@@ -6,7 +6,6 @@ Following this: https://community.kde.org/Policies/Licensing_Policy
 
 ![](https://travis-ci.org/kubuntu-team/kubuntu-manual.svg?branch=master)
 
-- 17.10 STATUS: Released 
 - 18.04 STATUS: Open for MR(s)
 
 ## To Do list
