@@ -6,6 +6,8 @@ Following this: https://community.kde.org/Policies/Licensing_Policy
 
 ![](https://travis-ci.org/ahoneybun/kubuntu-manual.svg?branch=master)
 
+![](https://travis-ci.org/ahoneybun/kubuntu-manual.svg?branch=kubuntu-18.04-LTS)
+
 ## To Do list
 
 - [ ] To Do
