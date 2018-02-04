@@ -12,6 +12,10 @@ Thanks for reading this! Second I'll try to keep this as up to date as humanly p
 Changes
 -------
 
+03/2/18 - ahoneybun <aaronhoneycutt@kubuntu.org>
+
+* moved manual to the new Kubuntu Team as a Github org
+
 07/8/16 - ahoneybun <aaronhoneycutt@kubuntu.org>
 
 * added sections from Lubuntu Manual [https://github.com/tsimonq2/lubuntu-manual] 
