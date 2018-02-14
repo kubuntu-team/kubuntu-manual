@@ -51,6 +51,7 @@ source_suffix = '.rst'
 
 # Locale aka translations
 locale_dirs = ['locale/']
+gettext_compact = False
 
 # The master toctree document.
 master_doc = 'index'
