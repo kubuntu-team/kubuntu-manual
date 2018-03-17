@@ -14,7 +14,6 @@ Some basic graphics applications are installed in Kubuntu by default, allowing y
 - `LibreOffice Draw <http://www.libreoffice.org/discover/draw/>`_ is an all-purpose diagramming and charting tool which lets you produce anything from a quick sketch to a complex plan, and gives you the means to communicate with graphics and diagrams. With a maximum page size of 300cm by 300cm, Draw is a an excellent package for producing technical drawings, general posters, and much else. 
 - `Skanlite <https://userbase.kde.org/Special:MyLanguage/Skanlite>`_ is a simple image scanning application. 
 - `Gwenview <https://userbase.kde.org/Special:MyLanguage/Gwenview>`_ is an image viewer with many features. 
-- `Kamoso <https://userbase.kde.org/Special:MyLanguage/Kamoso>`_ is a webcam recorder from the *KDE* community. 
 - `Spectacle <https://www.kde.org/applications/graphics/spectacle/>`_ is the best at desktop screenshots, simple and sweet. 
 
 Internet
@@ -51,12 +50,11 @@ There are many options when it comes to email clients. In Kubuntu, Kmail is defa
 - PGP and GNUPG signatures and encryption support 
 - HTML reading, spam filtering, internal character sets, search and filter functions, spell checking, and robust searching. More information on Kmail can be found in the `KMail documentation <https://userbase.kde.org/Special:MyLanguage/KMail>`_. 
 
-Chat Clients
+IRC Clients
 ~~~~~~~~~~~~~
 
-Chatting with friends and family is a popular use of the internet, and Kubuntu provides the necessary applications. There are two default chat clients installed in Kubuntu - *KDE* Telepathy for instant messaging, and Quassel for chatting on IRC (Internet Relay Chat). 
+Konversation for chatting on IRC (Internet Relay Chat). 
 
-- *KDE* `Telepathy <https://userbase.kde.org/Special:MyLanguage/Telepathy>`_ is already installed and ready to configure. 
 - `Konversation <https://userbase.kde.org/Special:MyLanguage/Konversation>`_ is the IRC (Internet Relay Chat) client pre-installed in Kubuntu. Not only does it provide functions similar to those of other popular IRC clients such as 'X-chat, its design emphasizes ease of use. Konversation includes tabbed browsing and notification of messages and other events.
 
 *KDE* software connects you to the world. See `Internet, Networking, & Communication <https://userbase.kde.org/Special:MyLanguage/Applications/Internet>`_ for more. 
@@ -69,10 +67,10 @@ The best in multimedia is installed when you open your new Kubuntu installation.
 The following applications are installed by default: 
 
 - `Pulseaudio <https://wiki.ubuntu.com/PulseAudio>`_ keeps all your sound and video inputs and outputs working together. If you need to direct your audio or video output to other devices, install the pavucontrol package, launch it by pressing Alt + F2, then type pavucontrol. 
-- Exploring your music in Kubuntu is exciting with the pre-installed Amarok music player. For more about how to use and customize it see `Amarok <https://userbase.kde.org/Special:MyLanguage/Amarok>`_. 
 - `K3b <https://userbase.kde.org/Special:MyLanguage/K3b>`_ is a simple, powerful and highly-configurable graphical optical disk burning application for audio, video, data projects. 
 - `Kmix <https://userbase.kde.org/Special:MyLanguage/KMix>`_ controls all your audio channels. 
-- `Dragon Player <https://userbase.kde.org/Special:MyLanguage/Dragon_Player>`_ is a simple interface for playing your movies, TV shows, and music. 
+- `VLC <https://https://www.videolan.org/vlc/index.html>`_ has a simple interface for playing your movies, TV shows, and music. 
+- Placeholder for Music Player.
 
 Office
 -------

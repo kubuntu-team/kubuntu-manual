@@ -47,7 +47,7 @@ Run:
 
 .. code-block:: bash
 
-    md5 -r kubuntu-17.04-desktop-amd64.iso
+    md5 -r kubuntu-18.04-desktop-amd64.iso
 
 And compare the output to the hashes page for the ISO file.
 
@@ -59,7 +59,7 @@ The first thing to do is to make sure you're in the directory with the .iso file
 
 .. code-block:: bash
 
-    md5sum kubuntu-17.04-desktop-amd64.iso
+    md5sum kubuntu-18.04-desktop-amd64.iso
 
 
 Windows 7/8
@@ -70,14 +70,14 @@ Windows 7/8
 USB/Flash Drives
 `````````````````
 
-For a GUI (Graphic User Interface) we use `UNetBootin <http://unetbootin_link/>`_.
+For a GUI (Graphic User Interface) we use `Etcher <https://etcher.io/>`_.
 
-If you choose the `Diskimage` option you use the `...` button to select your downloaded ISO. Then click OK. 
+You can use the default option that the website offers. Sinply select the Kubuntu ISO file  that we downloaded earlier, select the flash drive and then push flash!
 
-.. image:: ../images/unetbootin-win78.png
+.. image:: ../images/tools/etcher.png
     :align: center
     
-.. warning:: Pay special attention when selecting the right USB device under 'Drive'
+.. note:: Etcher will not show system drives only devices over USB.
 
 DVD
 ````

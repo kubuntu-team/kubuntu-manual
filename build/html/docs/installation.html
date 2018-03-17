@@ -203,7 +203,7 @@ provide some <a class="reference external" href="https://support.microsoft.com/e
 <h4>From Mac OS X<a class="headerlink" href="#from-mac-os-x" title="Permalink to this headline">¶</a></h4>
 <p>Open the Terminal app, then navigate to the directory where the ISO is saved.
 Run:</p>
-<div class="highlight-bash"><div class="highlight"><pre><span></span>md5 -r kubuntu-17.04-desktop-amd64.iso
+<div class="highlight-bash"><div class="highlight"><pre><span></span>md5 -r kubuntu-18.04-desktop-amd64.iso
 </pre></div>
 </div>
 <p>And compare the output to the hashes page for the ISO file.</p>
@@ -211,7 +211,7 @@ Run:</p>
 <div class="section" id="from-ubuntu-linux">
 <h4>From Ubuntu Linux<a class="headerlink" href="#from-ubuntu-linux" title="Permalink to this headline">¶</a></h4>
 <p>The first thing to do is to make sure you’re in the directory with the .iso file (most likely in the Downloads directory). For more complex use of MD5SUM check this <a class="reference external" href="https://help.ubuntu.com/community/HowToMD5SUM">out</a>. Then running the command ‘md5sum’:</p>
-<div class="highlight-bash"><div class="highlight"><pre><span></span>md5sum kubuntu-17.04-desktop-amd64.iso
+<div class="highlight-bash"><div class="highlight"><pre><span></span>md5sum kubuntu-18.04-desktop-amd64.iso
 </pre></div>
 </div>
 </div>
@@ -220,12 +220,12 @@ Run:</p>
 <h3>Windows 7/8<a class="headerlink" href="#windows-7-8" title="Permalink to this headline">¶</a></h3>
 <div class="section" id="usb-flash-drives">
 <span id="usb-drives-link"></span><h4>USB/Flash Drives<a class="headerlink" href="#usb-flash-drives" title="Permalink to this headline">¶</a></h4>
-<p>For a GUI (Graphic User Interface) we use <a class="reference external" href="http://unetbootin_link/">UNetBootin</a>.</p>
-<p>If you choose the <cite>Diskimage</cite> option you use the <cite>…</cite> button to select your downloaded ISO. Then click OK.</p>
-<img alt="../_images/unetbootin-win78.png" class="align-center" src="../_images/unetbootin-win78.png" />
-<div class="admonition warning">
-<p class="first admonition-title">Warning</p>
-<p class="last">Pay special attention when selecting the right USB device under ‘Drive’</p>
+<p>For a GUI (Graphic User Interface) we use <a class="reference external" href="https://etcher.io/">Etcher</a>.</p>
+<p>You can use the default option that the website offers. Sinply select the Kubuntu ISO file  that we downloaded earlier, select the flash drive and then push flash!</p>
+<img alt="../_images/etcher.png" class="align-center" src="../_images/etcher.png" />
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Etcher will not show system drives only devices over USB.</p>
 </div>
 </div>
 <div class="section" id="dvd">
