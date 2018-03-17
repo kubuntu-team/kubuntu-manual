@@ -73,7 +73,7 @@ If you want to meet other Kubuntu users in your area, look for a Local Ubuntu Co
 Packaging and Development
 --------------------------
 
-Information about making packages and helping to `develop Kubuntu <https://wiki.kubuntu.org/Kubuntu/GettingInvolved/Development>`_. 
+Information about making packages and helping to develop here at the :ref:`contribute_dev-link` page for contributing.
 
 Translations
 -------------

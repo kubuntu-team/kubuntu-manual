@@ -1,3 +1,5 @@
+.. _contribute_dev-link:
+
 #######
 Welcome
 #######
