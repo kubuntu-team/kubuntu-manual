@@ -13,15 +13,13 @@ You can use the Discover to add new repositories.
 
 **How-to**: Start Discover. Select Settings, click 'More...' at the top of the window. Enter your administrative password at the prompt. Left-click the 'Other Software' tab. Left-click the 'Add...' button. Enter the repository address into the text box. The proper format is required, and looks similar to this: ppa:kubuntu-ppa/backports Left-click the 'OK' button to add the repository. Left-click the 'Close' button. A prompt will appear to update the package list. Discover will now be allowed to find the newly available software. 
 
-.. image:: ../images/repos/SoftwareSources-zesty.png
+.. image:: ../images/bionic/discover-repositories.png
     :align: center
     :scale: 50 %
-.. image:: ../images/repos/EditRepos-zesty.png
+.. image:: ../images/bionic/discover-software-sources.png
     :align: center
-    :scale: 75 %
-.. image:: ../images/repos/EditRepo-zesty.png
+.. image:: ../images/bionic/software-sources-add.png
     :align: center
-    :scale: 75 %
     
 Enable a Repository
 ~~~~~~~~~~~~~~~~~~~~
@@ -43,6 +41,8 @@ Remove a Repository
 You can use the Discover to remove repositories.
 
 **How-to**: Start Discover. Select Sources, Configure Software Sources in the window. Enter your administrative password at the prompt. Left-click the 'Other Software' tab. Left-click the name of an existing repository in the center section of the window to select it. Left-click the 'Remove' button. Left-click the 'Close' button. A prompt will appear to update the package list. Discover will now forget the no longer available software. 
+
+.. _ppa-link:
 
 Managing Personal Package Archives
 -----------------------------------

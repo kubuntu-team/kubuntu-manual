@@ -15,7 +15,7 @@ Graphical Clients
 
 By default Kubuntu comes with a great package manager called Discover. Discover is an advanced program with a graphical user interface (GUI) for installing and removing applications. It will automatically notify you for updates (in the lower right hand corner), but you can use it at anytime to install new packages by going to KickOff and type . Select  Discover from the results. If you prefer the Ubuntu-style "Software Center" you will need to install it from within Discover.
 
-.. image:: ../images/repos/Discover-zesty.png
+.. image:: ../images/bionic/discover-homepage.png
 
 Discover might provide information about required dependencies, these are other packages (programs) that the piece of software that you want to install needs to run. Once this information is acknowledged, the required packages will begin downloading. When the installation process is complete, the software will be ready to use. It is rarely necessary to restart the system after software installation or updates. If it is, the system will warn you and give you a restart icon to do the restart at your convenience.
 
@@ -45,7 +45,7 @@ Two factors are used to determine categories
 
 The standard Kubuntu LiveDVD contains some software from the "Main" and "Restricted" categories. Once a system has information about the Internet-based locations for these repositories, more programs are available for installation. Using the software package management tools installed by default, it is possible to discover, install, and update any piece of software directly over the internet without the need for the LiveDVD. 
 
-For more information about managing repositories, click on `Managing Repositories <https://help.ubuntu.com/community/Repositories>`_.
+For more information about managing repositories, click on :ref:`repositories-link`.
 
 PPAs (Personal Package Archive)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -53,7 +53,7 @@ PPAs (Personal Package Archive)
 Personal Package Archives allow any person in the Ubuntu community who has committed to observe the `Ubuntu Code of Conduct <https://launchpad.net/codeofconduct>`_ to upload Ubuntu source packages to be built and published as an apt repository by Launchpad. Software from Launchpad's `Personal Package Archive <https://launchpad.net/ubuntu/+ppas>`_ (PPA) requires a `GnuPG  <https://www.gnupg.org/>`_ (GPG) key so your system can verify that it's getting the packages from the correct source and that the packages have not been interfered with since they were built. GnuPG is GNU's tool for secure communication and data storage.
 
 
-For more information about PPAs, see `Managing Personal Package Archives <https://userbase.kde.org/Kubuntu/Advanced/Repositories#Managing_Personal_Package_Archives>`_. 
+For more information about using PPAs, see :ref:`ppa-link`.
 
 Install/Uninstall '.deb' files
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
