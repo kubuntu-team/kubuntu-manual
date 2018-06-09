@@ -8,6 +8,8 @@ Following this: https://community.kde.org/Policies/Licensing_Policy
 
 - 18.04 STATUS: Open for MR(s)
 
+18.04.1 - Release date on 07.26.18
+
 ## To Do list
 
 - [ ] To Do
