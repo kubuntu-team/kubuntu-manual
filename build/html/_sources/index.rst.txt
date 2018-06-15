@@ -14,6 +14,7 @@ Contents:
    
    welcome
    docs/installation
+   docs/driver-manager
    docs/basic
    docs/advanced
    docs/repositories
