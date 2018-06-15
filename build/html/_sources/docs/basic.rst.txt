@@ -11,7 +11,7 @@ Launchers
 KickOff
 ~~~~~~~~~~
 
-.. image:: ../images/Kickoff-zesty.png
+.. image:: ../images/bionic/Kickoff.png
     :scale: 75 %
     :align: center
     :target: https://userbase.kde.org/Special:MyLanguage/Plasma/Kickoff
@@ -21,7 +21,7 @@ As a *KDE* distribution, Kubuntu uses the Kickoff Application Launcher by defaul
 Application Dashboard
 ~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: ../images/AppDash-zesty.png
+.. image:: ../images/bionic/ApplicationDash.png
     :scale: 50 %
     :align: center
 
@@ -30,7 +30,7 @@ Taken from the old Plasma Netbook interface we have the Application Dashboard me
 KRunner
 ~~~~~~~~
 
-.. image:: ../images/Krunner-zesty.png
+.. image:: ../images/bionic/KRunner.png
    :align: center
    :target: https://userbase.kde.org/Special:MyLanguage/Plasma/Krunner
 
@@ -39,7 +39,7 @@ Like Kickoff, KRunner is a launcher, but it does a lot more than just launching 
 Networking
 -----------
 
-.. image:: ../images/Network_Panel-zesty.png
+.. image:: ../images/bionic/Network-Panel.png
     :scale: 75 %
     :align: center
 
@@ -93,7 +93,7 @@ KDE Activites in Kubuntu provide a slick way to setup and configure environments
 Activities first look
 ~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: ../images/basic/activity_desktop_side_bar.png
+.. image:: ../images/bionic/Activities.png
    :align: center
    :scale: 30 %
    
@@ -116,12 +116,6 @@ OK, lets configure a few useful tools
 2. Right click > Add Widgets, and add the Digital Clock
 3. Right click > Add Widgets, and add the Web Browser
 4. Right click > Add Widgets, and add the RSS
-
-You can now resize these widgets and lay them out on the desktop however you wish. and configure them to suit your needs, as in the example below.
-
-.. image:: ../images/basic/activity_desktop_news.png
-   :align: center
-   :scale: 30 %
 
 Dolphin
 ````````
