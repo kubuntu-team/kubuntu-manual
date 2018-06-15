@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Kubuntu's Documentation!
+Kubuntu Manual
 ========================================
 
 Contents:
@@ -23,7 +23,7 @@ Contents:
    docs/support
    docs/packaging_guide/packaging
    docs/appendix/appendix
-
+   
 
 Indices and tables
 ==================
