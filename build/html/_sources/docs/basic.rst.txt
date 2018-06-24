@@ -73,7 +73,7 @@ Plasmoids (also called Widgets) can be added by right-clicking the desktop and s
 Panel 
 ~~~~~~
 
-.. image:: ../images/Panels-zesty.png
+.. image:: ../images/bionic/Panels.png
     :align: left
     :scale: 75 %
 
