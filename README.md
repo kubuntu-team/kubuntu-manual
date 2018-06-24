@@ -13,7 +13,7 @@ Following this: https://community.kde.org/Policies/Licensing_Policy
 ## To Do list
 
 - [ ] Prepare for 18.04.1 Release.
-- [ ] Clean up images for older releases into folders.
+- [X] Clean up images for older releases into folders.
 - [X] Add Driver Manager section.
 
 ## How it works
