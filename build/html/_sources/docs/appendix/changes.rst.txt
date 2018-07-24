@@ -12,6 +12,11 @@ Thanks for reading this! Second I'll try to keep this as up to date as humanly p
 Changes
 -------
 
+23/7/18 - ahoneybun <aaronhoneycutt@kubuntu.org>
+
+* clean up older release images
+* create driver manager article
+
 23/1/18 - ahoneybun <aaronhoneycutt@kubuntu.org>
 
 * started 18.04 branch
