@@ -1,28 +1,25 @@
 language: ruby
 sudo: required
 dist: trusty
-
 before_install:
 - sudo apt-get -qq update
 - sudo apt-get -y install python3-pip texlive-full
 - sudo pip3 install --upgrade pip
 - sudo pip3 install sphinx
 - sudo pip3 install sphinx_bootstrap_theme
-
 env:
+  matrix:
   - COMMAND="make clean html latexpdf epub"
-  
-before_deploy: 
-  "mv build/latex/KubuntuManual.pdf build/latex/KubuntuManual-18.04.pdf
-  && mv build/epub/KubuntuManual.epub build/epub/KubuntuManual-18.04.epub"
-  
+before_deploy: mv build/latex/KubuntuManual.pdf build/latex/KubuntuManual-18.04.pdf
+  && mv build/epub/KubuntuManual.epub build/epub/KubuntuManual-18.04.epub
 deploy:
   provider: releases
-  api-key:
-    secure: "Ou2V7wU8Vo4AreHdCTlDkV6RlkRBdLKDpy2iLfuNW+R377z0zpIR1yFHnlC9EzhmbAld18gzNKrp5fCkip/aIwErX9AkpkF1fB9Sx1KtYcnFbSFVaxDz81YXnB/M4SwS3T9VOIXMwmJj6o3eKxntJprJP+A+nZfrMq4oafdTyF7JwupH0Yu0j4qVageOX+aQXMPQ5ZQBf2VhpQKkJtupK9Nlg/QhvxBTNxcbhhzXwZTDxmSrUR/rRE5ljEZtZytHvRiRCVeCNCayKi1ZmuALLfT/DudPqFvtn1TXQWNZmydHvOJIZ7KGyAvyG/4F4sYDi29zrNt0WJtObvNOC2Ez/22SDYIQIj0i88HPv1Fhs7+D4je6Gj3l5NyF1kpjIIZUg7rPdniIlzmNTnmH/wgjtifoZnZP+39mT91X/t+Lk4JPtwfsjEGcLHMqiuNm1CDQlRJZz8uW22UImGbXdkfTEQWbie/YfLPyzwIJN5Sxo7QXb8k9ziLpgTSeDXCxOxZDe4EAietqGdLRcmbS+xqfR7v7MIzlB5nyybNP2WiyTVyu/7zdxzMNqzxQRBq1Mt9foQFly69irk+mvTDhcBHgZpqThhW+81hSx9GatgHh3woycTrhiLMJpV1TYluOGc8LfupCU6wn6ZzTlhjaObizrpfQG8ZMtqBtkmEeswMgpYs="
-  file: 
-  - "build/epub/KubuntuManual-18.04.epub"
-  - "build/latex/KubuntuManual-18.04.pdf"
+  user: ahoneybun
+  password:
+    secure: Gr+piCnltxqMO0gKO0WUHc6N90avCQI/jmdEZM5uHHonFsQa1rupI2PIu+mLUjqdFfKKItUkchQIfixR1kwjoZW8OCJwjtg+nhb8ZWCIQsykTZ7JcdvMTPdDW5oW8zrkzv0V1Nk9OGEvjqptKSWIxzos2bH2ba/pxeNBGk3G8/N2dwjJtl5RfQ6arm0b1KMgPiBpzq7fGbLJosqXLmG5Qa4MKFuJA4x58Ik23QGh6DiBPcJPoDp83vsQp42BzOxY623cHjDy/hhW5wsjLhT7d8GY8oA+qRshqqRp2rzEMdFEtNpsjC0/n1oPDz5qGD7mQG6jcsE/lQ4+6lZgV5W0WKhGf56zAsCkaSsRmNGlmOWkyBCJ4WXVdi0zbWjkeg01Mz8rkBsp0+hD2tj8rdoej6MOY1b1SPdGYeDZ+EUqfCV5aikbODH/oeBbmPOJ6xY2/C6Io3FJHflTxRUUOmBqycfwsmdjg4krVEQ8Bh7/ALHVXF+dj+iwt+N9bhwvNjGamXEafgYc5xJ1CcKV6yPTpcxtYG536EpntQK0Muf2mYfi1pfWLy2UOKOba/GyQ7YMQoup3bvDUe7MnsmIYL1ATVaiOGFoTD3i3lh1qa7eudI4/wRZ1LZRFe8Ld1tEKSQ5f4Y/IN2nvZEpd/SgybWvZ7/CEAPfaOd9HIVEhfGJ/Uo=
+  file:
+  - build/epub/KubuntuManual-18.04.epub
+  - build/latex/KubuntuManual-18.04.pdf
   skip_cleanup: true
   on:
     tags: true
