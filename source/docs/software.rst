@@ -31,7 +31,7 @@ Export your bookmarks
 To export your bookmarks from Firefox
 
 1. Click on the Bookmarks menu item
-2. Select Show All Bookmarks or Ctrl+Shirt+o
+2. Select Show All Bookmarks or Ctrl+Shift+o
 3. A new window will appear. Select Import and Backup
 
 > Tip: Note where you save your bookmarks (by default in ~/yourfoldername)
