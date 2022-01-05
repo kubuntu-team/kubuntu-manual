@@ -10,7 +10,8 @@ Master branch: ![](https://travis-ci.org/ahoneybun/kubuntu-manual.svg?branch=mas
 
 ## To Do list
 
-- [ ] To Do
+- [ ] Create 20.04 LTS Manual
+- [ ] Create 22.04 LTS Manual
 
 ## How it works
 
