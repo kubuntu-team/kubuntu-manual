@@ -6,7 +6,11 @@ Following this: https://community.kde.org/Policies/Licensing_Policy
 
 Master branch: ![](https://travis-ci.org/ahoneybun/kubuntu-manual.svg?branch=master)
 
-18.04 Branch:  ![](https://travis-ci.org/ahoneybun/kubuntu-manual.svg?branch=kubuntu-18.04-LTS)
+18.04 LTS Branch:  ![](https://travis-ci.org/ahoneybun/kubuntu-manual.svg?branch=kubuntu-18.04-LTS)
+
+20.04 LTS Branch:  ![](https://travis-ci.org/ahoneybun/kubuntu-manual.svg?branch=kubuntu-20.04-LTS)
+
+22.04 LTS Branch:  ![](https://travis-ci.org/ahoneybun/kubuntu-manual.svg?branch=kubuntu-22.04-LTS)
 
 ## To Do list
 
