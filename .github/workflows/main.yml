@@ -7,7 +7,6 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
@@ -20,8 +19,8 @@ jobs:
         docs-folder: "/"
     # Great extra actions to compose with:
     # Create an artifact of the html output.
-    - uses: actions/upload-artifact@v1
-      with:
-        name: DocumentationHTML
-        path: source/docs/_build/html/
+#     - uses: actions/upload-artifact@v1
+#       with:
+#         name: DocumentationHTML
+#         path: source/docs/_build/html/
     # ===============================
