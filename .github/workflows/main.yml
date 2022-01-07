@@ -15,7 +15,7 @@ jobs:
     # Standard drop-in approach that should work for most people.
     - uses: ammaraskar/sphinx-action@master
       with:
-        pre-build-command: "apt update -y && apt install -y latexmk texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended; pip3 install --upgrade pip; pip3 install sphinx; pip3 install sphinx_bootstrap_theme"
+        pre-build-command: "apt update -y; apt install -y latexmk texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended; pip3 install --upgrade pip; pip3 install sphinx; pip3 install sphinx_bootstrap_theme"
         build-command: "make html"
         docs-folder: "source/"
     # Great extra actions to compose with:
