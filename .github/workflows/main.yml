@@ -19,7 +19,7 @@ jobs:
     # Example of using a custom build-command.
     - uses: ammaraskar/sphinx-action@master
       with:
-        build-command: "sphinx-build -b html . _build"
+        build-command: "make html"
         docs-folder: "docs2/"
     # Grabbing custom dependencies and building as a pdf.
     - uses: ammaraskar/sphinx-action@master
