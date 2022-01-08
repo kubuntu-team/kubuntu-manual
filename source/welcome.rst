@@ -2,7 +2,7 @@
 Welcome to *Kubuntu*
 #####################
 
-.. image:: images/Kubuntu-1704-Desktop.png
+.. image:: images/focal/kubuntu-desktop.png
     :align: center
 
 *Kubuntu* is a user-friendly Linux-based operating system that use the *KDE* *Plasma Desktop*. With a predictable 

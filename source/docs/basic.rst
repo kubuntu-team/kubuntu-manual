@@ -8,11 +8,11 @@ This section of the Documentation will cover the components available within Kub
 Launchers
 ----------
 
-KickOff
-~~~~~~~~~~
+Application Launcher
+~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: ../images/Kickoff-zesty.png
-    :scale: 75 %
+.. image:: ../images/focal/kickoff.png
+    :scale: 60 %
     :align: center
     :target: https://userbase.kde.org/Special:MyLanguage/Plasma/Kickoff
   
@@ -21,16 +21,23 @@ As a *KDE* distribution, Kubuntu uses the Kickoff Application Launcher by defaul
 Application Dashboard
 ~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: ../images/AppDash-zesty.png
-    :scale: 50 %
+.. image:: ../images/focal/application-dashboard.png
+    :scale: 60 %
     :align: center
 
 Taken from the old Plasma Netbook interface we have the Application Dashboard menu for users with smaller screens ie. Netbooks, small laptops or tablets. 
-    
+
+Application Menu
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: ../images/focal/application-menu.png
+    :scale: 60 %
+    :align: center
+
 KRunner
 ~~~~~~~~
 
-.. image:: ../images/Krunner-zesty.png
+.. image:: ../images/focal/krunner.png
    :align: center
    :target: https://userbase.kde.org/Special:MyLanguage/Plasma/Krunner
 
@@ -39,7 +46,7 @@ Like Kickoff, KRunner is a launcher, but it does a lot more than just launching 
 Networking
 -----------
 
-.. image:: ../images/Network_Panel-zesty.png
+.. image:: ../images/focal/network-panel.png
     :scale: 75 %
     :align: center
 

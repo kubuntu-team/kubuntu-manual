@@ -154,9 +154,6 @@ Install Process
 
 .. note:: You will need to press a special key on the keyboard in order to boot from your chosen Installation Media. Ex: Esc, F2, F10, F12, or Del it all depends on the OEM(Original Equipment Manufacturer) 
 
-
-First we'll need the Kubuntu Disk Image(ISO) from here: :ref:`get-kubuntu-link`
-
 .. image:: ../images/welcome-slide.png
     :align: center
 

@@ -26,23 +26,38 @@ You can use the Discover to add new repositories.
 Enable a Repository
 ~~~~~~~~~~~~~~~~~~~~
 
-You can use the Discover to enable repositories.
+You can use the Discover to enable repositories. We'll go over that process below:
 
-**How-to**: Start Discover. Select Sources, Configure Software Sources in the window. Enter your administrative password at the prompt. Left-click the 'Other Software' tab. Check the appropriate box in the center section of the window to enable a repository. Left-click the 'Close' button. A prompt will appear to update the package list. Discover will now be allowed to find the newly available software. 
+1. Start Discover
+2. Select Sources
+3. Configure Software Sources in the window
+4. Enter your administrative password at the prompt
+5. Left-click the 'Other Software' tab
+6. Check the appropriate box in the center section of the window to enable a repository
+7. Left-click the 'Close' button. A prompt will appear to update the package list
+8. Discover will now be allowed to find the newly available software
 
 Disable a Repository
 ~~~~~~~~~~~~~~~~~~~~~
 
-You can use the Discover to disable repositories.
+You can use the Discover to disable repositories. We'll go over that process below:
 
-**How-to**: Start Discover. Select Sources, Configure Software Sources in the window. Enter your administrative password at the prompt. Left-click the 'Other Software' tab. Uncheck the appropriate box in the center section of the window to disable a repository. Left-click the 'Close' button. A prompt will appear to update the package list. Discover will now forget the no longer available software. 
+1. Start Discover
+2. Select Sources
+3. Configure Software Sources in the window
+4. Enter your administrative password at the prompt
+5. Left-click the 'Other Software' tab
+6. Uncheck the appropriate box in the center section of the window to disable a repository
+7. Left-click the 'Close' button. A prompt will appear to update the package list
+8. Discover will now forget the no longer available software
 
 Remove a Repository
 ~~~~~~~~~~~~~~~~~~~~
 
-You can use the Discover to remove repositories.
+You can use the Discover to remove repositories. We'll go over that process below:
 
-**How-to**: Start Discover. Select Sources, Configure Software Sources in the window. Enter your administrative password at the prompt. Left-click the 'Other Software' tab. Left-click the name of an existing repository in the center section of the window to select it. Left-click the 'Remove' button. Left-click the 'Close' button. A prompt will appear to update the package list. Discover will now forget the no longer available software. 
+1. Start Discover and select Sources
+2. Configure Software Sources in the window. Enter your administrative password at the prompt. Left-click the 'Other Software' tab. Left-click the name of an existing repository in the center section of the window to select it. Left-click the 'Remove' button. Left-click the 'Close' button. A prompt will appear to update the package list. Discover will now forget the no longer available software. 
 
 Managing Personal Package Archives
 -----------------------------------
