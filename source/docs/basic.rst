@@ -16,7 +16,7 @@ KickOff
     :align: center
     :target: https://userbase.kde.org/Special:MyLanguage/Plasma/Kickoff
   
-As a *KDE* distribution, Kubuntu uses the Kickoff Application Launcher by default. The Kickoff Launcher can be compared with the 'Start Menu' in Windows (pre Windows 8). The icon to launch Kickoff is on the bottom left very much like Windows XP or 7. For more information on how to use and customize it, see `Plasma Kickoff <https://userbase.kde.org/Special:MyLanguage/Plasma/Kickoff>`_.
+As a *KDE* distribution, Kubuntu uses the Kickoff Application Launcher by default. The Kickoff Launcher can be compared with the 'Start Menu' in Windows (pre Windows 8). The icon to launch Kickoff is on the bottom left very much like Windows 7 and 10. For more information on how to use and customize it, see `Plasma Kickoff <https://userbase.kde.org/Special:MyLanguage/Plasma/Kickoff>`_.
 
 Application Dashboard
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -25,7 +25,7 @@ Application Dashboard
     :scale: 50 %
     :align: center
 
-Taken from the old Plasma Netbook interface we have the Application Dashboard menu for users with smaller screens ie. Netbooks or small laptops. 
+Taken from the old Plasma Netbook interface we have the Application Dashboard menu for users with smaller screens ie. Netbooks, small laptops or tablets. 
     
 KRunner
 ~~~~~~~~
@@ -126,7 +126,7 @@ You can now resize these widgets and lay them out on the desktop however you wis
 Dolphin
 ````````
 
-Dolphin is the default file manager in Kubuntu and can be compared with Windows Explorer. Dolphin looks simple because of great design, while having many powerful features. For more information, see `Dolphin <https://userbase.kde.org/Special:MyLanguage/Dolphin>`_. 
+Dolphin is the default file manager in Kubuntu and can be compared with Windows Explorer. Dolphin looks simple because of great design, while having many powerful features. For more information, see the Dolphin `userbase page <https://userbase.kde.org/Special:MyLanguage/Dolphin>`_. 
 
 Updating
 ---------

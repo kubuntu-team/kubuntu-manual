@@ -33,13 +33,13 @@ Checking the MD5SUM
 
 Doing this will make sure your download completed fully and has given you a fully working ISO to boot and perhaps later install from. 
 
-From Windows XP -> 7 -> 8 -> 10
+From Windows 10
 ````````````````````````````````
 
 Microsoft Windows does not have any built-in tools for MD5SUM but they do
 provide some `decent documentation <https://support.microsoft.com/en-us/kb/841290>`_ and a tool for checking the MD5SUM. How-To-Geek also provides some `reading material <http://www.howtogeek.com/67241/htg-explains-what-are-md5-sha-1-hashes-and-how-do-i-check-them/>`_ if you want to understand the technology behind MD5SUM if you like.
 
-From Mac OS X 
+From macOS 
 ``````````````
 
 Open the Terminal app, then navigate to the directory where the ISO is saved.
@@ -62,7 +62,7 @@ The first thing to do is to make sure you're in the directory with the .iso file
     md5sum kubuntu-17.04-desktop-amd64.iso
 
 
-Windows 7/8
+Windows 10
 ~~~~~~~~~~~~
 
 .. _usb-drives-link:
@@ -86,7 +86,7 @@ The recommended tool to use is `ImgBurn <http://www.imgburn.com/>`_. There is a 
 
 .. _kubuntu-install-link:
 
-Mac OS X
+macOS 
 ~~~~~~~~~
 
 Burn an installer DVD using `Disk Utility
@@ -104,7 +104,6 @@ Since UNetBootin is a cross-platform application we will be using the same instr
 
 DVD
 ````
-
 
 .. image:: ../images/K3b.png
     :align: center
@@ -124,7 +123,7 @@ Then you select the ISO(Disk Image) that you want to burn to the DVD from your c
 Other Linux Distributions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-GNOME Environment
+GNOME Desktops
 ~~~~~~~~~~~~~~~~~~
 
 USB/Flash Drives
@@ -139,7 +138,7 @@ DVD
     
 For Linux Distributions that use GNOME we'll be using the default DVD burning tool Brasero.
 
-KDE Environment
+Plasma Desktops
 ~~~~~~~~~~~~~~~~
 
 USB/Flash Drives

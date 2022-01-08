@@ -25,7 +25,7 @@ Discover also provides an easy method to remove software that is no longer neede
 |                           Tip:                                           |
 |                                                                          |
 | - Click on Installed and find the application you want to remove.        |
-| - Click Remove and Discover will remove the application.                 |
+| - Then click Remove and Discover will remove the application.            |
 +--------------------------------------------------------------------------+
 
 Repositories
@@ -68,4 +68,4 @@ Files with the .tar.gz or .tar.bz2 suffix are package files known as "tarballs" 
 Drivers
 --------
 
-On every Operating System (Windows, Mac OS X, and Linux) there are programs called Drivers which you install on your computer. These Drivers let your computer use new hardware or existing hardware, like `Wifi <https://userbase.kde.org/Kubuntu/Basic#Wireless>`_. There Drivers also cover your graphics card e.g NVIDIA, AMD, sometimes the nonfree or restricted drivers let the cards perform better than the free ones. The Driver Manager handles installing and uninstalling these for you. These improvements may cover gaming, video editing and processing to image editing. 
+On every Operating System (Windows, Mac OS X, and Linux) there are programs called Drivers which you install on your computer. These Drivers let your computer use new hardware or existing hardware, like `Wi-Fi <https://userbase.kde.org/Kubuntu/Basic#Wireless>`_. There Drivers also cover your graphics card e.g NVIDIA, AMD, sometimes the nonfree or restricted drivers let the cards perform better than the free ones. The Driver Manager handles installing and uninstalling these for you. These improvements may cover gaming, video editing and processing to image editing. 
