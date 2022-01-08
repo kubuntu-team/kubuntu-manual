@@ -24,6 +24,7 @@ Application Dashboard
 .. image:: ../images/focal/application-dashboard.png
     :scale: 60 %
     :align: center
+    :target: https://userbase.kde.org/Special:MyLanguage/Plasma/Application_Dashboard
 
 Taken from the old Plasma Netbook interface we have the Application Dashboard menu for users with smaller screens ie. Netbooks, small laptops or tablets. 
 
@@ -33,6 +34,7 @@ Application Menu
 .. image:: ../images/focal/application-menu.png
     :scale: 60 %
     :align: center
+    :target: https://userbase.kde.org/Special:MyLanguage/Plasma/Kicker
 
 KRunner
 ~~~~~~~~
