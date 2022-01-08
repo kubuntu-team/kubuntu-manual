@@ -16,7 +16,7 @@ jobs:
       with:
         pre-build-command: "apt update -y && apt install -y latexmk texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended python3-pip && pip3 install sphinx sphinx_bootstrap_theme"
         build-command: "sphinx-build -b html . _build"
-        docs-folder: "source/docs/"
+        docs-folder: "source/"
     # Great extra actions to compose with:
     # Create an artifact of the html output.
 #     - uses: actions/upload-artifact@v1
