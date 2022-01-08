@@ -10,12 +10,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v1
-    # Standard drop-in approach that should work for most people.
     - uses: ammaraskar/sphinx-action@master
       with:
-        pre-build-command: "apt update -y && apt install -y latexmk texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended python3-pip && pip3 install sphinx sphinx_bootstrap_theme"
-        build-command: "make html"
+        pre-build-command: "apt update -y && apt install -y latexmk texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended"
+        build-command: "make latexpdf"
         docs-folder: "source/"
     # Great extra actions to compose with:
     # Create an artifact of the html output.
