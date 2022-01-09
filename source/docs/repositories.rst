@@ -99,22 +99,20 @@ You can use the Discover to add a PPA:
 5. Left-click on the 'Other Software' tab 
 6. Left-click the 'Add...' button, paste the location you got from the PPA's overview page into the text box
 7. Left-click the 'OK' button to add the repository
-8. Left-click the 'Close' button. 
+8. Left-click the 'Close' button
 
 A prompt will appear to update the package list, Discover will now be allowed to find the newly available software.
 
 Remove a PPA
 ~~~~~~~~~~~~~
 
-You can use the Discover to add a PPA:
+You can use the Discover to remove a PPA:
 
-1. Open the Launchpad PPA overview page in your browser.
-2. Look for the location of the PPA in the 'Adding this PPA to your system' section
-3. Open Discover then Select Sources
-4. Configure Software Sources in the window. Enter your administrative password at the prompt.
-5. Left-click on the 'Other Software' tab. Left-click the 'Add...' button. Paste the location you got from the PPA's overview page into the text box
-6. Left-click the 'OK' button to add the repository. 
-7. Left-click the 'Close' button. 
+1. Open Discover then Select Sources
+2. Configure Software Sources in the window. Enter your administrative password at the prompt
+3. Left-click on the 'Other Software' tab
+4. Left-click the PPA that you want to remove
+5. Left-click the 'Remove' button
 
 A prompt will appear to update the package list, Discover will now be allowed to find the newly available software.
 
