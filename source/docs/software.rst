@@ -39,7 +39,7 @@ To export your bookmarks from Firefox
 Import your bookmarks into Firefox
 ```````````````````````````````````
 
-Click for guide to `import your bookmarks <https://support.mozilla.org/en-US/kb/import-bookmarks-html-file>`_ into Firefox. 
+Click this link for a guide to `import your bookmarks <https://support.mozilla.org/en-US/kb/import-bookmarks-html-file>`_ into Firefox. 
 
 Email Clients
 ~~~~~~~~~~~~~~
@@ -54,9 +54,8 @@ There are many options when it comes to email clients. In Kubuntu, Kmail is defa
 Chat Clients
 ~~~~~~~~~~~~~
 
-Chatting with friends and family is a popular use of the internet, and Kubuntu provides the necessary applications. There are two default chat clients installed in Kubuntu - *KDE* Telepathy for instant messaging, and Quassel for chatting on IRC (Internet Relay Chat). 
+Chatting with friends and family is a popular use of the internet, and Kubuntu provides the necessary applications. 
 
-- *KDE* `Telepathy <https://userbase.kde.org/Special:MyLanguage/Telepathy>`_ is already installed and ready to configure. 
 - `Konversation <https://userbase.kde.org/Special:MyLanguage/Konversation>`_ is the IRC (Internet Relay Chat) client pre-installed in Kubuntu. Not only does it provide functions similar to those of other popular IRC clients such as 'X-chat, its design emphasizes ease of use. Konversation includes tabbed browsing and notification of messages and other events.
 
 *KDE* software connects you to the world. See `Internet, Networking, & Communication <https://userbase.kde.org/Special:MyLanguage/Applications/Internet>`_ for more. 
@@ -72,7 +71,8 @@ The following applications are installed by default:
 - Exploring your music in Kubuntu is exciting with the pre-installed Amarok music player. For more about how to use and customize it see `Amarok <https://userbase.kde.org/Special:MyLanguage/Amarok>`_. 
 - `K3b <https://userbase.kde.org/Special:MyLanguage/K3b>`_ is a simple, powerful and highly-configurable graphical optical disk burning application for audio, video, data projects. 
 - `Kmix <https://userbase.kde.org/Special:MyLanguage/KMix>`_ controls all your audio channels. 
-- `Dragon Player <https://userbase.kde.org/Special:MyLanguage/Dragon_Player>`_ is a simple interface for playing your movies, TV shows, and music. 
+- `Elisa <https://www.videolan.org/ is a music player focused on the Plasma desktop.
+- `VLC <https://www.videolan.org/>`_ is a simple interface for playing your movies, TV shows, and music. 
 
 Office
 -------
