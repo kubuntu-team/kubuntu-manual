@@ -11,7 +11,7 @@ Launchers
 Application Launcher
 ~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: ../images/focal/kickoff.png
+.. image:: ../images/focal/basic/kickoff.png
     :scale: 60 %
     :align: center
     :target: https://userbase.kde.org/Special:MyLanguage/Plasma/Kickoff
@@ -21,7 +21,7 @@ As a *KDE* distribution, Kubuntu uses the Kickoff Application Launcher by defaul
 Application Dashboard
 ~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: ../images/focal/application-dashboard.png
+.. image:: ../images/focal/basic/application-dashboard.png
     :scale: 60 %
     :align: center
     :target: https://userbase.kde.org/Special:MyLanguage/Plasma/Application_Dashboard
@@ -31,15 +31,23 @@ Taken from the old Plasma Netbook interface we have the Application Dashboard me
 Application Menu
 ~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: ../images/focal/application-menu.png
+.. image:: ../images/focal/basic/application-menu.png
     :scale: 60 %
     :align: center
     :target: https://userbase.kde.org/Special:MyLanguage/Plasma/Kicker
 
+Simple Menu
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: ../images/focal/basic/simple-menu.png
+    :scale: 60 %
+    :align: center
+    :target: https://store.kde.org/p/1169537/
+
 KRunner
 ~~~~~~~~
 
-.. image:: ../images/focal/krunner.png
+.. image:: ../images/focal/basic/krunner.png
    :align: center
    :target: https://userbase.kde.org/Special:MyLanguage/Plasma/Krunner
 
@@ -48,7 +56,7 @@ Like Kickoff, KRunner is a launcher, but it does a lot more than just launching 
 Networking
 -----------
 
-.. image:: ../images/focal/network-panel.png
+.. image:: ../images/focal/basic/network-panel.png
     :scale: 75 %
     :align: center
 
@@ -69,10 +77,27 @@ This section covers the basics of configuring Kubuntu to suit your needs. One of
 
 KDE-Look is the number one location to find customized settings for the *KDE* Plasma desktop. Some of the applications even allow direct connections to KDE-Look to download a new configuration or image. 
 
-Themes
-~~~~~~~
+Global Themes
+~~~~~~~~~~~~~~
 
-Kubuntu allows themes to be changed easily. To change your theme go to System Settings -> Workspace Theme in the Desktop Theme section, then choose from the list of installed themes. You can change the theme of the Desktop Theme, Cursor Theme, and the Splash Screen. Pick from the default choices that are installed, or left-click the 'Get New...' button in each section for more choices. 
+Kubuntu allows themes to be changed easily. To change your global theme follow these steps:
+
+1. Open System Settings 
+2. Left-click 'Global Theme'
+3. Now choose from the list of installed themes
+4. Pick from the default choices that are installed, or left-click the 'Get New Global Themes...' button for more choices
+
+Plasma Styles
+~~~~~~~~~~~~~~
+
+1. Open System Settings 
+2. Left-click 'Plasma Style'
+3. Now choose from the list of installed themes
+4. Pick from the default choices that are installed
+
+
+- Left-click the 'Get New Plasma Styles...' button for more choices         
+- Left-click the 'Install from File...' button to install from a local file 
 
 Plasmoids
 ~~~~~~~~~~
@@ -82,7 +107,7 @@ Plasmoids (also called Widgets) can be added by right-clicking the desktop and s
 Panel 
 ~~~~~~
 
-.. image:: ../images/Panels-zesty.png
+.. image:: ../images/focal/basic/panels.png
     :align: left
     :scale: 75 %
 
@@ -102,9 +127,9 @@ KDE Activites in Kubuntu provide a slick way to setup and configure environments
 Activities first look
 ~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: ../images/basic/activity_desktop_side_bar.png
+.. image:: ../images/focal/basic/activities.png
    :align: center
-   :scale: 30 %
+   :scale: 75 %
    
 Let's take a look at the default KDE Activities configured in Kubuntu. Right Click anywhere on the empty desktop and choose "Activities" from the menu. The Activities side bar appears on the left, with the Default activity. Notice the + Create Activity at the bottom. Click that, and lets created a new "Social" Activity.
 Enter "Social" as the Activity name: and then click Create.
@@ -116,21 +141,21 @@ You can theme, and configured this new activity desktop in the same ways as ment
 A Step Further
 ~~~~~~~~~~~~~~
 
-OK, looking good, lets create another activity. Call this one "News". Once created switch to this activity, either by Right Click on the Desktop > Activities or use the Keyboard shortcut Alt+D,A ( Hold Alt down, press D, then Press A )
-Then select the News activity from the side bar.
+OK, looking good, lets create another Activity. Call this one "Misc". Once created switch to this Activity, either by Right Click on the Desktop > Activities or use the Keyboard shortcut Alt+D,A ( Hold Alt down, press D, then Press A )
+Then select the Misc Activity from the side bar.
 
 OK, lets configure a few useful tools
 
 1. Change the desktop wallpaper to something you like
 2. Right click > Add Widgets, and add the Digital Clock
-3. Right click > Add Widgets, and add the Web Browser
-4. Right click > Add Widgets, and add the RSS
+3. Right click > Add Widgets, and add the Comic Strip
+4. Right click > Add Widgets, and add the Hard Disk Space Usage
 
 You can now resize these widgets and lay them out on the desktop however you wish. and configure them to suit your needs, as in the example below.
 
-.. image:: ../images/basic/activity_desktop_news.png
+.. image:: ../images/focal/basic/activitiy-misc.png
    :align: center
-   :scale: 30 %
+   :scale: 75 %
 
 Dolphin
 ````````
