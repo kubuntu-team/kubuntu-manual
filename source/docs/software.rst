@@ -71,7 +71,7 @@ The following applications are installed by default:
 - Exploring your music in Kubuntu is exciting with the pre-installed Amarok music player. For more about how to use and customize it see `Amarok <https://userbase.kde.org/Special:MyLanguage/Amarok>`_. 
 - `K3b <https://userbase.kde.org/Special:MyLanguage/K3b>`_ is a simple, powerful and highly-configurable graphical optical disk burning application for audio, video, data projects. 
 - `Kmix <https://userbase.kde.org/Special:MyLanguage/KMix>`_ controls all your audio channels. 
-- `Elisa <https://www.videolan.org/ is a music player focused on the Plasma desktop.
+- `Elisa <https://userbase.kde.org/Special:MyLanguage/Elisa>`_ is a music player focused on the Plasma desktop.
 - `VLC <https://www.videolan.org/>`_ is a simple interface for playing your movies, TV shows, and music. 
 
 Office
