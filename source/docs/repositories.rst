@@ -9,20 +9,33 @@ Managing Repositories
 Add a Repository
 ~~~~~~~~~~~~~~~~~
 
-You can use the Discover to add new repositories.
+You can use the Discover to add new repositories. 
 
-**How-to**: Start Discover. Select Settings, click 'More...' at the top of the window. Enter your administrative password at the prompt. Left-click the 'Other Software' tab. Left-click the 'Add...' button. Enter the repository address into the text box. The proper format is required, and looks similar to this: ppa:kubuntu-ppa/backports Left-click the 'OK' button to add the repository. Left-click the 'Close' button. A prompt will appear to update the package list. Discover will now be allowed to find the newly available software. 
+1. Start Discover 
 
-.. image:: ../images/repos/SoftwareSources-zesty.png
+.. image:: ../images/focal/repositories/discover-manage.png
     :align: center
     :scale: 50 %
-.. image:: ../images/repos/EditRepos-zesty.png
+
+2. Select Settings Left-click the 'Software Sources' button at the top right of the window. 
+3. Enter your administrative password at the prompt.
+
+.. image:: ../images/focal/repositories/discover-edit.png
     :align: center
     :scale: 75 %
-.. image:: ../images/repos/EditRepo-zesty.png
+
+4. Left-click the 'Other Software' tab 
+5. Left-click the 'Add...' button
+
+.. image:: ../images/focal/repositories/discover-edit2.png
     :align: center
     :scale: 75 %
-    
+
+6. Enter the repository address into the text box. The proper format is required, and looks similar to this: ppa:kubuntu-ppa/backports 
+7. Left-click the 'OK' button to add the repository. Left-click the 'Close' button
+
+A prompt will appear to update the package list. Discover will now be allowed to find the newly available software. 
+
 Enable a Repository
 ~~~~~~~~~~~~~~~~~~~~
 
@@ -34,8 +47,9 @@ You can use the Discover to enable repositories. We'll go over that process belo
 4. Enter your administrative password at the prompt
 5. Left-click the 'Other Software' tab
 6. Check the appropriate box in the center section of the window to enable a repository
-7. Left-click the 'Close' button. A prompt will appear to update the package list
-8. Discover will now be allowed to find the newly available software
+7. Left-click the 'Close' button. 
+
+A prompt will appear to update the package list, Discover will now be allowed to find the newly available software.
 
 Disable a Repository
 ~~~~~~~~~~~~~~~~~~~~~
@@ -48,8 +62,9 @@ You can use the Discover to disable repositories. We'll go over that process bel
 4. Enter your administrative password at the prompt
 5. Left-click the 'Other Software' tab
 6. Uncheck the appropriate box in the center section of the window to disable a repository
-7. Left-click the 'Close' button. A prompt will appear to update the package list
-8. Discover will now forget the no longer available software
+7. Left-click the 'Close' button. 
+
+A prompt will appear to update the package list, Discover will now forget the no longer available software.
 
 Remove a Repository
 ~~~~~~~~~~~~~~~~~~~~
@@ -57,7 +72,13 @@ Remove a Repository
 You can use the Discover to remove repositories. We'll go over that process below:
 
 1. Start Discover and select Sources
-2. Configure Software Sources in the window. Enter your administrative password at the prompt. Left-click the 'Other Software' tab. Left-click the name of an existing repository in the center section of the window to select it. Left-click the 'Remove' button. Left-click the 'Close' button. A prompt will appear to update the package list. Discover will now forget the no longer available software. 
+2. Configure Software Sources in the window
+3. Enter your administrative password at the prompt
+4. Left-click the 'Other Software' tab 
+5. Left-click the name of an existing repository in the center section of the window to select it 
+6. Left-click the 'Remove' button. Left-click the 'Close' button. 
+
+A prompt will appear to update the package list, Discover will now forget the no longer available software. 
 
 Managing Personal Package Archives
 -----------------------------------
@@ -71,30 +92,31 @@ Add a PPA
 
 You can use the Discover to add a PPA:
 
-**How-to**: Open the Launchpad PPA overview page in your browser. Look for the location of the PPA in the 'Adding this PPA to your system' section.
+1. Open the Launchpad PPA overview page in your browser
+2. Look for the location of the PPA in the 'Adding this PPA to your system' section
+3. Open Discover then Select Sources
+4. Configure Software Sources in the window and enter your administrative password at the prompt
+5. Left-click on the 'Other Software' tab 
+6. Left-click the 'Add...' button, paste the location you got from the PPA's overview page into the text box
+7. Left-click the 'OK' button to add the repository
+8. Left-click the 'Close' button. 
 
-Open Discover. Select Sources, Configure Software Sources in the window. Enter your administrative password at the prompt. Left-click on the 'Other Software' tab. Left-click the 'Add...' button. Paste the location you got from the PPA's overview page into the text box. Left-click the 'OK' button to add the repository. Left-click the 'Close' button. A prompt will appear to update the package list. Discover will now be allowed to find the newly available software.
-
-You can use the command line to add a PPA on 9.10 Karmic Koala or newer Kubuntu systems:
-
-**How-to**: Visit the Launchpad PPA overview page. Look for the location of the PPA in the 'Adding this PPA to your system' section.
-
-Open a terminal window. Add the PPA to your system by entering this command in the terminal window, replacing Location with the location you got from the PPA's overview page: sudo add-apt-repository Location Update the package index by entering this command in the terminal window: sudo apt-get update You can now install software from the PPA. 
+A prompt will appear to update the package list, Discover will now be allowed to find the newly available software.
 
 Remove a PPA
 ~~~~~~~~~~~~~
 
 You can use the Discover to add a PPA:
 
-**How-to**: Open the Launchpad PPA overview page in your browser. Look for the location of the PPA in the 'Adding this PPA to your system' section.
+1. Open the Launchpad PPA overview page in your browser.
+2. Look for the location of the PPA in the 'Adding this PPA to your system' section
+3. Open Discover then Select Sources
+4. Configure Software Sources in the window. Enter your administrative password at the prompt.
+5. Left-click on the 'Other Software' tab. Left-click the 'Add...' button. Paste the location you got from the PPA's overview page into the text box
+6. Left-click the 'OK' button to add the repository. 
+7. Left-click the 'Close' button. 
 
-Open Discover. Select Sources, Configure Software Sources in the window. Enter your administrative password at the prompt. Left-click on the 'Other Software' tab. Left-click the 'Add...' button. Paste the location you got from the PPA's overview page into the text box. Left-click the 'OK' button to add the repository. Left-click the 'Close' button. A prompt will appear to update the package list. Discover will now be allowed to find the newly available software.
-
-You can use the command line to add a PPA on 9.10 Karmic Koala or newer Kubuntu systems:
-
-**How-to**: Visit the Launchpad PPA overview page. Look for the location of the PPA in the 'Adding this PPA to your system' section.
-
-Open a terminal window. Add the PPA to your system by entering this command in the terminal window, replacing Location with the location you got from the PPA's overview page: sudo add-apt-repository Location Update the package index by entering this command in the terminal window: sudo apt-get update You can now install software from the PPA. 
+A prompt will appear to update the package list, Discover will now be allowed to find the newly available software.
 
 Kubuntu Backports
 ~~~~~~~~~~~~~~~~~
