@@ -68,7 +68,6 @@ The best in multimedia is installed when you open your new Kubuntu installation.
 The following applications are installed by default: 
 
 - `Pulseaudio <https://wiki.ubuntu.com/PulseAudio>`_ keeps all your sound and video inputs and outputs working together. If you need to direct your audio or video output to other devices, install the pavucontrol package, launch it by pressing Alt + F2, then type pavucontrol. 
-- Exploring your music in Kubuntu is exciting with the pre-installed Amarok music player. For more about how to use and customize it see `Amarok <https://userbase.kde.org/Special:MyLanguage/Amarok>`_. 
 - `K3b <https://userbase.kde.org/Special:MyLanguage/K3b>`_ is a simple, powerful and highly-configurable graphical optical disk burning application for audio, video, data projects. 
 - `Kmix <https://userbase.kde.org/Special:MyLanguage/KMix>`_ controls all your audio channels. 
 - `Elisa <https://userbase.kde.org/Special:MyLanguage/Elisa>`_ is a music player focused on the Plasma desktop.
