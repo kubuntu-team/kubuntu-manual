@@ -35,7 +35,7 @@ Kubuntu Forums are located at: `Kubuntu Forums <https://www.kubuntuforums.net/co
 Application Help
 ~~~~~~~~~~~~~~~~~
 
-In most *KDE* applications there is a 'Help' button in the toolbar that will lead you to the handbook. For general *KDE* documentation, see `KDE Documentation <https://www.kde.org/documentation/>`_ and `KDE Userbase Wiki <https://userbase.kde.org/Special:MyLanguage/Welcome_to_KDE_UserBase>`_. 
+In most KDE applications there is a 'Help' button in the toolbar that will lead you to the handbook. For general KDE documentation, see `KDE Documentation <https://www.kde.org/documentation/>`_ and `KDE Userbase Wiki <https://userbase.kde.org/Special:MyLanguage/Welcome_to_KDE_UserBase>`_. 
 
 Kubuntu Phone Support
 ----------------------

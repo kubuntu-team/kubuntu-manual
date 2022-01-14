@@ -6,8 +6,8 @@ Following this: https://community.kde.org/Policies/Licensing_Policy
 
 ## To Do list
 
-- [ ] Create 20.04 LTS Manual
-- [ ] Create 22.04 LTS Manual
+- [ ] Update images where possible
+- [ ] Update text and fix grammar
 
 ## How it works
 

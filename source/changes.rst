@@ -12,6 +12,13 @@ Thanks for reading this! Second I'll try to keep this as up to date as humanly p
 Changes
 -------
 
+01/13/22 - ahoneybun <aaronhoneycutt@kubuntu.org>
+
+* Reorder content to better sections
+* Fix typos
+* Add additional content
+* Update photos for Kubuntu 20.04 LTS
+
 03/2/18 - ahoneybun <aaronhoneycutt@kubuntu.org>
 
 * moved manual to the new Kubuntu Team as a Github org
