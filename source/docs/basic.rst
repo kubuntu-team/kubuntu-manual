@@ -72,7 +72,7 @@ In most cases the wired network connection will simply work without any changes 
 Wireless
 ~~~~~~~~~
 
-Most Wireless cards are supported out of the box by Kubuntu. However, in some cases the Wireless network device may have a restricted driver in order to operate. The best way to check this is to open the 'Driver Manager' application. To open this program use your launcher of choice or Kickoff to search for 'Driver Manager'. If the device needs a restricted driver, then 'Driver Manager' can help with selecting, installing, and activating the proper driver. Once this is all handled, the system will need to be rebooted. For more information on troubleshooting Wi-Fi on your system, see `Wireless troubleshooting <https://help.ubuntu.com/community/WifiDocs/WirelessTroubleShootingGuide>`_.
+Most Wireless cards are supported out of the box by Kubuntu. However, in some cases the Wireless network device may have a restricted driver in order to operate. The best way to check this is to open the 'Driver Manager' application. To open this program use your launcher of choice or KRunner to search for 'Driver Manager'. If the device needs a restricted driver, then 'Driver Manager' can help with selecting, installing, and activating the proper driver. Once this is all handled, the system will need to be rebooted. For more information on troubleshooting Wi-Fi on your system, see `Wireless troubleshooting <https://help.ubuntu.com/community/WifiDocs/WirelessTroubleShootingGuide>`_.
 
 Deskop Customization
 ---------------------

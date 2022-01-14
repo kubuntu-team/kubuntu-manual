@@ -3,7 +3,7 @@
 Advanced
 =========
 
-You can further customize your Kubuntu installation by adding new software packages. Below you will find several methods to install new packages (software). 
+You can further customize your Kubuntu installation by adding new software. Below you will find several methods to install new software (packages). 
 
 Software Management
 --------------------
@@ -13,11 +13,10 @@ There are several ways to manage applications in Kubuntu. A convenient way to ad
 Graphical Clients
 ~~~~~~~~~~~~~~~~~~
 
-By default Kubuntu comes with a great package manager called Discover. Discover is an advanced program with a graphical user interface (GUI) for installing and removing applications. It will automatically notify you for updates (in the lower right hand corner), but you can use it at anytime to install new packages by going to KickOff and type . Select  Discover from the results. If you prefer the Ubuntu-style "Software Center" you will need to install it from within Discover.
-
+By default Kubuntu comes with a great package manager called Discover. Discover is an advanced program with a graphical user interface (GUI) for installing and removing applications. It will automatically notify you for updates (in the lower right hand corner), but you can use it at anytime to install new packages by opening your launcher or KRunner and type 'Discover' then select  Discover from the results.
 .. image:: ../images/focal/advanced/discover.png
 
-Discover might provide information about required dependencies, these are other packages (programs) that the piece of software that you want to install needs to run. Once this information is acknowledged, the required packages will begin downloading. When the installation process is complete, the software will be ready to use. It is rarely necessary to restart the system after software installation or updates. If it is, the system will warn you and give you a restart icon to do the restart at your convenience.
+Discover might provide information about the required dependencies, these are other packages (software) that the piece of software that you want to install needs to run. Once this information is acknowledged, the required packages will begin downloading then be installed. When the installation process is complete, the software will be ready to use. It is rarely necessary to restart the system after software installation or updates. If it is, the system will warn you and give you a restart icon to do the restart at your convenience.
 
 Discover also provides an easy method to remove software that is no longer needed. 
 
@@ -45,7 +44,7 @@ Two factors are used to determine categories
 
 The standard Kubuntu LiveDVD contains some software from the "Main" and "Restricted" categories. Once a system has information about the Internet-based locations for these repositories, more programs are available for installation. Using the software package management tools installed by default, it is possible to discover, install, and update any piece of software directly over the internet without the need for the LiveDVD. 
 
-For more information about managing repositories, click on `Managing Repositories <https://help.ubuntu.com/community/Repositories>`_.
+For more information about managing repositories, check the click on Repositories section of this manual. For even more information check the Ubuntu Wiki about `managing Repositories <https://help.ubuntu.com/community/Repositories>`_.
 
 PPAs (Personal Package Archive)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
