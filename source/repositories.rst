@@ -29,21 +29,21 @@ You can use the Discover to add new repositories.
 
 1. Start Discover 
 
-.. image:: ../images/focal/repositories/discover-manage.png
+.. image:: /images/focal/repositories/discover-manage.png
     :align: center
     :scale: 50 %
 
 2. Select Settings Left-click the 'Software Sources' button at the top right of the window. 
 3. Enter your administrative password at the prompt.
 
-.. image:: ../images/focal/repositories/discover-edit.png
+.. image:: /images/focal/repositories/discover-edit.png
     :align: center
     :scale: 75 %
 
 4. Left-click the 'Other Software' tab 
 5. Left-click the 'Add...' button
 
-.. image:: ../images/focal/repositories/discover-edit2.png
+.. image:: /images/focal/repositories/discover-edit2.png
     :align: center
     :scale: 75 %
 

@@ -8,5 +8,5 @@ Contents:
    :maxdepth: 2
    :titlesonly:
    
-   changes
+   ../changes
    references

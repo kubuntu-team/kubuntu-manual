@@ -13,15 +13,15 @@ Contents:
    :titlesonly:
    
    welcome
-   docs/installation
-   docs/basic
-   docs/advanced
-   docs/repositories
-   docs/software
-   docs/contribute
-   docs/support
-   docs/packaging_guide/packaging
-   docs/appendix/appendix
+   installation
+   basic
+   advanced
+   repositories
+   software
+   contribute
+   support
+   packaging_guide/packaging
+   appendix/appendix
 
 
 Indices and tables

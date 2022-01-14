@@ -74,7 +74,7 @@ For a GUI (Graphic User Interface) we use `UNetBootin <http://unetbootin_link/>`
 
 If you choose the `Diskimage` option you use the `...` button to select your downloaded ISO. Then click OK. 
 
-.. image:: ../images/unetbootin-win78.png
+.. image:: /images/unetbootin-win78.png
     :align: center
     
 .. warning:: Pay special attention when selecting the right USB device under 'Drive'
@@ -105,12 +105,12 @@ Since UNetBootin is a cross-platform application we will be using the same instr
 DVD
 ````
 
-.. image:: ../images/K3b.png
+.. image:: /images/K3b.png
     :align: center
     
 Look for `More actions...` click it then pick `Burn image...` from the list of actions
     
-.. image:: ../images/K3b-1.png
+.. image:: /images/K3b-1.png
     :align: center
 
 Then you select the ISO(Disk Image) that you want to burn to the DVD from your computer.  
@@ -133,7 +133,7 @@ For USB/Flash Drives we'll be stick to using UNetBootin from this tutorial: :ref
 DVD
 ````
 
-.. image:: ../images/UbuntuGNOMEBrasero.png
+.. image:: /images/UbuntuGNOMEBrasero.png
     :align: center
     
 For Linux Distributions that use GNOME we'll be using the default DVD burning tool Brasero.
@@ -154,7 +154,7 @@ Install Process
 
 .. note:: You will need to press a special key on the keyboard in order to boot from your chosen Installation Media. Ex: Esc, F2, F10, F12, or Del it all depends on the OEM(Original Equipment Manufacturer) 
 
-.. image:: ../images/welcome-slide.png
+.. image:: /images/welcome-slide.png
     :align: center
 
 When the installer starts you will see these options:
@@ -170,7 +170,7 @@ Fro the best result, ensure that:
 - Your computer has enough room for Kubuntu and your data - your songs, pictures, videos, and documents. 
 - Your computer is connected to the Internet so that you can download updates and third-party software as Kubuntu is installing. 
 
-.. image:: ../images/zesty/prepare.png
+.. image:: /images/zesty/prepare.png
     :align: center
     
 Include this third-party software: includes software that either does not follow the Open Source model or the `Ubuntu Philosophy <http://www.ubuntu.com/about/about-ubuntu/our-philosophy>`_, but is safe for use on your system. 
@@ -196,7 +196,7 @@ This will resize the partitions for you and install Kubuntu on the free space. W
 Use entire disk
 ````````````````
 
-.. image:: ../images/zesty/disksetup-full.png
+.. image:: /images/zesty/disksetup-full.png
     :align: center
 
 .. warning:: This will wipe all your data    
@@ -214,7 +214,7 @@ More about `encrypted file systems <https://help.ubuntu.com/community/EncryptedF
 Manual
 ```````
 
-.. image:: ../images/zesty/disksetup-manual.png
+.. image:: /images/zesty/disksetup-manual.png
     :align: center
 
 When using Manual to set up your system as you would like it, keep these thoughts in mind:
@@ -233,7 +233,7 @@ Timezone
 
 During this step you get to pick the Region where you live and then the Timezone of the location in that Region. An example would be that I live in New York, so my Region is North America and my Timezone is New York. 
 
-.. image:: ../images/zesty/timezone.png
+.. image:: /images/zesty/timezone.png
     :align: center
 
 Keyboard
@@ -241,7 +241,7 @@ Keyboard
 
 This is the step that will set up your keyboard's language and, if the language has it, a different version of the language. For example, there is a Cherokee American English setting as well as different setups with special keys used in certain countries; in Kubuntu we try to make the system easy for everyone! 
 
-.. image:: ../images/zesty/keyboard.png
+.. image:: /images/zesty/keyboard.png
     :align: center
 
 User Info
@@ -249,5 +249,5 @@ User Info
 
 At this step of the installation you will be putting in user information like your name, username, and password. The password will be your key to logging into your new installation as well as installing new software, updating your system, and more, so keep it written down somewhere! 
 
-.. image:: ../images/zesty/userinfo.png
+.. image:: /images/zesty/userinfo.png
     :align: center
