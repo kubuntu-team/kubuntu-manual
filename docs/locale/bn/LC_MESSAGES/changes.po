@@ -1,0 +1,122 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Kubuntu Team
+# This file is distributed under the same license as the Kubuntu Manual
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Kubuntu Manual 16.10\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-08-14 12:02-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ../../source/changes.rst:3
+msgid "Changelog"
+msgstr ""
+
+#: ../../source/changes.rst:6
+msgid "First off"
+msgstr ""
+
+#: ../../source/changes.rst:8
+msgid ""
+"Thanks for reading this! Second I'll try to keep this as up to date as "
+"humanly possible."
+msgstr ""
+
+#: ../../source/changes.rst:11
+msgid "Changes"
+msgstr ""
+
+#: ../../source/changes.rst:13
+msgid "07/8/16 - ahoneybun <aaronhoneycutt@kubuntu.org>"
+msgstr ""
+
+#: ../../source/changes.rst:15
+msgid ""
+"added sections from Lubuntu Manual [https://github.com/tsimonq2/lubuntu-"
+"manual]"
+msgstr ""
+
+#: ../../source/changes.rst:16
+msgid "tsimonq2"
+msgstr ""
+
+#: ../../source/changes.rst:18
+msgid "01/8/16 - ahoneybun <aaronhoneycutt@kubuntu.org>"
+msgstr ""
+
+#: ../../source/changes.rst:20
+msgid "merged Activities section for source/docs/basic.rst from ricktimmis's fork"
+msgstr ""
+
+#: ../../source/changes.rst:22
+msgid "01/08/16 - ricktimmis <rick-timmis@kubuntu.org>"
+msgstr ""
+
+#: ../../source/changes.rst:24
+msgid "added Activities section to Basic"
+msgstr ""
+
+#: ../../source/changes.rst:25
+msgid "linked Change log to appendix in toctree"
+msgstr ""
+
+#: ../../source/changes.rst:26
+msgid "updated copyright dates"
+msgstr ""
+
+#: ../../source/changes.rst:27
+msgid "Added appendix, changelog, references ( Stubs for future links etc.. )"
+msgstr ""
+
+#: ../../source/changes.rst:28
+msgid "Added Packaging Guide, Welcome to Packaging, and Getting Started"
+msgstr ""
+
+#: ../../source/changes.rst:29
+msgid "Amends as per review by ahoneycutt"
+msgstr ""
+
+#: ../../source/changes.rst:31 ../../source/changes.rst:37
+msgid "28/5/15 - ahoneybun <aaronhoneycutt@kubuntu.org>"
+msgstr ""
+
+#: ../../source/changes.rst:33
+msgid "finished up the rest of the pages"
+msgstr ""
+
+#: ../../source/changes.rst:34
+msgid "added repositories."
+msgstr ""
+
+#: ../../source/changes.rst:35
+msgid "added 3 images managing-repositories"
+msgstr ""
+
+#: ../../source/changes.rst:39
+msgid "added in this file :)"
+msgstr ""
+
+#: ../../source/changes.rst:40
+msgid ""
+"changed \"deb http://ppa.launchpad.net/kubuntu-ppa/backports/ubuntu vivid"
+" main\" to \"ppa:kubuntu-ppa/backports\""
+msgstr ""
+
+#: ../../source/changes.rst:41
+msgid "fixed some images not showing up"
+msgstr ""
+
+#: ../../source/changes.rst:42
+msgid "changed Kubuntu to *Kubuntu* and KDE to *KDE* in the files"
+msgstr ""
+
