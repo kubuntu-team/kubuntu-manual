@@ -3,7 +3,38 @@
 Software
 =========
 
-Short guide to the software which is included in your Kubuntu installation. 
+Software Management
+--------------------
+
+There are several ways to manage applications in Kubuntu. A convenient way to add or remove applications is with a package manager. 
+
+Graphical Clients
+~~~~~~~~~~~~~~~~~~
+
+By default Kubuntu comes with a great package manager called Discover. Discover is an advanced program with a graphical user interface (GUI) for installing and removing applications. It will automatically notify you for updates (in the lower right hand corner), but you can use it at anytime to install new packages by opening your launcher or KRunner and type 'Discover' then select  Discover from the results.
+
+.. image:: ../images/focal/advanced/discover.png
+
+Discover might provide information about the required dependencies, these are other packages (software) that the piece of software that you want to install needs to run. Once this information is acknowledged, the required packages will begin downloading then be installed. When the installation process is complete, the software will be ready to use. It is rarely necessary to restart the system after software installation or updates. If it is, the system will warn you and give you a restart icon to do the restart at your convenience.
+
+Discover also provides an easy method to remove software that is no longer needed. 
+
++--------------------------------------------------------------------------+
+|                           Tip:                                           |
+|                                                                          |
+| - Click on Installed and find the application you want to remove.        |
+| - Then click Remove and Discover will remove the application.            |
++--------------------------------------------------------------------------+
+
+Updating
+---------
+
+Kubuntu developers release feature and security updates for applications and packages within the Kubuntu system. When updates become available, Kubuntu will display a message in the System Tray. To update the system, open Discover from either the Application Menu or Krunner and click the Update button (usually yellow/orange when there are updates). After installing some updates, it may be necessary to restart the computer. If so, Kubuntu will display a pop-up and an icon in the System Tray. 
+
+.. image:: ../images/DiscoverUpdates-zesty.png
+    :scale: 75 %
+
+This is a short guide to the software which is included in your Kubuntu installation. 
 
 Graphics
 ---------
@@ -115,6 +146,7 @@ Your newly installed Kubuntu system has some utilities already installed. One of
 - `Knotes <https://userbase.kde.org/Special:MyLanguage/KNotes>`_ is a sticky-note application to post notes on your desktop. 
 - `KCalc <https://userbase.kde.org/Special:MyLanguage/KCalc>`_ offers basic calculator functions and much more. 
 - `Konsole <https://userbase.kde.org/Special:MyLanguage/Konsole>`_ is the KDE terminal emulator, it can be used to run console shells. 
+- `Dolphin <https://userbase.kde.org/Special:MyLanguage/Dolphin>`_ is the default file manager. Dolphin looks simple because of great design, while having many powerful features.
 
 Bash
 ~~~~~
