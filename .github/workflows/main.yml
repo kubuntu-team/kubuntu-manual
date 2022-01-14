@@ -13,5 +13,5 @@ jobs:
     - uses: ammaraskar/sphinx-action@master
       with:
         pre-build-command: "apt update -y && apt install -y latexmk texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended"
-        build-command: "sphinx-build -b html . build"
+        build-command: "echo $PWD && sphinx-build -b html . build"
         docs-folder: "."
