@@ -5,6 +5,7 @@
 SPHINXOPTS    =
 SPHINXBUILD   = sphinx-build
 PAPER         =
+SOURCEDIR     = .
 BUILDDIR      = build
 
 # User-friendly check for sphinx-build
