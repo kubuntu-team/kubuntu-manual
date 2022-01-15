@@ -24,7 +24,7 @@ Preparing the Installation media
 
 Getting the ISO(Disc Image):
 
-Download it though `Get Kubuntu <http://www.kubuntu.org/getkubuntu/>`_.
+Download it though `Get Kubuntu <https://www.kubuntu.org/getkubuntu/>`_.
 
 Checking the SHA256SUM
 ~~~~~~~~~~~~~~~~~~~~
@@ -37,7 +37,7 @@ From Windows 10
 ````````````````````````````````
 
 Microsoft Windows does not have any built-in tools for SHA256SUM but they do
-provide some `decent documentation <https://support.microsoft.com/en-us/kb/841290>`_ and a tool for checking the SHA256SUM. How-To-Geek also provides some `reading material <http://www.howtogeek.com/67241/htg-explains-what-are-md5-sha-1-hashes-and-how-do-i-check-them/>`_ if you want to understand the technology behind SHA256SUM if you like.
+provide some `decent documentation <https://support.microsoft.com/en-us/kb/841290>`_ and a tool for checking the SHA256SUM. How-To-Geek also provides some `reading material <https://www.howtogeek.com/67241/htg-explains-what-are-md5-sha-1-hashes-and-how-do-i-check-them/>`_ if you want to understand the technology behind SHA256SUM if you like.
 
 From macOS 
 ``````````````
@@ -47,7 +47,7 @@ Run:
 
 .. code-block:: bash
 
-    sha256 -r kubuntu-17.04-desktop-amd64.iso
+    sha256 -r kubuntu-20.04-desktop-amd64.iso
 
 And compare the output to the hashes page for the ISO file.
 
@@ -59,7 +59,7 @@ The first thing to do is to make sure you're in the directory with the .iso file
 
 .. code-block:: bash
 
-    sha256sum kubuntu-17.04-desktop-amd64.iso
+    sha256sum kubuntu-20.04-desktop-amd64.iso
 
 
 Windows 10
@@ -70,7 +70,7 @@ Windows 10
 USB/Flash Drives
 `````````````````
 
-For a GUI (Graphic User Interface) we use `UNetBootin <http://unetbootin_link/>`_.
+For a GUI (Graphic User Interface) we use `UNetBootin <https://unetbootin_link/>`_.
 
 If you choose the `Diskimage` option you use the `...` button to select your downloaded ISO. Then click OK. 
 
@@ -82,7 +82,7 @@ If you choose the `Diskimage` option you use the `...` button to select your dow
 DVD
 ````
 
-The recommended tool to use is `ImgBurn <http://www.imgburn.com/>`_. There is a excellent how-to on the ImgBurn forums by the admin `here <http://forum.imgburn.com/index.php?/topic/61-how-to-write-an-image-file-to-a-disc-using-imgburn/>`_. 
+The recommended tool to use is `ImgBurn <https://www.imgburn.com/>`_. There is a excellent how-to on the ImgBurn forums by the admin `here <https://forum.imgburn.com/index.php?/topic/61-how-to-write-an-image-file-to-a-disc-using-imgburn/>`_. 
 
 .. _kubuntu-install-link:
 
