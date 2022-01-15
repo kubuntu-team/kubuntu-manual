@@ -42,16 +42,17 @@ pip3 install sphinx-intl
 Once you use 'git clone' to copy this repo to your machine you can:
 
 ```
-make html - to produce HTML files in build/html
+sphinx-build -b html docs ../build
 ```
 
-```
-make latexpdf - to produce a PDF file in build/latex
-```
+to produce HTML files in build/html
+
 
 ```
-make epub -- to produce a epub file in build/epub
+sphinx-build -b epub docs ../build
 ```
+
+to produce a epub file in build/epub
 
 We are aware that the images in the epub are pixely and looking for a fix
                                                                                                            
