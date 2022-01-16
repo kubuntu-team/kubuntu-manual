@@ -37,7 +37,7 @@ From Windows 10
 ````````````````````````````````
 
 Microsoft Windows does not have any built-in tools for SHA256SUM but they do
-provide some `decent documentation <https://support.microsoft.com/en-us/kb/841290>`_ and a tool for checking the SHA256SUM. How-To-Geek also provides some `reading material <https://www.howtogeek.com/67241/htg-explains-what-are-md5-sha-1-hashes-and-how-do-i-check-them/>`_ if you want to understand the technology behind SHA256SUM if you like.
+provide some `decent documentation <https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/get-filehash?view=powershell-7.2>`_ and a tool for checking the SHA256SUM. How-To-Geek also provides some `reading material <https://www.howtogeek.com/67241/htg-explains-what-are-md5-sha-1-hashes-and-how-do-i-check-them/>`_ if you want to understand the technology behind SHA256SUM if you like.
 
 From macOS 
 ``````````````
