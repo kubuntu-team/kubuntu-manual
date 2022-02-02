@@ -36,12 +36,6 @@ Kubuntu Development
 - [Register](https://lists.ubuntu.com/mailman/listinfo/kubuntu-devel)
 - [Archive](https://lists.ubuntu.com/archives/kubuntu-devel)
 
-Kubuntu Documentation
-~~~~~~~~~~~~~~~~~~~~~~
-
-- [Register](https://lists.ubuntu.com/mailman/listinfo/ubuntu-doc)
-- [Archive](https://lists.ubuntu.com/archives/ubuntu-doc)
-
 Kubuntu IRC Channels
 ---------------------
 
@@ -52,8 +46,13 @@ Connect to #kubuntu on the web here: `#kubuntu <irc://irc.ubuntu.com/kubuntu>`_
 
 #kubuntu-offtopic
     For off-topic chatter with your fellow Kubuntu users
+
+Connect to #kubuntu-offtopic on the web here: `#kubuntu-offtopic <irc://irc.ubuntu.com/kubuntu-offtopic>`_
+
 #kubuntu-devel
     This is the channel where the developers hang out
+
+Connect to #kubuntu-devel on the web here: `#kubuntu-devel <irc://irc.ubuntu.com/kubuntu-devel>`_
 
 Bug Reporting
 --------------
