@@ -34,20 +34,20 @@ Checking the SHA256SUM
 Doing this will make sure your download completed fully and has given you a fully working ISO to boot and perhaps later install from. 
 
 From Windows 10
-````````````````````````````````
+`````````````````
 
 Microsoft Windows does not have any built-in tools for SHA256SUM but they do
 provide some `decent documentation <https://support.microsoft.com/en-us/kb/841290>`_ and a tool for checking the SHA256SUM. How-To-Geek also provides some `reading material <http://www.howtogeek.com/67241/htg-explains-what-are-md5-sha-1-hashes-and-how-do-i-check-them/>`_ if you want to understand the technology behind SHA256SUM if you like.
 
 From macOS 
-``````````````
+````````````
 
 Open the Terminal app, then navigate to the directory where the ISO is saved.
 Run:
 
 .. code-block:: bash
 
-    sha256 -r kubuntu-20.04-desktop-amd64.iso
+    sha256 -r kubuntu-22.04-desktop-amd64.iso
 
 And compare the output to the hashes page for the ISO file.
 
@@ -59,95 +59,39 @@ The first thing to do is to make sure you're in the directory with the .iso file
 
 .. code-block:: bash
 
-    sha256 kubuntu-20.04-desktop-amd64.iso
+    sha256 kubuntu-22.04-desktop-amd64.iso
 
+Flashing the installation media
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Windows 10
-~~~~~~~~~~~~
+Windows 10 and macOS
+`````````````````````
 
-.. _usb-drives-link:
+For a GUI (Graphic User Interface) we use `Etcher <https://www.balena.io/etcher/>`_. The website will detect your OS and recommend a download version, it is recommended to use that version. 
+Once it is installed (if you use the Installer for Windows only) open the application and follow these steps:
 
-USB/Flash Drives
-`````````````````
-
-For a GUI (Graphic User Interface) we use `UNetBootin <http://unetbootin_link/>`_.
-
-If you choose the `Diskimage` option you use the `...` button to select your downloaded ISO. Then click OK. 
-
-.. image:: ../images/unetbootin-win78.png
-    :align: center
+1. Select the ISO file using the 'Flash from file' option
+2. Double left-click the ISO file which is usually in your Downloads folder
+3. Use the 'Select target' option to select your flash drive
+4. Then left-click the 'Flash!' button
     
-.. warning:: Pay special attention when selecting the right USB device under 'Drive'
-
-DVD
-````
-
-The recommended tool to use is `ImgBurn <http://www.imgburn.com/>`_. There is a excellent how-to on the ImgBurn forums by the admin `here <http://forum.imgburn.com/index.php?/topic/61-how-to-write-an-image-file-to-a-disc-using-imgburn/>`_. 
+.. warning:: Pay special attention when selecting the right flash drive under 'Drive' in case you have more then one flash drive connected.
 
 .. _kubuntu-install-link:
 
-macOS 
-~~~~~~~~~
+Existing Linux Installs
+`````````````````````````
 
-Burn an installer DVD using `Disk Utility
-<https://help.ubuntu.com/community/BurningIsoHowto#Burning_from_Mac_OS_X>`_.
+.. _usb-drives-link:
 
-Existing Kubuntu Install
-~~~~~~~~~~~~~~~~~~~~~~~~~
+Since Etcher is a cross-platform application we can use it in Kubuntu as well so download the version that the `Etcher <https://www.balena.io/etcher/>`_ website recommends as well.
+Though we will need to do the following:
 
-USB/Flash Drives
-`````````````````
-
-Since UNetBootin is a cross-platform application we will be using the same instructions from :ref:`usb-drives-link`
-
-.. warning:: Be extremely careful to set /dev/sdX to the right value, if you point it to your hard drive you will wipe the disk.
-
-DVD
-````
-
-.. image:: ../images/K3b.png
-    :align: center
-    
-Look for `More actions...` click it then pick `Burn image...` from the list of actions
-    
-.. image:: ../images/K3b-1.png
-    :align: center
-
-Then you select the ISO(Disk Image) that you want to burn to the DVD from your computer.  
-
-.. note:: Most torrent and browsers store the .iso file in the 'Downloads' directory.
-
-.. note:: The default setting for K3b for DVD burning will work just fine.
-
-
-Other Linux Distributions
-~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-GNOME Desktops
-~~~~~~~~~~~~~~~~~~
-
-USB/Flash Drives
-`````````````````
-For USB/Flash Drives we'll be stick to using UNetBootin from this tutorial: :ref:`usb-drives-link`
-
-DVD
-````
-
-.. image:: ../images/UbuntuGNOMEBrasero.png
-    :align: center
-    
-For Linux Distributions that use GNOME we'll be using the default DVD burning tool Brasero.
-
-Plasma Desktops
-~~~~~~~~~~~~~~~~
-
-USB/Flash Drives
-`````````````````
-
-DVD
-````
-
-You can follow the same instructions as a :ref:`kubuntu-install-link`
+1. Open your File Manager (Dolphin on Plasma distros and Files on GNOME distros)
+2. Right-click the .zip file
+3. Extract it using the 'Extract archive here'
+4. Double left-click the new .AppImage file
+5. Left-click the 'Execute' button in the new window
 
 Install Process
 ----------------

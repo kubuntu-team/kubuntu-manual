@@ -116,26 +116,9 @@
 <li><a class="reference internal" href="#from-ubuntu-linux">From Ubuntu Linux</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#windows-10">Windows 10</a><ul>
-<li><a class="reference internal" href="#usb-flash-drives">USB/Flash Drives</a></li>
-<li><a class="reference internal" href="#dvd">DVD</a></li>
-</ul>
-</li>
-<li><a class="reference internal" href="#macos">macOS</a></li>
-<li><a class="reference internal" href="#existing-kubuntu-install">Existing Kubuntu Install</a><ul>
-<li><a class="reference internal" href="#id1">USB/Flash Drives</a></li>
-<li><a class="reference internal" href="#id2">DVD</a></li>
-</ul>
-</li>
-<li><a class="reference internal" href="#other-linux-distributions">Other Linux Distributions</a></li>
-<li><a class="reference internal" href="#gnome-desktops">GNOME Desktops</a><ul>
-<li><a class="reference internal" href="#id3">USB/Flash Drives</a></li>
-<li><a class="reference internal" href="#id4">DVD</a></li>
-</ul>
-</li>
-<li><a class="reference internal" href="#plasma-desktops">Plasma Desktops</a><ul>
-<li><a class="reference internal" href="#id5">USB/Flash Drives</a></li>
-<li><a class="reference internal" href="#id6">DVD</a></li>
+<li><a class="reference internal" href="#flashing-the-installation-media">Flashing the installation media</a><ul>
+<li><a class="reference internal" href="#windows-10-and-macos">Windows 10 and macOS</a></li>
+<li><a class="reference internal" href="#existing-linux-installs">Existing Linux Installs</a></li>
 </ul>
 </li>
 </ul>
@@ -195,7 +178,7 @@ provide some <a class="reference external" href="https://support.microsoft.com/e
 <h4>From macOS<a class="headerlink" href="#from-macos" title="Permalink to this headline">¶</a></h4>
 <p>Open the Terminal app, then navigate to the directory where the ISO is saved.
 Run:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sha256 -r kubuntu-20.04-desktop-amd64.iso
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sha256 -r kubuntu-22.04-desktop-amd64.iso
 </pre></div>
 </div>
 <p>And compare the output to the hashes page for the ISO file.</p>
@@ -203,81 +186,39 @@ Run:</p>
 <section id="from-ubuntu-linux">
 <h4>From Ubuntu Linux<a class="headerlink" href="#from-ubuntu-linux" title="Permalink to this headline">¶</a></h4>
 <p>The first thing to do is to make sure you’re in the directory with the .iso file (most likely in the Downloads directory). For more complex use of SHA256SUM check this <a class="reference external" href="https://ubuntu.com/tutorials/how-to-verify-ubuntu#5-verify-the-sha256-checksum">out</a>. Then running the command ‘md5sum’:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sha256 kubuntu-20.04-desktop-amd64.iso
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sha256 kubuntu-22.04-desktop-amd64.iso
 </pre></div>
 </div>
 </section>
 </section>
-<section id="windows-10">
-<h3>Windows 10<a class="headerlink" href="#windows-10" title="Permalink to this headline">¶</a></h3>
-<section id="usb-flash-drives">
-<span id="usb-drives-link"></span><h4>USB/Flash Drives<a class="headerlink" href="#usb-flash-drives" title="Permalink to this headline">¶</a></h4>
-<p>For a GUI (Graphic User Interface) we use <a class="reference external" href="http://unetbootin_link/">UNetBootin</a>.</p>
-<p>If you choose the <cite>Diskimage</cite> option you use the <cite>…</cite> button to select your downloaded ISO. Then click OK.</p>
-<img alt="../_images/unetbootin-win78.png" class="align-center" src="../_images/unetbootin-win78.png" />
+<section id="flashing-the-installation-media">
+<h3>Flashing the installation media<a class="headerlink" href="#flashing-the-installation-media" title="Permalink to this headline">¶</a></h3>
+<section id="windows-10-and-macos">
+<h4>Windows 10 and macOS<a class="headerlink" href="#windows-10-and-macos" title="Permalink to this headline">¶</a></h4>
+<p>For a GUI (Graphic User Interface) we use <a class="reference external" href="https://www.balena.io/etcher/">Etcher</a>. The website will detect your OS and recommend a download version, it is recommended to use that version.
+Once it is installed (if you use the Installer for Windows only) open the application and follow these steps:</p>
+<ol class="arabic simple">
+<li><p>Select the ISO file using the ‘Flash from file’ option</p></li>
+<li><p>Double left-click the ISO file which is usually in your Downloads folder</p></li>
+<li><p>Use the ‘Select target’ option to select your flash drive</p></li>
+<li><p>Then left-click the ‘Flash!’ button</p></li>
+</ol>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p>Pay special attention when selecting the right USB device under ‘Drive’</p>
+<p>Pay special attention when selecting the right flash drive under ‘Drive’ in case you have more then one flash drive connected.</p>
 </div>
 </section>
-<section id="dvd">
-<h4>DVD<a class="headerlink" href="#dvd" title="Permalink to this headline">¶</a></h4>
-<p>The recommended tool to use is <a class="reference external" href="http://www.imgburn.com/">ImgBurn</a>. There is a excellent how-to on the ImgBurn forums by the admin <a class="reference external" href="http://forum.imgburn.com/index.php?/topic/61-how-to-write-an-image-file-to-a-disc-using-imgburn/">here</a>.</p>
-</section>
-</section>
-<section id="macos">
-<span id="kubuntu-install-link"></span><h3>macOS<a class="headerlink" href="#macos" title="Permalink to this headline">¶</a></h3>
-<p>Burn an installer DVD using <a class="reference external" href="https://help.ubuntu.com/community/BurningIsoHowto#Burning_from_Mac_OS_X">Disk Utility</a>.</p>
-</section>
-<section id="existing-kubuntu-install">
-<h3>Existing Kubuntu Install<a class="headerlink" href="#existing-kubuntu-install" title="Permalink to this headline">¶</a></h3>
-<section id="id1">
-<h4>USB/Flash Drives<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h4>
-<p>Since UNetBootin is a cross-platform application we will be using the same instructions from <a class="reference internal" href="#usb-drives-link"><span class="std std-ref">USB/Flash Drives</span></a></p>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>Be extremely careful to set /dev/sdX to the right value, if you point it to your hard drive you will wipe the disk.</p>
-</div>
-</section>
-<section id="id2">
-<h4>DVD<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h4>
-<img alt="../_images/K3b.png" class="align-center" src="../_images/K3b.png" />
-<p>Look for <cite>More actions…</cite> click it then pick <cite>Burn image…</cite> from the list of actions</p>
-<img alt="../_images/K3b-1.png" class="align-center" src="../_images/K3b-1.png" />
-<p>Then you select the ISO(Disk Image) that you want to burn to the DVD from your computer.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Most torrent and browsers store the .iso file in the ‘Downloads’ directory.</p>
-</div>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>The default setting for K3b for DVD burning will work just fine.</p>
-</div>
-</section>
-</section>
-<section id="other-linux-distributions">
-<h3>Other Linux Distributions<a class="headerlink" href="#other-linux-distributions" title="Permalink to this headline">¶</a></h3>
-</section>
-<section id="gnome-desktops">
-<h3>GNOME Desktops<a class="headerlink" href="#gnome-desktops" title="Permalink to this headline">¶</a></h3>
-<section id="id3">
-<h4>USB/Flash Drives<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h4>
-<p>For USB/Flash Drives we’ll be stick to using UNetBootin from this tutorial: <a class="reference internal" href="#usb-drives-link"><span class="std std-ref">USB/Flash Drives</span></a></p>
-</section>
-<section id="id4">
-<h4>DVD<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h4>
-<img alt="../_images/UbuntuGNOMEBrasero.png" class="align-center" src="../_images/UbuntuGNOMEBrasero.png" />
-<p>For Linux Distributions that use GNOME we’ll be using the default DVD burning tool Brasero.</p>
-</section>
-</section>
-<section id="plasma-desktops">
-<h3>Plasma Desktops<a class="headerlink" href="#plasma-desktops" title="Permalink to this headline">¶</a></h3>
-<section id="id5">
-<h4>USB/Flash Drives<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h4>
-</section>
-<section id="id6">
-<h4>DVD<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h4>
-<p>You can follow the same instructions as a <a class="reference internal" href="#kubuntu-install-link"><span class="std std-ref">macOS</span></a></p>
+<section id="existing-linux-installs">
+<span id="kubuntu-install-link"></span><h4>Existing Linux Installs<a class="headerlink" href="#existing-linux-installs" title="Permalink to this headline">¶</a></h4>
+<p>Since Etcher is a cross-platform application we can use it in Kubuntu as well so download the version that the <a class="reference external" href="https://www.balena.io/etcher/">Etcher</a> website recommends as well.
+Though we will need to do the following:</p>
+<ol class="arabic simple">
+<li><p>Open your File Manager (Dolphin on Plasma distros and Files on GNOME distros)</p></li>
+<li><p>Right-click the .zip file</p></li>
+<li><p>Extract it using the ‘Extract archive here’</p></li>
+<li><p>Double left-click the new .AppImage file</p></li>
+<li><p>Left-click the ‘Execute’ button in the new window</p></li>
+</ol>
 </section>
 </section>
 </section>

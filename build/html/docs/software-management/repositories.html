@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Repositories &#8212; Kubuntu Manual Beta documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/bootstrap-sphinx.css" />
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Contribute" href="../contribute.html" />
+    <link rel="prev" title="Software" href="software.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<script type="text/javascript" src="../../_static/js/jquery-1.12.4.min.js "></script>
+<script type="text/javascript" src="../../_static/js/jquery-fix.js "></script>
+<script type="text/javascript" src="../../_static/bootstrap-3.4.1/js/bootstrap.min.js "></script>
+<script type="text/javascript" src="../../_static/bootstrap-sphinx.js "></script>
+
+  </head><body>
+
+  <div id="navbar" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../../index.html">
+          Kubuntu Manual</a>
+        <span class="navbar-text navbar-version pull-left"><b>22.04 LTS</b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="../../index.html">Sections <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../welcome.html">Welcome to Kubuntu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../desktop-guide/desktop-list.html">Desktop Guide</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../desktop-guide/basic.html">Basic</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../desktop-guide/advanced.html">Advanced</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal" href="software-list.html">Software Management</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="software.html">Software</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Repositories</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../contribute.html">Contribute</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../support.html">Support</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../packaging-guide/packaging.html">Kubuntu Packagers Guide</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../packaging-guide/welcome.html">Welcome</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../packaging-guide/getting-started.html">Getting Started</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../appendix/appendix.html">Appendix</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../appendix/changes.html">Changelog</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../appendix/references.html">References</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+            
+            
+            
+              <li class="hidden-sm">
+<div id="sourcelink">
+  <a href="../../_sources/docs/software-management/repositories.rst.txt"
+     rel="nofollow">Source</a>
+</div></li>
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="../../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+      <div class="col-md-3">
+        <div id="sidebar" class="bs-sidenav" role="complementary"><ul>
+<li><a class="reference internal" href="#">Repositories</a><ul>
+<li><a class="reference internal" href="#id1">Managing Repositories</a><ul>
+<li><a class="reference internal" href="#add-a-repository">Add a Repository</a></li>
+<li><a class="reference internal" href="#enable-a-repository">Enable a Repository</a></li>
+<li><a class="reference internal" href="#disable-a-repository">Disable a Repository</a></li>
+<li><a class="reference internal" href="#remove-a-repository">Remove a Repository</a></li>
+<li><a class="reference internal" href="#ppas-personal-package-archive">PPAs (Personal Package Archive)</a></li>
+<li><a class="reference internal" href="#install-uninstall-deb-files">Install/Uninstall ‘.deb’ files</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#managing-personal-package-archives">Managing Personal Package Archives</a><ul>
+<li><a class="reference internal" href="#add-a-ppa">Add a PPA</a></li>
+<li><a class="reference internal" href="#remove-a-ppa">Remove a PPA</a></li>
+<li><a class="reference internal" href="#kubuntu-backports">Kubuntu Backports</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    <div class="body col-md-9 content" role="main">
+      
+  <section id="repositories">
+<span id="repositories-link"></span><h1>Repositories<a class="headerlink" href="#repositories" title="Permalink to this headline">¶</a></h1>
+<p>Thousands of programs are freely available to install in Kubuntu. These programs are stored in software archives (“repositories”) and are made available for installation over the Internet. Installing new programs in Kubuntu is quick, reliable, and secure because each program is built specifically for Kubuntu and is checked thoroughly before it is made available. Kubuntu repositories are categorized into four groups:</p>
+<ul class="simple">
+<li><p>Main</p></li>
+<li><p>Restricted</p></li>
+<li><p>Universe</p></li>
+<li><p>Multiverse</p></li>
+</ul>
+<p>Two factors are used to determine categories</p>
+<ul class="simple">
+<li><p>The level of support provided for a program by its software development teams.</p></li>
+<li><p>The level of compliance the program has to the <a class="reference external" href="http://www.ubuntu.com/about/about-ubuntu/our-philosophy">Ubuntu Free Software Philosophy</a>.</p></li>
+</ul>
+<p>The standard Kubuntu LiveDVD contains some software from the “Main” and “Restricted” categories. Once a system has information about the Internet-based locations for these repositories, more programs are available for installation. Using the software package management tools installed by default, it is possible to discover, install, and update any piece of software directly over the internet without the need for the LiveDVD.</p>
+<p>For more information about managing repositories, check the click on Repositories section of this manual. For even more information check the Ubuntu Wiki about <a class="reference external" href="https://help.ubuntu.com/community/Repositories">managing Repositories</a>.</p>
+<section id="id1">
+<h2>Managing Repositories<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<section id="add-a-repository">
+<h3>Add a Repository<a class="headerlink" href="#add-a-repository" title="Permalink to this headline">¶</a></h3>
+<p>You can use the Discover to add new repositories.</p>
+<ol class="arabic simple">
+<li><p>Start Discover</p></li>
+</ol>
+<a class="reference internal image-reference" href="../../_images/discover-manage.png"><img alt="../../_images/discover-manage.png" class="align-center" src="../../_images/discover-manage.png" style="width: 511.5px; height: 384.5px;" /></a>
+<ol class="arabic simple" start="2">
+<li><p>Select Settings Left-click the ‘Software Sources’ button at the top right of the window.</p></li>
+<li><p>Enter your administrative password at the prompt.</p></li>
+</ol>
+<a class="reference internal image-reference" href="../../_images/discover-edit.png"><img alt="../../_images/discover-edit.png" class="align-center" src="../../_images/discover-edit.png" style="width: 541.5px; height: 340.5px;" /></a>
+<ol class="arabic simple" start="4">
+<li><p>Left-click the ‘Other Software’ tab</p></li>
+<li><p>Left-click the ‘Add…’ button</p></li>
+</ol>
+<a class="reference internal image-reference" href="../../_images/discover-edit2.png"><img alt="../../_images/discover-edit2.png" class="align-center" src="../../_images/discover-edit2.png" style="width: 275.25px; height: 180.0px;" /></a>
+<ol class="arabic simple" start="6">
+<li><p>Enter the repository address into the text box. The proper format is required, and looks similar to this: ppa:kubuntu-ppa/backports</p></li>
+<li><p>Left-click the ‘OK’ button to add the repository. Left-click the ‘Close’ button</p></li>
+</ol>
+<p>A prompt will appear to update the package list. Discover will now be allowed to find the newly available software.</p>
+</section>
+<section id="enable-a-repository">
+<h3>Enable a Repository<a class="headerlink" href="#enable-a-repository" title="Permalink to this headline">¶</a></h3>
+<p>You can use the Discover to enable repositories. We’ll go over that process below:</p>
+<ol class="arabic simple">
+<li><p>Start Discover</p></li>
+<li><p>Select Sources</p></li>
+<li><p>Configure Software Sources in the window</p></li>
+<li><p>Enter your administrative password at the prompt</p></li>
+<li><p>Left-click the ‘Other Software’ tab</p></li>
+<li><p>Check the appropriate box in the center section of the window to enable a repository</p></li>
+<li><p>Left-click the ‘Close’ button.</p></li>
+</ol>
+<p>A prompt will appear to update the package list, Discover will now be allowed to find the newly available software.</p>
+</section>
+<section id="disable-a-repository">
+<h3>Disable a Repository<a class="headerlink" href="#disable-a-repository" title="Permalink to this headline">¶</a></h3>
+<p>You can use the Discover to disable repositories. We’ll go over that process below:</p>
+<ol class="arabic simple">
+<li><p>Start Discover</p></li>
+<li><p>Select Sources</p></li>
+<li><p>Configure Software Sources in the window</p></li>
+<li><p>Enter your administrative password at the prompt</p></li>
+<li><p>Left-click the ‘Other Software’ tab</p></li>
+<li><p>Uncheck the appropriate box in the center section of the window to disable a repository</p></li>
+<li><p>Left-click the ‘Close’ button.</p></li>
+</ol>
+<p>A prompt will appear to update the package list, Discover will now forget the no longer available software.</p>
+</section>
+<section id="remove-a-repository">
+<h3>Remove a Repository<a class="headerlink" href="#remove-a-repository" title="Permalink to this headline">¶</a></h3>
+<p>You can use the Discover to remove repositories. We’ll go over that process below:</p>
+<ol class="arabic simple">
+<li><p>Start Discover and select Sources</p></li>
+<li><p>Configure Software Sources in the window</p></li>
+<li><p>Enter your administrative password at the prompt</p></li>
+<li><p>Left-click the ‘Other Software’ tab</p></li>
+<li><p>Left-click the name of an existing repository in the center section of the window to select it</p></li>
+<li><p>Left-click the ‘Remove’ button. Left-click the ‘Close’ button.</p></li>
+</ol>
+<p>A prompt will appear to update the package list, Discover will now forget the no longer available software.</p>
+</section>
+<section id="ppas-personal-package-archive">
+<h3>PPAs (Personal Package Archive)<a class="headerlink" href="#ppas-personal-package-archive" title="Permalink to this headline">¶</a></h3>
+<p>Personal Package Archives allow any person in the Ubuntu community who has committed to observe the <a class="reference external" href="https://launchpad.net/codeofconduct">Ubuntu Code of Conduct</a> to upload Ubuntu source packages to be built and published as an apt repository by Launchpad. Software from Launchpad’s <a class="reference external" href="https://launchpad.net/ubuntu/+ppas">Personal Package Archive</a> (PPA) requires a <a class="reference external" href="https://www.gnupg.org/">GnuPG</a> (GPG) key so your system can verify that it’s getting the packages from the correct source and that the packages have not been interfered with since they were built. GnuPG is GNU’s tool for secure communication and data storage. For more information about PPAs, click on the Repositories section of this manual.</p>
+</section>
+<section id="install-uninstall-deb-files">
+<h3>Install/Uninstall ‘.deb’ files<a class="headerlink" href="#install-uninstall-deb-files" title="Permalink to this headline">¶</a></h3>
+<p>The package files associated with Kubuntu have the “.deb” suffix because of Kubuntu’s close relationship with the Debian GNU/Linux distribution. Individual “.deb” files can be downloaded and installed. Humble Bundles, for instance, distribute debs. Administrative privileges are required.</p>
+</section>
+</section>
+<section id="managing-personal-package-archives">
+<h2>Managing Personal Package Archives<a class="headerlink" href="#managing-personal-package-archives" title="Permalink to this headline">¶</a></h2>
+<p>Personal Package Archives allow any person in the Ubuntu community who has committed to observe the <a class="reference external" href="https://launchpad.net/codeofconduct">Ubuntu Code of Conduct</a> to upload Ubuntu source packages to be built and published as an apt repository by Launchpad. Software from Launchpad’s <a class="reference external" href="https://launchpad.net/ubuntu/+ppas">Personal Package Archive</a> (PPA) requires a <a class="reference external" href="https://www.gnupg.org/">GnuPG</a> (GPG) key so your system can verify that it’s getting the packages from the correct source and that the packages have not been interfered with since they were built. GnuPG is GNU’s tool for secure communication and data storage.</p>
+<p><strong>Important</strong>: The contents of Personal Package Archives are not checked or monitored. You install software from them at your own risk.</p>
+<section id="add-a-ppa">
+<h3>Add a PPA<a class="headerlink" href="#add-a-ppa" title="Permalink to this headline">¶</a></h3>
+<p>You can use the Discover to add a PPA:</p>
+<ol class="arabic simple">
+<li><p>Open the Launchpad PPA overview page in your browser</p></li>
+<li><p>Look for the location of the PPA in the ‘Adding this PPA to your system’ section</p></li>
+<li><p>Open Discover then Select Sources</p></li>
+<li><p>Configure Software Sources in the window and enter your administrative password at the prompt</p></li>
+<li><p>Left-click on the ‘Other Software’ tab</p></li>
+<li><p>Left-click the ‘Add…’ button, paste the location you got from the PPA’s overview page into the text box</p></li>
+<li><p>Left-click the ‘OK’ button to add the repository</p></li>
+<li><p>Left-click the ‘Close’ button</p></li>
+</ol>
+<p>A prompt will appear to update the package list, Discover will now be allowed to find the newly available software.</p>
+</section>
+<section id="remove-a-ppa">
+<h3>Remove a PPA<a class="headerlink" href="#remove-a-ppa" title="Permalink to this headline">¶</a></h3>
+<p>You can use the Discover to remove a PPA:</p>
+<ol class="arabic simple">
+<li><p>Open Discover then Select Sources</p></li>
+<li><p>Configure Software Sources in the window. Enter your administrative password at the prompt</p></li>
+<li><p>Left-click on the ‘Other Software’ tab</p></li>
+<li><p>Left-click the PPA that you want to remove</p></li>
+<li><p>Left-click the ‘Remove’ button</p></li>
+</ol>
+<p>A prompt will appear to update the package list, Discover will now be allowed to find the newly available software.</p>
+</section>
+<section id="kubuntu-backports">
+<h3>Kubuntu Backports<a class="headerlink" href="#kubuntu-backports" title="Permalink to this headline">¶</a></h3>
+<p>The Kubuntu Backports are “Backports of new versions of KDE Platform, Plasma and Applications as well as major KDE apps for Kubuntu.” As any PPA you should know how to remove it before you add it so please do read above on how to do so. The Backports exist because of the Ubuntu release cycle, if there is a new Plasma, Applications or Frameworks after the freeze or release of a new Ubuntu release we package it up for you to enjoy.</p>
+<p><a class="reference external" href="https://launchpad.net/~kubuntu-ppa/+archive/ubuntu/backports">https://launchpad.net/~kubuntu-ppa/+archive/ubuntu/backports</a></p>
+</section>
+</section>
+</section>
+
+
+    </div>
+      
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+    </p>
+    <p>
+        &copy; Copyright 2022, Kubuntu Team.<br/>
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.3.2.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>

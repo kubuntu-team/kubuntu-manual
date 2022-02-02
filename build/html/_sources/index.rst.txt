@@ -14,13 +14,11 @@ Contents:
    
    welcome
    docs/installation
-   docs/basic
-   docs/advanced
-   docs/software
-   docs/repositories
+   docs/desktop-guide/desktop-list
+   docs/software-management/software-list
    docs/contribute
    docs/support
-   docs/packaging_guide/packaging
+   docs/packaging-guide/packaging
    docs/appendix/appendix
 
 

@@ -8,5 +8,5 @@ Contents:
    :titlesonly:
    
    welcome
-   getting_started
+   getting-started
 
