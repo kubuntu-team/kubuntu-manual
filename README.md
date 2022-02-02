@@ -4,14 +4,7 @@ Kubuntu Manual
 Licensed under CC-BY-SA 4.0 
 Following this: https://community.kde.org/Policies/Licensing_Policy
 
-Master branch: ![](https://travis-ci.org/ahoneybun/kubuntu-manual.svg?branch=master)
-
-18.04 Branch:  ![](https://travis-ci.org/ahoneybun/kubuntu-manual.svg?branch=kubuntu-18.04-LTS)
-
 ## To Do list
-
-- [ ] Create 20.04 LTS Manual
-- [ ] Create 22.04 LTS Manual
 
 ## How it works
 
