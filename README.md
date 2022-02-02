@@ -4,10 +4,12 @@ Kubuntu Manual
 Licensed under CC-BY-SA 4.0 
 Following this: https://community.kde.org/Policies/Licensing_Policy
 
+# Released v1.0.0!
+
 ## To Do list
 
-- [ ] Update images where possible
-- [ ] Update text and fix grammar
+- [x] Update images where possible
+- [x] Update text and fix grammar
 
 ## How it works
 
