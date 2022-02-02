@@ -115,9 +115,9 @@ Look for `More actions...` click it then pick `Burn image...` from the list of a
 
 Then you select the ISO(Disk Image) that you want to burn to the DVD from your computer.  
 
-.. note:: Most torrent and browsers store your downloads in the 'Download' directory.
+.. note:: Most torrent and browsers store the .iso file in the 'Downloads' directory.
 
-.. note:: Most of the default setting for K3b for DVD burning are fine
+.. note:: The default setting for K3b for DVD burning will work just fine.
 
 
 Other Linux Distributions
