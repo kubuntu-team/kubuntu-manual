@@ -1,0 +1,133 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{\numberline {1}Welcome to Kubuntu}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}The Kubuntu Philosophy}{4}{section.1.1}%
+\contentsline {section}{\numberline {1.2}What is Linux?}{4}{section.1.2}%
+\contentsline {section}{\numberline {1.3}What is KDE?}{4}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Thank You!}{4}{section.1.4}%
+\contentsline {chapter}{\numberline {2}Installation}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Why try Kubuntu?}{5}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Preparing the Installation media}{5}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Checking the SHA256SUM}{5}{subsection.2.2.1}%
+\contentsline {subsubsection}{From Windows 10}{5}{subsubsection*.4}%
+\contentsline {subsubsection}{From macOS}{6}{subsubsection*.5}%
+\contentsline {subsubsection}{From Ubuntu Linux}{6}{subsubsection*.6}%
+\contentsline {subsection}{\numberline {2.2.2}Windows 10}{6}{subsection.2.2.2}%
+\contentsline {subsubsection}{USB/Flash Drives}{6}{subsubsection*.7}%
+\contentsline {subsubsection}{DVD}{7}{subsubsection*.8}%
+\contentsline {subsection}{\numberline {2.2.3}macOS}{7}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Existing Kubuntu Install}{7}{subsection.2.2.4}%
+\contentsline {subsubsection}{USB/Flash Drives}{7}{subsubsection*.9}%
+\contentsline {subsubsection}{DVD}{7}{subsubsection*.10}%
+\contentsline {subsection}{\numberline {2.2.5}Other Linux Distributions}{9}{subsection.2.2.5}%
+\contentsline {subsection}{\numberline {2.2.6}GNOME Desktops}{9}{subsection.2.2.6}%
+\contentsline {subsubsection}{USB/Flash Drives}{9}{subsubsection*.11}%
+\contentsline {subsubsection}{DVD}{9}{subsubsection*.12}%
+\contentsline {subsection}{\numberline {2.2.7}Plasma Desktops}{9}{subsection.2.2.7}%
+\contentsline {subsubsection}{USB/Flash Drives}{9}{subsubsection*.13}%
+\contentsline {subsubsection}{DVD}{9}{subsubsection*.14}%
+\contentsline {section}{\numberline {2.3}Install Process}{10}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Prepare}{11}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Disk Setup}{11}{subsection.2.3.2}%
+\contentsline {subsubsection}{Resize}{12}{subsubsection*.15}%
+\contentsline {subsubsection}{Use entire disk}{12}{subsubsection*.16}%
+\contentsline {subsubsection}{Use entire disk and set up LVM}{12}{subsubsection*.17}%
+\contentsline {subsubsection}{Use entire disk and set up encrypted LVM}{13}{subsubsection*.18}%
+\contentsline {subsubsection}{Manual}{13}{subsubsection*.19}%
+\contentsline {subsection}{\numberline {2.3.3}Timezone}{13}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Keyboard}{14}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}User Info}{14}{subsection.2.3.5}%
+\contentsline {subsection}{\numberline {2.3.6}Slideshow}{15}{subsection.2.3.6}%
+\contentsline {chapter}{\numberline {3}Basic}{17}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Launchers}{17}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Kickoff}{17}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Application Dashboard}{18}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Application Menu}{19}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Simple Menu}{20}{subsection.3.1.4}%
+\contentsline {subsection}{\numberline {3.1.5}KRunner}{20}{subsection.3.1.5}%
+\contentsline {section}{\numberline {3.2}Networking}{21}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Wired}{21}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Wireless}{21}{subsection.3.2.2}%
+\contentsline {chapter}{\numberline {4}Advanced}{23}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Global Themes}{23}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Plasma Styles}{23}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Plasmoids}{24}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Panel}{24}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Activities}{24}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Activities first look}{25}{section.4.6}%
+\contentsline {section}{\numberline {4.7}A Step Further}{26}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}Drivers}{27}{subsection.4.7.1}%
+\contentsline {chapter}{\numberline {5}Repositories}{29}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Managing Repositories}{29}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Add a Repository}{29}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Enable a Repository}{31}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Disable a Repository}{32}{subsection.5.1.3}%
+\contentsline {subsection}{\numberline {5.1.4}Remove a Repository}{32}{subsection.5.1.4}%
+\contentsline {subsection}{\numberline {5.1.5}PPAs (Personal Package Archive)}{32}{subsection.5.1.5}%
+\contentsline {subsection}{\numberline {5.1.6}Install/Uninstall ‘.deb’ files}{32}{subsection.5.1.6}%
+\contentsline {section}{\numberline {5.2}Managing Personal Package Archives}{33}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Add a PPA}{33}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Remove a PPA}{33}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Kubuntu Backports}{33}{subsection.5.2.3}%
+\contentsline {chapter}{\numberline {6}Software}{35}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Software Management}{35}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Graphical Clients}{35}{subsection.6.1.1}%
+\contentsline {section}{\numberline {6.2}Updating}{36}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Graphics}{37}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Internet}{37}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}Browsers}{37}{subsection.6.4.1}%
+\contentsline {subsubsection}{Export your bookmarks}{37}{subsubsection*.20}%
+\contentsline {subsubsection}{Import your bookmarks into Firefox}{37}{subsubsection*.21}%
+\contentsline {subsection}{\numberline {6.4.2}Email Clients}{37}{subsection.6.4.2}%
+\contentsline {subsection}{\numberline {6.4.3}Chat Clients}{38}{subsection.6.4.3}%
+\contentsline {section}{\numberline {6.5}Multimedia}{38}{section.6.5}%
+\contentsline {section}{\numberline {6.6}Office}{38}{section.6.6}%
+\contentsline {subsection}{\numberline {6.6.1}Personal Information Manager (PIM)}{39}{subsection.6.6.1}%
+\contentsline {section}{\numberline {6.7}System Settings}{39}{section.6.7}%
+\contentsline {section}{\numberline {6.8}Utilities}{39}{section.6.8}%
+\contentsline {subsection}{\numberline {6.8.1}Bash}{39}{subsection.6.8.1}%
+\contentsline {section}{\numberline {6.9}Firewall configuration}{40}{section.6.9}%
+\contentsline {chapter}{\numberline {7}Contribute}{41}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Spreading the word}{41}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Giving support and getting it}{41}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Subscribe}{41}{section.7.3}%
+\contentsline {subsection}{\numberline {7.3.1}Kubuntu Users}{42}{subsection.7.3.1}%
+\contentsline {subsection}{\numberline {7.3.2}Kubuntu Development}{42}{subsection.7.3.2}%
+\contentsline {section}{\numberline {7.4}Kubuntu IRC Channels}{42}{section.7.4}%
+\contentsline {section}{\numberline {7.5}Bug Reporting}{42}{section.7.5}%
+\contentsline {section}{\numberline {7.6}Local Teams}{42}{section.7.6}%
+\contentsline {section}{\numberline {7.7}Packaging and Development}{42}{section.7.7}%
+\contentsline {section}{\numberline {7.8}Translations}{43}{section.7.8}%
+\contentsline {section}{\numberline {7.9}Testing}{43}{section.7.9}%
+\contentsline {section}{\numberline {7.10}Membership}{43}{section.7.10}%
+\contentsline {chapter}{\numberline {8}Support}{45}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Contact and Support}{45}{section.8.1}%
+\contentsline {subsection}{\numberline {8.1.1}Mailing Lists}{45}{subsection.8.1.1}%
+\contentsline {subsection}{\numberline {8.1.2}Internet Relay Chat}{45}{subsection.8.1.2}%
+\contentsline {subsection}{\numberline {8.1.3}Forums}{45}{subsection.8.1.3}%
+\contentsline {subsection}{\numberline {8.1.4}Application Help}{46}{subsection.8.1.4}%
+\contentsline {section}{\numberline {8.2}Kubuntu Phone Support}{46}{section.8.2}%
+\contentsline {chapter}{\numberline {9}Kubuntu Packagers Guide}{47}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Welcome}{47}{section.9.1}%
+\contentsline {subsection}{\numberline {9.1.1}Kubuntu Developers Mailing List}{47}{subsection.9.1.1}%
+\contentsline {subsection}{\numberline {9.1.2}Kubuntu IRC Channels}{47}{subsection.9.1.2}%
+\contentsline {section}{\numberline {9.2}Getting Started}{48}{section.9.2}%
+\contentsline {subsection}{\numberline {9.2.1}2. Getting Set Up}{48}{subsection.9.2.1}%
+\contentsline {subsubsection}{2.1. Install basic packaging software}{48}{subsubsection*.22}%
+\contentsline {subsubsection}{2.1.1. Create your GPG key}{48}{subsubsection*.23}%
+\contentsline {subsubsection}{2.1.2. Create your SSH key}{49}{subsubsection*.24}%
+\contentsline {subsubsection}{2.1.3. Set up pbuilder}{49}{subsubsection*.25}%
+\contentsline {subsection}{\numberline {9.2.2}2.2. Get set up to work with Launchpad}{50}{subsection.9.2.2}%
+\contentsline {subsubsection}{2.2.1. About Launchpad}{50}{subsubsection*.26}%
+\contentsline {subsubsection}{2.2.2. Get a Launchpad account}{50}{subsubsection*.27}%
+\contentsline {subsubsection}{2.2.3. Upload your GPG key to Launchpad}{50}{subsubsection*.28}%
+\contentsline {subsubsection}{2.2.4. Upload your SSH key to Launchpad}{51}{subsubsection*.29}%
+\contentsline {subsubsection}{2.2.5. Configure Bazaar}{51}{subsubsection*.30}%
+\contentsline {subsubsection}{2.2.6. Configure your shell}{51}{subsubsection*.31}%
+\contentsline {chapter}{\numberline {10}Appendix}{53}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Changelog}{53}{section.10.1}%
+\contentsline {subsection}{\numberline {10.1.1}First off}{53}{subsection.10.1.1}%
+\contentsline {subsection}{\numberline {10.1.2}Changes}{53}{subsection.10.1.2}%
+\contentsline {section}{\numberline {10.2}References}{54}{section.10.2}%
+\contentsline {subsection}{\numberline {10.2.1}Kubuntu CI}{54}{subsection.10.2.1}%
+\contentsline {subsection}{\numberline {10.2.2}Debian Packages}{54}{subsection.10.2.2}%
+\contentsline {chapter}{\numberline {11}Indices and tables}{55}{chapter.11}%

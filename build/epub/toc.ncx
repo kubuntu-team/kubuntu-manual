@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<ncx version="2005-1" xmlns="http://www.daisy.org/z3986/2005/ncx/">
+  <head>
+    <meta name="dtb:uid" content="unknown"/>
+    <meta name="dtb:depth" content="2"/>
+    <meta name="dtb:totalPageCount" content="0"/>
+    <meta name="dtb:maxPageNumber" content="0"/>
+  </head>
+  <docTitle>
+    <text>Kubuntu Manual</text>
+  </docTitle>
+  <navMap>    
+    <navPoint id="navPoint1" playOrder="1">
+      <navLabel>
+        <text>Welcome to Kubuntu’s Documentation!</text>
+      </navLabel>
+      <content src="index.xhtml" />  
+    </navPoint>
+    <navPoint id="navPoint2" playOrder="2">
+      <navLabel>
+        <text>Welcome to Kubuntu</text>
+      </navLabel>
+      <content src="welcome.xhtml" />  
+    </navPoint>
+    <navPoint id="navPoint3" playOrder="3">
+      <navLabel>
+        <text>Installation</text>
+      </navLabel>
+      <content src="docs/installation.xhtml" />  
+    </navPoint>
+    <navPoint id="navPoint4" playOrder="4">
+      <navLabel>
+        <text>Basic</text>
+      </navLabel>
+      <content src="docs/basic.xhtml" />  
+    </navPoint>
+    <navPoint id="navPoint5" playOrder="5">
+      <navLabel>
+        <text>Advanced</text>
+      </navLabel>
+      <content src="docs/advanced.xhtml" />  
+    </navPoint>
+    <navPoint id="navPoint6" playOrder="6">
+      <navLabel>
+        <text>Repositories</text>
+      </navLabel>
+      <content src="docs/repositories.xhtml" />  
+    </navPoint>
+    <navPoint id="navPoint7" playOrder="7">
+      <navLabel>
+        <text>Software</text>
+      </navLabel>
+      <content src="docs/software.xhtml" />  
+    </navPoint>
+    <navPoint id="navPoint8" playOrder="8">
+      <navLabel>
+        <text>Contribute</text>
+      </navLabel>
+      <content src="docs/contribute.xhtml" />  
+    </navPoint>
+    <navPoint id="navPoint9" playOrder="9">
+      <navLabel>
+        <text>Support</text>
+      </navLabel>
+      <content src="docs/support.xhtml" />  
+    </navPoint>
+    <navPoint id="navPoint10" playOrder="10">
+      <navLabel>
+        <text>Kubuntu Packagers Guide</text>
+      </navLabel>
+      <content src="docs/packaging_guide/packaging.xhtml" />  
+      <navPoint id="navPoint11" playOrder="10">
+        <navLabel>
+          <text>Kubuntu Packagers Guide</text>
+        </navLabel>
+        <content src="docs/packaging_guide/packaging.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint12" playOrder="11">
+        <navLabel>
+          <text>Welcome</text>
+        </navLabel>
+        <content src="docs/packaging_guide/welcome.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint13" playOrder="12">
+        <navLabel>
+          <text>Getting Started</text>
+        </navLabel>
+        <content src="docs/packaging_guide/getting_started.xhtml" />  
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint14" playOrder="13">
+      <navLabel>
+        <text>Appendix</text>
+      </navLabel>
+      <content src="docs/appendix/appendix.xhtml" />  
+      <navPoint id="navPoint15" playOrder="13">
+        <navLabel>
+          <text>Appendix</text>
+        </navLabel>
+        <content src="docs/appendix/appendix.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint16" playOrder="14">
+        <navLabel>
+          <text>Changelog</text>
+        </navLabel>
+        <content src="docs/appendix/changes.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint17" playOrder="15">
+        <navLabel>
+          <text>References</text>
+        </navLabel>
+        <content src="docs/appendix/references.xhtml" />  
+      </navPoint>
+    </navPoint>
+  </navMap>
+</ncx>
