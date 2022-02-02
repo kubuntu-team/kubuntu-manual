@@ -11,7 +11,7 @@ Launchers
 Kickoff
 ~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: ../images/jammy/basic/kickoff.png
+.. image:: ../../images/jammy/basic/kickoff.png
     :scale: 60 %
     :align: center
     :target: https://userbase.kde.org/Special:MyLanguage/Plasma/Kickoff
@@ -21,7 +21,7 @@ As a KDE distribution, Kubuntu uses Kickoff Launcher by default, it can be compa
 Application Dashboard
 ~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: ../images/jammy/basic/application-dashboard.png
+.. image:: ../../images/jammy/basic/application-dashboard.png
     :scale: 60 %
     :align: center
     :target: https://userbase.kde.org/Special:MyLanguage/Plasma/Application_Dashboard
@@ -31,7 +31,7 @@ Taken from the old Plasma Netbook interface we have the Application Dashboard wh
 Application Menu
 ~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: ../images/jammy/basic/application-menu.png
+.. image:: ../../images/jammy/basic/application-menu.png
     :scale: 60 %
     :align: center
     :target: https://userbase.kde.org/Special:MyLanguage/Plasma/Kicker
@@ -41,7 +41,7 @@ The Application Menu is like the Application Launcher but more compact.
 KRunner
 ~~~~~~~~
 
-.. image:: ../images/jammy/basic/krunner.png
+.. image:: ../../images/jammy/basic/krunner.png
    :align: center
    :target: https://userbase.kde.org/Special:MyLanguage/Plasma/Krunner
 
@@ -50,7 +50,7 @@ Like any the above launchers, KRunner is a launcher, but it does a lot more than
 Networking
 -----------
 
-.. image:: ../images/jammy/basic/network-panel.png
+.. image:: ../../images/jammy/basic/network-panel.png
     :scale: 75 %
     :align: center
 
