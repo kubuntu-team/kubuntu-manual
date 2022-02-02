@@ -16,8 +16,8 @@ Contents:
    docs/installation
    docs/basic
    docs/advanced
-   docs/repositories
    docs/software
+   docs/repositories
    docs/contribute
    docs/support
    docs/packaging_guide/packaging
