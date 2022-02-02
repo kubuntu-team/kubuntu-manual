@@ -248,11 +248,3 @@ At this step of the installation you will be putting in user information like yo
 
 .. image:: ../images/jammy/installation/userinfo.png
     :align: center
-
-Slideshow
-~~~~~~~~~~
-
-Now the OS will be installed and you will be walked though a little slideshow to talk to you about Kubuntu and the features that it has. 
-
-.. image:: ../images/jammy/installation/slideshow.png
-   :align: center
