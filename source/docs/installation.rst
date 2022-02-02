@@ -154,7 +154,7 @@ Install Process
 
 .. note:: You will need to press a special key on the keyboard in order to boot from your chosen Installation Media. Ex: Esc, F2, F10, F12, or Del it all depends on the OEM(Original Equipment Manufacturer) 
 
-.. image:: ../images/focal/installation/welcome-slide.png
+.. image:: ../images/jammy/installation/welcome-slide.png
     :align: center
 
 When the installer starts you will see these options:
@@ -170,7 +170,7 @@ Fro the best result, ensure that:
 - Your computer has enough room for Kubuntu and your data - your songs, pictures, videos, and documents. 
 - Your computer is connected to the Internet so that you can download updates and third-party software as Kubuntu is installing. 
 
-.. image:: ../images/focal/installation/prepare.png
+.. image:: ../images/jammy/installation/prepare.png
     :align: center
     
 Include this third-party software: includes software that either does not follow the Open Source model or the `Ubuntu Philosophy <http://www.ubuntu.com/about/about-ubuntu/our-philosophy>`_, but is safe for use on your system. 
@@ -196,7 +196,7 @@ This will resize the partitions for you and install Kubuntu on the free space. W
 Use entire disk
 ````````````````
 
-.. image:: ../images/focal/installation/entire-disk.png
+.. image:: ../images/jammy/installation/entire-disk.png
     :align: center
 
 .. warning:: This will wipe all your data.    
@@ -230,7 +230,7 @@ Timezone
 
 During this step you get to pick the Region where you live and then the Timezone of the location in that Region. An example would be that I live in Denver, so my Region is North America and my Timezone is MST. 
 
-.. image:: ../images/focal/installation/timezone.png
+.. image:: ../images/jammy/installation/timezone.png
     :align: center
 
 Keyboard
@@ -238,7 +238,7 @@ Keyboard
 
 This is the step that will set up your keyboard's language and, if the language has it, a different version of the language. For example, there is a Cherokee American English setting as well as different setups with special keys used in certain countries; in Kubuntu we try to make the system easy for everyone! 
 
-.. image:: ../images/focal/installation/keyboard.png
+.. image:: ../images/jammy/installation/keyboard.png
     :align: center
 
 User Info
@@ -246,7 +246,7 @@ User Info
 
 At this step of the installation you will be putting in user information like your name, username, and password. The password will be your key to logging into your new installation as well as installing new software, updating your system, and more, so keep it written down somewhere! 
 
-.. image:: ../images/focal/installation/userinfo.png
+.. image:: ../images/jammy/installation/userinfo.png
     :align: center
 
 Slideshow
@@ -254,5 +254,5 @@ Slideshow
 
 Now the OS will be installed and you will be walked though a little slideshow to talk to you about Kubuntu and the features that it has. 
 
-.. image:: ../images/focal/installation/slideshow.png
+.. image:: ../images/jammy/installation/slideshow.png
    :align: center
