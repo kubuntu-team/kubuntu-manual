@@ -48,4 +48,4 @@ The entire Kubuntu team thanks you for choosing Kubuntu!
 :Authors: 
     Kubuntu Team
 
-:Version: 20.04 ; Released: TBA
+:Version: 22.04.0 ; Released: TBA
