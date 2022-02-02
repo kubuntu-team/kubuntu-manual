@@ -4,11 +4,6 @@ Kubuntu Manual
 Licensed under CC-BY-SA 4.0 
 Following this: https://community.kde.org/Policies/Licensing_Policy
 
-## To Do list
-
-- [ ] Update images where possible
-- [ ] Update text and fix grammar
-
 ## How it works
 
 The documentation is powered by [Sphinx](http://www.sphinx-doc.org/en/stable/).
