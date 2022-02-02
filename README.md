@@ -6,6 +6,11 @@ Following this: https://community.kde.org/Policies/Licensing_Policy
 
 ## To Do list
 
+- [] Update images
+- [] Update text and fix grammar/typos
+- [] Improve general content
+- [] Add any new content that is needed
+
 ## How it works
 
 The documentation is powered by [Sphinx](http://www.sphinx-doc.org/en/stable/).
