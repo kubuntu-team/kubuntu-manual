@@ -38,16 +38,6 @@ Application Menu
 
 The Application Menu is like the Application Launcher but more compact.
 
-Simple Menu
-~~~~~~~~~~~~~~~~~~~~~~
-
-.. image:: ../images/jammy/basic/simple-menu.png
-    :scale: 60 %
-    :align: center
-    :target: https://store.kde.org/p/1169537/
-
-The Simple Menu is similar to the Start Menu in Windows 8.1 and 10.
-
 KRunner
 ~~~~~~~~
 
