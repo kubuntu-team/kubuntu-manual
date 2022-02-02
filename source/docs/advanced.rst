@@ -3,69 +3,92 @@
 Advanced
 =========
 
-You can further customize your Kubuntu installation by adding new software packages. Below you will find several methods to install new packages (software). 
+This section covers the basics of configuring Kubuntu to suit your needs. One of the strengths of the *KDE* philosophy is the focus on control of just about every aspect of the desktop environment. Wallpapers, themes, widgets, color schemes, splash screens, and more; the options for customization are endless.
 
-Software Management
---------------------
+KDE-Look is the number one location to find customized settings for the *KDE* Plasma desktop. Some of the applications even allow direct connections to KDE-Look to download a new configuration or image. 
 
-There are several ways to manage applications in Kubuntu. A convenient way to add or remove applications is with a package manager. 
+Global Themes
+~~~~~~~~~~~~~~
 
-Graphical Clients
-~~~~~~~~~~~~~~~~~~
+Kubuntu allows themes to be changed easily. To change your global theme follow these steps:
 
-By default Kubuntu comes with a great package manager called Discover. Discover is an advanced program with a graphical user interface (GUI) for installing and removing applications. It will automatically notify you for updates (in the lower right hand corner), but you can use it at anytime to install new packages by going to KickOff and type . Select  Discover from the results. If you prefer the Ubuntu-style "Software Center" you will need to install it from within Discover.
+1. Open System Settings 
+2. Left-click 'Global Theme'
+3. Now choose from the list of installed themes
+4. Pick from the default choices that are installed, or left-click the 'Get New Global Themes...' button for more choices
 
-.. image:: ../images/repos/Discover-zesty.png
+Plasma Styles
+~~~~~~~~~~~~~~
 
-Discover might provide information about required dependencies, these are other packages (programs) that the piece of software that you want to install needs to run. Once this information is acknowledged, the required packages will begin downloading. When the installation process is complete, the software will be ready to use. It is rarely necessary to restart the system after software installation or updates. If it is, the system will warn you and give you a restart icon to do the restart at your convenience.
-
-Discover also provides an easy method to remove software that is no longer needed. 
-
-+--------------------------------------------------------------------------+
-|                           Tip:                                           |
-|                                                                          |
-| - Click on Installed and find the application you want to remove.        |
-| - Click Remove and Discover will remove the application.                 |
-+--------------------------------------------------------------------------+
-
-Repositories
-~~~~~~~~~~~~~
-
-Thousands of programs are freely available to install in Kubuntu. These programs are stored in software archives ("repositories") and are made available for installation over the Internet. Installing new programs in Kubuntu is quick, reliable, and secure because each program is built specifically for Kubuntu and is checked thoroughly before it is made available. Kubuntu repositories are categorized into four groups: 
-
-- Main
-- Restricted
-- Universe
-- Multiverse
-
-Two factors are used to determine categories
-
-- The level of support provided for a program by its software development teams. 
-- The level of compliance the program has to the `Ubuntu Free Software Philosophy <http://www.ubuntu.com/about/about-ubuntu/our-philosophy>`_.
-
-The standard Kubuntu LiveDVD contains some software from the "Main" and "Restricted" categories. Once a system has information about the Internet-based locations for these repositories, more programs are available for installation. Using the software package management tools installed by default, it is possible to discover, install, and update any piece of software directly over the internet without the need for the LiveDVD. 
-
-For more information about managing repositories, click on `Managing Repositories <https://help.ubuntu.com/community/Repositories>`_.
-
-PPAs (Personal Package Archive)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Personal Package Archives allow any person in the Ubuntu community who has committed to observe the `Ubuntu Code of Conduct <https://launchpad.net/codeofconduct>`_ to upload Ubuntu source packages to be built and published as an apt repository by Launchpad. Software from Launchpad's `Personal Package Archive <https://launchpad.net/ubuntu/+ppas>`_ (PPA) requires a `GnuPG  <https://www.gnupg.org/>`_ (GPG) key so your system can verify that it's getting the packages from the correct source and that the packages have not been interfered with since they were built. GnuPG is GNU's tool for secure communication and data storage.
+1. Open System Settings 
+2. Left-click 'Plasma Style'
+3. Now choose from the list of installed themes
+4. Pick from the default choices that are installed
 
 
-For more information about PPAs, see `Managing Personal Package Archives <https://userbase.kde.org/Kubuntu/Advanced/Repositories#Managing_Personal_Package_Archives>`_. 
+- Left-click the 'Get New Plasma Styles...' button for more choices         
+- Left-click the 'Install from File...' button to install from a local file 
 
-Install/Uninstall '.deb' files
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Plasmoids
+~~~~~~~~~~
 
-The package files associated with Kubuntu have the ".deb" suffix because of Kubuntu's close relationship with the Debian GNU/Linux distribution. Individual ".deb" files can be downloaded and installed. Humble Bundles, for instance, distribute debs. Administrative privileges are required. 
+Plasmoids (also called Widgets) can be added by right-clicking the desktop and selecting Add Widgets..., which will bring up a list of Widgets. For more information, see `Plasma Widgets <https://userbase.kde.org/Special:MyLanguage/Plasma#Widgets>`_. 
 
-Install from Source
-````````````````````
+Panel 
+~~~~~~
 
-Files with the .tar.gz or .tar.bz2 suffix are package files known as "tarballs" or "source" packages. These are widely used in Linux. If there is no native Kubuntu package available in any of the repositories, it may be possible to compile and install the package from source. For tips on compiling software, look at the `Compiling Software <https://help.ubuntu.com/community/CompilingSoftware>`_ page on the Ubuntu Wiki. 
+.. image:: ../images/focal/basic/panels.png
+    :align: left
+    :scale: 75 %
+
+By right-clicking on the desktop once again, you can select Add Panel to get more panels. You can left-click the button on the far right side of the panel to alter the properties of the panel, like changing its height or width or adding Widgets, for example. For more information, see `Plasma Panels <https://userbase.kde.org/Special:MyLanguage/Plasma#Panels>`_. 
+
+Activities
+~~~~~~~~~~
+
+Activites are specific and exclusive to KDE. As such they're often under utilised and misunderstood. In this section we're going to explore what KDE Activities are, how to set them up, and how to use them.
+
+Think for a moment about your average day working on your PC. It will often traverse different activities. For example doing email and researching things on the internet, perhaps developing some documents, working on a piece of software, writing your thesis in LaTeX etc...
+
+Commonly KDE users might use Virtual desktops to seperate these workspaces.
+
+KDE Activites in Kubuntu provide a slick way to setup and configure environments specific to your task routines. For example your might want to have your email, and social networks configured as one activity. Perhaps your research, and writing for your thesis configured as another activity.
+
+Activities first look
+~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: ../images/focal/basic/activities.png
+   :align: center
+   :scale: 75 %
+   
+Let's take a look at the default KDE Activities configured in Kubuntu. Right Click anywhere on the empty desktop and choose "Activities" from the menu. The Activities side bar appears on the left, with the Default activity. Notice the + Create Activity at the bottom. Click that, and lets created a new "Social" Activity.
+Enter "Social" as the Activity name: and then click Create.
+
+That's it you have created your first activity.
+
+You can theme, and configured this new activity desktop in the same ways as mentioned early in this section of the manual.
+
+A Step Further
+~~~~~~~~~~~~~~
+
+OK, looking good, lets create another Activity. Call this one "Misc". Once created switch to this Activity, either by Right Click on the Desktop > Activities or use the Keyboard shortcut Alt+D,A ( Hold Alt down, press D, then Press A )
+Then select the Misc Activity from the side bar.
+
+OK, lets configure a few useful tools
+
+1. Change the desktop wallpaper to something you like
+2. Right click > Add Widgets, and add the Digital Clock
+3. Right click > Add Widgets, and add the Comic Strip
+4. Right click > Add Widgets, and add the Hard Disk Space Usage
+
+You can now resize these widgets and lay them out on the desktop however you wish. and configure them to suit your needs, as in the example below.
+
+.. image:: ../images/focal/basic/activitiy-misc.png
+   :align: center
+   :scale: 75 %
+
 
 Drivers
 --------
 
-On every Operating System (Windows, Mac OS X, and Linux) there are programs called Drivers which you install on your computer. These Drivers let your computer use new hardware or existing hardware, like `Wifi <https://userbase.kde.org/Kubuntu/Basic#Wireless>`_. There Drivers also cover your graphics card e.g NVIDIA, AMD, sometimes the nonfree or restricted drivers let the cards perform better than the free ones. The Driver Manager handles installing and uninstalling these for you. These improvements may cover gaming, video editing and processing to image editing. 
+On every Operating System (Windows, Mac OS X, and Linux) there are programs called Drivers which you install on your computer. These Drivers let your computer use new hardware or existing hardware, like `Wi-Fi <https://userbase.kde.org/Kubuntu/Basic#Wireless>`_. There Drivers also cover your graphics card e.g NVIDIA, AMD, sometimes the nonfree or restricted drivers let the cards perform better than the free ones. The Driver Manager handles installing and uninstalling these for you. These improvements may cover gaming, video editing and processing to image editing. 
