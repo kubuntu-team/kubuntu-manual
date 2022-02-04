@@ -33,8 +33,8 @@ You can use the Discover to add new repositories.
     :align: center
     :scale: 50 %
 
-2. Select Settings Left-click the 'Software Sources' button at the top right of the window. 
-3. Enter your administrative password at the prompt.
+2. Select Settings then left-click the 'Software Sources' button to the right of 'Ubuntu Jammy Jellyfish'
+3. Enter your administrative password at the prompt
 
 .. image:: ../../images/jammy/repositories/discover-edit.png
     :align: center
@@ -47,8 +47,11 @@ You can use the Discover to add new repositories.
     :align: center
     :scale: 75 %
 
-6. Enter the repository address into the text box. The proper format is required, and looks similar to this: ppa:kubuntu-ppa/backports 
-7. Left-click the 'OK' button to add the repository. Left-click the 'Close' button
+6. Enter the repository address into the text box. The proper format is required, and looks similar to this: 
+
+``deb https://dl.google.com/linux/chrome/deb/ stable main``
+
+7. Left-click the 'OK' button to add the repository then left-click the 'Close' button
 
 A prompt will appear to update the package list. Discover will now be allowed to find the newly available software. 
 
@@ -63,7 +66,7 @@ You can use the Discover to enable repositories. We'll go over that process belo
 4. Enter your administrative password at the prompt
 5. Left-click the 'Other Software' tab
 6. Check the appropriate box in the center section of the window to enable a repository
-7. Left-click the 'Close' button. 
+7. Left-click the 'Close' button
 
 A prompt will appear to update the package list, Discover will now be allowed to find the newly available software.
 
@@ -78,7 +81,7 @@ You can use the Discover to disable repositories. We'll go over that process bel
 4. Enter your administrative password at the prompt
 5. Left-click the 'Other Software' tab
 6. Uncheck the appropriate box in the center section of the window to disable a repository
-7. Left-click the 'Close' button. 
+7. Left-click the 'Close' button
 
 A prompt will appear to update the package list, Discover will now forget the no longer available software.
 
@@ -92,7 +95,7 @@ You can use the Discover to remove repositories. We'll go over that process belo
 3. Enter your administrative password at the prompt
 4. Left-click the 'Other Software' tab 
 5. Left-click the name of an existing repository in the center section of the window to select it 
-6. Left-click the 'Remove' button. Left-click the 'Close' button. 
+6. Left-click the 'Remove' button. Left-click the 'Close' button
 
 A prompt will appear to update the package list, Discover will now forget the no longer available software. 
 
