@@ -91,4 +91,20 @@ You can now resize these widgets and lay them out on the desktop however you wis
 Drivers
 --------
 
-On every Operating System (Windows, macOS, and Linux) there are programs called Drivers which you install on your computer. These Drivers let your computer use new hardware or existing hardware, like `Wi-Fi <https://userbase.kde.org/Kubuntu/Basic#Wireless>`_. There Drivers also cover your graphics card e.g NVIDIA, AMD, sometimes the nonfree or restricted drivers let the cards perform better than the free ones. The Driver Manager handles installing and uninstalling these for you. These improvements may cover gaming, video editing and processing to image editing. 
+On every Operating System (Windows, macOS, and Linux) there are programs called Drivers which you install on your computer. These Drivers let your computer use new hardware or existing hardware, like `Wi-Fi <https://userbase.kde.org/Kubuntu/Basic#Wireless>`_. There Drivers also cover your graphics card e.g NVIDIA, AMD, sometimes the nonfree or restricted drivers let the cards perform better than the free ones. The 'Additional Drivers' section of Disocver handles installing and uninstalling these for you. These improvements may cover gaming, video editing and processing to image editing. 
+
+1. Start Discover 
+
+.. image:: ../../images/jammy/repositories/discover-manage.png
+    :align: center
+    :scale: 50 %
+
+2. Select Settings then left-click the 'Software Sources' button to the right of 'Ubuntu Jammy Jellyfish'
+3. Enter your administrative password at the prompt
+4. Left-click the 'Additional Drivers' tab 
+
+.. image:: ../../images/jammy/advanced/drivers.png
+    :align: center
+    :scale: 75 %
+
+If there are any drivers (both Open Source and Closed Source) for your hardware they will be in this window. If you install any drivers you may need to restart your system for the change to take effect. 
