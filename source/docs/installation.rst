@@ -143,6 +143,9 @@ Use entire disk
 .. image:: ../images/jammy/installation/entire-disk.png
     :align: center
 
+.. image:: ../images/jammy/installation/entire-disk-confirm.png
+    :align: center
+
 .. warning:: This will wipe all your data.    
 
 Use entire disk and set up LVM
@@ -152,6 +155,14 @@ More about `LVM <https://wiki.ubuntu.com/Lvm>`_
 
 Use entire disk and set up encrypted LVM
 `````````````````````````````````````````
+
+.. image:: ../images/jammy/installation/entire-disk-encrypt.png
+    :align: center
+
+.. image:: ../images/jammy/installation/entire-disk-encrypt-confirm.png
+    :align: center
+
+.. warning:: This will wipe all your data.    
 
 More about `encrypted file systems <https://help.ubuntu.com/community/EncryptedFilesystems>`_
 
