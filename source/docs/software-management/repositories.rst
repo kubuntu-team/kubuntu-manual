@@ -45,9 +45,12 @@ You can use the Discover to add a PPA:
 
 1. Open the Launchpad PPA overview page in your browser for example look at the Kubuntu Backports PPA
 2. Look for the 'Adding this PPA to your system' section
-3. Open Konsole 
-4. Copy (Ctrl+C once the command is highlighted) then Paste (Ctrl+Shift+V in terminals like Konsole)
-5. Press the Enter key
+3. Open Konsole then copy (Ctrl+C once the command is highlighted) 
+4. Now paste (Ctrl+Shift+V in terminals like Konsole) and press the Enter key
+
+.. image:: ../../images/jammy/repositories/konsole-add-ppa.png
+    :align: center
+    :scale: 75 %
 
 Your repositories will be updated and now Discover will be able to find the newly available software.
 
@@ -60,7 +63,7 @@ You can use the Discover to remove a PPA:
 
 .. image:: ../../images/jammy/repositories/discover-manage.png
     :align: center
-    :scale: 50 %
+    :scale: 75 %
 
 2. Left-click the ‘Software Sources’ button to the right of ‘Ubuntu Jammy Jellyfish’
 3. Enter your administrative password at the prompt.
@@ -68,7 +71,7 @@ You can use the Discover to remove a PPA:
 
 .. image:: ../../images/jammy/repositories/discover-other-software.png
     :align: center
-    :scale: 50 %
+    :scale: 75%
 
 5. Left-click the PPA that you want to remove
 6. Left-click the 'Remove' button
