@@ -54,8 +54,8 @@ Commonly KDE users might use Virtual desktops to seperate these workspaces.
 
 KDE Activites in Kubuntu provide a slick way to setup and configure environments specific to your task routines. For example your might want to have your email, and social networks configured as one activity. Perhaps your research, and writing for your thesis configured as another activity.
 
-Activities first look
-~~~~~~~~~~~~~~~~~~~~~
+Activities First Look
+~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: ../../images/jammy/advanced/activities.png
    :align: center
@@ -71,15 +71,14 @@ You can theme, and configured this new activity desktop in the same ways as ment
 A Step Further
 ~~~~~~~~~~~~~~
 
-OK, looking good, lets create another Activity. Call this one "Misc". Once created switch to this Activity, either by Right Click on the Desktop > Activities or use the Keyboard shortcut Alt+D,A ( Hold Alt down, press D, then Press A )
+OK, looking good, let's create another Activity. Call this one "Misc". Once created switch to this Activity, either by Right Click on the Desktop > Activities or use the Keyboard shortcut Alt+D,A ( Hold Alt down, press D, then Press A )
 Then select the Misc Activity from the side bar.
 
 OK, lets configure a few useful tools
 
 1. Change the desktop wallpaper to something you like
-2. Right click > Add Widgets, and add the Digital Clock
-3. Right click > Add Widgets, and add the Comic Strip
-4. Right click > Add Widgets, and add the Hard Disk Space Usage
+2. Right-click > Add Widgets, and add the Analog Clock
+3. Right-click > Add Widgets, and add the Weather Report
 
 You can now resize these widgets and lay them out on the desktop however you wish. and configure them to suit your needs, as in the example below.
 
@@ -97,7 +96,7 @@ On every Operating System (Windows, macOS, and Linux) there are programs called 
 
 .. image:: ../../images/jammy/repositories/discover-manage.png
     :align: center
-    :scale: 50 %
+    :scale: 75 %
 
 2. Select Settings then left-click the 'Software Sources' button to the right of 'Ubuntu Jammy Jellyfish'
 3. Enter your administrative password at the prompt
@@ -105,6 +104,6 @@ On every Operating System (Windows, macOS, and Linux) there are programs called 
 
 .. image:: ../../images/jammy/advanced/drivers.png
     :align: center
-    :scale: 75 %
+    :scale: 85 %
 
 If there are any drivers (both Open Source and Closed Source) for your hardware they will be in this window. If you install any drivers you may need to restart your system for the change to take effect. 
