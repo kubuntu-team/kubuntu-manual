@@ -74,6 +74,11 @@ Packaging and Development
 
 Information about making packages and helping to `develop Kubuntu <https://wiki.kubuntu.org/Kubuntu/GettingInvolved/Development>`_. 
 
+Documentation
+--------------
+
+Documentation is always needed for any project and Kubuntu is no different! It's very easy to reach out help with this project and it is hosted on Github `here <https://github.com/kubuntu-team/kubuntu-manual>`_. Feel free to open `Pull Requests <https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests>`_ with your fix or open an `Issue <https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues>`_ if you aren't there just yet! 
+
 Translations
 -------------
 
