@@ -82,3 +82,10 @@ Install/Uninstall '.deb' files
 --------------------------------
 
 The package files associated with Kubuntu have the ".deb" suffix because of Kubuntu's close relationship with the Debian GNU/Linux distribution. Individual ".deb" files can be downloaded and installed. Humble Bundles, for instance, distribute debs. Administrative privileges are required. 
+
+To install ".deb" files download the file from a safe and secure location. In this example we'll be installing the Chrome ".deb" file from `Chrome's website <https://www.google.com/chrome/>`_ then we'll run these commands in a Konsole window:
+
+.. code-block::
+
+    sudo dpkg -i google-chrome-stable_current_amd64.deb
+    sudo apt install -f

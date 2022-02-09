@@ -24,7 +24,7 @@ Preparing the Installation media
 
 Getting the ISO(Disc Image):
 
-Download it though `Get Kubuntu <http://www.kubuntu.org/getkubuntu/>`_.
+Download it though `Get Kubuntu <https://www.kubuntu.org/getkubuntu/>`_.
 
 Checking the SHA256SUM
 ~~~~~~~~~~~~~~~~~~~~~~~~
