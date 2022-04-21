@@ -6,9 +6,9 @@ Following this: https://community.kde.org/Policies/Licensing_Policy
 
 ## To Do list
 
-- [ ] Update images
-- [ ] Update text and fix grammar/typos
-- [ ] Improve general content
+- [x] Update images
+- [x] Update text and fix grammar/typos
+- [x] Improve general content
 - [ ] Add any new content that is needed
 
 ## How it works
