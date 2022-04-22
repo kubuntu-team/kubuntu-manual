@@ -1,5 +1,5 @@
-Kubuntu Manual
-===============
+Kubuntu Manual 22.04 LTS
+=========================
 
 Licensed under CC-BY-SA 4.0 
 Following this: https://community.kde.org/Policies/Licensing_Policy
