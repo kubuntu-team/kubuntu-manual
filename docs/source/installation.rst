@@ -165,7 +165,7 @@ When the installer starts you will see these options:
 Prepare
 ~~~~~~~~
 
-Fro the best result, ensure that:
+For the best result, ensure that:
 
 - Your computer has enough room for Kubuntu and your data - your songs, pictures, videos, and documents. 
 - Your computer is connected to the Internet so that you can download updates and third-party software as Kubuntu is installing. 
