@@ -12,7 +12,7 @@ Kickoff
 ~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: ../../images/jammy/basic/kickoff.png
-    :scale: 60 %
+    :scale: 75 %
     :align: center
     :target: https://userbase.kde.org/Special:MyLanguage/Plasma/Kickoff
   
@@ -22,8 +22,8 @@ Application Dashboard
 ~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: ../../images/jammy/basic/application-dashboard.png
-    :scale: 60 %
     :align: center
+    :scale: 75 %
     :target: https://userbase.kde.org/Special:MyLanguage/Plasma/Application_Dashboard
 
 Taken from the old Plasma Netbook interface we have the Application Dashboard which is for users with smaller screens such as netbooks, small laptops or tablets. 
@@ -32,8 +32,8 @@ Application Menu
 ~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: ../../images/jammy/basic/application-menu.png
-    :scale: 60 %
     :align: center
+    :scale: 75 %
     :target: https://userbase.kde.org/Special:MyLanguage/Plasma/Kicker
 
 The Application Menu is like the Application Launcher but more compact.
@@ -51,8 +51,8 @@ Networking
 -----------
 
 .. image:: ../../images/jammy/basic/network-panel.png
-    :scale: 75 %
     :align: center
+    :scale: 75 %
 
 Wired
 ~~~~~~

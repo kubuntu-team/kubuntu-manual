@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Advanced &#8212; Kubuntu Manual Beta documentation</title>
+    <title>Advanced &#8212; Kubuntu Manual beta documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/bootstrap-sphinx.css" />
     <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
@@ -14,16 +14,16 @@
     <script src="../../_static/doctools.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Software" href="../software-management/software.html" />
+    <link rel="next" title="Software Management" href="../software-management/software-list.html" />
     <link rel="prev" title="Basic" href="basic.html" />
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
 <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
 <meta name="apple-mobile-web-app-capable" content="yes">
-<script type="text/javascript" src="../../_static/js/jquery-1.12.4.min.js "></script>
-<script type="text/javascript" src="../../_static/js/jquery-fix.js "></script>
-<script type="text/javascript" src="../../_static/bootstrap-3.4.1/js/bootstrap.min.js "></script>
-<script type="text/javascript" src="../../_static/bootstrap-sphinx.js "></script>
+<script type="text/javascript" src="../../_static/js/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="../../_static/js/jquery-fix.js"></script>
+<script type="text/javascript" src="../../_static/bootstrap-3.4.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../../_static/bootstrap-sphinx.js"></script>
 
   </head><body>
 
@@ -38,7 +38,7 @@
         </button>
         <a class="navbar-brand" href="../../index.html">
           Kubuntu Manual</a>
-        <span class="navbar-text navbar-version pull-left"><b>22.04 LTS</b></span>
+        <span class="navbar-text navbar-version pull-left"><b>22.04.1 LTS</b></span>
       </div>
 
         <div class="collapse navbar-collapse nav-collapse">
@@ -56,14 +56,16 @@
       aria-labelledby="dLabelGlobalToc"><ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../../welcome.html">Welcome to Kubuntu</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../installation.html">Installation</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="desktop-guide-list.html">Desktop Guide</a><ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="desktop-list.html">Desktop Guide</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="basic.html">Basic</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Advanced</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../software-management/software.html">Software</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../software.html">Software</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../repositories.html">Repositories</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../software-management/software-list.html">Software Management</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../software-management/software.html">Software</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../software-management/repositories.html">Repositories</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="../contribute.html">Contribute</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../support.html">Support</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../packaging-guide/packaging.html">Kubuntu Packagers Guide</a><ul>
@@ -117,7 +119,7 @@
 <li><a class="reference internal" href="#plasmoids">Plasmoids</a></li>
 <li><a class="reference internal" href="#panel">Panel</a></li>
 <li><a class="reference internal" href="#activities">Activities</a></li>
-<li><a class="reference internal" href="#activities-first-look">Activities first look</a></li>
+<li><a class="reference internal" href="#activities-first-look">Activities First Look</a></li>
 <li><a class="reference internal" href="#a-step-further">A Step Further</a><ul>
 <li><a class="reference internal" href="#drivers">Drivers</a></li>
 </ul>
@@ -174,7 +176,7 @@
 <p>KDE Activites in Kubuntu provide a slick way to setup and configure environments specific to your task routines. For example your might want to have your email, and social networks configured as one activity. Perhaps your research, and writing for your thesis configured as another activity.</p>
 </section>
 <section id="activities-first-look">
-<h2>Activities first look<a class="headerlink" href="#activities-first-look" title="Permalink to this headline">¶</a></h2>
+<h2>Activities First Look<a class="headerlink" href="#activities-first-look" title="Permalink to this headline">¶</a></h2>
 <a class="reference internal image-reference" href="../../_images/activities.png"><img alt="../../_images/activities.png" class="align-center" src="../../_images/activities.png" style="width: 768.0px; height: 576.75px;" /></a>
 <p>Let’s take a look at the default KDE Activities configured in Kubuntu. Right Click anywhere on the empty desktop and choose “Activities” from the menu. The Activities side bar appears on the left, with the Default activity. Notice the + Create Activity at the bottom. Click that, and lets created a new “Social” Activity.
 Enter “Social” as the Activity name: and then click Create.</p>
@@ -183,20 +185,30 @@ Enter “Social” as the Activity name: and then click Create.</p>
 </section>
 <section id="a-step-further">
 <h2>A Step Further<a class="headerlink" href="#a-step-further" title="Permalink to this headline">¶</a></h2>
-<p>OK, looking good, lets create another Activity. Call this one “Misc”. Once created switch to this Activity, either by Right Click on the Desktop &gt; Activities or use the Keyboard shortcut Alt+D,A ( Hold Alt down, press D, then Press A )
+<p>OK, looking good, let’s create another Activity. Call this one “Misc”. Once created switch to this Activity, either by Right Click on the Desktop &gt; Activities or use the Keyboard shortcut Alt+D,A ( Hold Alt down, press D, then Press A )
 Then select the Misc Activity from the side bar.</p>
 <p>OK, lets configure a few useful tools</p>
 <ol class="arabic simple">
 <li><p>Change the desktop wallpaper to something you like</p></li>
-<li><p>Right click &gt; Add Widgets, and add the Digital Clock</p></li>
-<li><p>Right click &gt; Add Widgets, and add the Comic Strip</p></li>
-<li><p>Right click &gt; Add Widgets, and add the Hard Disk Space Usage</p></li>
+<li><p>Right-click &gt; Add Widgets, and add the Analog Clock</p></li>
+<li><p>Right-click &gt; Add Widgets, and add the Weather Report</p></li>
 </ol>
 <p>You can now resize these widgets and lay them out on the desktop however you wish. and configure them to suit your needs, as in the example below.</p>
 <a class="reference internal image-reference" href="../../_images/activity-misc.png"><img alt="../../_images/activity-misc.png" class="align-center" src="../../_images/activity-misc.png" style="width: 768.75px; height: 579.0px;" /></a>
 <section id="drivers">
 <h3>Drivers<a class="headerlink" href="#drivers" title="Permalink to this headline">¶</a></h3>
-<p>On every Operating System (Windows, Mac OS X, and Linux) there are programs called Drivers which you install on your computer. These Drivers let your computer use new hardware or existing hardware, like <a class="reference external" href="https://userbase.kde.org/Kubuntu/Basic#Wireless">Wi-Fi</a>. There Drivers also cover your graphics card e.g NVIDIA, AMD, sometimes the nonfree or restricted drivers let the cards perform better than the free ones. The Driver Manager handles installing and uninstalling these for you. These improvements may cover gaming, video editing and processing to image editing.</p>
+<p>On every Operating System (Windows, macOS, and Linux) there are programs called Drivers which you install on your computer. These Drivers let your computer use new hardware or existing hardware, like <a class="reference external" href="https://userbase.kde.org/Kubuntu/Basic#Wireless">Wi-Fi</a>. There Drivers also cover your graphics card e.g NVIDIA, AMD, sometimes the nonfree or restricted drivers let the cards perform better than the free ones. The ‘Additional Drivers’ section of Disocver handles installing and uninstalling these for you. These improvements may cover gaming, video editing and processing to image editing.</p>
+<ol class="arabic simple">
+<li><p>Start Discover</p></li>
+</ol>
+<a class="reference internal image-reference" href="../../_images/discover-manage.png"><img alt="../../_images/discover-manage.png" class="align-center" src="../../_images/discover-manage.png" style="width: 767.25px; height: 576.75px;" /></a>
+<ol class="arabic simple" start="2">
+<li><p>Select Settings then left-click the ‘Software Sources’ button to the right of ‘Ubuntu Jammy Jellyfish’</p></li>
+<li><p>Enter your administrative password at the prompt</p></li>
+<li><p>Left-click the ‘Additional Drivers’ tab</p></li>
+</ol>
+<a class="reference internal image-reference" href="../../_images/drivers.png"><img alt="../../_images/drivers.png" class="align-center" src="../../_images/drivers.png" style="width: 608.6px; height: 380.8px;" /></a>
+<p>If there are any drivers (both Open Source and Closed Source) for your hardware they will be in this window. If you install any drivers you may need to restart your system for the change to take effect.</p>
 </section>
 </section>
 </section>

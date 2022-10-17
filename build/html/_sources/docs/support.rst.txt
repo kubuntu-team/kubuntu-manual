@@ -18,7 +18,7 @@ To begin using the mailing lists, please subscribe. Subscribing allows you to po
 
 Before you send a message, check to see if the topic has been raised in the past. To do this, use Google to search the archives. 
 
-Refer to the Contribute Page for more infomation about Mailing Lists.
+Refer to the Contribute Page for more infomation about mailing lists.
 
 Internet Relay Chat
 ~~~~~~~~~~~~~~~~~~~~
@@ -30,7 +30,7 @@ Refer to the Contribute Page for more infomation about IRC Channels.
 Forums
 ~~~~~~~
 
-Kubuntu Forums are located at: `Kubuntu Forums <https://www.kubuntuforums.net/content.php>`_ 
+Kubuntu Forums are located `here <https://www.kubuntuforums.net/>`_.
 
 Application Help
 ~~~~~~~~~~~~~~~~~
@@ -42,4 +42,4 @@ Kubuntu Phone Support
 
 If you or your organisation needs help with your computer systems running Kubuntu but you don't want to worry about the best IRC channel to ask in you can pay some money and phone up the office in England to get some help. They will use phone, e-mail, Google hangout, Skype, VNC and any other method you like to help diagnose the issue and resolve it for you. 
 
-`Click here for more information <http://kubuntu.emerge-open.com/buy>`_
+`Click here for more information <http://kubuntu.emerge-open.com/buy>`_.

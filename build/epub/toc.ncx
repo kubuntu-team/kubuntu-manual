@@ -30,82 +30,106 @@
     </navPoint>
     <navPoint id="navPoint4" playOrder="4">
       <navLabel>
-        <text>Basic</text>
+        <text>Desktop Guide</text>
       </navLabel>
-      <content src="docs/basic.xhtml" />  
+      <content src="docs/desktop-guide/desktop-list.xhtml" />  
+      <navPoint id="navPoint5" playOrder="4">
+        <navLabel>
+          <text>Desktop Guide</text>
+        </navLabel>
+        <content src="docs/desktop-guide/desktop-list.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint6" playOrder="5">
+        <navLabel>
+          <text>Basic</text>
+        </navLabel>
+        <content src="docs/desktop-guide/basic.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint7" playOrder="6">
+        <navLabel>
+          <text>Advanced</text>
+        </navLabel>
+        <content src="docs/desktop-guide/advanced.xhtml" />  
+      </navPoint>
     </navPoint>
-    <navPoint id="navPoint5" playOrder="5">
+    <navPoint id="navPoint8" playOrder="7">
       <navLabel>
-        <text>Advanced</text>
+        <text>Software Management</text>
       </navLabel>
-      <content src="docs/advanced.xhtml" />  
+      <content src="docs/software-management/software-list.xhtml" />  
+      <navPoint id="navPoint9" playOrder="7">
+        <navLabel>
+          <text>Software Management</text>
+        </navLabel>
+        <content src="docs/software-management/software-list.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint10" playOrder="8">
+        <navLabel>
+          <text>Software</text>
+        </navLabel>
+        <content src="docs/software-management/software.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint11" playOrder="9">
+        <navLabel>
+          <text>Repositories</text>
+        </navLabel>
+        <content src="docs/software-management/repositories.xhtml" />  
+      </navPoint>
     </navPoint>
-    <navPoint id="navPoint6" playOrder="6">
-      <navLabel>
-        <text>Repositories</text>
-      </navLabel>
-      <content src="docs/repositories.xhtml" />  
-    </navPoint>
-    <navPoint id="navPoint7" playOrder="7">
-      <navLabel>
-        <text>Software</text>
-      </navLabel>
-      <content src="docs/software.xhtml" />  
-    </navPoint>
-    <navPoint id="navPoint8" playOrder="8">
+    <navPoint id="navPoint12" playOrder="10">
       <navLabel>
         <text>Contribute</text>
       </navLabel>
       <content src="docs/contribute.xhtml" />  
     </navPoint>
-    <navPoint id="navPoint9" playOrder="9">
+    <navPoint id="navPoint13" playOrder="11">
       <navLabel>
         <text>Support</text>
       </navLabel>
       <content src="docs/support.xhtml" />  
     </navPoint>
-    <navPoint id="navPoint10" playOrder="10">
+    <navPoint id="navPoint14" playOrder="12">
       <navLabel>
         <text>Kubuntu Packagers Guide</text>
       </navLabel>
-      <content src="docs/packaging_guide/packaging.xhtml" />  
-      <navPoint id="navPoint11" playOrder="10">
+      <content src="docs/packaging-guide/packaging.xhtml" />  
+      <navPoint id="navPoint15" playOrder="12">
         <navLabel>
           <text>Kubuntu Packagers Guide</text>
         </navLabel>
-        <content src="docs/packaging_guide/packaging.xhtml" />  
+        <content src="docs/packaging-guide/packaging.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint12" playOrder="11">
+      <navPoint id="navPoint16" playOrder="13">
         <navLabel>
           <text>Welcome</text>
         </navLabel>
-        <content src="docs/packaging_guide/welcome.xhtml" />  
+        <content src="docs/packaging-guide/welcome.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint13" playOrder="12">
+      <navPoint id="navPoint17" playOrder="14">
         <navLabel>
           <text>Getting Started</text>
         </navLabel>
-        <content src="docs/packaging_guide/getting_started.xhtml" />  
+        <content src="docs/packaging-guide/getting-started.xhtml" />  
       </navPoint>
     </navPoint>
-    <navPoint id="navPoint14" playOrder="13">
+    <navPoint id="navPoint18" playOrder="15">
       <navLabel>
         <text>Appendix</text>
       </navLabel>
       <content src="docs/appendix/appendix.xhtml" />  
-      <navPoint id="navPoint15" playOrder="13">
+      <navPoint id="navPoint19" playOrder="15">
         <navLabel>
           <text>Appendix</text>
         </navLabel>
         <content src="docs/appendix/appendix.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint16" playOrder="14">
+      <navPoint id="navPoint20" playOrder="16">
         <navLabel>
           <text>Changelog</text>
         </navLabel>
         <content src="docs/appendix/changes.xhtml" />  
       </navPoint>
-      <navPoint id="navPoint17" playOrder="15">
+      <navPoint id="navPoint21" playOrder="17">
         <navLabel>
           <text>References</text>
         </navLabel>

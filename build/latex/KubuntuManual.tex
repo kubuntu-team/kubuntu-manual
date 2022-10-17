@@ -60,8 +60,8 @@
 
 
 \title{Kubuntu Manual Documentation}
-\date{Feb 01, 2022}
-\release{Final}
+\date{Oct 17, 2022}
+\release{beta}
 \author{Kubuntu Team}
 \newcommand{\sphinxlogo}{\vbox{}}
 \renewcommand{\releasename}{Release}
@@ -158,7 +158,7 @@ Kubuntu Team
 
 \item[{Version}] \leavevmode
 \sphinxAtStartPar
-20.04 ; Released: TBA
+22.04.1 ; Released: TBA
 
 \end{description}\end{quote}
 
@@ -181,7 +181,7 @@ Kubuntu makes your PC friendly.
 Kubuntu is an operating system built by a friendly worldwide team of expert developers.
 It contains all the applications you need: web browser, office suite, media apps,
 instant messaging, and many others. For a list of the included software, see the
-{\hyperref[\detokenize{docs/software:software-link}]{\sphinxcrossref{\DUrole{std,std-ref}{Software}}}} page.
+{\hyperref[\detokenize{docs/software-management/software:software-link}]{\sphinxcrossref{\DUrole{std,std-ref}{Software}}}} page.
 
 \item {} 
 \sphinxAtStartPar
@@ -200,7 +200,7 @@ Easily install beside, or instead of, Windows.
 Getting the ISO(Disc Image):
 
 \sphinxAtStartPar
-Download it though \sphinxhref{http://www.kubuntu.org/getkubuntu/}{Get Kubuntu}.
+Download it though \sphinxhref{https://www.kubuntu.org/getkubuntu/}{Get Kubuntu}.
 
 
 \subsection{Checking the SHA256SUM}
@@ -223,7 +223,7 @@ Open the Terminal app, then navigate to the directory where the ISO is saved.
 Run:
 
 \begin{sphinxVerbatim}[commandchars=\\\{\}]
-sha256 \PYGZhy{}r kubuntu\PYGZhy{}20.04\PYGZhy{}desktop\PYGZhy{}amd64.iso
+sha256 \PYGZhy{}r kubuntu\PYGZhy{}22.04\PYGZhy{}desktop\PYGZhy{}amd64.iso
 \end{sphinxVerbatim}
 
 \sphinxAtStartPar
@@ -236,108 +236,72 @@ And compare the output to the hashes page for the ISO file.
 The first thing to do is to make sure you’re in the directory with the .iso file (most likely in the Downloads directory). For more complex use of SHA256SUM check this \sphinxhref{https://ubuntu.com/tutorials/how-to-verify-ubuntu\#5-verify-the-sha256-checksum}{out}. Then running the command ‘md5sum’:
 
 \begin{sphinxVerbatim}[commandchars=\\\{\}]
-sha256 kubuntu\PYGZhy{}20.04\PYGZhy{}desktop\PYGZhy{}amd64.iso
+sha256 kubuntu\PYGZhy{}22.04\PYGZhy{}desktop\PYGZhy{}amd64.iso
 \end{sphinxVerbatim}
 
 
-\subsection{Windows 10}
-\label{\detokenize{docs/installation:windows-10}}
+\subsection{Flashing the installation media}
+\label{\detokenize{docs/installation:flashing-the-installation-media}}
 
-\subsubsection{USB/Flash Drives}
-\label{\detokenize{docs/installation:usb-flash-drives}}\label{\detokenize{docs/installation:usb-drives-link}}
+\subsubsection{Windows 10 and macOS}
+\label{\detokenize{docs/installation:windows-10-and-macos}}
 \sphinxAtStartPar
-For a GUI (Graphic User Interface) we use \sphinxhref{http://unetbootin\_link/}{UNetBootin}.
-
+For a GUI (Graphic User Interface) we use \sphinxhref{https://www.balena.io/etcher/}{Etcher}. The website will detect your OS and recommend a download version, it is recommended to use that version.
+Once it is installed (if you use the Installer for Windows only) open the application and follow these steps:
+\begin{enumerate}
+\sphinxsetlistlabels{\arabic}{enumi}{enumii}{}{.}%
+\item {} 
 \sphinxAtStartPar
-If you choose the \sphinxtitleref{Diskimage} option you use the \sphinxtitleref{…} button to select your downloaded ISO. Then click OK.
+Select the ISO file using the ‘Flash from file’ option
 
-\noindent{\hspace*{\fill}\sphinxincludegraphics{{unetbootin-win78}.png}\hspace*{\fill}}
+\item {} 
+\sphinxAtStartPar
+Double left\sphinxhyphen{}click the ISO file which is usually in your Downloads folder
+
+\item {} 
+\sphinxAtStartPar
+Use the ‘Select target’ option to select your flash drive
+
+\item {} 
+\sphinxAtStartPar
+Then left\sphinxhyphen{}click the ‘Flash!’ button
+
+\end{enumerate}
 
 \begin{sphinxadmonition}{warning}{Warning:}
 \sphinxAtStartPar
-Pay special attention when selecting the right USB device under ‘Drive’
+Pay special attention when selecting the right flash drive under ‘Drive’ in case you have more then one flash drive connected.
 \end{sphinxadmonition}
 
 
-\subsubsection{DVD}
-\label{\detokenize{docs/installation:dvd}}
+\subsubsection{Existing Linux Installs}
+\label{\detokenize{docs/installation:existing-linux-installs}}\label{\detokenize{docs/installation:kubuntu-install-link}}\phantomsection\label{\detokenize{docs/installation:usb-drives-link}}
 \sphinxAtStartPar
-The recommended tool to use is \sphinxhref{http://www.imgburn.com/}{ImgBurn}. There is a excellent how\sphinxhyphen{}to on the ImgBurn forums by the admin \sphinxhref{http://forum.imgburn.com/index.php?/topic/61-how-to-write-an-image-file-to-a-disc-using-imgburn/}{here}.
-
-
-\subsection{macOS}
-\label{\detokenize{docs/installation:macos}}\label{\detokenize{docs/installation:kubuntu-install-link}}
+Since Etcher is a cross\sphinxhyphen{}platform application we can use it in Kubuntu as well so download the version that the \sphinxhref{https://www.balena.io/etcher/}{Etcher} website recommends as well.
+Though we will need to do the following:
+\begin{enumerate}
+\sphinxsetlistlabels{\arabic}{enumi}{enumii}{}{.}%
+\item {} 
 \sphinxAtStartPar
-Burn an installer DVD using \sphinxhref{https://help.ubuntu.com/community/BurningIsoHowto\#Burning\_from\_Mac\_OS\_X}{Disk Utility}.
+Open your File Manager (Dolphin on Plasma distros and Files on GNOME distros)
 
-
-\subsection{Existing Kubuntu Install}
-\label{\detokenize{docs/installation:existing-kubuntu-install}}
-
-\subsubsection{USB/Flash Drives}
-\label{\detokenize{docs/installation:id1}}
+\item {} 
 \sphinxAtStartPar
-Since UNetBootin is a cross\sphinxhyphen{}platform application we will be using the same instructions from {\hyperref[\detokenize{docs/installation:usb-drives-link}]{\sphinxcrossref{\DUrole{std,std-ref}{USB/Flash Drives}}}}
+Right\sphinxhyphen{}click the .zip file
 
-\begin{sphinxadmonition}{warning}{Warning:}
+\item {} 
 \sphinxAtStartPar
-Be extremely careful to set /dev/sdX to the right value, if you point it to your hard drive you will wipe the disk.
-\end{sphinxadmonition}
+Extract it using the ‘Extract archive here’
 
-
-\subsubsection{DVD}
-\label{\detokenize{docs/installation:id2}}
-\noindent{\hspace*{\fill}\sphinxincludegraphics{{K3b}.png}\hspace*{\fill}}
-
+\item {} 
 \sphinxAtStartPar
-Look for \sphinxtitleref{More actions…} click it then pick \sphinxtitleref{Burn image…} from the list of actions
+Double left\sphinxhyphen{}click the new .AppImage file
 
-\noindent{\hspace*{\fill}\sphinxincludegraphics{{K3b-1}.png}\hspace*{\fill}}
-
+\item {} 
 \sphinxAtStartPar
-Then you select the ISO(Disk Image) that you want to burn to the DVD from your computer.
+Left\sphinxhyphen{}click the ‘Execute’ button in the new window
 
-\begin{sphinxadmonition}{note}{Note:}
-\sphinxAtStartPar
-Most torrent and browsers store the .iso file in the ‘Downloads’ directory.
-\end{sphinxadmonition}
-
-\begin{sphinxadmonition}{note}{Note:}
-\sphinxAtStartPar
-The default setting for K3b for DVD burning will work just fine.
-\end{sphinxadmonition}
-
-
-\subsection{Other Linux Distributions}
-\label{\detokenize{docs/installation:other-linux-distributions}}
-
-\subsection{GNOME Desktops}
-\label{\detokenize{docs/installation:gnome-desktops}}
-
-\subsubsection{USB/Flash Drives}
-\label{\detokenize{docs/installation:id3}}
-\sphinxAtStartPar
-For USB/Flash Drives we’ll be stick to using UNetBootin from this tutorial: {\hyperref[\detokenize{docs/installation:usb-drives-link}]{\sphinxcrossref{\DUrole{std,std-ref}{USB/Flash Drives}}}}
-
-
-\subsubsection{DVD}
-\label{\detokenize{docs/installation:id4}}
-\noindent{\hspace*{\fill}\sphinxincludegraphics{{UbuntuGNOMEBrasero}.png}\hspace*{\fill}}
-
-\sphinxAtStartPar
-For Linux Distributions that use GNOME we’ll be using the default DVD burning tool Brasero.
-
-
-\subsection{Plasma Desktops}
-\label{\detokenize{docs/installation:plasma-desktops}}
-
-\subsubsection{USB/Flash Drives}
-\label{\detokenize{docs/installation:id5}}
-
-\subsubsection{DVD}
-\label{\detokenize{docs/installation:id6}}
-\sphinxAtStartPar
-You can follow the same instructions as a {\hyperref[\detokenize{docs/installation:kubuntu-install-link}]{\sphinxcrossref{\DUrole{std,std-ref}{macOS}}}}
+\end{enumerate}
 
 
 \section{Install Process}
@@ -416,6 +380,8 @@ This is available only at least 25GB can be freed.
 \label{\detokenize{docs/installation:use-entire-disk}}
 \noindent{\hspace*{\fill}\sphinxincludegraphics{{entire-disk}.png}\hspace*{\fill}}
 
+\noindent{\hspace*{\fill}\sphinxincludegraphics{{entire-disk-confirm}.png}\hspace*{\fill}}
+
 \begin{sphinxadmonition}{warning}{Warning:}
 \sphinxAtStartPar
 This will wipe all your data.
@@ -430,6 +396,15 @@ More about \sphinxhref{https://wiki.ubuntu.com/Lvm}{LVM}
 
 \subsubsection{Use entire disk and set up encrypted LVM}
 \label{\detokenize{docs/installation:use-entire-disk-and-set-up-encrypted-lvm}}
+\noindent{\hspace*{\fill}\sphinxincludegraphics{{entire-disk-encrypt}.png}\hspace*{\fill}}
+
+\noindent{\hspace*{\fill}\sphinxincludegraphics{{entire-disk-encrypt-confirm}.png}\hspace*{\fill}}
+
+\begin{sphinxadmonition}{warning}{Warning:}
+\sphinxAtStartPar
+This will wipe all your data.
+\end{sphinxadmonition}
+
 \sphinxAtStartPar
 More about \sphinxhref{https://help.ubuntu.com/community/EncryptedFilesystems}{encrypted file systems}
 
@@ -487,85 +462,75 @@ At this step of the installation you will be putting in user information like yo
 \noindent{\hspace*{\fill}\sphinxincludegraphics{{userinfo}.png}\hspace*{\fill}}
 
 
-\subsection{Slideshow}
-\label{\detokenize{docs/installation:slideshow}}
+\chapter{Desktop Guide}
+\label{\detokenize{docs/desktop-guide/desktop-list:desktop-guide}}\label{\detokenize{docs/desktop-guide/desktop-list::doc}}
 \sphinxAtStartPar
-Now the OS will be installed and you will be walked though a little slideshow to talk to you about Kubuntu and the features that it has.
-
-\noindent{\hspace*{\fill}\sphinxincludegraphics{{slideshow}.png}\hspace*{\fill}}
+Contents:
 
 
-\chapter{Basic}
-\label{\detokenize{docs/basic:basic}}\label{\detokenize{docs/basic:basic-link}}\label{\detokenize{docs/basic::doc}}
+\section{Basic}
+\label{\detokenize{docs/desktop-guide/basic:basic}}\label{\detokenize{docs/desktop-guide/basic:basic-link}}\label{\detokenize{docs/desktop-guide/basic::doc}}
 \sphinxAtStartPar
 This section of the manual will cover the components available within Kubuntu to meet your desired functionality and make Kubuntu your own.
 
 
-\section{Launchers}
-\label{\detokenize{docs/basic:launchers}}
+\subsection{Launchers}
+\label{\detokenize{docs/desktop-guide/basic:launchers}}
 
-\subsection{Kickoff}
-\label{\detokenize{docs/basic:kickoff}}
-\sphinxhref{https://userbase.kde.org/Special:MyLanguage/Plasma/Kickoff}{{\hspace*{\fill}\sphinxincludegraphics[scale=0.6]{{kickoff}.png}\hspace*{\fill}}}
+\subsubsection{Kickoff}
+\label{\detokenize{docs/desktop-guide/basic:kickoff}}
+\sphinxhref{https://userbase.kde.org/Special:MyLanguage/Plasma/Kickoff}{{\hspace*{\fill}\sphinxincludegraphics[scale=0.75]{{kickoff}.png}\hspace*{\fill}}}
 
 \sphinxAtStartPar
 As a KDE distribution, Kubuntu uses Kickoff Launcher by default, it can be compared with the ‘Start Menu’ in Windows (pre Windows 8). The icon to launch Kickoff is on the bottom left very much like Windows 7. For more information on how to use and customize it, see the \sphinxhref{https://userbase.kde.org/Special:MyLanguage/Plasma/Kickoff}{Kickoff page}.
 
 
-\subsection{Application Dashboard}
-\label{\detokenize{docs/basic:application-dashboard}}
-\sphinxhref{https://userbase.kde.org/Special:MyLanguage/Plasma/Application\_Dashboard}{{\hspace*{\fill}\sphinxincludegraphics[scale=0.6]{{application-dashboard}.png}\hspace*{\fill}}}
+\subsubsection{Application Dashboard}
+\label{\detokenize{docs/desktop-guide/basic:application-dashboard}}
+\sphinxhref{https://userbase.kde.org/Special:MyLanguage/Plasma/Application\_Dashboard}{{\hspace*{\fill}\sphinxincludegraphics[scale=0.75]{{application-dashboard}.png}\hspace*{\fill}}}
 
 \sphinxAtStartPar
 Taken from the old Plasma Netbook interface we have the Application Dashboard which is for users with smaller screens such as netbooks, small laptops or tablets.
 
 
-\subsection{Application Menu}
-\label{\detokenize{docs/basic:application-menu}}
-\sphinxhref{https://userbase.kde.org/Special:MyLanguage/Plasma/Kicker}{{\hspace*{\fill}\sphinxincludegraphics[scale=0.6]{{application-menu}.png}\hspace*{\fill}}}
+\subsubsection{Application Menu}
+\label{\detokenize{docs/desktop-guide/basic:application-menu}}
+\sphinxhref{https://userbase.kde.org/Special:MyLanguage/Plasma/Kicker}{{\hspace*{\fill}\sphinxincludegraphics[scale=0.75]{{application-menu}.png}\hspace*{\fill}}}
 
 \sphinxAtStartPar
 The Application Menu is like the Application Launcher but more compact.
 
 
-\subsection{Simple Menu}
-\label{\detokenize{docs/basic:simple-menu}}
-\sphinxhref{https://store.kde.org/p/1169537/}{{\hspace*{\fill}\sphinxincludegraphics[scale=0.6]{{simple-menu}.png}\hspace*{\fill}}}
-
-\sphinxAtStartPar
-The Simple Menu is similar to the Start Menu in Windows 8.1 and 10.
-
-
-\subsection{KRunner}
-\label{\detokenize{docs/basic:krunner}}
+\subsubsection{KRunner}
+\label{\detokenize{docs/desktop-guide/basic:krunner}}
 \sphinxhref{https://userbase.kde.org/Special:MyLanguage/Plasma/Krunner}{{\hspace*{\fill}\sphinxincludegraphics{{krunner}.png}\hspace*{\fill}}}
 
 \sphinxAtStartPar
 Like any the above launchers, KRunner is a launcher, but it does a lot more than just launching applications. Usually KRunner is accessed by pressing Alt + Space. For more information on what it can do, see the \sphinxhref{https://userbase.kde.org/Special:MyLanguage/Plasma/Krunner}{KRunner page}.
 
 
-\section{Networking}
-\label{\detokenize{docs/basic:networking}}
+\subsection{Networking}
+\label{\detokenize{docs/desktop-guide/basic:networking}}
 \noindent{\hspace*{\fill}\sphinxincludegraphics[scale=0.75]{{network-panel}.png}\hspace*{\fill}}
 
 
-\subsection{Wired}
-\label{\detokenize{docs/basic:wired}}
+\subsubsection{Wired}
+\label{\detokenize{docs/desktop-guide/basic:wired}}
 \sphinxAtStartPar
 In most cases the wired network connection will simply work without any changes to the default Kubuntu configuration. Wired network connections are selected as default when they are available.
 
 
-\subsection{Wireless}
-\label{\detokenize{docs/basic:wireless}}
+\subsubsection{Wireless}
+\label{\detokenize{docs/desktop-guide/basic:wireless}}
 \sphinxAtStartPar
 Most Wireless cards are supported out of the box by Kubuntu. However, in some cases the Wireless network device may have a restricted driver in order to operate. The best way to check this is to open the ‘Driver Manager’ application. To open this program use your launcher of choice or KRunner to search for ‘Driver Manager’. If the device needs a restricted driver, then ‘Driver Manager’ can help with selecting, installing, and activating the proper driver. Once this is all handled, the system will need to be rebooted. For more information on troubleshooting Wi\sphinxhyphen{}Fi on your system, see \sphinxhref{https://help.ubuntu.com/community/WifiDocs/WirelessTroubleShootingGuide}{Wireless troubleshooting}.
 
 \sphinxAtStartPar
-{\hyperref[\detokenize{docs/basic:basic}]{\sphinxcrossref{Basic}}}
+{\hyperref[\detokenize{docs/desktop-guide/basic:basic}]{\sphinxcrossref{Basic}}}
 
 
-\chapter{Advanced}
-\label{\detokenize{docs/advanced:advanced}}\label{\detokenize{docs/advanced:advanced-link}}\label{\detokenize{docs/advanced::doc}}
+\section{Advanced}
+\label{\detokenize{docs/desktop-guide/advanced:advanced}}\label{\detokenize{docs/desktop-guide/advanced:advanced-link}}\label{\detokenize{docs/desktop-guide/advanced::doc}}
 \sphinxAtStartPar
 This section covers the basics of configuring Kubuntu to suit your needs. One of the strengths of the \sphinxstyleemphasis{KDE} philosophy is the focus on control of just about every aspect of the desktop environment. Wallpapers, themes, widgets, color schemes, splash screens, and more; the options for customization are endless.
 
@@ -573,8 +538,8 @@ This section covers the basics of configuring Kubuntu to suit your needs. One of
 KDE\sphinxhyphen{}Look is the number one location to find customized settings for the \sphinxstyleemphasis{KDE} Plasma desktop. Some of the applications even allow direct connections to KDE\sphinxhyphen{}Look to download a new configuration or image.
 
 
-\section{Global Themes}
-\label{\detokenize{docs/advanced:global-themes}}
+\subsection{Global Themes}
+\label{\detokenize{docs/desktop-guide/advanced:global-themes}}
 \sphinxAtStartPar
 Kubuntu allows themes to be changed easily. To change your global theme follow these steps:
 \begin{enumerate}
@@ -598,8 +563,8 @@ Pick from the default choices that are installed, or left\sphinxhyphen{}click th
 \end{enumerate}
 
 
-\section{Plasma Styles}
-\label{\detokenize{docs/advanced:plasma-styles}}\begin{enumerate}
+\subsection{Plasma Styles}
+\label{\detokenize{docs/desktop-guide/advanced:plasma-styles}}\begin{enumerate}
 \sphinxsetlistlabels{\arabic}{enumi}{enumii}{}{.}%
 \item {} 
 \sphinxAtStartPar
@@ -630,22 +595,22 @@ Left\sphinxhyphen{}click the ‘Install from File…’ button to install from a
 \end{itemize}
 
 
-\section{Plasmoids}
-\label{\detokenize{docs/advanced:plasmoids}}
+\subsection{Plasmoids}
+\label{\detokenize{docs/desktop-guide/advanced:plasmoids}}
 \sphinxAtStartPar
 Plasmoids (also called Widgets) can be added by right\sphinxhyphen{}clicking the desktop and selecting Add Widgets…, which will bring up a list of Widgets. For more information, see \sphinxhref{https://userbase.kde.org/Special:MyLanguage/Plasma\#Widgets}{Plasma Widgets}.
 
 
-\section{Panel}
-\label{\detokenize{docs/advanced:panel}}
+\subsection{Panel}
+\label{\detokenize{docs/desktop-guide/advanced:panel}}
 \noindent{\sphinxincludegraphics[scale=0.75]{{panels}.png}\hspace*{\fill}}
 
 \sphinxAtStartPar
 By right\sphinxhyphen{}clicking on the desktop once again, you can select Add Panel to get more panels. You can left\sphinxhyphen{}click the button on the far right side of the panel to alter the properties of the panel, like changing its height or width or adding Widgets, for example. For more information, see \sphinxhref{https://userbase.kde.org/Special:MyLanguage/Plasma\#Panels}{Plasma Panels}.
 
 
-\section{Activities}
-\label{\detokenize{docs/advanced:activities}}
+\subsection{Activities}
+\label{\detokenize{docs/desktop-guide/advanced:activities}}
 \sphinxAtStartPar
 Activites are specific and exclusive to KDE. As such they’re often under utilised and misunderstood. In this section we’re going to explore what KDE Activities are, how to set them up, and how to use them.
 
@@ -659,8 +624,8 @@ Commonly KDE users might use Virtual desktops to seperate these workspaces.
 KDE Activites in Kubuntu provide a slick way to setup and configure environments specific to your task routines. For example your might want to have your email, and social networks configured as one activity. Perhaps your research, and writing for your thesis configured as another activity.
 
 
-\section{Activities first look}
-\label{\detokenize{docs/advanced:activities-first-look}}
+\subsection{Activities First Look}
+\label{\detokenize{docs/desktop-guide/advanced:activities-first-look}}
 \noindent{\hspace*{\fill}\sphinxincludegraphics[scale=0.75]{{activities}.png}\hspace*{\fill}}
 
 \sphinxAtStartPar
@@ -674,10 +639,10 @@ That’s it you have created your first activity.
 You can theme, and configured this new activity desktop in the same ways as mentioned early in this section of the manual.
 
 
-\section{A Step Further}
-\label{\detokenize{docs/advanced:a-step-further}}
+\subsection{A Step Further}
+\label{\detokenize{docs/desktop-guide/advanced:a-step-further}}
 \sphinxAtStartPar
-OK, looking good, lets create another Activity. Call this one “Misc”. Once created switch to this Activity, either by Right Click on the Desktop \textgreater{} Activities or use the Keyboard shortcut Alt+D,A ( Hold Alt down, press D, then Press A )
+OK, looking good, let’s create another Activity. Call this one “Misc”. Once created switch to this Activity, either by Right Click on the Desktop \textgreater{} Activities or use the Keyboard shortcut Alt+D,A ( Hold Alt down, press D, then Press A )
 Then select the Misc Activity from the side bar.
 
 \sphinxAtStartPar
@@ -690,32 +655,381 @@ Change the desktop wallpaper to something you like
 
 \item {} 
 \sphinxAtStartPar
-Right click \textgreater{} Add Widgets, and add the Digital Clock
+Right\sphinxhyphen{}click \textgreater{} Add Widgets, and add the Analog Clock
 
 \item {} 
 \sphinxAtStartPar
-Right click \textgreater{} Add Widgets, and add the Comic Strip
-
-\item {} 
-\sphinxAtStartPar
-Right click \textgreater{} Add Widgets, and add the Hard Disk Space Usage
+Right\sphinxhyphen{}click \textgreater{} Add Widgets, and add the Weather Report
 
 \end{enumerate}
 
 \sphinxAtStartPar
 You can now resize these widgets and lay them out on the desktop however you wish. and configure them to suit your needs, as in the example below.
 
-\noindent{\hspace*{\fill}\sphinxincludegraphics[scale=0.75]{{activitiy-misc}.png}\hspace*{\fill}}
+\noindent{\hspace*{\fill}\sphinxincludegraphics[scale=0.75]{{activity-misc}.png}\hspace*{\fill}}
 
 
-\subsection{Drivers}
-\label{\detokenize{docs/advanced:drivers}}
+\subsubsection{Drivers}
+\label{\detokenize{docs/desktop-guide/advanced:drivers}}
 \sphinxAtStartPar
-On every Operating System (Windows, Mac OS X, and Linux) there are programs called Drivers which you install on your computer. These Drivers let your computer use new hardware or existing hardware, like \sphinxhref{https://userbase.kde.org/Kubuntu/Basic\#Wireless}{Wi\sphinxhyphen{}Fi}. There Drivers also cover your graphics card e.g NVIDIA, AMD, sometimes the nonfree or restricted drivers let the cards perform better than the free ones. The Driver Manager handles installing and uninstalling these for you. These improvements may cover gaming, video editing and processing to image editing.
+On every Operating System (Windows, macOS, and Linux) there are programs called Drivers which you install on your computer. These Drivers let your computer use new hardware or existing hardware, like \sphinxhref{https://userbase.kde.org/Kubuntu/Basic\#Wireless}{Wi\sphinxhyphen{}Fi}. There Drivers also cover your graphics card e.g NVIDIA, AMD, sometimes the nonfree or restricted drivers let the cards perform better than the free ones. The ‘Additional Drivers’ section of Disocver handles installing and uninstalling these for you. These improvements may cover gaming, video editing and processing to image editing.
+\begin{enumerate}
+\sphinxsetlistlabels{\arabic}{enumi}{enumii}{}{.}%
+\item {} 
+\sphinxAtStartPar
+Start Discover
+
+\end{enumerate}
+
+\noindent{\hspace*{\fill}\sphinxincludegraphics[scale=0.75]{{discover-manage}.png}\hspace*{\fill}}
+\begin{enumerate}
+\sphinxsetlistlabels{\arabic}{enumi}{enumii}{}{.}%
+\setcounter{enumi}{1}
+\item {} 
+\sphinxAtStartPar
+Select Settings then left\sphinxhyphen{}click the ‘Software Sources’ button to the right of ‘Ubuntu Jammy Jellyfish’
+
+\item {} 
+\sphinxAtStartPar
+Enter your administrative password at the prompt
+
+\item {} 
+\sphinxAtStartPar
+Left\sphinxhyphen{}click the ‘Additional Drivers’ tab
+
+\end{enumerate}
+
+\noindent{\hspace*{\fill}\sphinxincludegraphics[scale=0.85]{{drivers}.png}\hspace*{\fill}}
+
+\sphinxAtStartPar
+If there are any drivers (both Open Source and Closed Source) for your hardware they will be in this window. If you install any drivers you may need to restart your system for the change to take effect.
 
 
-\chapter{Repositories}
-\label{\detokenize{docs/repositories:repositories}}\label{\detokenize{docs/repositories:repositories-link}}\label{\detokenize{docs/repositories::doc}}
+\chapter{Software Management}
+\label{\detokenize{docs/software-management/software-list:software-management}}\label{\detokenize{docs/software-management/software-list::doc}}
+\sphinxAtStartPar
+Contents:
+
+
+\section{Software}
+\label{\detokenize{docs/software-management/software:software}}\label{\detokenize{docs/software-management/software:software-link}}\label{\detokenize{docs/software-management/software::doc}}
+
+\subsection{Software Management}
+\label{\detokenize{docs/software-management/software:software-management}}
+\sphinxAtStartPar
+There are several ways to manage applications in Kubuntu. A convenient way to add or remove applications is with a package manager.
+
+
+\subsubsection{Graphical Clients}
+\label{\detokenize{docs/software-management/software:graphical-clients}}
+\sphinxAtStartPar
+By default Kubuntu comes with a great package manager called Discover. Discover is an advanced program with a graphical user interface (GUI) for installing and removing applications. It will automatically notify you for updates (in the lower right hand corner), but you can use it at anytime to install new packages by opening your launcher or KRunner and type ‘Discover’ then select  Discover from the results.
+
+\noindent\sphinxincludegraphics{{discover}.png}
+
+\sphinxAtStartPar
+Discover might provide information about the required dependencies, these are other packages (software) that the piece of software that you want to install needs to run. Once this information is acknowledged, the required packages will begin downloading then be installed. When the installation process is complete, the software will be ready to use. It is rarely necessary to restart the system after software installation or updates. If it is, the system will warn you and give you a restart icon to do the restart at your convenience.
+
+\sphinxAtStartPar
+Discover also provides an easy method to remove software that is no longer needed.
+
+
+\begin{savenotes}\sphinxattablestart
+\centering
+\begin{tabular}[t]{|*{1}{\X{1}{1}|}}
+\hline
+\begin{quote}
+
+\sphinxAtStartPar
+Tip:
+\end{quote}
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+Click on Installed and find the application you want to remove.
+
+\item {} 
+\sphinxAtStartPar
+Then click Remove and Discover will remove the application.
+
+\end{itemize}
+\\
+\hline
+\end{tabular}
+\par
+\sphinxattableend\end{savenotes}
+
+
+\subsection{Updating}
+\label{\detokenize{docs/software-management/software:updating}}
+\sphinxAtStartPar
+Kubuntu developers release feature and security updates for applications and packages within the Kubuntu system. When updates become available, Kubuntu will display a message in the System Tray. To update the system, open Discover from either the Application Menu or Krunner and click the Update button (usually yellow/orange when there are updates). After installing some updates, it may be necessary to restart the computer. If so, Kubuntu will display a pop\sphinxhyphen{}up and an icon in the System Tray.
+
+\noindent\sphinxincludegraphics[scale=0.75]{{discover-updates}.png}
+
+\sphinxAtStartPar
+This is a short guide to the software which is included in your Kubuntu installation.
+
+
+\subsection{Graphics}
+\label{\detokenize{docs/software-management/software:graphics}}
+\sphinxAtStartPar
+Some basic graphics applications are installed in Kubuntu by default, allowing you to create, view, scan, and manipulate images. The following applications are installed by default:
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+\sphinxhref{https://userbase.kde.org/Special:MyLanguage/Okular}{Okular} is a universal document viewer for many kinds of documents: PDF, Postscript, !DjVu, CHM, XPS, ePub and others.
+
+\item {} 
+\sphinxAtStartPar
+\sphinxhref{http://www.libreoffice.org/discover/draw/}{LibreOffice Draw} is an all\sphinxhyphen{}purpose diagramming and charting tool which lets you produce anything from a quick sketch to a complex plan, and gives you the means to communicate with graphics and diagrams. With a maximum page size of 300cm by 300cm, Draw is a an excellent package for producing technical drawings, general posters, and much else.
+
+\item {} 
+\sphinxAtStartPar
+\sphinxhref{https://userbase.kde.org/Special:MyLanguage/Skanlite}{Skanlite} is a simple image scanning application.
+
+\item {} 
+\sphinxAtStartPar
+\sphinxhref{https://userbase.kde.org/Special:MyLanguage/Gwenview}{Gwenview} is an image viewer with many features.
+
+\item {} 
+\sphinxAtStartPar
+\sphinxhref{https://userbase.kde.org/Special:MyLanguage/Kamoso}{Kamoso} is a webcam recorder from the \sphinxstyleemphasis{KDE} community.
+
+\item {} 
+\sphinxAtStartPar
+\sphinxhref{https://www.kde.org/applications/graphics/spectacle/}{Spectacle} is the best at desktop screenshots, simple and sweet.
+
+\end{itemize}
+
+
+\subsection{Internet}
+\label{\detokenize{docs/software-management/software:internet}}
+
+\subsubsection{Browsers}
+\label{\detokenize{docs/software-management/software:browsers}}
+\sphinxAtStartPar
+Firefox is the default browser shipped with Kubuntu, the most popular open\sphinxhyphen{}source browser in the world. For more information on how to use Firefox see the \sphinxhref{https://support.mozilla.org/en-US/products/firefox}{Firefox Help Page}.
+
+
+\paragraph{Export your bookmarks}
+\label{\detokenize{docs/software-management/software:export-your-bookmarks}}
+\sphinxAtStartPar
+To export your bookmarks from Firefox
+\begin{enumerate}
+\sphinxsetlistlabels{\arabic}{enumi}{enumii}{}{.}%
+\item {} 
+\sphinxAtStartPar
+Click on the Bookmarks menu item
+
+\item {} 
+\sphinxAtStartPar
+Select Show All Bookmarks or Ctrl+Shift+o
+
+\item {} 
+\sphinxAtStartPar
+A new window will appear. Select Import and Backup
+
+\end{enumerate}
+
+\sphinxAtStartPar
+\textgreater{} Tip: Note where you save your bookmarks (by default in \textasciitilde{}/yourfoldername)
+
+
+\paragraph{Import your bookmarks into Firefox}
+\label{\detokenize{docs/software-management/software:import-your-bookmarks-into-firefox}}
+\sphinxAtStartPar
+Click this link for a guide to \sphinxhref{https://support.mozilla.org/en-US/kb/import-bookmarks-html-file}{import your bookmarks} into Firefox.
+
+
+\subsubsection{Email Clients}
+\label{\detokenize{docs/software-management/software:email-clients}}
+\sphinxAtStartPar
+There are many options when it comes to email clients. In Kubuntu, Kmail is default email client, either as a stand\sphinxhyphen{}alone client or as part of the Kontact personal information manager (PIM). Kmail is the email component of Kontact, the \sphinxstyleemphasis{KDE} personal information manager (PIM). Kmail by itself is similar in functionality to other popular email programs, while Kontact is as full\sphinxhyphen{}featured as the fanciest personal information managers (PIMs), as it can be configured with calendars, address books, notes, an RSS reader, time tracking, journals and simple project planning. The following are just some of the features of Kmail:
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+IMAP, POP3, SMTP support
+
+\item {} 
+\sphinxAtStartPar
+SSL, TLS, and Digest\sphinxhyphen{}md5 secure logon support
+
+\item {} 
+\sphinxAtStartPar
+PGP and GNUPG signatures and encryption support
+
+\item {} 
+\sphinxAtStartPar
+HTML reading, spam filtering, internal character sets, search and filter functions, spell checking, and robust searching. More information on Kmail can be found in the \sphinxhref{https://userbase.kde.org/Special:MyLanguage/KMail}{KMail documentation}.
+
+\end{itemize}
+
+
+\subsubsection{Chat Clients}
+\label{\detokenize{docs/software-management/software:chat-clients}}
+\sphinxAtStartPar
+Chatting with friends and family is a popular use of the internet, and Kubuntu provides the necessary applications.
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+\sphinxhref{https://userbase.kde.org/Special:MyLanguage/Konversation}{Konversation} is the IRC (Internet Relay Chat) client pre\sphinxhyphen{}installed in Kubuntu. Not only does it provide functions similar to those of other popular IRC clients such as ‘X\sphinxhyphen{}chat, its design emphasizes ease of use. Konversation includes tabbed browsing and notification of messages and other events.
+
+\end{itemize}
+
+\sphinxAtStartPar
+\sphinxstyleemphasis{KDE} software connects you to the world. See \sphinxhref{https://userbase.kde.org/Special:MyLanguage/Applications/Internet}{Internet, Networking, \& Communication} for more.
+
+
+\subsection{Multimedia}
+\label{\detokenize{docs/software-management/software:multimedia}}
+\sphinxAtStartPar
+The best in multimedia is installed when you open your new Kubuntu installation. If you get an error message about “missing codecs” please install kubuntu\sphinxhyphen{}restricted\sphinxhyphen{}extras. You can find your Multimedia applications through Kickoff\sphinxhyphen{}\textgreater{}Applications\sphinxhyphen{}\textgreater{}Multimedia.
+
+\sphinxAtStartPar
+The following applications are installed by default:
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+\sphinxhref{https://wiki.ubuntu.com/PulseAudio}{Pulseaudio} keeps all your sound and video inputs and outputs working together. If you need to direct your audio or video output to other devices, install the pavucontrol package, launch it by pressing Alt + F2, then type pavucontrol.
+
+\item {} 
+\sphinxAtStartPar
+\sphinxhref{https://userbase.kde.org/Special:MyLanguage/K3b}{K3b} is a simple, powerful and highly\sphinxhyphen{}configurable graphical optical disk burning application for audio, video, data projects.
+
+\item {} 
+\sphinxAtStartPar
+\sphinxhref{https://userbase.kde.org/Special:MyLanguage/KMix}{Kmix} controls all your audio channels.
+
+\item {} 
+\sphinxAtStartPar
+\sphinxhref{https://userbase.kde.org/Special:MyLanguage/Elisa}{Elisa} is a music player focused on the Plasma desktop.
+
+\item {} 
+\sphinxAtStartPar
+\sphinxhref{https://www.videolan.org/}{VLC} is a simple interface for playing your movies, TV shows, and music.
+
+\end{itemize}
+
+
+\subsection{Office}
+\label{\detokenize{docs/software-management/software:office}}
+\sphinxAtStartPar
+The default office suite installed in Kubuntu is LibreOffice. It includes Calc, Draw, Impress, Math, Base and Writer. This suite is the open source equivalent of the Microsoft Office suite and each application corresponds to a similar product in that line.
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+Calc = Excel
+
+\item {} 
+\sphinxAtStartPar
+Writer = Word
+
+\item {} 
+\sphinxAtStartPar
+Impress = PowerPoint
+
+\item {} 
+\sphinxAtStartPar
+Base = Access
+
+\end{itemize}
+
+\sphinxAtStartPar
+LibreOffice works well with the files created by their Microsoft counterparts, with the exception of Microsoft Access files. For more information see \sphinxhref{https://wiki.ubuntu.com/LibreOffice}{LibreOffice}.
+
+
+\subsubsection{Personal Information Manager (PIM)}
+\label{\detokenize{docs/software-management/software:personal-information-manager-pim}}
+\sphinxAtStartPar
+Installed with your system is the KDE Personal Information Manager Kontact. This includes many tools to manage your life.
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+email
+
+\item {} 
+\sphinxAtStartPar
+contacts
+
+\item {} 
+\sphinxAtStartPar
+diary
+
+\item {} 
+\sphinxAtStartPar
+notes
+
+\item {} 
+\sphinxAtStartPar
+feeds
+
+\item {} 
+\sphinxAtStartPar
+to\sphinxhyphen{}do list
+
+\end{itemize}
+
+\sphinxAtStartPar
+Please see \sphinxhref{https://userbase.kde.org/Special:MyLanguage/Kontact}{Kontact} for more details and help with this powerful set of tools.
+
+
+\subsection{System Settings}
+\label{\detokenize{docs/software-management/software:system-settings}}
+\sphinxAtStartPar
+Information on adjusting system settings can be found at \sphinxhref{https://userbase.kde.org/Special:MyLanguage/System\_Settings}{System Settings}.
+
+
+\subsection{Utilities}
+\label{\detokenize{docs/software-management/software:utilities}}
+\sphinxAtStartPar
+Your newly installed Kubuntu system has some utilities already installed. One of the most useful is not in your menus; just press ALT + F2. Look at the top of your screen; there is one of your most powerful utilities, called Krunner. See more here: \sphinxhref{https://userbase.kde.org/Special:MyLanguage/Plasma/Krunner}{Krunner}.
+\begin{itemize}
+\item {} 
+\sphinxAtStartPar
+\sphinxhref{https://userbase.kde.org/Special:MyLanguage/Kate}{Kate} is the default text editor for KDE. It has many great features for editing plain text or writing code in many different languages.
+
+\item {} 
+\sphinxAtStartPar
+\sphinxhref{https://userbase.kde.org/Special:MyLanguage/Ark}{Ark} is the default tool for handling archives of files such as tar, gzip, bzip2, zip, rar and 7z.
+
+\item {} 
+\sphinxAtStartPar
+\sphinxhref{https://userbase.kde.org/Special:MyLanguage/Klipper}{Klipper} is a clipboard to hold copied text for later use. Unlike other clipboards it will hold your entire copied text, rather than just one line.
+
+\item {} 
+\sphinxAtStartPar
+\sphinxhref{https://userbase.kde.org/Special:MyLanguage/KNotes}{Knotes} is a sticky\sphinxhyphen{}note application to post notes on your desktop.
+
+\item {} 
+\sphinxAtStartPar
+\sphinxhref{https://userbase.kde.org/Special:MyLanguage/KCalc}{KCalc} offers basic calculator functions and much more.
+
+\item {} 
+\sphinxAtStartPar
+\sphinxhref{https://userbase.kde.org/Special:MyLanguage/Konsole}{Konsole} is the KDE terminal emulator, it can be used to run console shells.
+
+\item {} 
+\sphinxAtStartPar
+\sphinxhref{https://userbase.kde.org/Special:MyLanguage/Dolphin}{Dolphin} is the default file manager. Dolphin looks simple because of great design, while having many powerful features.
+
+\end{itemize}
+
+
+\subsubsection{Bash}
+\label{\detokenize{docs/software-management/software:bash}}
+\sphinxAtStartPar
+Bash is the default shell in Konsole and other terminals. Click this \sphinxhref{https://help.ubuntu.com/community/UsingTheTerminal}{link} that goes over using the terminals
+
+
+\subsection{Firewall configuration}
+\label{\detokenize{docs/software-management/software:firewall-configuration}}
+\sphinxAtStartPar
+Ufw is the default commandline configuration tool for the firewall. Ufw stands for Uncomplicated Firewall, it is developed to ease iptables firewall configuration. For more information about ufw see: \sphinxhref{https://help.ubuntu.com/community/UFW}{UFW}
+
+
+\section{Repositories}
+\label{\detokenize{docs/software-management/repositories:repositories}}\label{\detokenize{docs/software-management/repositories:repositories-link}}\label{\detokenize{docs/software-management/repositories::doc}}
 \sphinxAtStartPar
 Thousands of programs are freely available to install in Kubuntu. These programs are stored in software archives (“repositories”) and are made available for installation over the Internet. Installing new programs in Kubuntu is quick, reliable, and secure because each program is built specifically for Kubuntu and is checked thoroughly before it is made available. Kubuntu repositories are categorized into four groups:
 \begin{itemize}
@@ -757,197 +1071,23 @@ The standard Kubuntu LiveDVD contains some software from the “Main” and “R
 For more information about managing repositories, check the click on Repositories section of this manual. For even more information check the Ubuntu Wiki about \sphinxhref{https://help.ubuntu.com/community/Repositories}{managing Repositories}.
 
 
-\section{Managing Repositories}
-\label{\detokenize{docs/repositories:id1}}
-
-\subsection{Add a Repository}
-\label{\detokenize{docs/repositories:add-a-repository}}
-\sphinxAtStartPar
-You can use the Discover to add new repositories.
-\begin{enumerate}
-\sphinxsetlistlabels{\arabic}{enumi}{enumii}{}{.}%
-\item {} 
-\sphinxAtStartPar
-Start Discover
-
-\end{enumerate}
-
-\noindent{\hspace*{\fill}\sphinxincludegraphics[scale=0.5]{{discover-manage}.png}\hspace*{\fill}}
-\begin{enumerate}
-\sphinxsetlistlabels{\arabic}{enumi}{enumii}{}{.}%
-\setcounter{enumi}{1}
-\item {} 
-\sphinxAtStartPar
-Select Settings Left\sphinxhyphen{}click the ‘Software Sources’ button at the top right of the window.
-
-\item {} 
-\sphinxAtStartPar
-Enter your administrative password at the prompt.
-
-\end{enumerate}
-
-\noindent{\hspace*{\fill}\sphinxincludegraphics[scale=0.75]{{discover-edit}.png}\hspace*{\fill}}
-\begin{enumerate}
-\sphinxsetlistlabels{\arabic}{enumi}{enumii}{}{.}%
-\setcounter{enumi}{3}
-\item {} 
-\sphinxAtStartPar
-Left\sphinxhyphen{}click the ‘Other Software’ tab
-
-\item {} 
-\sphinxAtStartPar
-Left\sphinxhyphen{}click the ‘Add…’ button
-
-\end{enumerate}
-
-\noindent{\hspace*{\fill}\sphinxincludegraphics[scale=0.75]{{discover-edit2}.png}\hspace*{\fill}}
-\begin{enumerate}
-\sphinxsetlistlabels{\arabic}{enumi}{enumii}{}{.}%
-\setcounter{enumi}{5}
-\item {} 
-\sphinxAtStartPar
-Enter the repository address into the text box. The proper format is required, and looks similar to this: ppa:kubuntu\sphinxhyphen{}ppa/backports
-
-\item {} 
-\sphinxAtStartPar
-Left\sphinxhyphen{}click the ‘OK’ button to add the repository. Left\sphinxhyphen{}click the ‘Close’ button
-
-\end{enumerate}
-
-\sphinxAtStartPar
-A prompt will appear to update the package list. Discover will now be allowed to find the newly available software.
-
-
-\subsection{Enable a Repository}
-\label{\detokenize{docs/repositories:enable-a-repository}}
-\sphinxAtStartPar
-You can use the Discover to enable repositories. We’ll go over that process below:
-\begin{enumerate}
-\sphinxsetlistlabels{\arabic}{enumi}{enumii}{}{.}%
-\item {} 
-\sphinxAtStartPar
-Start Discover
-
-\item {} 
-\sphinxAtStartPar
-Select Sources
-
-\item {} 
-\sphinxAtStartPar
-Configure Software Sources in the window
-
-\item {} 
-\sphinxAtStartPar
-Enter your administrative password at the prompt
-
-\item {} 
-\sphinxAtStartPar
-Left\sphinxhyphen{}click the ‘Other Software’ tab
-
-\item {} 
-\sphinxAtStartPar
-Check the appropriate box in the center section of the window to enable a repository
-
-\item {} 
-\sphinxAtStartPar
-Left\sphinxhyphen{}click the ‘Close’ button.
-
-\end{enumerate}
-
-\sphinxAtStartPar
-A prompt will appear to update the package list, Discover will now be allowed to find the newly available software.
-
-
-\subsection{Disable a Repository}
-\label{\detokenize{docs/repositories:disable-a-repository}}
-\sphinxAtStartPar
-You can use the Discover to disable repositories. We’ll go over that process below:
-\begin{enumerate}
-\sphinxsetlistlabels{\arabic}{enumi}{enumii}{}{.}%
-\item {} 
-\sphinxAtStartPar
-Start Discover
-
-\item {} 
-\sphinxAtStartPar
-Select Sources
-
-\item {} 
-\sphinxAtStartPar
-Configure Software Sources in the window
-
-\item {} 
-\sphinxAtStartPar
-Enter your administrative password at the prompt
-
-\item {} 
-\sphinxAtStartPar
-Left\sphinxhyphen{}click the ‘Other Software’ tab
-
-\item {} 
-\sphinxAtStartPar
-Uncheck the appropriate box in the center section of the window to disable a repository
-
-\item {} 
-\sphinxAtStartPar
-Left\sphinxhyphen{}click the ‘Close’ button.
-
-\end{enumerate}
-
-\sphinxAtStartPar
-A prompt will appear to update the package list, Discover will now forget the no longer available software.
-
-
-\subsection{Remove a Repository}
-\label{\detokenize{docs/repositories:remove-a-repository}}
-\sphinxAtStartPar
-You can use the Discover to remove repositories. We’ll go over that process below:
-\begin{enumerate}
-\sphinxsetlistlabels{\arabic}{enumi}{enumii}{}{.}%
-\item {} 
-\sphinxAtStartPar
-Start Discover and select Sources
-
-\item {} 
-\sphinxAtStartPar
-Configure Software Sources in the window
-
-\item {} 
-\sphinxAtStartPar
-Enter your administrative password at the prompt
-
-\item {} 
-\sphinxAtStartPar
-Left\sphinxhyphen{}click the ‘Other Software’ tab
-
-\item {} 
-\sphinxAtStartPar
-Left\sphinxhyphen{}click the name of an existing repository in the center section of the window to select it
-
-\item {} 
-\sphinxAtStartPar
-Left\sphinxhyphen{}click the ‘Remove’ button. Left\sphinxhyphen{}click the ‘Close’ button.
-
-\end{enumerate}
-
-\sphinxAtStartPar
-A prompt will appear to update the package list, Discover will now forget the no longer available software.
-
-
 \subsection{PPAs (Personal Package Archive)}
-\label{\detokenize{docs/repositories:ppas-personal-package-archive}}
+\label{\detokenize{docs/software-management/repositories:ppas-personal-package-archive}}
 \sphinxAtStartPar
 Personal Package Archives allow any person in the Ubuntu community who has committed to observe the \sphinxhref{https://launchpad.net/codeofconduct}{Ubuntu Code of Conduct} to upload Ubuntu source packages to be built and published as an apt repository by Launchpad. Software from Launchpad’s \sphinxhref{https://launchpad.net/ubuntu/+ppas}{Personal Package Archive} (PPA) requires a \sphinxhref{https://www.gnupg.org/}{GnuPG} (GPG) key so your system can verify that it’s getting the packages from the correct source and that the packages have not been interfered with since they were built. GnuPG is GNU’s tool for secure communication and data storage. For more information about PPAs, click on the Repositories section of this manual.
 
 
-\subsection{Install/Uninstall ‘.deb’ files}
-\label{\detokenize{docs/repositories:install-uninstall-deb-files}}
+\subsection{Kubuntu Backports}
+\label{\detokenize{docs/software-management/repositories:kubuntu-backports}}
 \sphinxAtStartPar
-The package files associated with Kubuntu have the “.deb” suffix because of Kubuntu’s close relationship with the Debian GNU/Linux distribution. Individual “.deb” files can be downloaded and installed. Humble Bundles, for instance, distribute debs. Administrative privileges are required.
+The Kubuntu Backports are “Backports of new versions of KDE Platform, Plasma and Applications as well as major KDE apps for Kubuntu.” As any PPA you should know how to remove it before you add it so please do read below on how to do so. The Backports exist because of the Ubuntu release cycle, if there is a new Plasma, Applications or Frameworks after the freeze or release of a new Ubuntu release we package it up for you to enjoy.
+
+\sphinxAtStartPar
+\sphinxurl{https://launchpad.net/~kubuntu-ppa/+archive/ubuntu/backports}
 
 
-\section{Managing Personal Package Archives}
-\label{\detokenize{docs/repositories:managing-personal-package-archives}}
+\subsubsection{Managing Personal Package Archives}
+\label{\detokenize{docs/software-management/repositories:managing-personal-package-archives}}
 \sphinxAtStartPar
 Personal Package Archives allow any person in the Ubuntu community who has committed to observe the \sphinxhref{https://launchpad.net/codeofconduct}{Ubuntu Code of Conduct} to upload Ubuntu source packages to be built and published as an apt repository by Launchpad. Software from Launchpad’s \sphinxhref{https://launchpad.net/ubuntu/+ppas}{Personal Package Archive} (PPA) requires a \sphinxhref{https://www.gnupg.org/}{GnuPG} (GPG) key so your system can verify that it’s getting the packages from the correct source and that the packages have not been interfered with since they were built. GnuPG is GNU’s tool for secure communication and data storage.
 
@@ -955,68 +1095,70 @@ Personal Package Archives allow any person in the Ubuntu community who has commi
 \sphinxstylestrong{Important}: The contents of Personal Package Archives are not checked or monitored. You install software from them at your own risk.
 
 
-\subsection{Add a PPA}
-\label{\detokenize{docs/repositories:add-a-ppa}}
+\paragraph{Add a PPA}
+\label{\detokenize{docs/software-management/repositories:add-a-ppa}}
 \sphinxAtStartPar
 You can use the Discover to add a PPA:
 \begin{enumerate}
 \sphinxsetlistlabels{\arabic}{enumi}{enumii}{}{.}%
 \item {} 
 \sphinxAtStartPar
-Open the Launchpad PPA overview page in your browser
+Open the Launchpad PPA overview page in your browser for example look at the Kubuntu Backports PPA
 
 \item {} 
 \sphinxAtStartPar
-Look for the location of the PPA in the ‘Adding this PPA to your system’ section
+Look for the ‘Adding this PPA to your system’ section
 
 \item {} 
 \sphinxAtStartPar
-Open Discover then Select Sources
+Open Konsole then copy (Ctrl+C once the command is highlighted)
 
 \item {} 
 \sphinxAtStartPar
-Configure Software Sources in the window and enter your administrative password at the prompt
-
-\item {} 
-\sphinxAtStartPar
-Left\sphinxhyphen{}click on the ‘Other Software’ tab
-
-\item {} 
-\sphinxAtStartPar
-Left\sphinxhyphen{}click the ‘Add…’ button, paste the location you got from the PPA’s overview page into the text box
-
-\item {} 
-\sphinxAtStartPar
-Left\sphinxhyphen{}click the ‘OK’ button to add the repository
-
-\item {} 
-\sphinxAtStartPar
-Left\sphinxhyphen{}click the ‘Close’ button
+Now paste (Ctrl+Shift+V in terminals like Konsole) and press the Enter key
 
 \end{enumerate}
 
+\noindent{\hspace*{\fill}\sphinxincludegraphics[scale=0.75]{{konsole-add-ppa}.png}\hspace*{\fill}}
+
 \sphinxAtStartPar
-A prompt will appear to update the package list, Discover will now be allowed to find the newly available software.
+Your repositories will be updated and now Discover will be able to find the newly available software.
 
 
-\subsection{Remove a PPA}
-\label{\detokenize{docs/repositories:remove-a-ppa}}
+\paragraph{Remove a PPA}
+\label{\detokenize{docs/software-management/repositories:remove-a-ppa}}
 \sphinxAtStartPar
 You can use the Discover to remove a PPA:
 \begin{enumerate}
 \sphinxsetlistlabels{\arabic}{enumi}{enumii}{}{.}%
 \item {} 
 \sphinxAtStartPar
-Open Discover then Select Sources
+Open Discover then left\sphinxhyphen{}click Settings on the bottom left
+
+\end{enumerate}
+
+\noindent{\hspace*{\fill}\sphinxincludegraphics[scale=0.75]{{discover-manage}.png}\hspace*{\fill}}
+\begin{enumerate}
+\sphinxsetlistlabels{\arabic}{enumi}{enumii}{}{.}%
+\setcounter{enumi}{1}
+\item {} 
+\sphinxAtStartPar
+Left\sphinxhyphen{}click the ‘Software Sources’ button to the right of ‘Ubuntu Jammy Jellyfish’
 
 \item {} 
 \sphinxAtStartPar
-Configure Software Sources in the window. Enter your administrative password at the prompt
+Enter your administrative password at the prompt.
 
 \item {} 
 \sphinxAtStartPar
 Left\sphinxhyphen{}click on the ‘Other Software’ tab
 
+\end{enumerate}
+
+\noindent{\hspace*{\fill}\sphinxincludegraphics[scale=0.75]{{discover-other-software}.png}\hspace*{\fill}}
+\begin{enumerate}
+\sphinxsetlistlabels{\arabic}{enumi}{enumii}{}{.}%
+\setcounter{enumi}{4}
 \item {} 
 \sphinxAtStartPar
 Left\sphinxhyphen{}click the PPA that you want to remove
@@ -1031,330 +1173,18 @@ Left\sphinxhyphen{}click the ‘Remove’ button
 A prompt will appear to update the package list, Discover will now be allowed to find the newly available software.
 
 
-\subsection{Kubuntu Backports}
-\label{\detokenize{docs/repositories:kubuntu-backports}}
+\subsection{Install/Uninstall ‘.deb’ files}
+\label{\detokenize{docs/software-management/repositories:install-uninstall-deb-files}}
 \sphinxAtStartPar
-The Kubuntu Backports are “Backports of new versions of KDE Platform, Plasma and Applications as well as major KDE apps for Kubuntu.” As any PPA you should know how to remove it before you add it so please do read above on how to do so. The Backports exist because of the Ubuntu release cycle, if there is a new Plasma, Applications or Frameworks after the freeze or release of a new Ubuntu release we package it up for you to enjoy.
+The package files associated with Kubuntu have the “.deb” suffix because of Kubuntu’s close relationship with the Debian GNU/Linux distribution. Individual “.deb” files can be downloaded and installed. Humble Bundles, for instance, distribute debs. Administrative privileges are required.
 
 \sphinxAtStartPar
-\sphinxurl{https://launchpad.net/~kubuntu-ppa/+archive/ubuntu/backports}
+To install “.deb” files download the file from a safe and secure location. In this example we’ll be installing the Chrome “.deb” file from \sphinxhref{https://www.google.com/chrome/}{Chrome’s website} then we’ll run these commands in a Konsole window:
 
-
-\chapter{Software}
-\label{\detokenize{docs/software:software}}\label{\detokenize{docs/software:software-link}}\label{\detokenize{docs/software::doc}}
-
-\section{Software Management}
-\label{\detokenize{docs/software:software-management}}
-\sphinxAtStartPar
-There are several ways to manage applications in Kubuntu. A convenient way to add or remove applications is with a package manager.
-
-
-\subsection{Graphical Clients}
-\label{\detokenize{docs/software:graphical-clients}}
-\sphinxAtStartPar
-By default Kubuntu comes with a great package manager called Discover. Discover is an advanced program with a graphical user interface (GUI) for installing and removing applications. It will automatically notify you for updates (in the lower right hand corner), but you can use it at anytime to install new packages by opening your launcher or KRunner and type ‘Discover’ then select  Discover from the results.
-
-\noindent\sphinxincludegraphics{{discover}.png}
-
-\sphinxAtStartPar
-Discover might provide information about the required dependencies, these are other packages (software) that the piece of software that you want to install needs to run. Once this information is acknowledged, the required packages will begin downloading then be installed. When the installation process is complete, the software will be ready to use. It is rarely necessary to restart the system after software installation or updates. If it is, the system will warn you and give you a restart icon to do the restart at your convenience.
-
-\sphinxAtStartPar
-Discover also provides an easy method to remove software that is no longer needed.
-
-
-\begin{savenotes}\sphinxattablestart
-\centering
-\begin{tabular}[t]{|*{1}{\X{1}{1}|}}
-\hline
-\begin{quote}
-
-\sphinxAtStartPar
-Tip:
-\end{quote}
-\begin{itemize}
-\item {} 
-\sphinxAtStartPar
-Click on Installed and find the application you want to remove.
-
-\item {} 
-\sphinxAtStartPar
-Then click Remove and Discover will remove the application.
-
-\end{itemize}
-\\
-\hline
-\end{tabular}
-\par
-\sphinxattableend\end{savenotes}
-
-
-\section{Updating}
-\label{\detokenize{docs/software:updating}}
-\sphinxAtStartPar
-Kubuntu developers release feature and security updates for applications and packages within the Kubuntu system. When updates become available, Kubuntu will display a message in the System Tray. To update the system, open Discover from either the Application Menu or Krunner and click the Update button (usually yellow/orange when there are updates). After installing some updates, it may be necessary to restart the computer. If so, Kubuntu will display a pop\sphinxhyphen{}up and an icon in the System Tray.
-
-\noindent\sphinxincludegraphics[scale=0.75]{{DiscoverUpdates-zesty}.png}
-
-\sphinxAtStartPar
-This is a short guide to the software which is included in your Kubuntu installation.
-
-
-\section{Graphics}
-\label{\detokenize{docs/software:graphics}}
-\sphinxAtStartPar
-Some basic graphics applications are installed in Kubuntu by default, allowing you to create, view, scan, and manipulate images. The following applications are installed by default:
-\begin{itemize}
-\item {} 
-\sphinxAtStartPar
-\sphinxhref{https://userbase.kde.org/Special:MyLanguage/Okular}{Okular} is a universal document viewer for many kinds of documents: PDF, Postscript, !DjVu, CHM, XPS, ePub and others.
-
-\item {} 
-\sphinxAtStartPar
-\sphinxhref{http://www.libreoffice.org/discover/draw/}{LibreOffice Draw} is an all\sphinxhyphen{}purpose diagramming and charting tool which lets you produce anything from a quick sketch to a complex plan, and gives you the means to communicate with graphics and diagrams. With a maximum page size of 300cm by 300cm, Draw is a an excellent package for producing technical drawings, general posters, and much else.
-
-\item {} 
-\sphinxAtStartPar
-\sphinxhref{https://userbase.kde.org/Special:MyLanguage/Skanlite}{Skanlite} is a simple image scanning application.
-
-\item {} 
-\sphinxAtStartPar
-\sphinxhref{https://userbase.kde.org/Special:MyLanguage/Gwenview}{Gwenview} is an image viewer with many features.
-
-\item {} 
-\sphinxAtStartPar
-\sphinxhref{https://userbase.kde.org/Special:MyLanguage/Kamoso}{Kamoso} is a webcam recorder from the \sphinxstyleemphasis{KDE} community.
-
-\item {} 
-\sphinxAtStartPar
-\sphinxhref{https://www.kde.org/applications/graphics/spectacle/}{Spectacle} is the best at desktop screenshots, simple and sweet.
-
-\end{itemize}
-
-
-\section{Internet}
-\label{\detokenize{docs/software:internet}}
-
-\subsection{Browsers}
-\label{\detokenize{docs/software:browsers}}
-\sphinxAtStartPar
-Firefox is the default browser shipped with Kubuntu, the most popular open\sphinxhyphen{}source browser in the world. For more information on how to use Firefox see the \sphinxhref{https://support.mozilla.org/en-US/products/firefox}{Firefox Help Page}.
-
-
-\subsubsection{Export your bookmarks}
-\label{\detokenize{docs/software:export-your-bookmarks}}
-\sphinxAtStartPar
-To export your bookmarks from Firefox
-\begin{enumerate}
-\sphinxsetlistlabels{\arabic}{enumi}{enumii}{}{.}%
-\item {} 
-\sphinxAtStartPar
-Click on the Bookmarks menu item
-
-\item {} 
-\sphinxAtStartPar
-Select Show All Bookmarks or Ctrl+Shift+o
-
-\item {} 
-\sphinxAtStartPar
-A new window will appear. Select Import and Backup
-
-\end{enumerate}
-
-\sphinxAtStartPar
-\textgreater{} Tip: Note where you save your bookmarks (by default in \textasciitilde{}/yourfoldername)
-
-
-\subsubsection{Import your bookmarks into Firefox}
-\label{\detokenize{docs/software:import-your-bookmarks-into-firefox}}
-\sphinxAtStartPar
-Click this link for a guide to \sphinxhref{https://support.mozilla.org/en-US/kb/import-bookmarks-html-file}{import your bookmarks} into Firefox.
-
-
-\subsection{Email Clients}
-\label{\detokenize{docs/software:email-clients}}
-\sphinxAtStartPar
-There are many options when it comes to email clients. In Kubuntu, Kmail is default email client, either as a stand\sphinxhyphen{}alone client or as part of the Kontact personal information manager (PIM). Kmail is the email component of Kontact, the \sphinxstyleemphasis{KDE} personal information manager (PIM). Kmail by itself is similar in functionality to other popular email programs, while Kontact is as full\sphinxhyphen{}featured as the fanciest personal information managers (PIMs), as it can be configured with calendars, address books, notes, an RSS reader, time tracking, journals and simple project planning. The following are just some of the features of Kmail:
-\begin{itemize}
-\item {} 
-\sphinxAtStartPar
-IMAP, POP3, SMTP support
-
-\item {} 
-\sphinxAtStartPar
-SSL, TLS, and Digest\sphinxhyphen{}md5 secure logon support
-
-\item {} 
-\sphinxAtStartPar
-PGP and GNUPG signatures and encryption support
-
-\item {} 
-\sphinxAtStartPar
-HTML reading, spam filtering, internal character sets, search and filter functions, spell checking, and robust searching. More information on Kmail can be found in the \sphinxhref{https://userbase.kde.org/Special:MyLanguage/KMail}{KMail documentation}.
-
-\end{itemize}
-
-
-\subsection{Chat Clients}
-\label{\detokenize{docs/software:chat-clients}}
-\sphinxAtStartPar
-Chatting with friends and family is a popular use of the internet, and Kubuntu provides the necessary applications.
-\begin{itemize}
-\item {} 
-\sphinxAtStartPar
-\sphinxhref{https://userbase.kde.org/Special:MyLanguage/Konversation}{Konversation} is the IRC (Internet Relay Chat) client pre\sphinxhyphen{}installed in Kubuntu. Not only does it provide functions similar to those of other popular IRC clients such as ‘X\sphinxhyphen{}chat, its design emphasizes ease of use. Konversation includes tabbed browsing and notification of messages and other events.
-
-\end{itemize}
-
-\sphinxAtStartPar
-\sphinxstyleemphasis{KDE} software connects you to the world. See \sphinxhref{https://userbase.kde.org/Special:MyLanguage/Applications/Internet}{Internet, Networking, \& Communication} for more.
-
-
-\section{Multimedia}
-\label{\detokenize{docs/software:multimedia}}
-\sphinxAtStartPar
-The best in multimedia is installed when you open your new Kubuntu installation. If you get an error message about “missing codecs” please install kubuntu\sphinxhyphen{}restricted\sphinxhyphen{}extras. You can find your Multimedia applications through Kickoff\sphinxhyphen{}\textgreater{}Applications\sphinxhyphen{}\textgreater{}Multimedia.
-
-\sphinxAtStartPar
-The following applications are installed by default:
-\begin{itemize}
-\item {} 
-\sphinxAtStartPar
-\sphinxhref{https://wiki.ubuntu.com/PulseAudio}{Pulseaudio} keeps all your sound and video inputs and outputs working together. If you need to direct your audio or video output to other devices, install the pavucontrol package, launch it by pressing Alt + F2, then type pavucontrol.
-
-\item {} 
-\sphinxAtStartPar
-\sphinxhref{https://userbase.kde.org/Special:MyLanguage/K3b}{K3b} is a simple, powerful and highly\sphinxhyphen{}configurable graphical optical disk burning application for audio, video, data projects.
-
-\item {} 
-\sphinxAtStartPar
-\sphinxhref{https://userbase.kde.org/Special:MyLanguage/KMix}{Kmix} controls all your audio channels.
-
-\item {} 
-\sphinxAtStartPar
-\sphinxhref{https://userbase.kde.org/Special:MyLanguage/Elisa}{Elisa} is a music player focused on the Plasma desktop.
-
-\item {} 
-\sphinxAtStartPar
-\sphinxhref{https://www.videolan.org/}{VLC} is a simple interface for playing your movies, TV shows, and music.
-
-\end{itemize}
-
-
-\section{Office}
-\label{\detokenize{docs/software:office}}
-\sphinxAtStartPar
-The default office suite installed in Kubuntu is LibreOffice. It includes Calc, Draw, Impress, Math, Base and Writer. This suite is the open source equivalent of the Microsoft Office suite and each application corresponds to a similar product in that line.
-\begin{itemize}
-\item {} 
-\sphinxAtStartPar
-Calc = Excel
-
-\item {} 
-\sphinxAtStartPar
-Writer = Word
-
-\item {} 
-\sphinxAtStartPar
-Impress = PowerPoint
-
-\item {} 
-\sphinxAtStartPar
-Base = Access
-
-\end{itemize}
-
-\sphinxAtStartPar
-LibreOffice works well with the files created by their Microsoft counterparts, with the exception of Microsoft Access files. For more information see \sphinxhref{https://wiki.ubuntu.com/LibreOffice}{LibreOffice}.
-
-
-\subsection{Personal Information Manager (PIM)}
-\label{\detokenize{docs/software:personal-information-manager-pim}}
-\sphinxAtStartPar
-Installed with your system is the \sphinxstyleemphasis{KDE} Personal Information Manager Kontact. This includes many tools to manage your life.
-\begin{itemize}
-\item {} 
-\sphinxAtStartPar
-email
-
-\item {} 
-\sphinxAtStartPar
-contacts
-
-\item {} 
-\sphinxAtStartPar
-diary
-
-\item {} 
-\sphinxAtStartPar
-notes
-
-\item {} 
-\sphinxAtStartPar
-feeds
-
-\item {} 
-\sphinxAtStartPar
-to\sphinxhyphen{}do list
-
-\end{itemize}
-
-\sphinxAtStartPar
-Please see \sphinxhref{https://userbase.kde.org/Special:MyLanguage/Kontact}{Kontact} for more details and help with this powerful set of tools.
-
-
-\section{System Settings}
-\label{\detokenize{docs/software:system-settings}}
-\sphinxAtStartPar
-Information on adjusting system settings can be found at \sphinxhref{https://userbase.kde.org/Special:MyLanguage/System\_Settings}{System Settings}.
-
-
-\section{Utilities}
-\label{\detokenize{docs/software:utilities}}
-\sphinxAtStartPar
-Your newly installed Kubuntu system has some utilities already installed. One of the most useful is not in your menus; just press ALT + F2. Look at the top of your screen; there is one of your most powerful utilities, called Krunner. See more here: \sphinxhref{https://userbase.kde.org/Special:MyLanguage/Plasma/Krunner}{Krunner}.
-\begin{itemize}
-\item {} 
-\sphinxAtStartPar
-\sphinxhref{https://userbase.kde.org/Special:MyLanguage/Kate}{Kate} is the default text editor for KDE. It has many great features for editing plain text or writing code in many different languages.
-
-\item {} 
-\sphinxAtStartPar
-\sphinxhref{https://userbase.kde.org/Special:MyLanguage/Ark}{Ark} is the default tool for handling archives of files such as tar, gzip, bzip2, zip, rar and 7z.
-
-\item {} 
-\sphinxAtStartPar
-\sphinxhref{https://userbase.kde.org/Special:MyLanguage/Klipper}{Klipper} is a clipboard to hold copied text for later use. Unlike other clipboards it will hold your entire copied text, rather than just one line.
-
-\item {} 
-\sphinxAtStartPar
-\sphinxhref{https://userbase.kde.org/Special:MyLanguage/KNotes}{Knotes} is a sticky\sphinxhyphen{}note application to post notes on your desktop.
-
-\item {} 
-\sphinxAtStartPar
-\sphinxhref{https://userbase.kde.org/Special:MyLanguage/KCalc}{KCalc} offers basic calculator functions and much more.
-
-\item {} 
-\sphinxAtStartPar
-\sphinxhref{https://userbase.kde.org/Special:MyLanguage/Konsole}{Konsole} is the KDE terminal emulator, it can be used to run console shells.
-
-\item {} 
-\sphinxAtStartPar
-\sphinxhref{https://userbase.kde.org/Special:MyLanguage/Dolphin}{Dolphin} is the default file manager. Dolphin looks simple because of great design, while having many powerful features.
-
-\end{itemize}
-
-
-\subsection{Bash}
-\label{\detokenize{docs/software:bash}}
-\sphinxAtStartPar
-Bash is the default shell in Konsole and the terminals. Click for more on \sphinxhref{https://help.ubuntu.com/community/UsingTheTerminal}{using the Terminal}.
-
-
-\section{Firewall configuration}
-\label{\detokenize{docs/software:firewall-configuration}}
-\sphinxAtStartPar
-Ufw is the default commandline configuration tool for the firewall. Ufw stands for Uncomplicated Firewall, it is developed to ease iptables firewall configuration. For more information about ufw see: \sphinxhref{https://help.ubuntu.com/community/UFW}{UFW}
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYG{n}{sudo} \PYG{n}{dpkg} \PYG{o}{\PYGZhy{}}\PYG{n}{i} \PYG{n}{google}\PYG{o}{\PYGZhy{}}\PYG{n}{chrome}\PYG{o}{\PYGZhy{}}\PYG{n}{stable\PYGZus{}current\PYGZus{}amd64}\PYG{o}{.}\PYG{n}{deb}
+\PYG{n}{sudo} \PYG{n}{apt} \PYG{n}{install} \PYG{o}{\PYGZhy{}}\PYG{n}{f}
+\end{sphinxVerbatim}
 
 
 \chapter{Contribute}
@@ -1474,6 +1304,12 @@ If you want to meet other Kubuntu users in your area, look for a Local Ubuntu Co
 Information about making packages and helping to \sphinxhref{https://wiki.kubuntu.org/Kubuntu/GettingInvolved/Development}{develop Kubuntu}.
 
 
+\section{Documentation}
+\label{\detokenize{docs/contribute:documentation}}
+\sphinxAtStartPar
+Documentation is always needed for any project and Kubuntu is no different! It’s very easy to reach out help with this project and it is hosted on Github \sphinxhref{https://github.com/kubuntu-team/kubuntu-manual}{here}. Feel free to open \sphinxhref{https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests}{Pull Requests} with your fix or open an \sphinxhref{https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues}{Issue} if you aren’t there just yet!
+
+
 \section{Translations}
 \label{\detokenize{docs/contribute:translations}}
 \sphinxAtStartPar
@@ -1514,7 +1350,7 @@ To begin using the mailing lists, please subscribe. Subscribing allows you to po
 Before you send a message, check to see if the topic has been raised in the past. To do this, use Google to search the archives.
 
 \sphinxAtStartPar
-Refer to the Contribute Page for more infomation about Mailing Lists.
+Refer to the Contribute Page for more infomation about mailing lists.
 
 
 \subsection{Internet Relay Chat}
@@ -1529,7 +1365,7 @@ Refer to the Contribute Page for more infomation about IRC Channels.
 \subsection{Forums}
 \label{\detokenize{docs/support:forums}}
 \sphinxAtStartPar
-Kubuntu Forums are located at: \sphinxhref{https://www.kubuntuforums.net/content.php}{Kubuntu Forums}
+Kubuntu Forums are located \sphinxhref{https://www.kubuntuforums.net/}{here}.
 
 
 \subsection{Application Help}
@@ -1544,17 +1380,17 @@ In most KDE applications there is a ‘Help’ button in the toolbar that will l
 If you or your organisation needs help with your computer systems running Kubuntu but you don’t want to worry about the best IRC channel to ask in you can pay some money and phone up the office in England to get some help. They will use phone, e\sphinxhyphen{}mail, Google hangout, Skype, VNC and any other method you like to help diagnose the issue and resolve it for you.
 
 \sphinxAtStartPar
-\sphinxhref{http://kubuntu.emerge-open.com/buy}{Click here for more information}
+\sphinxhref{http://kubuntu.emerge-open.com/buy}{Click here for more information}.
 
 
 \chapter{Kubuntu Packagers Guide}
-\label{\detokenize{docs/packaging_guide/packaging:kubuntu-packagers-guide}}\label{\detokenize{docs/packaging_guide/packaging::doc}}
+\label{\detokenize{docs/packaging-guide/packaging:kubuntu-packagers-guide}}\label{\detokenize{docs/packaging-guide/packaging::doc}}
 \sphinxAtStartPar
 Contents:
 
 
 \section{Welcome}
-\label{\detokenize{docs/packaging_guide/welcome:welcome}}\label{\detokenize{docs/packaging_guide/welcome::doc}}
+\label{\detokenize{docs/packaging-guide/welcome:welcome}}\label{\detokenize{docs/packaging-guide/welcome::doc}}
 \sphinxAtStartPar
 The beauty of Open Source is that you are not limited to simply using the software in a predetermined way. You can choose how and what you do with it, and this includes copying and modifying the software that you use.
 This guide is designed to get you started on your journey in modifying Kubuntu, changing and contributing to make the software do the things that you want it ti.
@@ -1564,7 +1400,7 @@ This guide takes you on a step by step journey from getting set up with all the 
 
 
 \subsection{Kubuntu Developers Mailing List}
-\label{\detokenize{docs/packaging_guide/welcome:kubuntu-developers-mailing-list}}\begin{itemize}
+\label{\detokenize{docs/packaging-guide/welcome:kubuntu-developers-mailing-list}}\begin{itemize}
 \item {} 
 \sphinxAtStartPar
 \sphinxhref{https://lists.ubuntu.com/mailman/listinfo/kubuntu-devel}{Register}
@@ -1577,7 +1413,7 @@ This guide takes you on a step by step journey from getting set up with all the 
 
 
 \subsection{Kubuntu IRC Channels}
-\label{\detokenize{docs/packaging_guide/welcome:kubuntu-irc-channels}}
+\label{\detokenize{docs/packaging-guide/welcome:kubuntu-irc-channels}}
 \sphinxAtStartPar
 Introduce yourself on Internet Relay Chat ( IRC )
 \begin{description}
@@ -1612,10 +1448,10 @@ Ready to Get Started ?
 
 
 \section{Getting Started}
-\label{\detokenize{docs/packaging_guide/getting_started:getting-started}}\label{\detokenize{docs/packaging_guide/getting_started::doc}}
+\label{\detokenize{docs/packaging-guide/getting-started:getting-started}}\label{\detokenize{docs/packaging-guide/getting-started::doc}}
 
 \subsection{2. Getting Set Up}
-\label{\detokenize{docs/packaging_guide/getting_started:getting-set-up}}
+\label{\detokenize{docs/packaging-guide/getting-started:getting-set-up}}
 \sphinxAtStartPar
 There are a number of things you need to do to get started developing for Kubuntu. This article is designed to get your computer set up so that you can start working with packages, and upload your packages to Kubuntu’s hosting platform, Launchpad. Here’s what we’ll cover:
 Installing packaging\sphinxhyphen{}related software. This includes:
@@ -1634,7 +1470,7 @@ Don’t worry though, you can use Testdrive or chroots to safely use the develop
 
 
 \subsubsection{2.1. Install basic packaging software}
-\label{\detokenize{docs/packaging_guide/getting_started:install-basic-packaging-software}}
+\label{\detokenize{docs/packaging-guide/getting-started:install-basic-packaging-software}}
 \sphinxAtStartPar
 There are a number of tools that will make your life as an Kubuntu developer much easier. You will encounter these tools later in this guide. To install most of the tools you will need run this command:
 \$ sudo apt\sphinxhyphen{}get install gnupg pbuilder ubuntu\sphinxhyphen{}dev\sphinxhyphen{}tools bzr\sphinxhyphen{}builddeb apt\sphinxhyphen{}file
@@ -1670,7 +1506,7 @@ apt\sphinxhyphen{}file provides an easy way to find the binary package that cont
 
 
 \subsubsection{2.1.1. Create your GPG key}
-\label{\detokenize{docs/packaging_guide/getting_started:create-your-gpg-key}}
+\label{\detokenize{docs/packaging-guide/getting-started:create-your-gpg-key}}
 \sphinxAtStartPar
 GPG stands for GNU Privacy Guard and it implements the OpenPGP standard which allows you to sign and encrypt messages and files. This is useful for a number of purposes. In our case it is important that you can sign files with your key so they can be identified as something that you worked on. If you upload a source package to Launchpad, it will only accept the package if it can absolutely determine who uploaded the package.
 To generate a new GPG key, run:
@@ -1704,7 +1540,7 @@ This will send your key to the Ubuntu keyserver, but a network of keyservers wil
 
 
 \subsubsection{2.1.2. Create your SSH key}
-\label{\detokenize{docs/packaging_guide/getting_started:create-your-ssh-key}}
+\label{\detokenize{docs/packaging-guide/getting-started:create-your-ssh-key}}
 \sphinxAtStartPar
 SSH stands for Secure Shell, and it is a protocol that allows you to exchange data in a secure way over a network. It is common to use SSH to access and open a shell on another computer, and to use it to securely transfer files. For our purposes, we will mainly be using SSH to securely upload source packages to Launchpad.
 To generate an SSH key, enter:
@@ -1718,7 +1554,7 @@ The default file name usually makes sense, so you can just leave it as it is. Fo
 
 
 \subsubsection{2.1.3. Set up pbuilder}
-\label{\detokenize{docs/packaging_guide/getting_started:set-up-pbuilder}}
+\label{\detokenize{docs/packaging-guide/getting-started:set-up-pbuilder}}
 \sphinxAtStartPar
 pbuilder allows you to build packages locally on your machine. It serves a couple of purposes:
 The build will be done in a minimal and clean environment. This helps you make sure your builds succeed in a reproducible way, but without modifying your local system
@@ -1735,7 +1571,7 @@ where \textless{}release\textgreater{} is for example raring, saucy, trusty or i
 
 
 \subsection{2.2. Get set up to work with Launchpad}
-\label{\detokenize{docs/packaging_guide/getting_started:get-set-up-to-work-with-launchpad}}
+\label{\detokenize{docs/packaging-guide/getting-started:get-set-up-to-work-with-launchpad}}
 \sphinxAtStartPar
 With a basic local configuration in place, your next step will be to configure your system to work with Launchpad. This section will focus on the following topics:
 What Launchpad is and creating a Launchpad account
@@ -1745,7 +1581,7 @@ Configuring Bash to work with Bazaar
 
 
 \subsubsection{2.2.1. About Launchpad}
-\label{\detokenize{docs/packaging_guide/getting_started:about-launchpad}}
+\label{\detokenize{docs/packaging-guide/getting-started:about-launchpad}}
 \sphinxAtStartPar
 Launchpad is the central piece of infrastructure we use in Kubuntu. It not only stores our packages and our code, but also things like translations, bug reports, and information about the people who work on Kubuntu and their team memberships. You will also use Launchpad to publish your proposed fixes, and get other Kubuntu developers to review and sponsor them.
 You will need to register with Launchpad and provide a minimal amount of information. This will allow you to download and upload code, submit bug reports, and more.
@@ -1753,7 +1589,7 @@ Besides hosting Kubuntu, Launchpad can host any Free Software project. For more 
 
 
 \subsubsection{2.2.2. Get a Launchpad account}
-\label{\detokenize{docs/packaging_guide/getting_started:get-a-launchpad-account}}
+\label{\detokenize{docs/packaging-guide/getting-started:get-a-launchpad-account}}
 \sphinxAtStartPar
 If you don’t already have a Launchpad account, you can easily create one. If you have a Launchpad account but cannot remember your Launchpad id, you can find this out by going to \sphinxurl{https://launchpad.net/~} and looking for the part after the \textasciitilde{} in the URL.
 Launchpad’s registration process will ask you to choose a display name. It is encouraged for you to use your real name here so that your Kubuntu developer colleagues will be able to get to know you better.
@@ -1762,7 +1598,7 @@ The new account help page on Launchpad has more information about the process an
 
 
 \subsubsection{2.2.3. Upload your GPG key to Launchpad}
-\label{\detokenize{docs/packaging_guide/getting_started:upload-your-gpg-key-to-launchpad}}
+\label{\detokenize{docs/packaging-guide/getting-started:upload-your-gpg-key-to-launchpad}}
 \sphinxAtStartPar
 First, you will need to get your fingerprint and key ID.
 To find about your GPG fingerprint, run:
@@ -1808,14 +1644,14 @@ Find more information at \sphinxurl{https://help.launchpad.net/YourAccount/Impor
 
 
 \subsubsection{2.2.4. Upload your SSH key to Launchpad}
-\label{\detokenize{docs/packaging_guide/getting_started:upload-your-ssh-key-to-launchpad}}
+\label{\detokenize{docs/packaging-guide/getting-started:upload-your-ssh-key-to-launchpad}}
 \sphinxAtStartPar
 Open \sphinxurl{https://launchpad.net/~/+editsshkeys} in a web browser, also open \textasciitilde{}/.ssh/id\_rsa.pub in a text editor. This is the public part of your SSH key, so it is safe to share it with Launchpad. Copy the contents of the file and paste them into the text box on the web page that says “Add an SSH key”. Now click “Import Public Key”.
 For more information on this process, visit the creating an SSH keypair page on Launchpad.
 
 
 \subsubsection{2.2.5. Configure Bazaar}
-\label{\detokenize{docs/packaging_guide/getting_started:configure-bazaar}}
+\label{\detokenize{docs/packaging-guide/getting-started:configure-bazaar}}
 \sphinxAtStartPar
 Bazaar is the tool we use to store code changes in a logical way, to exchange proposed changes and merge them, even if development is done concurrently. It is used for the new Kubuntu Distributed Development method of working with Kubuntu packages.
 To tell Bazaar who you are, simply run:
@@ -1831,7 +1667,7 @@ Note: If you can not remember the ID, go to \sphinxurl{https://launchpad.net/~} 
 
 
 \subsubsection{2.2.6. Configure your shell}
-\label{\detokenize{docs/packaging_guide/getting_started:configure-your-shell}}
+\label{\detokenize{docs/packaging-guide/getting-started:configure-your-shell}}
 \sphinxAtStartPar
 Similar to Bazaar, the Debian/Kubuntu packaging tools need to learn about you as well. Simply open your \textasciitilde{}/.bashrc in a text editor and add something like this to the bottom of it:
 
@@ -1868,27 +1704,6 @@ Thanks for reading this! Second I’ll try to keep this as up to date as humanly
 
 \subsection{Changes}
 \label{\detokenize{docs/appendix/changes:changes}}
-\sphinxAtStartPar
-01/13/22 \sphinxhyphen{} ahoneybun \textless{}\sphinxhref{mailto:aaronhoneycutt@kubuntu.org}{aaronhoneycutt@kubuntu.org}\textgreater{}
-\begin{itemize}
-\item {} 
-\sphinxAtStartPar
-Reorder content to better sections
-
-\item {} 
-\sphinxAtStartPar
-Fix typos
-
-\item {} 
-\sphinxAtStartPar
-Add additional content
-
-\item {} 
-\sphinxAtStartPar
-Update photos for Kubuntu 20.04 LTS
-
-\end{itemize}
-
 \sphinxAtStartPar
 03/2/18 \sphinxhyphen{} ahoneybun \textless{}\sphinxhref{mailto:aaronhoneycutt@kubuntu.org}{aaronhoneycutt@kubuntu.org}\textgreater{}
 \begin{itemize}
