@@ -13,7 +13,7 @@ Global Themes
 Kubuntu allows themes to be changed easily. To change your global theme follow these steps:
 
 1. Open System Settings 
-2. Left-click 'Global Theme'
+2. Left-click 'Appearance'
 3. Now choose from the list of installed themes
 4. Pick from the default choices that are installed, or left-click the 'Get New Global Themes...' button for more choices
 
@@ -21,9 +21,10 @@ Plasma Styles
 ~~~~~~~~~~~~~~
 
 1. Open System Settings 
-2. Left-click 'Plasma Style'
-3. Now choose from the list of installed themes
-4. Pick from the default choices that are installed
+2. Left-click 'Appearance'
+3. Left-click 'Plasma Style'
+4. Now choose from the list of installed themes
+5. Pick from the default choices that are installed
 
 
 - Left-click the 'Get New Plasma Styles...' button for more choices         

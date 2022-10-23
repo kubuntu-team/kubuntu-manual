@@ -5,10 +5,12 @@ HiDPI
 
 This means "High Dots Per Inch" and is mainly for screens with a high resolution in a relatively small format. A good example of this is a 15" laptop with a screen resolution of 3840x2160 which would be 4K. Making the following changes will help make your Plasma experience even better.
 
+.. note:: The below changes will only take effect after either a reboot, logging out and back in or restarting Plasma.
+
 Scaling
 ~~~~~~~~
 
-This setting is in System Settings -> Display and Monitor -> Global scale and depending on your display and personal preference 200% might be a great option though 150% would also work. Please note that depending on the application you might see some blurriness if you use a value between 100% and 200%.
+This setting is in System Settings -> Display and Monitor -> Global scale and depending on your display and personal preference, using 200% might be a great option though 150% would also work. Please note that depending on the application you might see some blurriness if you use a value between 100% and 200%.
 
 .. image:: ../../images/jammy/hidpi/display-and-monitor.png
    :align: center
