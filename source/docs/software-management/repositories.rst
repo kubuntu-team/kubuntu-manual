@@ -69,9 +69,8 @@ You can use the Discover to remove a PPA:
 3. Enter your administrative password at the prompt.
 4. Left-click on the 'Other Software' tab
 
-.. image:: ../../images/jammy/repositories/discover-other-software.png
+.. image:: ../../images/jammy/repositories/discover-other-software-hidpi.png
     :align: center
-    :scale: 75%
 
 5. Left-click the PPA that you want to remove
 6. Left-click the 'Remove' button
@@ -83,7 +82,19 @@ Install/Uninstall '.deb' files
 
 The package files associated with Kubuntu have the ".deb" suffix because of Kubuntu's close relationship with the Debian GNU/Linux distribution. Individual ".deb" files can be downloaded and installed. Humble Bundles, for instance, distribute debs. Administrative privileges are required. 
 
-To install ".deb" files download the file from a safe and secure location. In this example we'll be installing the Chrome ".deb" file from `Chrome's website <https://www.google.com/chrome/>`_ then we'll run these commands in a Konsole window:
+To install ".deb" files download the file from a safe and secure location. In this example we'll be installing the Chrome ".deb" file from `Chrome's website <https://www.google.com/chrome/>`_ , from here you can either double left-click the ".deb" file that we downloaded or we can use the dpkg command to install it.
+
+If you double left-clicked the file then you would see the following QApt Package Installer window:
+
+.. image:: ../../images/jammy/repositories/qapt-installer.png
+    :align: center
+
+From there you would left-click the 'Install Package' button and enter your password in the new PolicyKit window (this is to allow the command(s) to be ran to install the software.
+
+.. image:: ../../images/jammy/policykit-window.png
+    :align: center
+
+If you want to install it using Konsole (or other terminals) we'll run these commands in a Konsole window:
 
 .. code-block::
 

@@ -104,8 +104,7 @@ On every Operating System (Windows, macOS, and Linux) there are programs called 
 3. Enter your administrative password at the prompt
 4. Left-click the 'Additional Drivers' tab 
 
-.. image:: ../../images/jammy/advanced/drivers.png
+.. image:: ../../images/jammy/advanced/drivers-hidpi.png
     :align: center
-    :scale: 85 %
 
 If there are any drivers (both Open Source and Closed Source) for your hardware they will be in this window. If you install any drivers you may need to restart your system for the change to take effect. 
