@@ -3,9 +3,9 @@
 Advanced
 =========
 
-This section covers the basics of configuring Kubuntu to suit your needs. One of the strengths of the *KDE* philosophy is the focus on control of just about every aspect of the desktop environment. Wallpapers, themes, widgets, color schemes, splash screens, and more; the options for customization are endless.
+This section covers the basics of configuring Kubuntu to suit your needs. One of the strengths of the KDE philosophy is the focus on control of just about every aspect of the desktop environment. Wallpapers, themes, widgets, color schemes, splash screens, and more; the options for customization are endless.
 
-KDE-Look is the number one location to find customized settings for the *KDE* Plasma desktop. Some of the applications even allow direct connections to KDE-Look to download a new configuration or image. 
+KDE-Look is the number one location to find customized settings for the KDE Plasma desktop. Some of the applications even allow direct connections to KDE-Look to download a new configuration or image. 
 
 Global Themes
 ~~~~~~~~~~~~~~
@@ -33,6 +33,8 @@ Plasmoids
 ~~~~~~~~~~
 
 Plasmoids (also called Widgets) can be added by right-clicking the desktop and selecting Add Widgets..., which will bring up a list of Widgets. For more information, see `Plasma Widgets <https://userbase.kde.org/Special:MyLanguage/Plasma#Widgets>`_. 
+
+.. _panel:
 
 Panel 
 ~~~~~~
