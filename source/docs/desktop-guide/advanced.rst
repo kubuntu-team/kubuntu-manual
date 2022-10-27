@@ -74,8 +74,7 @@ You can theme, and configured this new activity desktop in the same ways as ment
 A Step Further
 ~~~~~~~~~~~~~~
 
-OK, looking good, let's create another Activity. Call this one "Misc". Once created switch to this Activity, either by Right Click on the Desktop > Activities or use the Keyboard shortcut Alt+D,A ( Hold Alt down, press D, then Press A )
-Then select the Misc Activity from the side bar.
+OK, looking good, let's create another Activity. Call this one "Misc". Once created switch to this Activity, either by Right Click on the Desktop > Activities or use the Keyboard shortcut Alt+D, A ( Hold Alt down, press D, then Press A ) then select the Misc Activity from the side bar.
 
 OK, lets configure a few useful tools
 
@@ -83,7 +82,7 @@ OK, lets configure a few useful tools
 2. Right-click > Add Widgets, and add the Analog Clock
 3. Right-click > Add Widgets, and add the Weather Report
 
-You can now resize these widgets and lay them out on the desktop however you wish. and configure them to suit your needs, as in the example below.
+You can now resize these widgets and lay them out on the desktop however you wish and configure them to suit your needs, as in the example below.
 
 .. image:: ../../images/jammy/advanced/activity-misc.png
    :align: center
