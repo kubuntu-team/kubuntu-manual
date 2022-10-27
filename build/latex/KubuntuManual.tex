@@ -60,8 +60,8 @@
 
 
 \title{Kubuntu Manual Documentation}
-\date{Oct 17, 2022}
-\release{beta}
+\date{Oct 27, 2022}
+\release{release}
 \author{Kubuntu Team}
 \newcommand{\sphinxlogo}{\vbox{}}
 \renewcommand{\releasename}{Release}
@@ -532,10 +532,10 @@ Most Wireless cards are supported out of the box by Kubuntu. However, in some ca
 \section{Advanced}
 \label{\detokenize{docs/desktop-guide/advanced:advanced}}\label{\detokenize{docs/desktop-guide/advanced:advanced-link}}\label{\detokenize{docs/desktop-guide/advanced::doc}}
 \sphinxAtStartPar
-This section covers the basics of configuring Kubuntu to suit your needs. One of the strengths of the \sphinxstyleemphasis{KDE} philosophy is the focus on control of just about every aspect of the desktop environment. Wallpapers, themes, widgets, color schemes, splash screens, and more; the options for customization are endless.
+This section covers the basics of configuring Kubuntu to suit your needs. One of the strengths of the KDE philosophy is the focus on control of just about every aspect of the desktop environment. Wallpapers, themes, widgets, color schemes, splash screens, and more; the options for customization are endless.
 
 \sphinxAtStartPar
-KDE\sphinxhyphen{}Look is the number one location to find customized settings for the \sphinxstyleemphasis{KDE} Plasma desktop. Some of the applications even allow direct connections to KDE\sphinxhyphen{}Look to download a new configuration or image.
+KDE\sphinxhyphen{}Look is the number one location to find customized settings for the KDE Plasma desktop. Some of the applications even allow direct connections to KDE\sphinxhyphen{}Look to download a new configuration or image.
 
 
 \subsection{Global Themes}
@@ -550,7 +550,7 @@ Open System Settings
 
 \item {} 
 \sphinxAtStartPar
-Left\sphinxhyphen{}click ‘Global Theme’
+Left\sphinxhyphen{}click ‘Appearance’
 
 \item {} 
 \sphinxAtStartPar
@@ -569,6 +569,10 @@ Pick from the default choices that are installed, or left\sphinxhyphen{}click th
 \item {} 
 \sphinxAtStartPar
 Open System Settings
+
+\item {} 
+\sphinxAtStartPar
+Left\sphinxhyphen{}click ‘Appearance’
 
 \item {} 
 \sphinxAtStartPar
@@ -602,7 +606,7 @@ Plasmoids (also called Widgets) can be added by right\sphinxhyphen{}clicking the
 
 
 \subsection{Panel}
-\label{\detokenize{docs/desktop-guide/advanced:panel}}
+\label{\detokenize{docs/desktop-guide/advanced:panel}}\label{\detokenize{docs/desktop-guide/advanced:id1}}
 \noindent{\sphinxincludegraphics[scale=0.75]{{panels}.png}\hspace*{\fill}}
 
 \sphinxAtStartPar
@@ -642,8 +646,7 @@ You can theme, and configured this new activity desktop in the same ways as ment
 \subsection{A Step Further}
 \label{\detokenize{docs/desktop-guide/advanced:a-step-further}}
 \sphinxAtStartPar
-OK, looking good, let’s create another Activity. Call this one “Misc”. Once created switch to this Activity, either by Right Click on the Desktop \textgreater{} Activities or use the Keyboard shortcut Alt+D,A ( Hold Alt down, press D, then Press A )
-Then select the Misc Activity from the side bar.
+OK, looking good, let’s create another Activity. Call this one “Misc”. Once created switch to this Activity, either by Right Click on the Desktop \textgreater{} Activities or use the Keyboard shortcut Alt+D, A ( Hold Alt down, press D, then Press A ) then select the Misc Activity from the side bar.
 
 \sphinxAtStartPar
 OK, lets configure a few useful tools
@@ -664,7 +667,7 @@ Right\sphinxhyphen{}click \textgreater{} Add Widgets, and add the Weather Report
 \end{enumerate}
 
 \sphinxAtStartPar
-You can now resize these widgets and lay them out on the desktop however you wish. and configure them to suit your needs, as in the example below.
+You can now resize these widgets and lay them out on the desktop however you wish and configure them to suit your needs, as in the example below.
 
 \noindent{\hspace*{\fill}\sphinxincludegraphics[scale=0.75]{{activity-misc}.png}\hspace*{\fill}}
 
@@ -699,10 +702,43 @@ Left\sphinxhyphen{}click the ‘Additional Drivers’ tab
 
 \end{enumerate}
 
-\noindent{\hspace*{\fill}\sphinxincludegraphics[scale=0.85]{{drivers}.png}\hspace*{\fill}}
+\noindent{\hspace*{\fill}\sphinxincludegraphics{{drivers-hidpi}.png}\hspace*{\fill}}
 
 \sphinxAtStartPar
 If there are any drivers (both Open Source and Closed Source) for your hardware they will be in this window. If you install any drivers you may need to restart your system for the change to take effect.
+
+
+\section{HiDPI}
+\label{\detokenize{docs/desktop-guide/hidpi:hidpi}}\label{\detokenize{docs/desktop-guide/hidpi:hidpi-link}}\label{\detokenize{docs/desktop-guide/hidpi::doc}}
+\sphinxAtStartPar
+This means “High Dots Per Inch” and is mainly for screens with a high resolution in a relatively small format. A good example of this is a 15” laptop with a screen resolution of 3840x2160 which would be 4K. Making the following changes will help make your Plasma experience even better.
+
+\begin{sphinxadmonition}{note}{Note:}
+\sphinxAtStartPar
+The below changes will only take effect after either a reboot, logging out and back in or restarting Plasma.
+\end{sphinxadmonition}
+
+
+\subsection{Scaling}
+\label{\detokenize{docs/desktop-guide/hidpi:scaling}}
+\sphinxAtStartPar
+This setting is in System Settings \sphinxhyphen{}\textgreater{} Display and Monitor \sphinxhyphen{}\textgreater{} Global scale and depending on your display and personal preference, using 200\% might be a great option though 150\% would also work. Please note that depending on the application you might see some blurriness if you use a value between 100\% and 200\%.
+
+\noindent{\hspace*{\fill}\sphinxincludegraphics{{display-and-monitor}.png}\hspace*{\fill}}
+
+
+\subsection{Cursor}
+\label{\detokenize{docs/desktop-guide/hidpi:cursor}}
+\sphinxAtStartPar
+This setting is in System Settings \sphinxhyphen{}\textgreater{} Appearance \sphinxhyphen{}\textgreater{} Cursors \sphinxhyphen{}\textgreater{} Size and similar to scaling this will be based on preference but 36 is a good value to start with.
+
+\noindent{\hspace*{\fill}\sphinxincludegraphics{{appearance-cursors}.png}\hspace*{\fill}}
+
+
+\subsection{Panel}
+\label{\detokenize{docs/desktop-guide/hidpi:panel}}
+\sphinxAtStartPar
+For adjusting the panel to improve your experience we’ll refer to the {\hyperref[\detokenize{docs/desktop-guide/advanced:panel}]{\sphinxcrossref{\DUrole{std,std-ref}{Panel}}}} section from the Advanced page.
 
 
 \chapter{Software Management}
@@ -878,7 +914,7 @@ Chatting with friends and family is a popular use of the internet, and Kubuntu p
 \end{itemize}
 
 \sphinxAtStartPar
-\sphinxstyleemphasis{KDE} software connects you to the world. See \sphinxhref{https://userbase.kde.org/Special:MyLanguage/Applications/Internet}{Internet, Networking, \& Communication} for more.
+KDE software connects you to the world. See \sphinxhref{https://userbase.kde.org/Special:MyLanguage/Applications/Internet}{Internet, Networking, \& Communication} for more.
 
 
 \subsection{Multimedia}
@@ -939,41 +975,6 @@ Base = Access
 LibreOffice works well with the files created by their Microsoft counterparts, with the exception of Microsoft Access files. For more information see \sphinxhref{https://wiki.ubuntu.com/LibreOffice}{LibreOffice}.
 
 
-\subsubsection{Personal Information Manager (PIM)}
-\label{\detokenize{docs/software-management/software:personal-information-manager-pim}}
-\sphinxAtStartPar
-Installed with your system is the KDE Personal Information Manager Kontact. This includes many tools to manage your life.
-\begin{itemize}
-\item {} 
-\sphinxAtStartPar
-email
-
-\item {} 
-\sphinxAtStartPar
-contacts
-
-\item {} 
-\sphinxAtStartPar
-diary
-
-\item {} 
-\sphinxAtStartPar
-notes
-
-\item {} 
-\sphinxAtStartPar
-feeds
-
-\item {} 
-\sphinxAtStartPar
-to\sphinxhyphen{}do list
-
-\end{itemize}
-
-\sphinxAtStartPar
-Please see \sphinxhref{https://userbase.kde.org/Special:MyLanguage/Kontact}{Kontact} for more details and help with this powerful set of tools.
-
-
 \subsection{System Settings}
 \label{\detokenize{docs/software-management/software:system-settings}}
 \sphinxAtStartPar
@@ -1019,7 +1020,7 @@ Your newly installed Kubuntu system has some utilities already installed. One of
 \subsubsection{Bash}
 \label{\detokenize{docs/software-management/software:bash}}
 \sphinxAtStartPar
-Bash is the default shell in Konsole and other terminals. Click this \sphinxhref{https://help.ubuntu.com/community/UsingTheTerminal}{link} that goes over using the terminals
+Bash is the default shell in Konsole and other terminals. Click this \sphinxhref{https://help.ubuntu.com/community/UsingTheTerminal}{link} that goes over using the terminals.
 
 
 \subsection{Firewall configuration}
@@ -1155,7 +1156,7 @@ Left\sphinxhyphen{}click on the ‘Other Software’ tab
 
 \end{enumerate}
 
-\noindent{\hspace*{\fill}\sphinxincludegraphics[scale=0.75]{{discover-other-software}.png}\hspace*{\fill}}
+\noindent{\hspace*{\fill}\sphinxincludegraphics{{discover-other-software-hidpi}.png}\hspace*{\fill}}
 \begin{enumerate}
 \sphinxsetlistlabels{\arabic}{enumi}{enumii}{}{.}%
 \setcounter{enumi}{4}
@@ -1179,7 +1180,20 @@ A prompt will appear to update the package list, Discover will now be allowed to
 The package files associated with Kubuntu have the “.deb” suffix because of Kubuntu’s close relationship with the Debian GNU/Linux distribution. Individual “.deb” files can be downloaded and installed. Humble Bundles, for instance, distribute debs. Administrative privileges are required.
 
 \sphinxAtStartPar
-To install “.deb” files download the file from a safe and secure location. In this example we’ll be installing the Chrome “.deb” file from \sphinxhref{https://www.google.com/chrome/}{Chrome’s website} then we’ll run these commands in a Konsole window:
+To install “.deb” files download the file from a safe and secure location. In this example we’ll be installing the Chrome “.deb” file from \sphinxhref{https://www.google.com/chrome/}{Chrome’s website} , from here you can either double left\sphinxhyphen{}click the “.deb” file that we downloaded or we can use the dpkg command to install it.
+
+\sphinxAtStartPar
+If you double left\sphinxhyphen{}clicked the file then you would see the following QApt Package Installer window:
+
+\noindent{\hspace*{\fill}\sphinxincludegraphics{{qapt-installer}.png}\hspace*{\fill}}
+
+\sphinxAtStartPar
+From there you would left\sphinxhyphen{}click the ‘Install Package’ button and enter your password in the new PolicyKit window (this is to allow the command(s) to be ran to install the software.
+
+\noindent{\hspace*{\fill}\sphinxincludegraphics{{policykit-window}.png}\hspace*{\fill}}
+
+\sphinxAtStartPar
+If you want to install it using Konsole (or other terminals) we’ll run these commands in a Konsole window:
 
 \begin{sphinxVerbatim}[commandchars=\\\{\}]
 \PYG{n}{sudo} \PYG{n}{dpkg} \PYG{o}{\PYGZhy{}}\PYG{n}{i} \PYG{n}{google}\PYG{o}{\PYGZhy{}}\PYG{n}{chrome}\PYG{o}{\PYGZhy{}}\PYG{n}{stable\PYGZus{}current\PYGZus{}amd64}\PYG{o}{.}\PYG{n}{deb}
@@ -1372,15 +1386,6 @@ Kubuntu Forums are located \sphinxhref{https://www.kubuntuforums.net/}{here}.
 \label{\detokenize{docs/support:application-help}}
 \sphinxAtStartPar
 In most KDE applications there is a ‘Help’ button in the toolbar that will lead you to the handbook. For general KDE documentation, see \sphinxhref{https://www.kde.org/documentation/}{KDE Documentation} and \sphinxhref{https://userbase.kde.org/Special:MyLanguage/Welcome\_to\_KDE\_UserBase}{KDE Userbase Wiki}.
-
-
-\section{Kubuntu Phone Support}
-\label{\detokenize{docs/support:kubuntu-phone-support}}
-\sphinxAtStartPar
-If you or your organisation needs help with your computer systems running Kubuntu but you don’t want to worry about the best IRC channel to ask in you can pay some money and phone up the office in England to get some help. They will use phone, e\sphinxhyphen{}mail, Google hangout, Skype, VNC and any other method you like to help diagnose the issue and resolve it for you.
-
-\sphinxAtStartPar
-\sphinxhref{http://kubuntu.emerge-open.com/buy}{Click here for more information}.
 
 
 \chapter{Kubuntu Packagers Guide}

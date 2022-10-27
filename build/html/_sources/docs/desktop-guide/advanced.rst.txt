@@ -3,9 +3,9 @@
 Advanced
 =========
 
-This section covers the basics of configuring Kubuntu to suit your needs. One of the strengths of the *KDE* philosophy is the focus on control of just about every aspect of the desktop environment. Wallpapers, themes, widgets, color schemes, splash screens, and more; the options for customization are endless.
+This section covers the basics of configuring Kubuntu to suit your needs. One of the strengths of the KDE philosophy is the focus on control of just about every aspect of the desktop environment. Wallpapers, themes, widgets, color schemes, splash screens, and more; the options for customization are endless.
 
-KDE-Look is the number one location to find customized settings for the *KDE* Plasma desktop. Some of the applications even allow direct connections to KDE-Look to download a new configuration or image. 
+KDE-Look is the number one location to find customized settings for the KDE Plasma desktop. Some of the applications even allow direct connections to KDE-Look to download a new configuration or image. 
 
 Global Themes
 ~~~~~~~~~~~~~~
@@ -13,7 +13,7 @@ Global Themes
 Kubuntu allows themes to be changed easily. To change your global theme follow these steps:
 
 1. Open System Settings 
-2. Left-click 'Global Theme'
+2. Left-click 'Appearance'
 3. Now choose from the list of installed themes
 4. Pick from the default choices that are installed, or left-click the 'Get New Global Themes...' button for more choices
 
@@ -21,9 +21,10 @@ Plasma Styles
 ~~~~~~~~~~~~~~
 
 1. Open System Settings 
-2. Left-click 'Plasma Style'
-3. Now choose from the list of installed themes
-4. Pick from the default choices that are installed
+2. Left-click 'Appearance'
+3. Left-click 'Plasma Style'
+4. Now choose from the list of installed themes
+5. Pick from the default choices that are installed
 
 
 - Left-click the 'Get New Plasma Styles...' button for more choices         
@@ -33,6 +34,8 @@ Plasmoids
 ~~~~~~~~~~
 
 Plasmoids (also called Widgets) can be added by right-clicking the desktop and selecting Add Widgets..., which will bring up a list of Widgets. For more information, see `Plasma Widgets <https://userbase.kde.org/Special:MyLanguage/Plasma#Widgets>`_. 
+
+.. _panel:
 
 Panel 
 ~~~~~~
@@ -71,8 +74,7 @@ You can theme, and configured this new activity desktop in the same ways as ment
 A Step Further
 ~~~~~~~~~~~~~~
 
-OK, looking good, let's create another Activity. Call this one "Misc". Once created switch to this Activity, either by Right Click on the Desktop > Activities or use the Keyboard shortcut Alt+D,A ( Hold Alt down, press D, then Press A )
-Then select the Misc Activity from the side bar.
+OK, looking good, let's create another Activity. Call this one "Misc". Once created switch to this Activity, either by Right Click on the Desktop > Activities or use the Keyboard shortcut Alt+D, A ( Hold Alt down, press D, then Press A ) then select the Misc Activity from the side bar.
 
 OK, lets configure a few useful tools
 
@@ -80,7 +82,7 @@ OK, lets configure a few useful tools
 2. Right-click > Add Widgets, and add the Analog Clock
 3. Right-click > Add Widgets, and add the Weather Report
 
-You can now resize these widgets and lay them out on the desktop however you wish. and configure them to suit your needs, as in the example below.
+You can now resize these widgets and lay them out on the desktop however you wish and configure them to suit your needs, as in the example below.
 
 .. image:: ../../images/jammy/advanced/activity-misc.png
    :align: center
@@ -102,8 +104,7 @@ On every Operating System (Windows, macOS, and Linux) there are programs called 
 3. Enter your administrative password at the prompt
 4. Left-click the 'Additional Drivers' tab 
 
-.. image:: ../../images/jammy/advanced/drivers.png
+.. image:: ../../images/jammy/advanced/drivers-hidpi.png
     :align: center
-    :scale: 85 %
 
 If there are any drivers (both Open Source and Closed Source) for your hardware they will be in this window. If you install any drivers you may need to restart your system for the change to take effect. 

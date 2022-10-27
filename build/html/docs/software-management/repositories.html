@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Repositories &#8212; Kubuntu Manual beta documentation</title>
+    <title>Repositories &#8212; Kubuntu Manual release documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/bootstrap-sphinx.css" />
     <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
@@ -59,6 +59,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../desktop-guide/desktop-list.html">Desktop Guide</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="../desktop-guide/basic.html">Basic</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../desktop-guide/advanced.html">Advanced</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../desktop-guide/hidpi.html">HiDPI</a></li>
 </ul>
 </li>
 <li class="toctree-l1 current"><a class="reference internal" href="software-list.html">Software Management</a><ul class="current">
@@ -184,7 +185,7 @@
 <li><p>Enter your administrative password at the prompt.</p></li>
 <li><p>Left-click on the ‘Other Software’ tab</p></li>
 </ol>
-<a class="reference internal image-reference" href="../../_images/discover-other-software.png"><img alt="../../_images/discover-other-software.png" class="align-center" src="../../_images/discover-other-software.png" style="width: 549.0px; height: 345.75px;" /></a>
+<img alt="../../_images/discover-other-software-hidpi.png" class="align-center" src="../../_images/discover-other-software-hidpi.png" />
 <ol class="arabic simple" start="5">
 <li><p>Left-click the PPA that you want to remove</p></li>
 <li><p>Left-click the ‘Remove’ button</p></li>
@@ -196,7 +197,12 @@
 <section id="install-uninstall-deb-files">
 <h2>Install/Uninstall ‘.deb’ files<a class="headerlink" href="#install-uninstall-deb-files" title="Permalink to this headline">¶</a></h2>
 <p>The package files associated with Kubuntu have the “.deb” suffix because of Kubuntu’s close relationship with the Debian GNU/Linux distribution. Individual “.deb” files can be downloaded and installed. Humble Bundles, for instance, distribute debs. Administrative privileges are required.</p>
-<p>To install “.deb” files download the file from a safe and secure location. In this example we’ll be installing the Chrome “.deb” file from <a class="reference external" href="https://www.google.com/chrome/">Chrome’s website</a> then we’ll run these commands in a Konsole window:</p>
+<p>To install “.deb” files download the file from a safe and secure location. In this example we’ll be installing the Chrome “.deb” file from <a class="reference external" href="https://www.google.com/chrome/">Chrome’s website</a> , from here you can either double left-click the “.deb” file that we downloaded or we can use the dpkg command to install it.</p>
+<p>If you double left-clicked the file then you would see the following QApt Package Installer window:</p>
+<img alt="../../_images/qapt-installer.png" class="align-center" src="../../_images/qapt-installer.png" />
+<p>From there you would left-click the ‘Install Package’ button and enter your password in the new PolicyKit window (this is to allow the command(s) to be ran to install the software.</p>
+<img alt="../../_images/policykit-window.png" class="align-center" src="../../_images/policykit-window.png" />
+<p>If you want to install it using Konsole (or other terminals) we’ll run these commands in a Konsole window:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">dpkg</span> <span class="o">-</span><span class="n">i</span> <span class="n">google</span><span class="o">-</span><span class="n">chrome</span><span class="o">-</span><span class="n">stable_current_amd64</span><span class="o">.</span><span class="n">deb</span>
 <span class="n">sudo</span> <span class="n">apt</span> <span class="n">install</span> <span class="o">-</span><span class="n">f</span>
 </pre></div>

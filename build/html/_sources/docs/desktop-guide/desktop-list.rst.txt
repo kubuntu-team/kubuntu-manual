@@ -9,3 +9,4 @@ Contents:
    
    basic
    advanced
+   hidpi

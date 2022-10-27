@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Repositories</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/epub.css" /> 
+  </head><body>
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <section id="repositories">
+<span id="repositories-link"></span><h1>Repositories</h1>
+<p>Thousands of programs are freely available to install in Kubuntu. These programs are stored in software archives (“repositories”) and are made available for installation over the Internet. Installing new programs in Kubuntu is quick, reliable, and secure because each program is built specifically for Kubuntu and is checked thoroughly before it is made available. Kubuntu repositories are categorized into four groups:</p>
+<ul class="simple">
+<li><p>Main</p></li>
+<li><p>Restricted</p></li>
+<li><p>Universe</p></li>
+<li><p>Multiverse</p></li>
+</ul>
+<p>Two factors are used to determine categories</p>
+<ul class="simple">
+<li><p>The level of support provided for a program by its software development teams.</p></li>
+<li><p>The level of compliance the program has to the <a class="reference external" href="http://www.ubuntu.com/about/about-ubuntu/our-philosophy">Ubuntu Free Software Philosophy</a><span class="link-target"> [http://www.ubuntu.com/about/about-ubuntu/our-philosophy]</span>.</p></li>
+</ul>
+<p>The standard Kubuntu LiveDVD contains some software from the “Main” and “Restricted” categories. Once a system has information about the Internet-based locations for these repositories, more programs are available for installation. Using the software package management tools installed by default, it is possible to discover, install, and update any piece of software directly over the internet without the need for the LiveDVD.</p>
+<p>For more information about managing repositories, check the click on Repositories section of this manual. For even more information check the Ubuntu Wiki about <a class="reference external" href="https://help.ubuntu.com/community/Repositories">managing Repositories</a><span class="link-target"> [https://help.ubuntu.com/community/Repositories]</span>.</p>
+<section id="ppas-personal-package-archive">
+<h2>PPAs (Personal Package Archive)</h2>
+<p>Personal Package Archives allow any person in the Ubuntu community who has committed to observe the <a class="reference external" href="https://launchpad.net/codeofconduct">Ubuntu Code of Conduct</a><span class="link-target"> [https://launchpad.net/codeofconduct]</span> to upload Ubuntu source packages to be built and published as an apt repository by Launchpad. Software from Launchpad’s <a class="reference external" href="https://launchpad.net/ubuntu/+ppas">Personal Package Archive</a><span class="link-target"> [https://launchpad.net/ubuntu/+ppas]</span> (PPA) requires a <a class="reference external" href="https://www.gnupg.org/">GnuPG</a><span class="link-target"> [https://www.gnupg.org/]</span> (GPG) key so your system can verify that it’s getting the packages from the correct source and that the packages have not been interfered with since they were built. GnuPG is GNU’s tool for secure communication and data storage. For more information about PPAs, click on the Repositories section of this manual.</p>
+</section>
+<section id="kubuntu-backports">
+<h2>Kubuntu Backports</h2>
+<p>The Kubuntu Backports are “Backports of new versions of KDE Platform, Plasma and Applications as well as major KDE apps for Kubuntu.” As any PPA you should know how to remove it before you add it so please do read below on how to do so. The Backports exist because of the Ubuntu release cycle, if there is a new Plasma, Applications or Frameworks after the freeze or release of a new Ubuntu release we package it up for you to enjoy.</p>
+<p><a class="reference external" href="https://launchpad.net/~kubuntu-ppa/+archive/ubuntu/backports">https://launchpad.net/~kubuntu-ppa/+archive/ubuntu/backports</a></p>
+<section id="managing-personal-package-archives">
+<h3>Managing Personal Package Archives</h3>
+<p>Personal Package Archives allow any person in the Ubuntu community who has committed to observe the <a class="reference external" href="https://launchpad.net/codeofconduct">Ubuntu Code of Conduct</a><span class="link-target"> [https://launchpad.net/codeofconduct]</span> to upload Ubuntu source packages to be built and published as an apt repository by Launchpad. Software from Launchpad’s <a class="reference external" href="https://launchpad.net/ubuntu/+ppas">Personal Package Archive</a><span class="link-target"> [https://launchpad.net/ubuntu/+ppas]</span> (PPA) requires a <a class="reference external" href="https://www.gnupg.org/">GnuPG</a><span class="link-target"> [https://www.gnupg.org/]</span> (GPG) key so your system can verify that it’s getting the packages from the correct source and that the packages have not been interfered with since they were built. GnuPG is GNU’s tool for secure communication and data storage.</p>
+<p><strong>Important</strong>: The contents of Personal Package Archives are not checked or monitored. You install software from them at your own risk.</p>
+<section id="add-a-ppa">
+<h4>Add a PPA</h4>
+<p>You can use the Discover to add a PPA:</p>
+<ol class="arabic simple">
+<li><p>Open the Launchpad PPA overview page in your browser for example look at the Kubuntu Backports PPA</p></li>
+<li><p>Look for the ‘Adding this PPA to your system’ section</p></li>
+<li><p>Open Konsole then copy (Ctrl+C once the command is highlighted)</p></li>
+<li><p>Now paste (Ctrl+Shift+V in terminals like Konsole) and press the Enter key</p></li>
+</ol>
+<img alt="../../_images/konsole-add-ppa.png" class="align-center" src="../../_images/konsole-add-ppa.png" style="width: 768.0px; height: 576.75px;" />
+<p>Your repositories will be updated and now Discover will be able to find the newly available software.</p>
+</section>
+<section id="remove-a-ppa">
+<h4>Remove a PPA</h4>
+<p>You can use the Discover to remove a PPA:</p>
+<ol class="arabic simple">
+<li><p>Open Discover then left-click Settings on the bottom left</p></li>
+</ol>
+<img alt="../../_images/discover-manage.png" class="align-center" src="../../_images/discover-manage.png" style="width: 767.25px; height: 576.75px;" />
+<ol class="arabic simple" start="2">
+<li><p>Left-click the ‘Software Sources’ button to the right of ‘Ubuntu Jammy Jellyfish’</p></li>
+<li><p>Enter your administrative password at the prompt.</p></li>
+<li><p>Left-click on the ‘Other Software’ tab</p></li>
+</ol>
+<img alt="../../_images/discover-other-software-hidpi.png" class="align-center" src="../../_images/discover-other-software-hidpi.png" />
+<ol class="arabic simple" start="5">
+<li><p>Left-click the PPA that you want to remove</p></li>
+<li><p>Left-click the ‘Remove’ button</p></li>
+</ol>
+<p>A prompt will appear to update the package list, Discover will now be allowed to find the newly available software.</p>
+</section>
+</section>
+</section>
+<section id="install-uninstall-deb-files">
+<h2>Install/Uninstall ‘.deb’ files</h2>
+<p>The package files associated with Kubuntu have the “.deb” suffix because of Kubuntu’s close relationship with the Debian GNU/Linux distribution. Individual “.deb” files can be downloaded and installed. Humble Bundles, for instance, distribute debs. Administrative privileges are required.</p>
+<p>To install “.deb” files download the file from a safe and secure location. In this example we’ll be installing the Chrome “.deb” file from <a class="reference external" href="https://www.google.com/chrome/">Chrome’s website</a><span class="link-target"> [https://www.google.com/chrome/]</span> , from here you can either double left-click the “.deb” file that we downloaded or we can use the dpkg command to install it.</p>
+<p>If you double left-clicked the file then you would see the following QApt Package Installer window:</p>
+<img alt="../../_images/qapt-installer.png" class="align-center" src="../../_images/qapt-installer.png" />
+<p>From there you would left-click the ‘Install Package’ button and enter your password in the new PolicyKit window (this is to allow the command(s) to be ran to install the software.</p>
+<img alt="../../_images/policykit-window.png" class="align-center" src="../../_images/policykit-window.png" />
+<p>If you want to install it using Konsole (or other terminals) we’ll run these commands in a Konsole window:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">dpkg</span> <span class="o">-</span><span class="n">i</span> <span class="n">google</span><span class="o">-</span><span class="n">chrome</span><span class="o">-</span><span class="n">stable_current_amd64</span><span class="o">.</span><span class="n">deb</span>
+<span class="n">sudo</span> <span class="n">apt</span> <span class="n">install</span> <span class="o">-</span><span class="n">f</span>
+</pre></div>
+</div>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+  </body>
+</html>

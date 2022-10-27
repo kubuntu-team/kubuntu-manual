@@ -89,7 +89,7 @@ Chatting with friends and family is a popular use of the internet, and Kubuntu p
 
 - `Konversation <https://userbase.kde.org/Special:MyLanguage/Konversation>`_ is the IRC (Internet Relay Chat) client pre-installed in Kubuntu. Not only does it provide functions similar to those of other popular IRC clients such as 'X-chat, its design emphasizes ease of use. Konversation includes tabbed browsing and notification of messages and other events.
 
-*KDE* software connects you to the world. See `Internet, Networking, & Communication <https://userbase.kde.org/Special:MyLanguage/Applications/Internet>`_ for more. 
+KDE software connects you to the world. See `Internet, Networking, & Communication <https://userbase.kde.org/Special:MyLanguage/Applications/Internet>`_ for more.
 
 Multimedia
 -----------
@@ -116,20 +116,6 @@ The default office suite installed in Kubuntu is LibreOffice. It includes Calc, 
 
 LibreOffice works well with the files created by their Microsoft counterparts, with the exception of Microsoft Access files. For more information see `LibreOffice <https://wiki.ubuntu.com/LibreOffice>`_. 
 
-Personal Information Manager (PIM)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Installed with your system is the KDE Personal Information Manager Kontact. This includes many tools to manage your life. 
-
-- email
-- contacts
-- diary
-- notes
-- feeds
-- to-do list
-
-Please see `Kontact <https://userbase.kde.org/Special:MyLanguage/Kontact>`_ for more details and help with this powerful set of tools. 
-
 System Settings
 ----------------
 
@@ -151,7 +137,7 @@ Your newly installed Kubuntu system has some utilities already installed. One of
 Bash
 ~~~~~
 
-Bash is the default shell in Konsole and other terminals. Click this `link <https://help.ubuntu.com/community/UsingTheTerminal>`_ that goes over using the terminals
+Bash is the default shell in Konsole and other terminals. Click this `link <https://help.ubuntu.com/community/UsingTheTerminal>`_ that goes over using the terminals.
 
 Firewall configuration
 -----------------------

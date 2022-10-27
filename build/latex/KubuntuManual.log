@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.8.18)  17 OCT 2022 09:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.10.23)  27 OCT 2022 15:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -129,9 +129,9 @@ Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: Hyphen rules for 'canadian' set to \l@english
 (babel)             (\language0). Reported on input line 102.
 Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
-(babel)             (\language5). Reported on input line 105.
+(babel)             (\language64). Reported on input line 105.
 Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
-(babel)             (\language5). Reported on input line 108.
+(babel)             (\language64). Reported on input line 108.
 ))
 (/usr/share/texmf/tex/latex/tex-gyre/tgtermes.sty
 Package: tgtermes 2009/09/27 v1.2 TeX Gyre Termes as default roman family
@@ -776,7 +776,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ]
 Chapter 1.
-<kubuntu-desktop.png, id=545, 769.37437pt x 579.66562pt>
+<kubuntu-desktop.png, id=553, 769.37437pt x 579.66562pt>
 LaTeX Font Info:    Trying to load font information for T1+txtt on input line 8
 5.
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/t1txtt.fd
@@ -796,36 +796,36 @@ Chapter 2.
 [5
 
 ] [6]
-<welcome-slide.png, id=586, 727.96968pt x 476.53032pt>
+<welcome-slide.png, id=594, 727.96968pt x 476.53032pt>
 File: welcome-slide.png Graphic file (type png)
 <use welcome-slide.png>
 Package pdftex.def Info: welcome-slide.png  used on input line 314.
 (pdftex.def)             Requested size: 469.76456pt x 307.51604pt.
-<prepare.png, id=587, 726.46407pt x 479.54156pt>
+<prepare.png, id=595, 726.46407pt x 479.54156pt>
 File: prepare.png Graphic file (type png)
 <use prepare.png>
 Package pdftex.def Info: prepare.png  used on input line 345.
 (pdftex.def)             Requested size: 469.76845pt x 310.08853pt.
  [7 <./welcome-slide.png (PNG copy)>] [8 <./prepare.png (PNG copy)>]
-<entire-disk.png, id=598, 725.71124pt x 479.54156pt>
+<entire-disk.png, id=606, 725.71124pt x 479.54156pt>
 File: entire-disk.png Graphic file (type png)
 <use entire-disk.png>
 Package pdftex.def Info: entire-disk.png  used on input line 381.
 (pdftex.def)             Requested size: 469.76886pt x 310.41049pt.
-<entire-disk-confirm.png, id=599, 726.46407pt x 475.02469pt>
+<entire-disk-confirm.png, id=607, 726.46407pt x 475.02469pt>
 File: entire-disk-confirm.png Graphic file (type png)
 <use entire-disk-confirm.png>
 Package pdftex.def Info: entire-disk-confirm.png  used on input line 383.
 (pdftex.def)             Requested size: 469.76845pt x 307.175pt.
 
 [9 <./entire-disk.png (PNG copy)>]
-<entire-disk-encrypt.png, id=606, 720.44156pt x 469.755pt>
+<entire-disk-encrypt.png, id=614, 720.44156pt x 469.755pt>
 File: entire-disk-encrypt.png Graphic file (type png)
 <use entire-disk-encrypt.png>
 Package pdftex.def Info: entire-disk-encrypt.png  used on input line 399.
 (pdftex.def)             Requested size: 469.75453pt x 306.29762pt.
  [10 <./entire-disk-confirm.png (PNG copy)>]
-<entire-disk-encrypt-confirm.png, id=611, 721.19438pt x 475.7775pt>
+<entire-disk-encrypt-confirm.png, id=619, 721.19438pt x 475.7775pt>
 File: entire-disk-encrypt-confirm.png Graphic file (type png)
 <use entire-disk-encrypt-confirm.png>
 Package pdftex.def Info: entire-disk-encrypt-confirm.png  used on input line 40
@@ -834,18 +834,18 @@ Package pdftex.def Info: entire-disk-encrypt-confirm.png  used on input line 40
 
 [11 <./entire-disk-encrypt.png (PNG copy)> <./entire-disk-encrypt-confirm.png (
 PNG copy)>]
-<timezone.png, id=618, 724.20563pt x 478.78876pt>
+<timezone.png, id=626, 724.20563pt x 478.78876pt>
 File: timezone.png Graphic file (type png)
 <use timezone.png>
 Package pdftex.def Info: timezone.png  used on input line 446.
 (pdftex.def)             Requested size: 469.75563pt x 310.5661pt.
  [12 <./timezone.png (PNG copy)>]
-<keyboard.png, id=623, 725.71124pt x 481.04718pt>
+<keyboard.png, id=631, 725.71124pt x 481.04718pt>
 File: keyboard.png Graphic file (type png)
 <use keyboard.png>
 Package pdftex.def Info: keyboard.png  used on input line 454.
 (pdftex.def)             Requested size: 469.76886pt x 311.39243pt.
-<userinfo.png, id=624, 723.45282pt x 476.53032pt>
+<userinfo.png, id=632, 723.45282pt x 476.53032pt>
 File: userinfo.png Graphic file (type png)
 <use userinfo.png>
 Package pdftex.def Info: userinfo.png  used on input line 462.
@@ -853,7 +853,7 @@ Package pdftex.def Info: userinfo.png  used on input line 462.
  [13 <./keyboard.png (PNG copy)>]
 [14 <./userinfo.png (PNG copy)>]
 Chapter 3.
-<kickoff.png, id=634, 773.13844pt x 579.66562pt>
+<kickoff.png, id=642, 773.13844pt x 579.66562pt>
 File: kickoff.png Graphic file (type png)
 <use kickoff.png>
 Package pdftex.def Info: kickoff.png  used on input line 2.
@@ -861,132 +861,157 @@ Package pdftex.def Info: kickoff.png  used on input line 2.
 [15
 
 ]
-<application-dashboard.png, id=642, 768.62157pt x 580.41844pt>
+<application-dashboard.png, id=650, 768.62157pt x 580.41844pt>
 File: application-dashboard.png Graphic file (type png)
 <use application-dashboard.png>
 Package pdftex.def Info: application-dashboard.png  used on input line 2.
 (pdftex.def)             Requested size: 469.76155pt x 354.73668pt.
  [16 <./kickoff.png (PNG copy)>]
-<application-menu.png, id=648, 772.38562pt x 580.41844pt>
+<application-menu.png, id=656, 772.38562pt x 580.41844pt>
 File: application-menu.png Graphic file (type png)
 <use application-menu.png>
 Package pdftex.def Info: application-menu.png  used on input line 2.
 (pdftex.def)             Requested size: 469.75204pt x 353.00081pt.
  [17 <./application-dashboard.png (PNG copy)>]
-<krunner.png, id=654, 773.13844pt x 41.4047pt>
+<krunner.png, id=662, 773.13844pt x 41.4047pt>
 File: krunner.png Graphic file (type png)
 <use krunner.png>
 Package pdftex.def Info: krunner.png  used on input line 2.
 (pdftex.def)             Requested size: 469.76163pt x 25.15698pt.
-<network-panel.png, id=656, 771.63281pt x 578.16pt>
+<network-panel.png, id=664, 771.63281pt x 578.16pt>
 File: network-panel.png Graphic file (type png)
 <use network-panel.png>
 Package pdftex.def Info: network-panel.png  used on input line 514.
 (pdftex.def)             Requested size: 469.75339pt x 351.97133pt.
  [18 <./application-menu.png (PNG copy)> <./krunner.png (PNG copy)>]
 [19 <./network-panel.png (PNG copy)>]
-<panels.png, id=669, 772.38562pt x 580.41844pt>
+<panels.png, id=677, 772.38562pt x 580.41844pt>
 File: panels.png Graphic file (type png)
 <use panels.png>
-Package pdftex.def Info: panels.png  used on input line 606.
+Package pdftex.def Info: panels.png  used on input line 610.
 (pdftex.def)             Requested size: 469.75204pt x 353.00081pt.
  [20] [21 <./panels.png (PNG copy)>]
-<activities.png, id=688, 770.88pt x 578.91281pt>
+<activities.png, id=697, 770.88pt x 578.91281pt>
 File: activities.png Graphic file (type png)
 <use activities.png>
-Package pdftex.def Info: activities.png  used on input line 629.
+Package pdftex.def Info: activities.png  used on input line 633.
 (pdftex.def)             Requested size: 469.75385pt x 352.77412pt.
 
 [22 <./activities.png (PNG copy)>]
-<activity-misc.png, id=696, 771.63281pt x 581.17125pt>
+<activity-misc.png, id=705, 771.63281pt x 581.17125pt>
 File: activity-misc.png Graphic file (type png)
 <use activity-misc.png>
-Package pdftex.def Info: activity-misc.png  used on input line 669.
+Package pdftex.def Info: activity-misc.png  used on input line 672.
 (pdftex.def)             Requested size: 469.75339pt x 353.81337pt.
-<discover-manage.png, id=698, 770.12718pt x 578.91281pt>
+<discover-manage.png, id=707, 770.12718pt x 578.91281pt>
 File: discover-manage.png Graphic file (type png)
 <use discover-manage.png>
-Package pdftex.def Info: discover-manage.png  used on input line 684.
+Package pdftex.def Info: discover-manage.png  used on input line 687.
 (pdftex.def)             Requested size: 469.75339pt x 353.11862pt.
  [23 <./activity-misc.png (PNG copy)>]
-<drivers.png, id=704, 539.01375pt x 337.26pt>
-File: drivers.png Graphic file (type png)
-<use drivers.png>
-Package pdftex.def Info: drivers.png  used on input line 702.
-(pdftex.def)             Requested size: 458.16383pt x 286.67235pt.
+<drivers-hidpi.png, id=713, 1160.08406pt x 770.12718pt>
+File: drivers-hidpi.png Graphic file (type png)
+<use drivers-hidpi.png>
+Package pdftex.def Info: drivers-hidpi.png  used on input line 705.
+(pdftex.def)             Requested size: 469.76067pt x 311.84103pt.
 
-[24 <./discover-manage.png (PNG copy)>] [25 <./drivers.png (PNG copy)>]
-[26
+[24 <./discover-manage.png (PNG copy)>]
+<display-and-monitor.png, id=722, 1633.60312pt x 1197.72469pt>
+File: display-and-monitor.png Graphic file (type png)
+<use display-and-monitor.png>
+Package pdftex.def Info: display-and-monitor.png  used on input line 727.
+(pdftex.def)             Requested size: 469.7445pt x 344.40714pt.
+ [25 <./drivers-hidpi.png>]
+<appearance-cursors.png, id=728, 1633.60312pt x 1197.72469pt>
+File: appearance-cursors.png Graphic file (type png)
+<use appearance-cursors.png>
+Package pdftex.def Info: appearance-cursors.png  used on input line 735.
+(pdftex.def)             Requested size: 469.7445pt x 344.40714pt.
+ [26 <./display-and-monitor.png>] [27 <./appearance-cursors.png>] [28
 
 ]
 Chapter 4.
-<discover.png, id=720, 769.37437pt x 578.16pt>
+<discover.png, id=745, 769.37437pt x 578.16pt>
 File: discover.png Graphic file (type png)
 <use discover.png>
-Package pdftex.def Info: discover.png  used on input line 728.
+Package pdftex.def Info: discover.png  used on input line 764.
 (pdftex.def)             Requested size: 469.7638pt x 353.0035pt.
-[27] [28 <./discover.png (PNG copy)>]
-<discover-updates.png, id=730, 770.12718pt x 577.40718pt>
+[29] [30 <./discover.png (PNG copy)>]
+<discover-updates.png, id=754, 770.12718pt x 577.40718pt>
 File: discover-updates.png Graphic file (type png)
 <use discover-updates.png>
-Package pdftex.def Info: discover-updates.png  used on input line 768.
+Package pdftex.def Info: discover-updates.png  used on input line 804.
 (pdftex.def)             Requested size: 469.75339pt x 352.21786pt.
- [29 <./discover-updates.png (PNG copy)>]
-[30] [31] [32] [33]
-<konsole-add-ppa.png, id=796, 770.88pt x 578.91281pt>
+ [31 <./discover-updates.png (PNG copy)>]
+[32] [33] [34]
+<konsole-add-ppa.png, id=813, 770.88pt x 578.91281pt>
 File: konsole-add-ppa.png Graphic file (type png)
 <use konsole-add-ppa.png>
-Package pdftex.def Info: konsole-add-ppa.png  used on input line 1122.
+Package pdftex.def Info: konsole-add-ppa.png  used on input line 1123.
 (pdftex.def)             Requested size: 469.75385pt x 352.77412pt.
+ [35]
 File: discover-manage.png Graphic file (type png)
 <use discover-manage.png>
-Package pdftex.def Info: discover-manage.png  used on input line 1140.
+Package pdftex.def Info: discover-manage.png  used on input line 1141.
 (pdftex.def)             Requested size: 469.75339pt x 353.11862pt.
- [34 <./konsole-add-ppa.png (PNG copy)>]
-<discover-other-software.png, id=806, 551.05875pt x 347.04657pt>
-File: discover-other-software.png Graphic file (type png)
-<use discover-other-software.png>
-Package pdftex.def Info: discover-other-software.png  used on input line 1158.
-(pdftex.def)             Requested size: 413.29303pt x 260.28429pt.
- [35] [36 <./discover-other-software.png (PNG copy)>]
+ [36 <./konsole-add-ppa.png (PNG copy)>]
+<discover-other-software-hidpi.png, id=829, 1142.76938pt x 688.82344pt>
+File: discover-other-software-hidpi.png Graphic file (type png)
+<use discover-other-software-hidpi.png>
+Package pdftex.def Info: discover-other-software-hidpi.png  used on input line 
+1159.
+(pdftex.def)             Requested size: 469.7591pt x 283.15518pt.
+ [37]
+<qapt-installer.png, id=838, 965.10562pt x 688.82344pt>
+File: qapt-installer.png Graphic file (type png)
+<use qapt-installer.png>
+Package pdftex.def Info: qapt-installer.png  used on input line 1188.
+(pdftex.def)             Requested size: 469.75447pt x 335.27718pt.
+ [38 <./discover-other-software-hidpi.png>]
+<policykit-window.png, id=846, 867.24pt x 535.2497pt>
+File: policykit-window.png Graphic file (type png)
+<use policykit-window.png>
+Package pdftex.def Info: policykit-window.png  used on input line 1193.
+(pdftex.def)             Requested size: 469.75827pt x 289.93709pt.
+ [39 <./qapt-installer.png>] [40 <./policykit-window.png>]
 Chapter 5.
-[37
+[41
 
-] [38] [39] [40
+] [42] [43] [44
 
 ]
 Chapter 6.
-[41] [42]
+[45] [46]
 Chapter 7.
-[43
+[47
 
-] [44]
+] [48]
 LaTeX Font Info:    Font shape `T1/txtt/b/n' in size <10> not available
-(Font)              Font shape `T1/txtt/bx/n' tried instead on input line 1526.
+(Font)              Font shape `T1/txtt/bx/n' tried instead on input line 1531.
 
- [45] [46] [47] [48
+ [49] [50] [51] [52
 
 ]
 Chapter 8.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1789--1791
+Underfull \hbox (badness 10000) in paragraph at lines 1794--1796
 []\T1/qtm/m/n/10 changed ^^Pdeb [][]$http : / / ppa . launchpad . net / kubuntu
 -[]ppa / backports / ubuntu$[][] vivid main^^Q to ^^Pppa:kubuntu-
  []
 
-[49] [50]
+[53] [54]
 Chapter 9.
-(./KubuntuManual.ind) [51
+(./KubuntuManual.ind) [55
 
 ] (./KubuntuManual.aux)
 Package rerunfilecheck Info: File `KubuntuManual.out' has not changed.
-(rerunfilecheck)             Checksum: 83D228DBCCE62D11C736AF30EEFA306E;17075.
+(rerunfilecheck)             Checksum: D92971A503AD2A3FE7DD248176ACDF79;17014.
  ) 
 Here is how much of TeX's memory you used:
- 15181 strings out of 478287
- 245538 string characters out of 5849289
- 566974 words of memory out of 5000000
- 32782 multiletter control sequences out of 15000+600000
+ 15227 strings out of 478287
+ 246707 string characters out of 5849288
+ 566120 words of memory out of 5000000
+ 32817 multiletter control sequences out of 15000+600000
  520151 words of font info for 68 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  70i,12n,76p,843b,546s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -997,10 +1022,10 @@ onts/type1/public/tex-gyre/qtmb.pfb></usr/share/texmf/fonts/type1/public/tex-gy
 re/qtmr.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qtmri.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/txfonts/t1xbtt.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/txfonts/t1xtt.pfb>
-Output written on KubuntuManual.pdf (55 pages, 7381047 bytes).
+Output written on KubuntuManual.pdf (59 pages, 8167511 bytes).
 PDF statistics:
- 1010 PDF objects out of 1200 (max. 8388607)
- 906 compressed objects within 10 object streams
- 212 named destinations out of 1000 (max. 500000)
- 1077 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1049 PDF objects out of 1200 (max. 8388607)
+ 931 compressed objects within 10 object streams
+ 219 named destinations out of 1000 (max. 500000)
+ 1113 words of extra memory for PDF output out of 10000 (max. 10000000)
 
