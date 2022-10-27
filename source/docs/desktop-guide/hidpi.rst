@@ -26,6 +26,6 @@ This setting is in System Settings -> Appearance -> Cursors -> Size and similar 
 Panel
 ~~~~~~
 
-For adjusting the panel to improve your experience we'll refer to the :ref:`panel`.
+For adjusting the panel to improve your experience we'll refer to the :ref:`panel` section from the Advanced page.
 
 
