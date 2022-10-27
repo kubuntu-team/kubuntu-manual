@@ -7,6 +7,23 @@ SPHINXBUILD   = sphinx-build
 PAPER         =
 BUILDDIR      = build
 
+GH_PAGES_SOURCES = source Makefile
+GH_PAGES_BASE_BRANCH = kubuntu-22.04-LTS # Change this to be the branch that your documentation should be built from
+
+# Put first so that "make" without argument is like "make help".
+help:
+	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+
+.PHONY: help Makefile
+
+.PHONY: gh-pages
+.ONESHELL:
+gh-pages:
+	rm -rf /tmp/gh-pages
+	cp -r $(BUILDDIR)/html /tmp/gh-pages
+	git checkout gh-pages
+	cd .. && rm -rf * && cp -r /tmp/gh-pages/* ./ && rm -rf /tmp/gh-pages && git add . && git commit -m "Updated gh-pages" && git push && git checkout kubuntu-22.04-LTS
+
 # User-friendly check for sphinx-build
 ifeq ($(shell which $(SPHINXBUILD) >/dev/null 2>&1; echo $$?), 1)
 $(error The '$(SPHINXBUILD)' command was not found. Make sure you have Sphinx installed, then set the SPHINXBUILD environment variable to point to the full path of the '$(SPHINXBUILD)' executable. Alternatively you can add the directory with the executable to your PATH. If you don't have Sphinx installed, grab it from http://sphinx-doc.org/)
