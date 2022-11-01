@@ -1,15 +1,5 @@
-Kubuntu Manual 22.04 LTS
-=========================
+![Workflow](https://github.com/kubuntu/kubuntu-manual/workflows/main.yml/badge.svg)
 
-Licensed under CC-BY-SA 4.0 
-Following this: https://community.kde.org/Policies/Licensing_Policy
-
-## To Do list
-
-- [x] Update images
-- [x] Update text and fix grammar/typos
-- [x] Improve general content
-- [ ] Add any new content that is needed
 
 ## How it works
 
