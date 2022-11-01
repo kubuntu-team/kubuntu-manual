@@ -1,4 +1,4 @@
-![Workflow](https://github.com/kubuntu/kubuntu-manual/workflows/main.yml/badge.svg)
+![Workflow](https://github.com/kubuntu/kubuntu-manual/workflows/main.yml/badge.svg?branch=gh-pages)
 
 
 ## How it works
