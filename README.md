@@ -1,6 +1,3 @@
-![Workflow](https://github.com/kubuntu/kubuntu-manual/workflows/main.yml/badge.svg?branch=gh-pages)
-
-
 ## How it works
 
 The documentation is powered by [Sphinx](http://www.sphinx-doc.org/en/stable/).
