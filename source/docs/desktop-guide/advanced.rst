@@ -30,10 +30,10 @@ Plasma Styles
 - Left-click the 'Get New Plasma Styles...' button for more choices         
 - Left-click the 'Install from File...' button to install from a local file 
 
-Plasmoids
+Widgets
 ~~~~~~~~~~
 
-Plasmoids (also called Widgets) can be added by right-clicking the desktop and selecting Add Widgets..., which will bring up a list of Widgets. For more information, see `Plasma Widgets <https://userbase.kde.org/Special:MyLanguage/Plasma#Widgets>`_. 
+Widgets can be added by right-clicking the desktop and selecting Add Widgets..., which will bring up a list of Widgets. For more information, see `Plasma Widgets <https://userbase.kde.org/Special:MyLanguage/Plasma#Widgets>`_. 
 
 .. _panel:
 
