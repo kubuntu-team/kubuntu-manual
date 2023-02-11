@@ -92,7 +92,9 @@ You can now resize these widgets and lay them out on the desktop however you wis
 Drivers
 --------
 
-On every Operating System (Windows, macOS, and Linux) there are programs called Drivers which you install on your computer. These Drivers let your computer use new hardware or existing hardware, like `Wi-Fi <https://userbase.kde.org/Kubuntu/Basic#Wireless>`_. There Drivers also cover your graphics card e.g NVIDIA, AMD, sometimes the nonfree or restricted drivers let the cards perform better than the free ones. The 'Additional Drivers' section of Disocver handles installing and uninstalling these for you. These improvements may cover gaming, video editing and processing to image editing. 
+In every operating system (Windows, macOS, and Linux) there are programs called Drivers which let your computer work with specific hardware components, such as `Wi-Fi <https://userbase.kde.org/Kubuntu/Basic#Wireless>`_, graphics cards (NVIDIA, AMD...), etc. Sometimes nonfree or restricted Drivers let the hardware perform better than the free Drivers that come with Kubuntu. These improvements may cover gaming, video editing and processing to image editing.
+
+The ‘Additional Drivers’ section of the Discover program handles installing and uninstalling these nonfree or restricted Drivers for you.
 
 1. Start Discover 
 
@@ -100,9 +102,10 @@ On every Operating System (Windows, macOS, and Linux) there are programs called 
     :align: center
     :scale: 75 %
 
-2. Select Settings then left-click the 'Software Sources' button to the right of 'Ubuntu Jammy Jellyfish'
-3. Enter your administrative password at the prompt
-4. Left-click the 'Additional Drivers' tab 
+2. Select Settings
+3. Hover over 'Software Sources' then left-click it (it is to the right of 'Ubuntu 22.04.1. LTS Default source')
+4. Enter your administrative password at the prompt
+5. Left-click the 'Additional Drivers' tab
 
 .. image:: ../../images/jammy/advanced/drivers-hidpi.png
     :align: center
