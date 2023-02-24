@@ -44,7 +44,9 @@ Panel
     :align: left
     :scale: 75 %
 
-By right-clicking on the desktop once again, you can select Add Panel to get more panels. You can left-click the button on the far right side of the panel to alter the properties of the panel, like changing its height or width or adding Widgets, for example. For more information, see `Plasma Panels <https://userbase.kde.org/Special:MyLanguage/Plasma#Panels>`_. 
+Panels are widget containers, widgets are items like the Clock, Launchers, System Tray and more! These can be placed on each side of your desktop match your workflow. For more information, see `Plasma Panels <https://userbase.kde.org/Special:MyLanguage/Plasma#Panels>`_.
+
+By right-clicking on the desktop once again, you can select Add Panel to get more panels. You can left-click the button on the far right side of the panel to alter the properties of the panel, like changing its height or width or adding Widgets, for example.
 
 Activities
 ~~~~~~~~~~
