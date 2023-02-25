@@ -21,3 +21,6 @@ This section goes over common configuration files that store Plasma settings suc
 
   * This stores your desktops (including their names), Meta (Super Key, Windows Key or Command Key) action.
 
+* ~/.config/plasmashellrc
+
+  * This stores the Panel information such as thickness and horizontal settings.
