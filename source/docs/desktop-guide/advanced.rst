@@ -49,10 +49,14 @@ Panels are widget containers, widgets are items like the Clock, Launchers, Syste
 By right-clicking on the desktop once again, you can select Add Panel to get more panels. You can also use this menu to enter Edit Mode or by right-clicking on any panel on your desktop. 
 
 .. image:: ../../images/jammy/advanced/desktop-menu.png
-    :align: left
+    :align: center
     :scale: 75 %
 
-You can left-click the button on the far right side of the panel to alter the properties of the panel, like changing its height or width or adding Widgets, for example.
+You can left-click the button on the far right side of the panel once you enter Edit Mode to alter the properties of the panel, like changing its height or width or adding Widgets, for example.
+
+.. image:: ../../images/jammy/advanced/panel-menu.png
+    :align: center
+    :scale: 75 %
 
 Activities
 ~~~~~~~~~~
