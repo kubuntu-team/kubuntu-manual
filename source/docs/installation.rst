@@ -58,7 +58,7 @@ The first thing to do is to make sure you're in the directory with the .iso file
 
 .. code-block:: bash
 
-    sha256 kubuntu-22.04-desktop-amd64.iso
+    sha256sum kubuntu-22.04.2-desktop-amd64.iso
 
 Flashing the installation media
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
