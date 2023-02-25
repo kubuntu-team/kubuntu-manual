@@ -15,7 +15,7 @@ Changes
 2/24/23 - ahoneybun <aaronhoneycutt@kubuntu.org>
 
 * update to 22.04.2 release
-* address issues 9, 12, 14, 15
+* address issues 9, 12, 13, 14, 15
 * update copyright and version
 * add configuration files section
 
