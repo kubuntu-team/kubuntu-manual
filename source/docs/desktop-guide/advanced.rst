@@ -76,7 +76,7 @@ Activities First Look
    :align: center
    :scale: 75 %
    
-Let's take a look at the default KDE Activities configured in Kubuntu. Right Click anywhere on the empty desktop and choose "Activities" from the menu. The Activities side bar appears on the left, with the Default activity. Notice the + Create Activity at the bottom. Click that, and lets created a new "Social" Activity.
+Let's take a look at the default KDE Activities configured in Kubuntu. Right-click anywhere on the empty desktop and choose "Activities" from the menu. The Activities side bar appears on the left, with the Default activity. Notice the + Create Activity at the bottom. Click that, and lets created a new "Social" Activity.
 Enter "Social" as the Activity name: and then click Create.
 
 That's it you have created your first activity.
