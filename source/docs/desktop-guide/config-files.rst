@@ -24,3 +24,7 @@ This section goes over common configuration files that store Plasma settings suc
 * ~/.config/plasmashellrc
 
   * This stores the Panel information such as thickness and horizontal settings.
+
+* ~/.config/plasma-org.kde.plasma.desktop-appletsrc
+
+  * This stores Applet/Widget information.
