@@ -7,5 +7,5 @@ Contents:
    :maxdepth: 2
    :titlesonly:
    
-   software
+   included-software
    repositories

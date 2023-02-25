@@ -1,7 +1,7 @@
 .. _software-link:
 
-Software
-=========
+Included Software
+==================
 
 Software Management
 --------------------
@@ -45,7 +45,6 @@ Some basic graphics applications are installed in Kubuntu by default, allowing y
 - `LibreOffice Draw <http://www.libreoffice.org/discover/draw/>`_ is an all-purpose diagramming and charting tool which lets you produce anything from a quick sketch to a complex plan, and gives you the means to communicate with graphics and diagrams. With a maximum page size of 300cm by 300cm, Draw is a an excellent package for producing technical drawings, general posters, and much else. 
 - `Skanlite <https://userbase.kde.org/Special:MyLanguage/Skanlite>`_ is a simple image scanning application. 
 - `Gwenview <https://userbase.kde.org/Special:MyLanguage/Gwenview>`_ is an image viewer with many features. 
-- `Kamoso <https://userbase.kde.org/Special:MyLanguage/Kamoso>`_ is a webcam recorder from the *KDE* community. 
 - `Spectacle <https://www.kde.org/applications/graphics/spectacle/>`_ is the best at desktop screenshots, simple and sweet. 
 
 Internet
@@ -75,12 +74,13 @@ Click this link for a guide to `import your bookmarks <https://support.mozilla.o
 Email Clients
 ~~~~~~~~~~~~~~
 
-There are many options when it comes to email clients. In Kubuntu, Kmail is default email client, either as a stand-alone client or as part of the Kontact personal information manager (PIM). Kmail is the email component of Kontact, the *KDE* personal information manager (PIM). Kmail by itself is similar in functionality to other popular email programs, while Kontact is as full-featured as the fanciest personal information managers (PIMs), as it can be configured with calendars, address books, notes, an RSS reader, time tracking, journals and simple project planning. The following are just some of the features of Kmail: 
+There are many options when it comes to email clients. In Kubuntu, Thunderbird is default email client.
 
 - IMAP, POP3, SMTP support 
 - SSL, TLS, and Digest-md5 secure logon support 
 - PGP and GNUPG signatures and encryption support 
-- HTML reading, spam filtering, internal character sets, search and filter functions, spell checking, and robust searching. More information on Kmail can be found in the `KMail documentation <https://userbase.kde.org/Special:MyLanguage/KMail>`_. 
+
+You can read more about Thunderbird `here <https://support.mozilla.org/en-US/products/thunderbird/learn-basics-get-started>`_.
 
 Chat Clients
 ~~~~~~~~~~~~~
@@ -98,9 +98,7 @@ The best in multimedia is installed when you open your new Kubuntu installation.
 
 The following applications are installed by default: 
 
-- `Pulseaudio <https://wiki.ubuntu.com/PulseAudio>`_ keeps all your sound and video inputs and outputs working together. If you need to direct your audio or video output to other devices, install the pavucontrol package, launch it by pressing Alt + F2, then type pavucontrol. 
-- `K3b <https://userbase.kde.org/Special:MyLanguage/K3b>`_ is a simple, powerful and highly-configurable graphical optical disk burning application for audio, video, data projects. 
-- `Kmix <https://userbase.kde.org/Special:MyLanguage/KMix>`_ controls all your audio channels. 
+- `PulseAudio <https://wiki.ubuntu.com/PulseAudio>`_ keeps all your sound and video inputs and outputs working together. If you need to direct your audio or video output to other devices, install the pavucontrol package, launch it by pressing Alt + F2, then type pavucontrol. 
 - `Elisa <https://userbase.kde.org/Special:MyLanguage/Elisa>`_ is a music player focused on the Plasma desktop.
 - `VLC <https://www.videolan.org/>`_ is a simple interface for playing your movies, TV shows, and music. 
 
@@ -128,11 +126,10 @@ Your newly installed Kubuntu system has some utilities already installed. One of
 
 - `Kate <https://userbase.kde.org/Special:MyLanguage/Kate>`_ is the default text editor for KDE. It has many great features for editing plain text or writing code in many different languages. 
 - `Ark <https://userbase.kde.org/Special:MyLanguage/Ark>`_ is the default tool for handling archives of files such as tar, gzip, bzip2, zip, rar and 7z. 
-- `Klipper <https://userbase.kde.org/Special:MyLanguage/Klipper>`_ is a clipboard to hold copied text for later use. Unlike other clipboards it will hold your entire copied text, rather than just one line. 
-- `Knotes <https://userbase.kde.org/Special:MyLanguage/KNotes>`_ is a sticky-note application to post notes on your desktop. 
 - `KCalc <https://userbase.kde.org/Special:MyLanguage/KCalc>`_ offers basic calculator functions and much more. 
 - `Konsole <https://userbase.kde.org/Special:MyLanguage/Konsole>`_ is the KDE terminal emulator, it can be used to run console shells. 
 - `Dolphin <https://userbase.kde.org/Special:MyLanguage/Dolphin>`_ is the default file manager. Dolphin looks simple because of great design, while having many powerful features.
+- `KDE Connect <https://kdeconnect.kde.org/`_ this allows you to share files between your Android phone, use your phone as a mouse, sync notifications and more!
 
 Bash
 ~~~~~
