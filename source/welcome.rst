@@ -38,7 +38,7 @@ Linux is an operating system kernel that resembles the Unix operating system. Th
 What is KDE?
 ===============
 
-KDE is an international technology community that creates and supports free software for desktop and portable computing. Among *KDE*'s products are a modern desktop system for Linux and Unix platforms, comprehensive office productivity and groupware suites, as well as hundreds of software applications in various categories including internet and web applications, multimedia, entertainment, education, graphics, and software development. KDE software is translated into more than 65 languages and is built for ease of use with modern accessibility principles in mind. KDE's full-featured applications run natively on Linux, BSD, Solaris, Windows, and macOS. The Plasma Desktop is the default desktop for Kubuntu.
+KDE is an international technology community that creates and supports free software for desktop and portable computing. Among KDE's products are a modern desktop system for Linux and Unix platforms, comprehensive office productivity and groupware suites, as well as hundreds of software applications in various categories including internet and web applications, multimedia, entertainment, education, graphics, and software development. KDE software is translated into more than 65 languages and is built for ease of use with modern accessibility principles in mind. KDE's full-featured applications run natively on Linux, BSD, Solaris, Windows, and macOS. The Plasma Desktop is the default desktop for Kubuntu.
 
 Thank You!
 ===========
