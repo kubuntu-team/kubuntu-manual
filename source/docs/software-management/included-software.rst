@@ -129,7 +129,7 @@ Your newly installed Kubuntu system has some utilities already installed. One of
 - `KCalc <https://userbase.kde.org/Special:MyLanguage/KCalc>`_ offers basic calculator functions and much more. 
 - `Konsole <https://userbase.kde.org/Special:MyLanguage/Konsole>`_ is the KDE terminal emulator, it can be used to run console shells. 
 - `Dolphin <https://userbase.kde.org/Special:MyLanguage/Dolphin>`_ is the default file manager. Dolphin looks simple because of great design, while having many powerful features.
-- `KDE Connect <https://kdeconnect.kde.org/`_ this allows you to share files between your Android phone, use your phone as a mouse, sync notifications and more!
+- `KDE Connect <https://kdeconnect.kde.org/>`_ this allows you to share files between your Android phone, use your phone as a mouse, sync notifications and more!
 
 Bash
 ~~~~~
