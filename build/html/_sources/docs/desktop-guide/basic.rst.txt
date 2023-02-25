@@ -5,18 +5,18 @@ Basic
 
 This section of the manual will cover the components available within Kubuntu to meet your desired functionality and make Kubuntu your own.
 
-Launchers
-----------
-
-Kickoff
-~~~~~~~~~~~~~~~~~~~~~
+Application Launcher
+---------------------
 
 .. image:: ../../images/jammy/basic/kickoff.png
     :scale: 75 %
     :align: center
     :target: https://userbase.kde.org/Special:MyLanguage/Plasma/Kickoff
   
-As a KDE distribution, Kubuntu uses Kickoff Launcher by default, it can be compared with the 'Start Menu' in Windows (pre Windows 8). The icon to launch Kickoff is on the bottom left very much like Windows 7. For more information on how to use and customize it, see the `Kickoff page <https://userbase.kde.org/Special:MyLanguage/Plasma/Kickoff>`_.
+As a KDE distribution, Kubuntu uses Application Launcher (Kickoff) by default, it can be compared with the 'Start Menu' in Windows (pre Windows 8). The icon to launch Application Launcher is on the bottom left very much like Windows 7. For more information on how to use and customize it, see the `Kickoff page <https://userbase.kde.org/Special:MyLanguage/Plasma/Kickoff>`_.
+
+Alternatives Launchers
+-----------------------
 
 Application Dashboard
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -39,7 +39,7 @@ Application Menu
 The Application Menu is like the Application Launcher but more compact.
 
 KRunner
-~~~~~~~~
+--------
 
 .. image:: ../../images/jammy/basic/krunner.png
    :align: center

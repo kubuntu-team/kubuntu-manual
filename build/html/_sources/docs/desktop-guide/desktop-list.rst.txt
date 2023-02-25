@@ -9,4 +9,5 @@ Contents:
    
    basic
    advanced
+   config-files
    hidpi

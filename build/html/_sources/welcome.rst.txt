@@ -48,4 +48,4 @@ The entire Kubuntu team thanks you for choosing Kubuntu!
 :Authors: 
     Kubuntu Team
 
-:Version: 22.04.1 ; Released: TBA
+:Version: 22.04.1 ; Released: 2/9/23

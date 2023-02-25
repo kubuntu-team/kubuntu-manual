@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Advanced &#8212; Kubuntu Manual release documentation</title>
+    <title>Advanced &#8212; Kubuntu Manual 22.04.2 documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/bootstrap-sphinx.css" />
     <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
@@ -14,7 +14,7 @@
     <script src="../../_static/doctools.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="HiDPI" href="hidpi.html" />
+    <link rel="next" title="Plasma Configuration Files" href="config-files.html" />
     <link rel="prev" title="Basic" href="basic.html" />
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
@@ -38,7 +38,7 @@
         </button>
         <a class="navbar-brand" href="../../index.html">
           Kubuntu Manual</a>
-        <span class="navbar-text navbar-version pull-left"><b>22.04.1 LTS</b></span>
+        <span class="navbar-text navbar-version pull-left"><b>22.04</b></span>
       </div>
 
         <div class="collapse navbar-collapse nav-collapse">
@@ -59,6 +59,7 @@
 <li class="toctree-l1 current"><a class="reference internal" href="desktop-list.html">Desktop Guide</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="basic.html">Basic</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Advanced</a></li>
+<li class="toctree-l2"><a class="reference internal" href="config-files.html">Plasma Configuration Files</a></li>
 <li class="toctree-l2"><a class="reference internal" href="hidpi.html">HiDPI</a></li>
 </ul>
 </li>
@@ -117,8 +118,8 @@
 <li><a class="reference internal" href="#">Advanced</a><ul>
 <li><a class="reference internal" href="#global-themes">Global Themes</a></li>
 <li><a class="reference internal" href="#plasma-styles">Plasma Styles</a></li>
-<li><a class="reference internal" href="#plasmoids">Plasmoids</a></li>
-<li><a class="reference internal" href="#panel">Panel</a></li>
+<li><a class="reference internal" href="#widgets">Widgets</a></li>
+<li><a class="reference internal" href="#panels">Panels</a></li>
 <li><a class="reference internal" href="#activities">Activities</a></li>
 <li><a class="reference internal" href="#activities-first-look">Activities First Look</a></li>
 <li><a class="reference internal" href="#a-step-further">A Step Further</a><ul>
@@ -161,26 +162,30 @@
 <li><p>Left-click the ‘Install from File…’ button to install from a local file</p></li>
 </ul>
 </section>
-<section id="plasmoids">
-<h2>Plasmoids<a class="headerlink" href="#plasmoids" title="Permalink to this headline">¶</a></h2>
-<p>Plasmoids (also called Widgets) can be added by right-clicking the desktop and selecting Add Widgets…, which will bring up a list of Widgets. For more information, see <a class="reference external" href="https://userbase.kde.org/Special:MyLanguage/Plasma#Widgets">Plasma Widgets</a>.</p>
+<section id="widgets">
+<h2>Widgets<a class="headerlink" href="#widgets" title="Permalink to this headline">¶</a></h2>
+<p>Widgets can be added by right-clicking the desktop and selecting Add Widgets…, which will bring up a list of Widgets. For more information, see <a class="reference external" href="https://userbase.kde.org/Special:MyLanguage/Plasma#Widgets">Plasma Widgets</a>.</p>
 </section>
-<section id="panel">
-<span id="id1"></span><h2>Panel<a class="headerlink" href="#panel" title="Permalink to this headline">¶</a></h2>
+<section id="panels">
+<span id="panel"></span><h2>Panels<a class="headerlink" href="#panels" title="Permalink to this headline">¶</a></h2>
 <a class="reference internal image-reference" href="../../_images/panels.png"><img alt="../../_images/panels.png" class="align-left" src="../../_images/panels.png" style="width: 769.5px; height: 578.25px;" /></a>
-<p>By right-clicking on the desktop once again, you can select Add Panel to get more panels. You can left-click the button on the far right side of the panel to alter the properties of the panel, like changing its height or width or adding Widgets, for example. For more information, see <a class="reference external" href="https://userbase.kde.org/Special:MyLanguage/Plasma#Panels">Plasma Panels</a>.</p>
+<p>Panels are widget containers, widgets are items like the Clock, Launchers, System Tray and more! These can be placed on each side of your desktop match your workflow. For more information, see <a class="reference external" href="https://userbase.kde.org/Special:MyLanguage/Plasma#Panels">Plasma Panels</a>.</p>
+<p>By right-clicking on the desktop once again, you can select Add Panel to get more panels. You can also use this menu to enter Edit Mode or by right-clicking on any panel on your desktop.</p>
+<a class="reference internal image-reference" href="../../_images/desktop-menu.png"><img alt="../../_images/desktop-menu.png" class="align-center" src="../../_images/desktop-menu.png" style="width: 454.5px; height: 309.0px;" /></a>
+<p>You can left-click the button on the far right side of the panel once you enter Edit Mode to alter the properties of the panel, like changing its height or width or adding Widgets, for example.</p>
+<a class="reference internal image-reference" href="../../_images/panel-menu.png"><img alt="../../_images/panel-menu.png" class="align-center" src="../../_images/panel-menu.png" style="width: 288.0px; height: 102.0px;" /></a>
 </section>
 <section id="activities">
 <h2>Activities<a class="headerlink" href="#activities" title="Permalink to this headline">¶</a></h2>
-<p>Activites are specific and exclusive to KDE. As such they’re often under utilised and misunderstood. In this section we’re going to explore what KDE Activities are, how to set them up, and how to use them.</p>
+<p>An Activity is a separate desktop, complete with it’s own set of icons (and their placement), wallpaper, theme, widgets, and other customization. In this section we’re going to explore what Plasma Activities are, how to set them up, and how to use them.</p>
 <p>Think for a moment about your average day working on your PC. It will often traverse different activities. For example doing email and researching things on the internet, perhaps developing some documents, working on a piece of software, writing your thesis in LaTeX etc…</p>
-<p>Commonly KDE users might use Virtual desktops to seperate these workspaces.</p>
-<p>KDE Activites in Kubuntu provide a slick way to setup and configure environments specific to your task routines. For example your might want to have your email, and social networks configured as one activity. Perhaps your research, and writing for your thesis configured as another activity.</p>
+<p>Commonly Plasma users might use Virtual desktops to seperate these workspaces.</p>
+<p>Plasma Activites in Kubuntu provide a slick way to setup and configure environments specific to your task routines. For example your might want to have your email, and social networks configured as one activity. Perhaps your research, and writing for your thesis configured as another activity.</p>
 </section>
 <section id="activities-first-look">
 <h2>Activities First Look<a class="headerlink" href="#activities-first-look" title="Permalink to this headline">¶</a></h2>
 <a class="reference internal image-reference" href="../../_images/activities.png"><img alt="../../_images/activities.png" class="align-center" src="../../_images/activities.png" style="width: 768.0px; height: 576.75px;" /></a>
-<p>Let’s take a look at the default KDE Activities configured in Kubuntu. Right Click anywhere on the empty desktop and choose “Activities” from the menu. The Activities side bar appears on the left, with the Default activity. Notice the + Create Activity at the bottom. Click that, and lets created a new “Social” Activity.
+<p>Let’s take a look at the default KDE Activities configured in Kubuntu. Right-click anywhere on the empty desktop and choose “Activities” from the menu. The Activities side bar appears on the left, with the Default activity. Notice the + Create Activity at the bottom. Click that, and lets created a new “Social” Activity.
 Enter “Social” as the Activity name: and then click Create.</p>
 <p>That’s it you have created your first activity.</p>
 <p>You can theme, and configured this new activity desktop in the same ways as mentioned early in this section of the manual.</p>
@@ -198,13 +203,15 @@ Enter “Social” as the Activity name: and then click Create.</p>
 <a class="reference internal image-reference" href="../../_images/activity-misc.png"><img alt="../../_images/activity-misc.png" class="align-center" src="../../_images/activity-misc.png" style="width: 768.75px; height: 579.0px;" /></a>
 <section id="drivers">
 <h3>Drivers<a class="headerlink" href="#drivers" title="Permalink to this headline">¶</a></h3>
-<p>On every Operating System (Windows, macOS, and Linux) there are programs called Drivers which you install on your computer. These Drivers let your computer use new hardware or existing hardware, like <a class="reference external" href="https://userbase.kde.org/Kubuntu/Basic#Wireless">Wi-Fi</a>. There Drivers also cover your graphics card e.g NVIDIA, AMD, sometimes the nonfree or restricted drivers let the cards perform better than the free ones. The ‘Additional Drivers’ section of Disocver handles installing and uninstalling these for you. These improvements may cover gaming, video editing and processing to image editing.</p>
+<p>In every operating system (Windows, macOS, and Linux) there are programs called Drivers which let your computer work with specific hardware components, such as <a class="reference external" href="https://userbase.kde.org/Kubuntu/Basic#Wireless">Wi-Fi</a>, graphics cards (NVIDIA, AMD…), etc. Sometimes nonfree or restricted Drivers let the hardware perform better than the free Drivers that come with Kubuntu. These improvements may cover gaming, video editing and processing to image editing.</p>
+<p>The ‘Additional Drivers’ section of the Discover program handles installing and uninstalling these nonfree or restricted Drivers for you.</p>
 <ol class="arabic simple">
 <li><p>Start Discover</p></li>
 </ol>
-<a class="reference internal image-reference" href="../../_images/discover-manage.png"><img alt="../../_images/discover-manage.png" class="align-center" src="../../_images/discover-manage.png" style="width: 767.25px; height: 576.75px;" /></a>
+<a class="reference internal image-reference" href="../../_images/discover-manage.png"><img alt="../../_images/discover-manage.png" class="align-center" src="../../_images/discover-manage.png" style="width: 783.0px; height: 594.75px;" /></a>
 <ol class="arabic simple" start="2">
-<li><p>Select Settings then left-click the ‘Software Sources’ button to the right of ‘Ubuntu Jammy Jellyfish’</p></li>
+<li><p>Select Settings</p></li>
+<li><p>Hover over ‘Software Sources’ then left-click it (it is to the right of ‘Ubuntu 22.04.2. LTS Default source’)</p></li>
 <li><p>Enter your administrative password at the prompt</p></li>
 <li><p>Left-click the ‘Additional Drivers’ tab</p></li>
 </ol>
@@ -226,7 +233,7 @@ Enter “Social” as the Activity name: and then click Create.</p>
       
     </p>
     <p>
-        &copy; Copyright 2022, Kubuntu Team.<br/>
+        &copy; Copyright 2023, Kubuntu Team.<br/>
       Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.3.2.<br/>
     </p>
   </div>

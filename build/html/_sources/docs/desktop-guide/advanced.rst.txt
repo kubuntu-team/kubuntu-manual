@@ -30,32 +30,44 @@ Plasma Styles
 - Left-click the 'Get New Plasma Styles...' button for more choices         
 - Left-click the 'Install from File...' button to install from a local file 
 
-Plasmoids
+Widgets
 ~~~~~~~~~~
 
-Plasmoids (also called Widgets) can be added by right-clicking the desktop and selecting Add Widgets..., which will bring up a list of Widgets. For more information, see `Plasma Widgets <https://userbase.kde.org/Special:MyLanguage/Plasma#Widgets>`_. 
+Widgets can be added by right-clicking the desktop and selecting Add Widgets..., which will bring up a list of Widgets. For more information, see `Plasma Widgets <https://userbase.kde.org/Special:MyLanguage/Plasma#Widgets>`_. 
 
 .. _panel:
 
-Panel 
-~~~~~~
+Panels
+~~~~~~~
 
 .. image:: ../../images/jammy/advanced/panels.png
     :align: left
     :scale: 75 %
 
-By right-clicking on the desktop once again, you can select Add Panel to get more panels. You can left-click the button on the far right side of the panel to alter the properties of the panel, like changing its height or width or adding Widgets, for example. For more information, see `Plasma Panels <https://userbase.kde.org/Special:MyLanguage/Plasma#Panels>`_. 
+Panels are widget containers, widgets are items like the Clock, Launchers, System Tray and more! These can be placed on each side of your desktop match your workflow. For more information, see `Plasma Panels <https://userbase.kde.org/Special:MyLanguage/Plasma#Panels>`_.
+
+By right-clicking on the desktop once again, you can select Add Panel to get more panels. You can also use this menu to enter Edit Mode or by right-clicking on any panel on your desktop. 
+
+.. image:: ../../images/jammy/advanced/desktop-menu.png
+    :align: center
+    :scale: 75 %
+
+You can left-click the button on the far right side of the panel once you enter Edit Mode to alter the properties of the panel, like changing its height or width or adding Widgets, for example.
+
+.. image:: ../../images/jammy/advanced/panel-menu.png
+    :align: center
+    :scale: 75 %
 
 Activities
 ~~~~~~~~~~
 
-Activites are specific and exclusive to KDE. As such they're often under utilised and misunderstood. In this section we're going to explore what KDE Activities are, how to set them up, and how to use them.
+An Activity is a separate desktop, complete with it's own set of icons (and their placement), wallpaper, theme, widgets, and other customization. In this section we're going to explore what Plasma Activities are, how to set them up, and how to use them.
 
 Think for a moment about your average day working on your PC. It will often traverse different activities. For example doing email and researching things on the internet, perhaps developing some documents, working on a piece of software, writing your thesis in LaTeX etc...
 
-Commonly KDE users might use Virtual desktops to seperate these workspaces.
+Commonly Plasma users might use Virtual desktops to seperate these workspaces.
 
-KDE Activites in Kubuntu provide a slick way to setup and configure environments specific to your task routines. For example your might want to have your email, and social networks configured as one activity. Perhaps your research, and writing for your thesis configured as another activity.
+Plasma Activites in Kubuntu provide a slick way to setup and configure environments specific to your task routines. For example your might want to have your email, and social networks configured as one activity. Perhaps your research, and writing for your thesis configured as another activity.
 
 Activities First Look
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -64,7 +76,7 @@ Activities First Look
    :align: center
    :scale: 75 %
    
-Let's take a look at the default KDE Activities configured in Kubuntu. Right Click anywhere on the empty desktop and choose "Activities" from the menu. The Activities side bar appears on the left, with the Default activity. Notice the + Create Activity at the bottom. Click that, and lets created a new "Social" Activity.
+Let's take a look at the default KDE Activities configured in Kubuntu. Right-click anywhere on the empty desktop and choose "Activities" from the menu. The Activities side bar appears on the left, with the Default activity. Notice the + Create Activity at the bottom. Click that, and lets created a new "Social" Activity.
 Enter "Social" as the Activity name: and then click Create.
 
 That's it you have created your first activity.
@@ -92,7 +104,9 @@ You can now resize these widgets and lay them out on the desktop however you wis
 Drivers
 --------
 
-On every Operating System (Windows, macOS, and Linux) there are programs called Drivers which you install on your computer. These Drivers let your computer use new hardware or existing hardware, like `Wi-Fi <https://userbase.kde.org/Kubuntu/Basic#Wireless>`_. There Drivers also cover your graphics card e.g NVIDIA, AMD, sometimes the nonfree or restricted drivers let the cards perform better than the free ones. The 'Additional Drivers' section of Disocver handles installing and uninstalling these for you. These improvements may cover gaming, video editing and processing to image editing. 
+In every operating system (Windows, macOS, and Linux) there are programs called Drivers which let your computer work with specific hardware components, such as `Wi-Fi <https://userbase.kde.org/Kubuntu/Basic#Wireless>`_, graphics cards (NVIDIA, AMD...), etc. Sometimes nonfree or restricted Drivers let the hardware perform better than the free Drivers that come with Kubuntu. These improvements may cover gaming, video editing and processing to image editing.
+
+The ‘Additional Drivers’ section of the Discover program handles installing and uninstalling these nonfree or restricted Drivers for you.
 
 1. Start Discover 
 
@@ -100,9 +114,10 @@ On every Operating System (Windows, macOS, and Linux) there are programs called 
     :align: center
     :scale: 75 %
 
-2. Select Settings then left-click the 'Software Sources' button to the right of 'Ubuntu Jammy Jellyfish'
-3. Enter your administrative password at the prompt
-4. Left-click the 'Additional Drivers' tab 
+2. Select Settings
+3. Hover over 'Software Sources' then left-click it (it is to the right of 'Ubuntu 22.04.2. LTS Default source')
+4. Enter your administrative password at the prompt
+5. Left-click the 'Additional Drivers' tab
 
 .. image:: ../../images/jammy/advanced/drivers-hidpi.png
     :align: center
