@@ -47,10 +47,9 @@ Run:
 
 .. code-block:: bash
 
-    sha256 -r kubuntu-22.04-desktop-amd64.iso
+    sha256 -r kubuntu-22.04.2-desktop-amd64.iso
 
 And compare the output to the hashes page for the ISO file.
-
 
 From Ubuntu Linux
 ``````````````````
