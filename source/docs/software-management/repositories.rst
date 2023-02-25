@@ -17,12 +17,7 @@ Two factors are used to determine categories
 
 The standard Kubuntu LiveDVD contains some software from the "Main" and "Restricted" categories. Once a system has information about the Internet-based locations for these repositories, more programs are available for installation. Using the software package management tools installed by default, it is possible to discover, install, and update any piece of software directly over the internet without the need for the LiveDVD. 
 
-For more information about managing repositories, check the click on Repositories section of this manual. For even more information check the Ubuntu Wiki about `managing Repositories <https://help.ubuntu.com/community/Repositories>`_.
-
-PPAs (Personal Package Archive)
---------------------------------
-
-Personal Package Archives allow any person in the Ubuntu community who has committed to observe the `Ubuntu Code of Conduct <https://launchpad.net/codeofconduct>`_ to upload Ubuntu source packages to be built and published as an apt repository by Launchpad. Software from Launchpad's `Personal Package Archive <https://launchpad.net/ubuntu/+ppas>`_ (PPA) requires a `GnuPG  <https://www.gnupg.org/>`_ (GPG) key so your system can verify that it's getting the packages from the correct source and that the packages have not been interfered with since they were built. GnuPG is GNU's tool for secure communication and data storage. For more information about PPAs, click on the Repositories section of this manual. 
+For more information check the Ubuntu Wiki about `managing Repositories <https://help.ubuntu.com/community/Repositories>`_.
 
 Kubuntu Backports
 -------------------
@@ -31,10 +26,15 @@ The Kubuntu Backports are "Backports of new versions of KDE Platform, Plasma and
 
 https://launchpad.net/~kubuntu-ppa/+archive/ubuntu/backports
 
+PPAs (Personal Package Archive)
+--------------------------------
+
+Personal Package Archives allow any person in the Ubuntu community who has committed to observe the `Ubuntu Code of Conduct <https://launchpad.net/codeofconduct>`_ to upload Ubuntu source packages to be built and published as an apt repository by Launchpad. Software from Launchpad's `Personal Package Archive <https://launchpad.net/ubuntu/+ppas>`_ (PPA) requires a `GnuPG  <https://www.gnupg.org/>`_ (GPG) key so your system can verify that it's getting the packages from the correct source and that the packages have not been interfered with since they were built. GnuPG is GNU's tool for secure communication and data storage.  
+
 Managing Personal Package Archives
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Personal Package Archives allow any person in the Ubuntu community who has committed to observe the `Ubuntu Code of Conduct <https://launchpad.net/codeofconduct>`_ to upload Ubuntu source packages to be built and published as an apt repository by Launchpad. Software from Launchpad's `Personal Package Archive <https://launchpad.net/ubuntu/+ppas>`_ (PPA) requires a `GnuPG <https://www.gnupg.org/>`_ (GPG) key so your system can verify that it's getting the packages from the correct source and that the packages have not been interfered with since they were built. GnuPG is GNU's tool for secure communication and data storage.
+Personal Package Archives allow any person in the Ubuntu community who has committed to observe the `Ubuntu Code of Conduct <https://launchpad.net/codeofconduct>`_ to upload Ubuntu source packages to be built and published as an apt repository on Launchpad. `Launchpad <https://launchpad.net/>`_ this is a website which hosts packages for Ubuntu based distos like Kubuntu, Linux Mint and elementary. Software from Launchpad's `Personal Package Archive <https://launchpad.net/ubuntu/+ppas>`_ (PPA) requires a `GnuPG <https://www.gnupg.org/>`_ (GPG) key so your system can verify that it's getting the packages from the correct source and that the packages have not been interfered with since they were built. GnuPG is GNU's tool for secure communication and data storage.
 
 **Important**: The contents of Personal Package Archives are not checked or monitored. You install software from them at your own risk. 
 
@@ -43,10 +43,24 @@ Add a PPA
 
 You can use the Discover to add a PPA:
 
-1. Open the Launchpad PPA overview page in your browser for example look at the Kubuntu Backports PPA
+1. Open the Launchpad PPA overview page in your browser for example look at the `Kubuntu Backports PPA <https://launchpad.net/~kubuntu-ppa/+archive/ubuntu/backports>`_
 2. Look for the 'Adding this PPA to your system' section
-3. Open Konsole then copy (Ctrl+C once the command is highlighted) 
-4. Now paste (Ctrl+Shift+V in terminals like Konsole) and press the Enter key
+3. Left-click the ‘Software Sources’ button to the right of ‘Ubuntu Jammy Jellyfish’
+4. Enter your administrative password at the prompt.
+5. Left-click on the 'Other Software' tab
+
+.. image:: ../../images/jammy/repositories/discover-edit.png
+    :align: center
+    :scale: 75 %
+
+.. image:: ../../images/jammy/repositories/discover-add-kubuntu_backports.png
+    :align: center
+    :scale: 75 %
+
+For using Konsole follow these steps:
+
+1. Open Konsole then copy (Ctrl+C once the command is highlighted)
+2. Now paste (Ctrl+Shift+V in terminals like Konsole) and press the Enter key
 
 .. image:: ../../images/jammy/repositories/konsole-add-ppa.png
     :align: center
@@ -59,9 +73,9 @@ Remove a PPA
 
 You can use the Discover to remove a PPA:
 
-1. Open Discover then left-click Settings on the bottom left
+1. Open Discover then go to Settings
 
-.. image:: ../../images/jammy/repositories/discover-manage.png
+.. image:: ../../images/jammy/repositories/discover-edit.png
     :align: center
     :scale: 75 %
 
@@ -69,7 +83,7 @@ You can use the Discover to remove a PPA:
 3. Enter your administrative password at the prompt.
 4. Left-click on the 'Other Software' tab
 
-.. image:: ../../images/jammy/repositories/discover-other-software-hidpi.png
+.. image:: ../../images/jammy/repositories/discover-other-software.png
     :align: center
 
 5. Left-click the PPA that you want to remove
