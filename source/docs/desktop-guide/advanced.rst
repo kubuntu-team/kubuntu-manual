@@ -115,7 +115,7 @@ The ‘Additional Drivers’ section of the Discover program handles installing 
     :scale: 75 %
 
 2. Select Settings
-3. Hover over 'Software Sources' then left-click it (it is to the right of 'Ubuntu 22.04.1. LTS Default source')
+3. Hover over 'Software Sources' then left-click it (it is to the right of 'Ubuntu 22.04.2. LTS Default source')
 4. Enter your administrative password at the prompt
 5. Left-click the 'Additional Drivers' tab
 
