@@ -12,6 +12,11 @@ Thanks for reading this! Second I'll try to keep this as up to date as humanly p
 Changes
 -------
 
+3/1/23 - ahoneybun <aaronhoneycutt@kubuntu.org>
+
+* address feedback in issue 17
+* reorder welcome chapter
+
 2/24/23 - ahoneybun <aaronhoneycutt@kubuntu.org>
 
 * update to 22.04.2 release
