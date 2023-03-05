@@ -74,7 +74,7 @@ Once it is installed (if you use the Installer for Windows only) open the applic
 3. Use the 'Select target' option to select your flash drive
 4. Then left-click the 'Flash!' button
     
-.. warning:: Pay special attention when selecting the right flash drive under 'Drive' in case you have more then one flash drive connected.
+.. warning:: Pay special attention when selecting the right drive under 'Drive' so that you do not format your currently installed OS or backup drive.
 
 .. _kubuntu-install-link:
 
